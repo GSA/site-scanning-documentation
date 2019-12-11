@@ -1,9 +1,6 @@
 # site-scanning-documentation
-Documentation for the 10x project, Site Scanning
 
-
-
-
+This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/site-scanning).  Any issues or feedback should be filed [here](https://github.com/18F/site-scanning/issues).  
 
 
 ## Index of Documentation
