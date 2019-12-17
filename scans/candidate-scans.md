@@ -70,6 +70,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * **CDNs** - Monitor government's content distribution networks.
 * **DNS record certificate holder** - Monitor changes in agency's DNS record certificate holder, and alert agencies if there are changes, which may be a sign of malicious behavior. 
 * **Social media pages** - Uncover agency's social media pages for inclusion in the [U.S. Digital Registry](https://digital.gov/services/u-s-digital-registry/).
+* a11y - Note that the legislative branch has a specific need, spelled out [here](https://www.congress.gov/bill/116th-congress/house-resolution/756/text#toc-HCE76E2BE29E84D5D8C2611BE41C479D0).  
 * **HTML Metadata** - Uncover HTML metadata, which could help to populate sub-domain scanning capabilities.
 * Others from https://policy.cio.gov/.
 * Security scans (owasp) - https://github.com/zaproxy/zaproxy
