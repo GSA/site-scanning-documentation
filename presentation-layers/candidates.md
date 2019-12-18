@@ -3,7 +3,7 @@
 ## General Agency Use
 
 #### Basic Inventory 
-* A page that lists the domains owned by an agency.
+* A page that lists the domains owned by an agency.  
 * A page that lists the domains owned by an organization within an agency.  
 * A page that lists the subdomains owned by an agency.  
 * A page that lists the subdomains owned by an organization.  
@@ -13,7 +13,7 @@
 
 The envisioned mashup would be a table.  Optional functionality would include exporting as a CSV, filtering, sorting, and searching.  
 
-* A page that lists the domains owned by an agency, whether they are live, whether they redirect, and if so, where they redirect to.
+* A page that lists the domains owned by an agency, whether they are live, whether they redirect, and if so, where they redirect to. ([Example](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/wireframes/agency-domains-advanced-inventory-1.md))
 * A page that lists the domains owned by an organization within an agency, whether they are live, whether they redirect, and if so, where they redirect to.  
 * A page that lists the subdomains owned by an agency, whether they are live, whether they redirect, and if so, where they redirect to.  
 * A page that lists the subdomains owned by an organization, whether they are live, whether they redirect, and if so, where they redirect to.  
@@ -21,7 +21,9 @@ The envisioned mashup would be a table.  Optional functionality would include ex
 
 #### Advanced Inventory 2
 
-The same as Advanced Inventory 1, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)).  
+The same as Advanced Inventory 1, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)).  ([Example](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/wireframes/agency-domains-advanced-inventory-2.md))
+
+
 
 #### DAP Participation 1
 
