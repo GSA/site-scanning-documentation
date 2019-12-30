@@ -14,7 +14,7 @@ Version History:
 * Launched v0.1
 * July 25, 2019 - Usability session with Hyon Kim, Aaron Borden, and John Jediny from the Data.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1SroqVJQeLHhTJcltJjGSrg8hbllg6DXZ4FxXT1HwYVY/edit))
 * Launched v0.2
-* October 23, 2019 - Usability session with Aaron Borden from the Data.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1PlQGXfChH9isOclAehCsa3_k1xvALMPo1XamdDq3MKE/edit))
+* October 23, 2019 - Usability session with Aaron Borden from the Data.gov team, provides feedback on v0.2 ([notes](https://docs.google.com/document/d/1PlQGXfChH9isOclAehCsa3_k1xvALMPo1XamdDq3MKE/edit))
 
 
 
@@ -27,7 +27,7 @@ Version History:
 * Launched v0.1
 * July 31, 2019 - Usability session with Amin Mehr & Sara Cope from the Code.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/16HPBPkEiaXrhqptfKeuHqm4MHOsQNbZL_TxTCYdWTNk/edit))
 * Launched v0.2
-* October 8, 2019 - Usability session with Amin Mehr from the Code.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/16ZHOQhJu8jB3WQyqodubEOQMxEOfEmVGaJ3kBasqZVI/edit))
+* October 8, 2019 - Usability session with Amin Mehr from the Code.gov team, provides feedback on v0.2 ([notes](https://docs.google.com/document/d/16ZHOQhJu8jB3WQyqodubEOQMxEOfEmVGaJ3kBasqZVI/edit))
 
 
 ### DAP
@@ -75,7 +75,7 @@ Version History:
 * Launched v0.1
 * August 6, 2019 - Usability session with Richard Speidel, GSA's chief privacy officer, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1TzBmMCdnNgqReEEjA6mlXSg_SM6MbZ_-bACR2POvMNM/edit))
 * Launched v0.2
-* October 15, 2019 - Usability session with Richard Speidel, GSA's chief privacy officer, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1G5pIsRT24rDb4N5wgsma2xnzy8ruTIMQKUARtQEV2_M/edit))
+* October 15, 2019 - Usability session with Richard Speidel, GSA's chief privacy officer, provides feedback on v0.2 ([notes](https://docs.google.com/document/d/1G5pIsRT24rDb4N5wgsma2xnzy8ruTIMQKUARtQEV2_M/edit))
 
 
 
@@ -89,7 +89,7 @@ Version History:
 * Launched v0.1
 * August 1, 2019 - Usability session with Dawn McClesky from the Search.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1M9_Y03G-_WaEDDNbF5R1GIScE8jhplMGRluu8SOqCW0/edit))
 * Launched v0.2
-* October 19, 2019 - Usability session with Dawn McClesky from the Search.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1sbmxImBNeUlIynph3VDNel0prCLCEZX83Oxvg2Z72Sk/edit))
+* October 19, 2019 - Usability session with Dawn McClesky from the Search.gov team, provides feedback on v0.2 ([notes](https://docs.google.com/document/d/1sbmxImBNeUlIynph3VDNel0prCLCEZX83Oxvg2Z72Sk/edit))
 
 ### Sitemaps.txt 
 
@@ -101,7 +101,7 @@ Version History:
 * Launched v0.1
 * August 1, 2019 - Usability session with Dawn McClesky from the Search.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1M9_Y03G-_WaEDDNbF5R1GIScE8jhplMGRluu8SOqCW0/edit))
 * Launched v0.2
-* October 19, 2019 - Usability session with Dawn McClesky from the Search.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1sbmxImBNeUlIynph3VDNel0prCLCEZX83Oxvg2Z72Sk/edit))
+* October 19, 2019 - Usability session with Dawn McClesky from the Search.gov team, provides feedback on v0.2 ([notes](https://docs.google.com/document/d/1sbmxImBNeUlIynph3VDNel0prCLCEZX83Oxvg2Z72Sk/edit))
 
 
 ### Third Party Services 
