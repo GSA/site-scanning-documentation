@@ -11,9 +11,10 @@ Current Status: v0.2
 
 Version History: 
 
-* Launched v0.1
+* Launched v0.1 of the code.json dashboard
 * July 25, 2019 - Usability session with the Data.gov team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1SroqVJQeLHhTJcltJjGSrg8hbllg6DXZ4FxXT1HwYVY/edit))
-* Launched v0.2
+* Launched v0.2 of the code.json dashboard
+* Launched the 'known code.json locations' presentation layer
 * October 23, 2019 - Usability session with the Data.gov team, provides feedback on v0.2 ([notes](https://docs.google.com/document/d/1PlQGXfChH9isOclAehCsa3_k1xvALMPo1XamdDq3MKE/edit))
 
 
