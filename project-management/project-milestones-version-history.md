@@ -38,7 +38,7 @@ Current Status: v0.1
 Version History: 
 
 * Launched v0.1
-* July 31, 2019 - Usability session with the DAP team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1TCK5pzDedC-yIWar_DcEupBMHPiRxVsmjytOeB0NCa0/edit))
+* November 22, 2019 - Usability session with the DAP team, provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1TCK5pzDedC-yIWar_DcEupBMHPiRxVsmjytOeB0NCa0/edit))
 
 
 ### /Data 
