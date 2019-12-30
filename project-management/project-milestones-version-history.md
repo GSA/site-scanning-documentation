@@ -124,7 +124,7 @@ Version History:
 * Launched v0.1
 * August 9, 2019 - Usability session with the USWDS team provides feedback on v0.1 ([notes](https://docs.google.com/document/d/1px3FV4gtdpVvanhqfiUe9LiRLT7r1CJd2lsjHaGnXJg/edit))
 * Launched v0.2
-* Date? - Usability session with the USWDS team provides feedback on v0.2 ([notes]())
+* October 29 - Usability session with the USWDS team provides feedback on v0.2 ([notes](https://docs.google.com/document/d/1sf95LsSM-E7P14CF2UgHbwEH7UNzmyNMpEBmbSMRLVc/edit))
 
 
 
