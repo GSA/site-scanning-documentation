@@ -23,6 +23,9 @@ The envisioned mashup would be a table.  Optional functionality would include ex
 
 The same as Advanced Inventory 1, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)).  ([Example](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/wireframes/agency-domains-advanced-inventory-2.md))
 
+#### Advanced Inventory 3 
+
+By Agency, domain, status, DAP, pageload time, what else? 
 
 
 #### DAP Participation 1
