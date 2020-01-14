@@ -86,6 +86,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * more from fisma reports, as seen in [these](https://www.dhs.gov/sites/default/files/publications/FY%202018%20SAOP%20FISMA%20Metrics-508c.pdf) [questions](https://www.dhs.gov/publication/fy18-fisma-documents)
 * search for what CMS sites are using - digital.gov
 * A replacement for statuspage
+* From Jay H. -  CDNs; js Libraries - e.g. what % of the gov us using a (outdated) jQuery; 3rd Party Ads; % of sites that are PHP & Drupal and vulnerable to the drupalgeddon; % of sites that are a CMS (and it would be interesting to know which ones are not); % of sites w/ PDF forms (and tie to Rokus data + DAP usage)
 * Fetcher scan? - e.g. just consume the .gov database 
 * Which websites use which TTS services
 * others possibly could be found in [here](https://github.com/ombegov/policy-v2)
