@@ -1,15 +1,3 @@
-### A set of links that are useful to go through when first getting to know the project 
 
-* [.gov export](https://github.com/GSA/data/blob/master/dotgov-domains/current-federal.csv)
-* [pulse.cio.giov](https://pulse.cio.gov)
-* [digitaldashboard.gov](https://digitaldashboard.gov)
-* [2018 TTS Automated Metrics Memo](https://docs.google.com/document/d/1Yntar54u0nx7Cfda4IPBfvLBIb8PaDsV8mN9jyQo6Zo/edit#heading=h.vg0bax398a34)
-* [USWDS Use Tracker](https://docs.google.com/spreadsheets/d/1QLLEG9ig18yaOB3Bk4UUQtLcYQA59jmrH0krBtJ7GRc/edit#gid=1506853311) (Note Column D; Private)
-* [List of Scans](https://site-scanning.app.cloud.gov/scans/)
-* [List of Presentation Layers](https://site-scanning.app.cloud.gov/presentation-layers/)
-* [TTS Prototype Dashboard](https://cg-bbe64741-a601-484f-bc3b-e8eef3c28590.app.cloud.gov/site/18f/site-scanning-dashboard/)
-* [List of Use Cases](https://site-scanning.app.cloud.gov/use-cases/)
-* [List of Data Links](https://site-scanning.app.cloud.gov/downloads/)
-* [Full List of Documentation](https://github.com/18F/site-scanning-documentation#index-of-documentation)
-* [Candidate Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
-* [Candidate Presentation Layers](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
+
+
