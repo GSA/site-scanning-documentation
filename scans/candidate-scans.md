@@ -62,7 +62,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * Presence of forms 
 * Form fields (perhaps fed from a manually generated list of URLS)
 
-
+* **Lighthouse**
 * **404 pages** - Discover `404` pages to uncover broken government websites.
 * /Cj
 * **Website Performance** - Monitor government website performance, possibly using [Lighthouse](https://developers.google.com/web/tools/lighthouse/).
