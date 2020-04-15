@@ -90,6 +90,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * Fetcher scan? - e.g. just consume the .gov database 
 * Which websites use which TTS services
 * others possibly could be found in [here](https://github.com/ombegov/policy-v2)
+* More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 
 ## Meta Idea
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?
