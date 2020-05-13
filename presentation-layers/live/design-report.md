@@ -32,11 +32,53 @@
 * USWDS In CSS Detected
 
 
+
 ## CSV Export - Fields
 
-* 
+* Domain
+* Scantype
+* Domaintype
+* Agency 
+* Organization
+* Scan_data_url
+* Lastmodified
+* data.domain
+* data.flag_detected
+* data.flagincss_detected
+* data.merriweatherfont_detected
+* data.publicsansfont_detected
+* data.sourcesansfont_detected
+* data.status_code
+* data.tables
+* data.total_score
+* data.usa_classes_detected
+* data.usa_detected
+* data.uswds_detected
+* data.uswdsincss_detected
+* data.uswdsversion
 
 
 ## Underlying API - Fields
 
-* 
+* Count
+* Scan_data_url
+* Lastmodified
+* Domain
+* Scantype
+* Domaintype
+* Organization
+* Agency
+* Domain
+* flag_detected
+* flagincss_detected
+* merriweatherfont_detected
+* publicsansfont_detected
+* sourcesansfont_detected
+* status_code
+* tables
+* total_score
+* usa_classes_detected
+* usa_detected
+* uswds_detected
+* uswdsincss_detected
+* uswdsversion
