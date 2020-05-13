@@ -39,6 +39,7 @@
 * data.image-alt
 * data.input-image-alt
 * data.performance-budget
+* data.speed-index	
 * data.tap-targets
 * data.total-byte-weight
 * data.unminified-css
@@ -49,4 +50,23 @@
 
 ## Underlying API - Fields
 
-* 
+
+* Domain
+* Scantype
+* Domaintype
+* Agency 
+* Organization
+* Scan_data_url
+* Lastmodified
+* color-contrast
+* font-size
+* image-alt
+* input-image-alt
+* performance-budget
+* speed-index	
+* tap-targets
+* total-byte-weight
+* unminified-css
+* unminified-javascript
+* uses-text-compression
+* viewport
