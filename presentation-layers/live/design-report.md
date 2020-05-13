@@ -1,6 +1,8 @@
 ## Location
 
-* https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/design
+* Report Page - https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/design
+* CSV Export - https://spotlight.app.cloud.gov/api/v1/scans/uswds2/csv/?
+* Underlying API - https://site-scanning.app.cloud.gov/api/v1/scans/uswds2/
 
 ## Summary 
 
