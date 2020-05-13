@@ -3,10 +3,14 @@
 * Domain - Plaintext filter for the website URL
 * Agency 
 * Scan Date 
-* USWDS Version 
+* HSTS Support
+* HTTPS Support 
 
 
 ## Fields 
 
 * Domain 
 * Agency
+* Supports HSTS
+* Supports HTTPS
+* Headers
