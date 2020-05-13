@@ -1,6 +1,8 @@
 ## Location
 
-* 
+* Report Page - https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/critical-components
+* CSV Export - https://spotlight.app.cloud.gov/api/v1/scans/third_parties/csv/?
+* Underlying API - https://site-scanning.app.cloud.gov/api/v1/scans/dap/
 
 ## Summary 
 
@@ -18,6 +20,7 @@
 
 * Domain 
 * Agency
+* External Domains 
 
 ## CSV Export - Fields
 
