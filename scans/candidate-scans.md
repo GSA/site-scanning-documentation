@@ -96,7 +96,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * others possibly could be found in [here](https://github.com/ombegov/policy-v2)
 * any way to derive what the top tasks for sites might be?
 * keywords? site summaries 
-* links
+* links, aa, to same site, has words 'about', 'contact', etc.
 * readability
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 
