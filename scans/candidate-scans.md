@@ -94,6 +94,10 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * Which websites use which TTS services
 * More from [thinking about involved javascript](https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/)
 * others possibly could be found in [here](https://github.com/ombegov/policy-v2)
+* any way to derive what the top tasks for sites might be?
+* keywords? site summaries 
+* links
+
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 
 ## Meta Idea
