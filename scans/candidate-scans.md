@@ -97,7 +97,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * any way to derive what the top tasks for sites might be?
 * keywords? site summaries 
 * links
-
+* readability
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 
 ## Meta Idea
