@@ -98,6 +98,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * keywords? site summaries 
 * links, aa, to same site, has words 'about', 'contact', etc.
 * readability
+* more from schema.org ?
 * **add a layer to human-verified (perhaps with a date)**
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 
