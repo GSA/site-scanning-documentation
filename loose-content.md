@@ -134,6 +134,8 @@ This section documents scans that are active in the Site Scanning program. Scans
 
 
 
+[Need to reconcile the below with [this PR](https://github.com/18F/Spotlight/pull/235/files?short_path=f4f345e#diff-f4f345ecfbfad8b4a5e7f07760103195)]
+
 # U.S. Web Design System (USWDS) Scanner
 
 ## Summary
