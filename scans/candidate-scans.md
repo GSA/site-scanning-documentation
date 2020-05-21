@@ -78,6 +78,7 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * **HTML Metadata** - Uncover HTML metadata, which could help to populate sub-domain scanning capabilities.
 * Others from https://policy.cio.gov/.
 * Find phone numbers and email addresses on a page.
+* Similar to services like siteimprove (used by gsa.gov team). 
 * Security scans (owasp) - https://github.com/zaproxy/zaproxy
   * HTTPS cert - [example of need](https://www.bloomberg.com/news/articles/2019-12-09/federal-regulations-website-goes-dark-blocking-public-input)
 * Mozilla Observatory scans - https://observatory.mozilla.org/analyze/www.gsa.gov
