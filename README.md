@@ -1,6 +1,6 @@
 # site-scanning-documentation
 
-This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/site-scanning).  All feedback should be filed in the [issue backlog](https://github.com/18F/site-scanning/issues), which also documents all remaining work known at the end of Phase 3.  
+This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/spotlight).  All feedback should be filed in the [issue backlog](https://github.com/18F/spotlight/issues), but the team can also be reached at site-scanning@gsa.gov.
 
 
 ## Index of Documentation
@@ -8,12 +8,12 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 ### Technical 
 
-* [Architecture](https://github.com/18F/site-scanning/blob/master/docs/Architecture.md)
-* [Devops](https://github.com/18F/site-scanning/blob/master/docs/DevOps.md)
-* [Install](https://github.com/18F/site-scanning/blob/master/docs/INSTALL.md)
-* [Gray's Cheatsheet](https://github.com/18F/site-scanning/blob/master/docs/cheatsheet.md)
-* [Permissions](https://github.com/18F/site-scanning/blob/master/docs/permissions.md)
-* [System Diagram](https://github.com/18F/site-scanning/blob/master/docs/scanner-ui.png)
+* [Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
+* [Devops](https://github.com/18F/spotlight/blob/master/docs/DevOps.md)
+* [Install](https://github.com/18F/spotlight/blob/master/docs/INSTALL.md)
+* [Gray's Cheatsheet](https://github.com/18F/spotlight/blob/master/docs/cheatsheet.md)
+* [Permissions](https://github.com/18F/spotlight/blob/master/docs/permissions.md)
+* [System Diagram](https://github.com/18F/spotlight/blob/master/docs/scanner-ui.png)
 
 ### Individual Scan Documentation
 * [200 Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/200.md)
