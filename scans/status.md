@@ -2,7 +2,7 @@
 
 ## Summary
 
-A scan to check each domain for the presence or absence of a file at specific locations, specifically by analyzing the server response code at that location.  Currently checks for the following, where x.gov = the target URL.  
+A scan to check each domain for the presence or absence of a file at specific locations, specifically by analyzing the server response code at that location.  Currently, it checks for the following, where x.gov = the target URL:  
 
 * x.gov
 * x.gov/cj
