@@ -26,6 +26,31 @@ A scan to check each domain for the presence or absence of a file at specific lo
 
 ## Details 
 
+### x.gov/
+
+#### Summary
+
+Simply sees if there is a page or file at the initial target URL.  This provides useful perspective when analyzing the other locations (e.g. if there's nothing at x.gov, perhaps there's no need for there to be anything at x.gov/sitemap.xml).  
+
+
+
+### x.gov/cj
+
+#### Summary
+
+Detects the presence of a congressional justification page.  
+
+#### Relevant Policy
+
+* "Make your full congressional budget justification materials, including your performance plan submission,
+available to the public and post the materials on the Internet at a vanity URL (for example
+agencyXYZ.gov/CJ) within two weeks after transmittal of those materials to the Congress." - _[OMB Circular No.A-11](https://www.whitehouse.gov/wp-content/uploads/2018/06/a11.pdf)_
+
+#### Stakeholders
+ 
+* OMB - Assist in the discovey of congressional justification pages.  
+
+
 
 ### x.gov/code.json
 
@@ -42,16 +67,19 @@ provide on Code.gov." - _[OMB M-16-21](https://www.whitehouse.gov/sites/whitehou
 #### Stakeholders
 
 * Code.gov - Detects enterprise code inventories that may have been created but not shared with the code.gov team.  Allows this team to then add these inventories to code.gov harvest list.  
-* OMB - Automates a part of the compliance review for OMB M-16-21 (Has an inventory been published in the correct location?).  
+* OMB - Automates a part of the compliance review for OMB M-16-21.  
 
-#### Envisioned Tasks
 
-* Find a list of live enterprise code inventories.  
-* Find a list of websites that do not have an enterprise code inventory.  
+
+### x.gov/coronavirus
+
+#### Summary
+
+Detects the presence of a coronavirus information page.  
+
 
 
 ### x.gov/data
-
 
 #### Summary
 
@@ -74,12 +102,6 @@ www.[agency].gov/data." - _[OMB M-17-06](https://www.whitehouse.gov/sites/whiteh
 * External Developers - Open data is a valuable commodity and the ability to readily find government data hubs facilitates its use.  
 
 
-#### Secondary Scans
-
-* data.x.gov
-
-
-
 ### x.gov/data.json
 
 
@@ -100,7 +122,7 @@ a human-readable Public Data Listing at www.[agency].gov/data." - _[OMB M-17-06]
 #### Stakeholders
 
 * Data.gov - Detects enterprise data inventories that may have been created but not shared with the data.gov team.  Allows this team to then add these inventories to data.gov harvest list.  
-* OMB - Automates a part of the compliance review for OMB M-17-06 and M-13-13 (Has an inventory been published in the correct location?). 
+* OMB - Automates a part of the compliance review for OMB M-17-06 and M-13-13 
 
 
 ### x.gov/developer
@@ -119,18 +141,11 @@ documentation at www.[agency].gov/developer." - _[OMB M-17-06](https://www.white
 
 #### Stakeholders
 * api.data.gov - Discover open APIs for inclusion in https://api.data.gov/ for cost savings and improved public services
-* OMB - Automates a part of the compliance review for OMB M-17-06 and M-13-13 (Has an inventory been published in the correct location?). 
-
-
-#### Secondary Scans
-
-* x.gov/developers
-* developer.x.gov
-* developers.x.gov
+* OMB - Automates a part of the compliance review for OMB M-17-06 and M-13-13.
 
 
 
-### x.gov/digitalstrategy/
+### x.gov/digitalstrategy
 
 
 #### Summary
@@ -147,7 +162,105 @@ www.[agency].gov/digitalstrategy." - _[OMB M-17-06](https://www.whitehouse.gov/s
 
 
 #### Stakeholders
-* OMB - Automates a part of the compliance review for OMB M-17-06 (Has an inventory been published in the correct location?). 
+* OMB - Automates a part of the compliance review for OMB M-17-06 
+
+
+### x.gov/digitalstrategy/FITARAmilestones.json
+
+
+#### Summary
+Detects the presence of a FITARA Milestones document.  
+
+#### Relevant Policy
+
+* "Post a “fitaramilestones.json” file to “agency.gov”/digitalstrategy with the following contents." - _[management.cio.gov](https://management.cio.gov/schema/#FITARA)_
+* "The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current agencyhomepage.gov/digitalstrategy/FITARAmilestones.json pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI." - _[management.cio.gov](https://management.cio.gov/schema/#FITARA)_
+
+
+#### Stakeholders
+* OMB - Automates a part of the compliance review for FITARA.  
+
+
+### x.gov/digitalstrategy/FITARAmilestones.json
+
+
+#### Summary
+Detects the presence of a FITARA Milestones document.  
+
+#### Relevant Policy
+
+* "Post a “fitaramilestones.json” file to “agency.gov”/digitalstrategy with the following contents." - _[management.cio.gov](https://management.cio.gov/schema/#FITARA)_
+* "The DCOI further requires that agencies’ public FITARA Milestones files are updated at their current agencyhomepage.gov/digitalstrategy/FITARAmilestones.json pages to include a minimum of five (5) milestones per fiscal year to be achieved in accordance with the DCOI." - _[management.cio.gov](https://management.cio.gov/schema/#FITARA)_
+
+
+#### Stakeholders
+* OMB - Automates a part of the compliance review for FITARA.  
+
+
+
+### x.gov/digitalstrategy/bureaudirectory.json
+
+
+#### Summary
+Detects the presence of a Bureau IT Leadership directory.  
+
+#### Relevant Policy
+
+* "Each agency is expected to post a JSON file for their Bureau IT Leadership Directory to the following URL path: agency.gov/digitalstrategy/bureaudirectory.json" - _[management.cio.gov](https://management.cio.gov/schema/#bureaus)_
+
+
+#### Stakeholders
+* OMB - Automates a part of the compliance review for FITARA.  
+
+
+
+### x.gov/digitalstrategy/costsavings.json
+
+
+#### Summary
+Detects the presence of an IDC Realized Cost Savings and Avoidance file.   
+
+#### Relevant Policy
+
+* "Post your finished file on your agency’s agency.gov/digitalstrategy/costsavings.json" - _[management.cio.gov](https://management.cio.gov/schema/#savings)_
+
+
+#### Stakeholders
+* OMB - Automates a part of the compliance review for FITARA.  
+
+
+
+### x.gov/digitalstrategy/datacenteroptimizationstrategicplan.json
+
+
+#### Summary
+Detects the presence of a Data Center Optimization Initiative Strategic Plan.   
+
+#### Relevant Policy
+
+* "Parts 1 – 5 above are required to be posted publicly in machine-readable JSON format at [agencyhomepage].gov/digitalstrategy/datacenteroptimizationstrategicplan.json." - _[management.cio.gov](https://management.cio.gov/schema/#DCOI)_
+
+
+#### Stakeholders
+* OMB - Automates a part of the compliance review for FITARA and OMB M-19-19.  
+
+
+
+
+### x.gov/digitalstrategy/governanceboards.json
+
+
+#### Summary
+Detects the presence of a CIO Governance Board Membership List.   
+
+#### Relevant Policy
+
+* "Each agency is expected to post a JSON file for their CIO Governance Board Membership List to the following URL path: [agency.gov]/digitalstrategy/governanceboards.json" - _[management.cio.gov](https://management.cio.gov/schema/#governance)_
+
+
+#### Stakeholders
+* OMB - Automates a part of the compliance review for FITARA.  
+
 
 ### x.gov/open
 
@@ -162,12 +275,10 @@ Detects the presence of agency's plans for publishing open data.
 page at www.[agency].gov/open." - _[OMB M-16-16](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2016/m-16-16.pdf)_
 
 #### Stakeholders
-* OMB - Automates a part of the compliance review for OMB M-10-06 and M-16-16 (Has an inventory been published in the correct location?).
-
+* OMB - Automates a part of the compliance review for OMB M-10-06 and M-16-16 
 
 
 ### x.gov/privacy
-
 
 #### Summary
 Detects the presence of an agency's privacy page.
@@ -180,6 +291,12 @@ Detects the presence of an agency's privacy page.
 #### Stakeholders
 * OMB - Automates a part of the compliance review for OMB M-17-06 (Has an inventory been published in the correct location?).
 
+
+
+### x.gov/redirecttest-foo-bar-baz
+
+#### Summary
+Detects whether a website properly returns a 404 status code for a page that does not exist.  This is useful in detecting false positives for other URLs (e.g. the resolving page is an HTML page that says 404, but returns a 200 server code).  
 
 ### x.gov/robots.txt
 
@@ -196,7 +313,7 @@ and searched by commonly used commercial search engines." - _[OMB M-17-06](https
 
 
 #### Stakeholders
-* OMB - Automates a part of the compliance review for OMB M-17-06 and 21st Century IDEA (Has an inventory been published in the correct location?).
+* OMB - Automates a part of the compliance review for OMB M-17-06 and 21st Century IDEA.
 
 
 
@@ -214,40 +331,12 @@ and searched by commonly used commercial search engines." - _[OMB M-17-06](https
 
 
 #### Stakeholders
-* OMB - Automates a part of the compliance review for OMB M-17-06 and 21st Century IDEA (Has an inventory been published in the correct location?).
-
-
-### Version Tracking
-
-
-##### v 0.3
-
-* Added organization field
-
-
-##### v 0.2
-
-* Fixed bug that was wrongly associating 404 and 500 server codes with 200
-* Added domaintype and agency 
-* Refined the scoring model
-* Added the /pagedata/ scan
-* Began detecting content_type, content_length, codegov_measurementtype, json_items, and opendata_conforms_to
-
-##### v 0.1
-
-* The initial rough MVP that we threw together to get started.
+* OMB - Automates a part of the compliance review for OMB M-17-06 and 21st Century IDEA.
 
 
 
 
-## Other notes
 
-Customized scan results for key General Services Administration products include:
-* [api.data.gov](https://site-scanning.app.cloud.gov/search200/200-developer/?200page=/data.json&mimetype=application/json)
-* [data.gov](https://site-scanning.app.cloud.gov/search200/200-data.json/?200page=/data.json&mimetype=application/json)
-* [code.gov](https://site-scanning.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimetype=application/json)
-* [privacy](https://site-scanning.app.cloud.gov/privacy/)
-* [sitemap xml](https://site-scanning.app.cloud.gov/sitemap/)
+## Future Plans
 
-
-_Background: This scanner is called the 200 Scanner because it checks for the [server response code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) from a specific URL.  The 200 server response means `OK` or that the file or page exists at that location and loads successfully.  Other commmon codes include 301 - `Moved Permanently`, 302 - `Found (moved temporarily)`,  403 - `Forbidden`, 404 - `Not Found`, and 500 - `Server Error`.  2xx codes refer to successful page loads; 3xx codes refer to redirects; 4xx codes refer to client errors, and 5xx codes refer to server errors._
+* Add searches for: data.x.gov, x.gov/developers, developer.x.gov, developers.x.gov
