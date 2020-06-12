@@ -1,0 +1,5 @@
+
+
+Spotlight is a website scanner for federal government professionals. Excellent federal websites lead to the delivery of excellent digital services for the public and public servants. Spotlight is a reference tool that gives you instant access to data on the big picture of what's working really well on federal websites. Data indicating the most critical web hygiene and user-friendly features present on a federal website. These top features of excellence are distilled from industry standards, federal laws, and user needs. 
+
+Spotlight is an open-source tool that runs on cloud.gov. The core of Spotlight is a scanning engine that performs a series of scans that each check for a particular feature on each individual website included in a continuously-updated list of federal domains and subdomains. Spotlight compiles all the scan results into simple data files called JSON. To access these JSON files, users pull the data into their own system using the Spotlight API, or by engaging directly on the Spotlight results page. 
