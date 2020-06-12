@@ -15,12 +15,12 @@ This section documents active and intactive scans that have been built for the S
 
 ## Inactive 
 
-* Accessibility 
-* Analytics
-* CSP
-* SSLyze
-* trustymail
-* USWDS 1.0 
+* Accessibility - [[code](https://github.com/18F/domain-scan/blob/lighthouse-scan-initial/scanners/a11y.py)]
+* Analytics - [[code](https://github.com/18F/domain-scan/blob/lighthouse-scan-initial/scanners/analytics.py)]
+* CSP - [[code](https://github.com/18F/domain-scan/blob/lighthouse-scan-initial/scanners/csp.py)]
+* SSLyze - [[code](https://github.com/18F/domain-scan/blob/lighthouse-scan-initial/scanners/sslyze.py)]
+* trustymail - [[code](https://github.com/18F/domain-scan/blob/lighthouse-scan-initial/scanners/trustymail.py)]
+* USWDS 1.0  - [[code](https://github.com/18F/domain-scan/blob/lighthouse-scan-initial/scanners/uswds.py)]
 
 
 ## Candidates for Future Scans 
