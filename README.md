@@ -3,7 +3,7 @@
 This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/spotlight).  All feedback should be filed in the [issue backlog](https://github.com/18F/spotlight/issues), but the team can also be reached at site-scanning@gsa.gov.
 
 
-|  About |  The Scans | Reports  | Technical  |  Program Management |
+|  [About](https://github.com/18F/site-scanning-documentation#about) |  [The Scans](https://github.com/18F/site-scanning-documentation#individual-scan-documentation) | [Reports](https://github.com/18F/site-scanning-documentation#individual-report-documentation)  | [Technical](https://github.com/18F/site-scanning-documentation#technical)  |  [Program Management](https://github.com/18F/site-scanning-documentation#program-management) |
 |---|---|---|---|---|
 
 
@@ -31,7 +31,7 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [Candidates for Future Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
 
 
-### Individual Presentation Layer Documentation
+### Individual Report Documentation
 * [Candidates for Future Presentation Layers](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
 
 ### Program Management
