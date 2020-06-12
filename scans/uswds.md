@@ -1,4 +1,4 @@
-# U.S. Web Design System Scanner
+# U.S. Web Design System Scan
 
 ## Summary
 The [USWDS scanner](https://site-scanning.app.cloud.gov/searchUSWDS/) checks each domain for the use of [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/) code and the code version.
