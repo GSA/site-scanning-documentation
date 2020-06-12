@@ -12,7 +12,9 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 ### About 
 
-
+* [Program Overview](https://github.com/18F/site-scanning-documentation/blob/master/overview/about-the-program.md)
+* [Background History](https://github.com/18F/site-scanning-documentation/blob/master/project-management/project-history.md)
+* [Links for Onboarding Teammates](https://github.com/18F/site-scanning-documentation/blob/master/project-management/onboarding-links.md)
 
 ### Individual Scan Documentation
 * [200 Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/200.md)
@@ -38,7 +40,5 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 ### Program Management
 * [Program Management Documents](https://github.com/18F/site-scanning-documentation/tree/master/project-management) 
-* [Background History](https://github.com/18F/site-scanning-documentation/blob/master/project-management/project-history.md)
-* [Links for Onboarding Teammates](https://github.com/18F/site-scanning-documentation/blob/master/project-management/onboarding-links.md)
 * [Program Milestones](https://github.com/18F/site-scanning-documentation/blob/master/project-management/project-milestones-version-history.md)
 * [Program Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/project-management/stakeholders.md)
