@@ -12,6 +12,8 @@ This is a list of individual scans that _could_ be hosted on the Site Scanning p
 * Characteristics of the implementation (e.g. adding Agency and Sub-Agency parameters).  
 * Detect CORS policy.  
 
+* Another idea - do this on a page on analytics.usa.gov, e.g. analytics.usa.gov/participation
+
 ### DAP Configuration
 * Analyze the source code of each page that loads in order to detect the version of DAP code in use, as well as misconfigurations of the code.  
 
