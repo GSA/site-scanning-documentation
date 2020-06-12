@@ -17,6 +17,7 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [Links for Onboarding Teammates](https://github.com/18F/site-scanning-documentation/blob/master/project-management/onboarding-links.md)
 
 ### Individual Scan Documentation
+* [List of Individual Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans)
 * [200 Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/200.md)
 * [USWDS Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/uswds.md)
 * [DAP Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/DAP.md)
