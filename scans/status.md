@@ -1,28 +1,28 @@
-# 200 scanner
+# Status Scan
 
 ## Summary
 
-A [scan](https://site-scanning.app.cloud.gov/search200/) to check each domain for the presence or absence of a file at a specific location, specifically by analyzing the server response code at that location.  Scans include:
+A scan to check each domain for the presence or absence of a file at specific locations, specifically by analyzing the server response code at that location.  Currently checks for the following, where x.gov = the target URL.  
 
-* [x.gov/code.json](https://site-scanning.app.cloud.gov/search200/?200page=/code.json&q=200)
-* [x.gov/data.json](https://site-scanning.app.cloud.gov/search200/?200page=/data.json&q=200)
-* [x.gov/data](https://site-scanning.app.cloud.gov/search200/?200page=/data&q=200)
-* [x.gov/developer](https://site-scanning.app.cloud.gov/search200/?200page=/developer&q=200)
-* [x.gov/digitalstrategy](https://site-scanning.app.cloud.gov/search200/?200page=/digitalstrategy/&q=200)
-* [x.gov/open](https://site-scanning.app.cloud.gov/search200/?200page=/open&q=200)
-* [x.gov/privacy](https://site-scanning.app.cloud.gov/search200/?200page=/privacy&q=200)
-* [x.gov/robots.txt](https://site-scanning.app.cloud.gov/search200/?200page=/robots.txt&q=200)
-* [x.gov/sitemap.xml](https://site-scanning.app.cloud.gov/search200/?200page=/sitemap.xml&q=200)
+* x.gov
+* x.gov/cj
+* x.gov/code.json
+* x.gov/coronavirus
+* x.gov/data
+* x.gov/data.json
+* x.gov/developer
+* x.gov/digitalstrategy
+* x.gov/digitalstrategy/FITARAmilestones.json
+* x.gov/digitalstrategy/bureaudirectory.json
+* x.gov/digitalstrategy/costsavings.json
+* x.gov/digitalstrategy/datacenteroptimizationstrategicplan.json
+* x.gov/digitalstrategy/governanceboards.json
+* x.gov/open
+* x.gov/privacy
+* x.gov/redirecttest-foo-bar-baz
+* x.gov/robots.txt
+* x.gov/sitemap.xml
 
-Customized scan results for key General Services Administration products include:
-* [api.data.gov](https://site-scanning.app.cloud.gov/search200/200-developer/?200page=/data.json&mimetype=application/json)
-* [data.gov](https://site-scanning.app.cloud.gov/search200/200-data.json/?200page=/data.json&mimetype=application/json)
-* [code.gov](https://site-scanning.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimetype=application/json)
-* [privacy](https://site-scanning.app.cloud.gov/privacy/)
-* [sitemap xml](https://site-scanning.app.cloud.gov/sitemap/)
-
-
-_Background: This scanner is called the 200 Scanner because it checks for the [server response code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) from a specific URL.  The 200 server response means `OK` or that the file or page exists at that location and loads successfully.  Other commmon codes include 301 - `Moved Permanently`, 302 - `Found (moved temporarily)`,  403 - `Forbidden`, 404 - `Not Found`, and 500 - `Server Error`.  2xx codes refer to successful page loads; 3xx codes refer to redirects; 4xx codes refer to client errors, and 5xx codes refer to server errors._
 
 ## Details 
 
@@ -43,7 +43,6 @@ provide on Code.gov." - _[OMB M-16-21](https://www.whitehouse.gov/sites/whitehou
 
 * Code.gov - Detects enterprise code inventories that may have been created but not shared with the code.gov team.  Allows this team to then add these inventories to code.gov harvest list.  
 * OMB - Automates a part of the compliance review for OMB M-16-21 (Has an inventory been published in the correct location?).  
-
 
 #### Envisioned Tasks
 
@@ -239,3 +238,16 @@ and searched by commonly used commercial search engines." - _[OMB M-17-06](https
 * The initial rough MVP that we threw together to get started.
 
 
+
+
+## Other notes
+
+Customized scan results for key General Services Administration products include:
+* [api.data.gov](https://site-scanning.app.cloud.gov/search200/200-developer/?200page=/data.json&mimetype=application/json)
+* [data.gov](https://site-scanning.app.cloud.gov/search200/200-data.json/?200page=/data.json&mimetype=application/json)
+* [code.gov](https://site-scanning.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimetype=application/json)
+* [privacy](https://site-scanning.app.cloud.gov/privacy/)
+* [sitemap xml](https://site-scanning.app.cloud.gov/sitemap/)
+
+
+_Background: This scanner is called the 200 Scanner because it checks for the [server response code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) from a specific URL.  The 200 server response means `OK` or that the file or page exists at that location and loads successfully.  Other commmon codes include 301 - `Moved Permanently`, 302 - `Found (moved temporarily)`,  403 - `Forbidden`, 404 - `Not Found`, and 500 - `Server Error`.  2xx codes refer to successful page loads; 3xx codes refer to redirects; 4xx codes refer to client errors, and 5xx codes refer to server errors._
