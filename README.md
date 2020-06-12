@@ -14,15 +14,6 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 
 
-### Technical 
-
-* [Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
-* [Devops](https://github.com/18F/spotlight/blob/master/docs/DevOps.md)
-* [Install](https://github.com/18F/spotlight/blob/master/docs/INSTALL.md)
-* [Gray's Cheatsheet](https://github.com/18F/spotlight/blob/master/docs/cheatsheet.md)
-* [Permissions](https://github.com/18F/spotlight/blob/master/docs/permissions.md)
-* [System Diagram](https://github.com/18F/spotlight/blob/master/docs/scanner-ui.png)
-
 ### Individual Scan Documentation
 * [200 Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/200.md)
 * [USWDS Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/uswds.md)
@@ -33,6 +24,17 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 ### Individual Report Documentation
 * [Candidates for Future Presentation Layers](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
+
+
+
+### Technical 
+
+* [Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
+* [Devops](https://github.com/18F/spotlight/blob/master/docs/DevOps.md)
+* [Install](https://github.com/18F/spotlight/blob/master/docs/INSTALL.md)
+* [Gray's Cheatsheet](https://github.com/18F/spotlight/blob/master/docs/cheatsheet.md)
+* [Permissions](https://github.com/18F/spotlight/blob/master/docs/permissions.md)
+* [System Diagram](https://github.com/18F/spotlight/blob/master/docs/scanner-ui.png)
 
 ### Program Management
 * [Program Management Documents](https://github.com/18F/site-scanning-documentation/tree/master/project-management) 
