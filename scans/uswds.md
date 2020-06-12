@@ -1,7 +1,7 @@
 # U.S. Web Design System Scan
 
 ## Summary
-The [USWDS scanner](https://site-scanning.app.cloud.gov/searchUSWDS/) checks each domain for the use of [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/) code and the code version.
+The USWDS scan checks each domain for the use of [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/) code and the code version.
 
 Specifically, the scan [searches for](https://github.com/18F/domain-scan/blob/tspencer/200scanner/scanners/uswds2.py#L36-L123): 
 
