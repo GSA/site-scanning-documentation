@@ -2,6 +2,16 @@
 
 Assorted loose content and documentation that I need to find a home for...
 
+===========================
+
+consider making a new page or folder for data descriptions, e.g. 
+
+Each of the endpoints 
+Each of the CSV 
+https://spotlight.app.cloud.gov/api/v1/scans/uswds2/csv/?
+
+
+
 scan-website.md
 
 ## Overview
@@ -159,9 +169,6 @@ There is one scanned-for element that _reduces_ the counts — the presence of `
 #### Summary
 Detects whether USWDS is in use on an agency website.
 
-#### Relevant Policy
-"An executive agency that creates a website or digital service that is intended for use by the public, or conducts a redesign of an existing legacy website or digital service that is intended for use by the public, shall ensure to the greatest extent practicable that any new or redesigned website, web-based form, web-based application, or digital service has a consistent experience - _[21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)_
-
 #### Stakeholders
 * OMB - Automates a part of the compliance review for [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)
 
@@ -174,8 +181,6 @@ TBA
 #### Summary
 Detects whether USWDS is in use on a government website and, if so, what version.
 
-#### Relevant Policy
-"An executive agency that creates a website or digital service that is intended for use by the public, or conducts a redesign of an existing legacy website or digital service that is intended for use by the public, shall ensure to the greatest extent practicable that any new or redesigned website, web-based form, web-based application, or digital service has a consistent experience - _[21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)_
 
 #### Stakeholders
 * OMB - Automates a part of the compliance review for [21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)
