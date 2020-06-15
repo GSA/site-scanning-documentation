@@ -23,3 +23,10 @@ Published by Google as an open source project in support of better websites, Lig
     'viewport',
     'speed-index' 
 ```
+
+#### Relevant Policy
+
+* Section 508 requirements (there are many)
+* SEO requirements (there are many)
+* Mobile-friendliness requirements (there are many) 
+
