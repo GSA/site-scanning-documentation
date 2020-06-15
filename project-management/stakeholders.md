@@ -39,6 +39,7 @@ An important principle of the Site Scanning project is to identify specific prog
 #### Third-party services scanner 
 
 * The feedback.data.gov team 
+* The DAP team
 
 
 ## Candidate Stakeholders 
