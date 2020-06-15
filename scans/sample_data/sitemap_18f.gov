@@ -1,0 +1,17 @@
+{
+    "domain": "18f.gov",
+    "scantype": "sitemap",
+    "domaintype": "Federal Agency - Executive",
+    "organization": "18F",
+    "agency": "General Services Administration",
+    "data": {
+        "final_url": "https://18f.gsa.gov/sitemap.xml",
+        "sitemap_locations_from_robotstxt": [
+            "https://18f.gsa.gov/sitemap.xml"
+        ],
+        "status_code": "200",
+        "url_tag_count": 675
+    },
+    "scan_data_url": "https://s3-us-gov-west-1.amazonaws.com/cg-852a6196-0fdb-4a01-a16f-6c24379722cb/sitemap/18f.gov.json",
+    "lastmodified": "2020-06-14T02:07:51Z"
+}
