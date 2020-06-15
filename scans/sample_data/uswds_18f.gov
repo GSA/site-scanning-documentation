@@ -1,0 +1,25 @@
+{
+    "domain": "18f.gov",
+    "scantype": "uswds2",
+    "domaintype": "Federal Agency - Executive",
+    "organization": "18F",
+    "agency": "General Services Administration",
+    "data": {
+        "domain": "18f.gov",
+        "flag_detected": 0,
+        "flagincss_detected": 0,
+        "merriweatherfont_detected": 5,
+        "publicsansfont_detected": 0,
+        "sourcesansfont_detected": 5,
+        "status_code": 200,
+        "tables": 0,
+        "total_score": 61,
+        "usa_classes_detected": 30,
+        "usa_detected": 0,
+        "uswds_detected": 1,
+        "uswdsincss_detected": 20,
+        "uswdsversion": ""
+    },
+    "scan_data_url": "https://s3-us-gov-west-1.amazonaws.com/cg-852a6196-0fdb-4a01-a16f-6c24379722cb/uswds2/18f.gov.json",
+    "lastmodified": "2020-06-14T02:04:47Z"
+}
