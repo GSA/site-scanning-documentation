@@ -13,4 +13,6 @@ The DAP scan looks for the presence of the code snippet in a target URL's source
 
 * "All agencies must participate in the General Service Administration’s (GSA) Digital Analytics Program (DAP) and deploy the DAP tracking code on all public facing agency websites." - _[OMB Memo M-17-06](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf)_
 
+#### Analysis of scan quality
+
 
