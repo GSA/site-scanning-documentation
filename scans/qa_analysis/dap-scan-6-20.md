@@ -16,11 +16,23 @@ For this analysis, I'm going to just focus on the GSA agency, a medium sized age
 
 * The DAP scan results for GSA lists 896 websites. DAP is detected on 368 of them and not detected on 528.
 * From analytics.usa.gov, there are 903 websites.  DAP is detected on 285 of them and not detected on 618.  
-* 833 URLS directly match on both scans.  
-
+* 833 URLS directly match on both scans.  Another 19 match except that on the DAP scan results they have a `www.` and on the analytics.usa.gov export, it's stripped out.  So, 852 line up just right.  
+* Of the remaining 44 in the DAP scan, 31 are duplicates b/c they have a `www.` in addition to the `x.gov` that is in both datasets already.  Another 12 are inaccessible or do not resolve. Only 1 (`usability.gov`) is in the DAP scan and not in the analytics.usa.gov export.  This is b/c it's listed as a GSA domain in the .gov domain dataset, but as HHS in the pulse subdomain report. That's b/c this just [changed recently](https://github.com/GSA/data/commit/8cf96f091a593fb5106fb2848a8fb23726ace7ed#diff-38fa226fb0b3f7a8f1ff74774ad831b4) and the pulse subdomain list is older.   
+* There are 51 in the analytics.usa.gov export that are not in the DAP scan results.  Of these, 42 are internal, inaccessible urls from login.gov, identitysandbox.gov, and itdashboard.gov.  I assume that either the pulse subdomain generation results changed at some point, or the DAP scan is ignoring them b/c they are inaccessible.  Their absence in the DAP scan is not problematic.  There were, however, 9 that resolve and should have been in the DAP scan results but weren't.  
+* Focusing on the 852 websites that aligned between the two datasets, there are 183 that both detect DAP and 421 that both say it's missing.  In other words, the scans are in agreement for 604.  
+* There are 161 that the DAP scan says has DAP, whereas analytics.usa.gov says it does not.  There are 87 where the DAP scans says it does not, but analytics.usa.gov say that it does.  
+* 
 
 Of those, DAP scan detects DAP on 337.  Of those analytics.usa.gov concurs on 178 and does not concur on 159.  
 
 
 ## Analysis
+
+
+
+## Goals for Data improvement
+
+* Decide whether to have both `x.gov` and `www.x.gov` in the results.  
+* Think about why the 12 domains that don't resolve are still in the results and if they shouldn't be.  
+* Research why the 9 URLs that weren't in the DAP scan results, but still resolve were missing.  
 
