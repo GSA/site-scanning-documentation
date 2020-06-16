@@ -12,7 +12,15 @@ For this analysis, I'm going to just focus on the GSA agency, a medium sized age
 2. Go to the [v1.0 spotlight website](https://spotlight.app.cloud.gov/), go to the[DAP report page](https://spotlight.app.cloud.gov/search200/dap/), filter for GSA, and export the results as a CSV.  
 3. Remove extraneous columns from both datasets and then put them side by side in [a google spreadsheet](https://docs.google.com/spreadsheets/d/1fjQ5J-Hp9bvfxz9zNqlKoOZEmSad2-S5kUrpp55dfWs/edit#gid=1643437513), align them, and analyze the results.  
 
-## Observations  
+## Results  
 
 * The DAP scan results for GSA lists 896 websites. DAP is detected on 368 of them and not detected on 528.
 * From analytics.usa.gov, there are 903 websites.  DAP is detected on 285 of them and not detected on 618.  
+* 833 URLS directly match on both scans.  
+
+
+Of those, DAP scan detects DAP on 337.  Of those analytics.usa.gov concurs on 178 and does not concur on 159.  
+
+
+## Analysis
+
