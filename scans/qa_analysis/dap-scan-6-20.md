@@ -25,9 +25,26 @@ For this analysis, I'm going to just focus on the GSA agency, a medium sized age
 
 Of those, DAP scan detects DAP on 337.  Of those analytics.usa.gov concurs on 178 and does not concur on 159.  
 
+SS would detect yes correctly: redirect, if no traffic in last 14 days 
+
+
+
+No, not in the analytics.usa.gov dataset because this URL is duplicative to the non-www URL that is in both datasets	Double check the DAP presence result.  Consider whether this record shouldn't be in the results at all.  	This entry is likely a complete duplicate and can be ignored.  
+
+
+
+the analytics.usa.gov export only shows hostnames. So if ask.gsa.gov/1 has DAP and ask.gsa.gov doesn't, you still see ask.gsa.gov in the analytics.usa.gov export.  But the DAP team is okay with it being indicated DAP, no.  
+
+
+note the difference in the methodology, that SS looks at a literal URL.  
+https://github.com/18F/analytics-reporter/blob/master/reports/usa.json#L360
+
 
 ## Analysis
 
+* We shouldn't be including redirect in results.  
+* Generally speaking, if the DAP scan detects DAP and analytics.usa.gov, the site scanner is finding legitimate DAP code.  
+* Generally speaking, if DAP scan isn't detecting DAP and analytics.usa.gov does, it's for a good reason.  
 
 
 ## Goals for Data improvement
@@ -35,4 +52,7 @@ Of those, DAP scan detects DAP on 337.  Of those analytics.usa.gov concurs on 17
 * Decide whether to have both `x.gov` and `www.x.gov` in the results.  
 * Think about why the 12 domains that don't resolve are still in the results and if they shouldn't be.  
 * Research why the 9 URLs that weren't in the DAP scan results, but still resolve were missing.  
+* maybe we should only be showing data for final URLs, not initial ones.  
+* From Tim, if the target URL redirects to a new subdomain, it shouldn't be in the scan results.  e.g. 18f.gov
+* Need to include final url and redirect notes in this dataset.  
 
