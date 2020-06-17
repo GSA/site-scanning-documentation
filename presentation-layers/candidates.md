@@ -1,5 +1,8 @@
 
 
+## DAP team
+* analytics.usa.gov/participation to offer some metrics and help demonstrate who hasn't implemented DAP that needs to.  
+
 ## General Agency Use
 
 #### Basic Inventory 
