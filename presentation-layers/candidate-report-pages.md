@@ -1,7 +1,28 @@
+This is a list of individual report pages that _could_ be built using Site Scanning data.  This is a brainstorming page and all ideas are welcome.  
+
+The list of report pages that have alreadby been built and are active is [here](https://github.com/18F/site-scanning-documentation/tree/master/presentation-layers#active).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/presentation-layers/candidate-report-pages.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.  
 
 
-## DAP team
+
+
+## For TTS Programs
+
+### DAP team
 * analytics.usa.gov/participation to offer some metrics and help demonstrate who hasn't implemented DAP that needs to.  
+
+### USWDS
+
+* Table with all of the individual scores broken out and sortable
+* Mashup USWDS scores with Mobile Friendliness, Pagespeed Insights, Accessibility, etc. 
+
+
+## For OMB
+
+* /digitalstrategy pages for CFO Act agencies, etc.
+* List of /digitalstrategy pages that aren't for CFO Act agencies, etc.
+
+
+
 
 ## General Agency Use
 
@@ -63,36 +84,3 @@ The envisioned mashup would be a table.  Optional functionality would include ex
 #### USWDS Implementation 2
 
 The same as USWDS Particpation 2, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)). 
-
-## At at TTS Program Level
-
-
-### USWDS
-
-* Table with all of the individual scores broken out and sortable
-* Mashup USWDS scores with Mobile Friendliness, Pagespeed Insights, Accessibility, etc. 
-
-
-## At an Office Level
-
-
-### OPP level
-
-
-### TTS level
-
-...
-
-### GSA level
-
-...
-
-
-### OMB level
-
-* /digitalstrategy pages for CFO Act agencies, etc.
-* List of /digitalstrategy pages that aren't for CFO Act agencies, etc.
-
-
-
-### Agency X level
