@@ -1,10 +1,10 @@
 ## Location
 
-* Report Page - https://cg-bbe64741-a601-484f-bc3b-e8eef3c28590.app.cloud.gov/site/18f/site-scanning-dashboard/
+* Report Page - https://site-scanning.app.cloud.gov/privacy/
 
 ## Code 
 
-* https://github.com/18F/site-scanning-dashboard
+* https://github.com/18F/Spotlight/tree/master/scanner_ui/ui/templates
 
 ## Summary 
 
