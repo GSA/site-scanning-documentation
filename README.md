@@ -17,16 +17,12 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [Links for Onboarding Teammates](https://github.com/18F/site-scanning-documentation/blob/master/project-management/onboarding-links.md)
 
 ### Individual Scan Documentation
-* [List of Individual Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans)
-* [200 Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/200.md)
-* [USWDS Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/uswds.md)
-* [DAP Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/DAP.md)
-* [Third-party Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/third-party.md)
+* [List of Individual Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#README)
 * [Candidates for Future Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
 
 
 ### Individual Report Documentation
-* [Candidates for Future Presentation Layers](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
+* [Candidates for Future Report Pages](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
 
 
 
