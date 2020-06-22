@@ -1,4 +1,4 @@
-# site-scanning-documentation
+# Site Scanning program documentation
 
 This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/spotlight).  All feedback should be filed in the [issue backlog](https://github.com/18F/spotlight/issues), but the team can also be reached at site-scanning@gsa.gov.
 
