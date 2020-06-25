@@ -29,7 +29,7 @@ This section documents active and inactive report pages that have been built for
 #### Other
 
 * [TTS Dashboard](https://github.com/18F/site-scanning-documentation/tree/master/presentation-layers/live)
-* [Known code.json locations](https://github.com/18F/site-scanning-documentation/tree/master/presentation-layers/live)
+* [Known code.json locations](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/codedotjson-dashboard.md)
 * [Known data.json locations](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/datadotjson-dashboard.md)
 
 ## Candidates for Future Report Pages 
