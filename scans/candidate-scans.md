@@ -40,7 +40,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 
 ## Security
 * DNS record certificate holder: Monitor changes in agency's DNS record certificate holder, and alert agencies if there are changes, which may be a sign of malicious behavior. 
-* domain certificate transparency scanning
+* domain certificate transparency scanning (idea -  give a flag to openssl to have it check CT)
 * CNAME Hijacking 
 * OWASP - https://github.com/zaproxy/zaproxy
 * HTTPS cert - [example of need](https://www.bloomberg.com/news/articles/2019-12-09/federal-regulations-website-goes-dark-blocking-public-input)
