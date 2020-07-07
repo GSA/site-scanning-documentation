@@ -68,6 +68,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * 404 pages - Try to use the detection of 404 pages to discover broken links or websites.  For instance, one idea could be to take ever link found in a page and then check links for their status.  
 * Well known services hosted by webservers:  [more info here](https://en.wikipedia.org/wiki/List_of_/.well-known/_services_offered_by_webservers) and [here](https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml)
 * /security.txt ?
+* Bad SEO/website management in the form of duplicative URLs to the same webpage, e.g. with and without and www., or 2 domains that are CNAMED to the same thing.  
 * data for GSA's privacy dashboard - https://github.com/18f/privacy-dashboard
 * Social media pages: Uncover agency's social media pages for inclusion in the [U.S. Digital Registry](https://digital.gov/services/u-s-digital-registry/).
 * HTML Metadata: Uncover HTML metadata, which could help to populate sub-domain scanning capabilities.
