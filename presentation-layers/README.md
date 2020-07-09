@@ -14,17 +14,17 @@ This section documents active and inactive report pages that have been built for
 
 #### Spotlight Website v1
 
-* [Spotlight1.0 Code.json Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-codedotjson-report.md)
-* [Spotlight1.0 Data.json Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-datadotjson-report.md)
-* [Spotlight1.0 Data Hub Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-datahub-report.md)
-* [Spotlight1.0 Developer Hub Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-developerhub-report.md)
-* [Spotlight1.0 /Robots.txt Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-robotstxt-report.md)
-* [Spotlight1.0 /Sitemap.xml Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-sitemapxml-report.md)
-* [Spotlight1.0 Privacy Page Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-privacy-report.md)
-* [Spotlight1.0 USWDS Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-uswds-report.md)
-* [Spotlight1.0 DAP Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-analytics-report.md)
-* [Spotlight1.0 Third Party Services Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-third-party-report.md)
-* [Spotlight1.0 Page Status Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-200-report.md)
+* [Spotlight 1.0 Code.json Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-codedotjson-report.md)
+* [Spotlight 1.0 Data.json Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-datadotjson-report.md)
+* [Spotlight 1.0 Data Hub Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-datahub-report.md)
+* [Spotlight 1.0 Developer Hub Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-developerhub-report.md)
+* [Spotlight 1.0 /Robots.txt Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-robotstxt-report.md)
+* [Spotlight 1.0 /Sitemap.xml Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-sitemapxml-report.md)
+* [Spotlight 1.0 Privacy Page Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-privacy-report.md)
+* [Spotlight 1.0 USWDS Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-uswds-report.md)
+* [Spotlight 1.0 DAP Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-analytics-report.md)
+* [Spotlight 1.0 Third Party Services Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-third-party-report.md)
+* [Spotlight 1.0 Page Status Report](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/live/spotlight1-200-report.md)
 
 #### Other
 
