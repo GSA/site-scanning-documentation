@@ -22,8 +22,8 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 
 ### Individual Report Documentation
+* [List of Individual Report Pages](https://github.com/18F/site-scanning-documentation/tree/master/report-pages#README)
 * [Candidates for Future Report Pages](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
-
 
 
 ### Technical 
@@ -35,6 +35,6 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [System Diagram](https://github.com/18F/spotlight/blob/master/docs/scanner-ui.png)
 
 ### Program Management
-* [Program Management Documents](https://github.com/18F/site-scanning-documentation/tree/master/project-management) 
-* [Program Milestones](https://github.com/18F/site-scanning-documentation/blob/master/project-management/project-milestones-version-history.md)
-* [Program Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/project-management/stakeholders.md)
+* [Program Management Documents](https://github.com/18F/site-scanning-documentation/tree/master/about/project-management) 
+* [Program Milestones](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/project-milestones-version-history.md)
+* [Program Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/stakeholders.md)
