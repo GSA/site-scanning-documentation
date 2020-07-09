@@ -29,3 +29,6 @@ The DAP scan looks for the presence of the code snippet in a target URL's source
 
 * [June 2020 quality analysis of DAP scan results](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap-scan-6-20.md)
 
+## Data Quality Reviews
+
+* [June 2020 Review](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap-scan-6-20.md)
