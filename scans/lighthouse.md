@@ -24,6 +24,17 @@ Published by Google as an open source project in support of better websites, Lig
     'speed-index' 
 ```
 
+
+## Report Pages
+
+* [Spotlight 2.0 Performance Report](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/performance)
+
+## Direct Data Links
+
+* [Scan Data (JSON)](https://site-scanning.app.cloud.gov/api/v1/scans/lighthouse/)
+* [Scan Data (CSV)](https://site-scanning.app.cloud.gov/api/v1/scans/lighthouse/csv/)
+* [Scan Data for a Particular Website (e.g. 18f.gov)](https://site-scanning.app.cloud.gov/api/v1/scans/lighthouse/18f.gov)
+
 #### Relevant Policy
 
 * Section 508 requirements (there are many)
