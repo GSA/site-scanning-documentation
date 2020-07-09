@@ -14,3 +14,20 @@ Specifically, the scan searches the target URL for:
 * opendata_conforms_to
 * codegov_measurementtype
 
+
+## Details 
+
+... 
+
+## Report Pages
+
+* [Spotlight 1.0 Code.json Report](https://site-scanning.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimetype=application/json)
+* [Spotlight 1.0 Data.json Report](https://site-scanning.app.cloud.gov/search200/200-data.json/?200page=/data.json&mimetype=application/json)
+* [Known code.json locations Report](https://cg-bbe64741-a601-484f-bc3b-e8eef3c28590.app.cloud.gov/site/18f/site-scanning-dashboard/codegov/)
+* [Known data.json locations Report](https://cg-bbe64741-a601-484f-bc3b-e8eef3c28590.app.cloud.gov/site/18f/site-scanning-dashboard/datagov/)
+
+## Direct Data Links
+
+* [Scan Data (JSON)](https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/)
+* [Scan Data (CSV)](https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/csv/)
+* [Scan Data for a Particular Website (e.g. 18f.gov)](https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/18f.gov)
