@@ -1,4 +1,4 @@
-
+## About the Site Scanning program
 
 Spotlight is a website scanner for federal government professionals. Excellent federal websites lead to the delivery of excellent digital services for the public and public servants. Spotlight is a reference tool that gives you instant access to data on the big picture of what's working really well on federal websites. Data indicating the most critical web hygiene and user-friendly features present on a federal website. These top features of excellence are distilled from industry standards, federal laws, and user needs. 
 
