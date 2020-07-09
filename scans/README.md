@@ -1,4 +1,4 @@
-This section documents active and inactive scans that have been built for the Site Scanning program.  A list of ideas for future scans to build [can be found here](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md).  
+This section documents active and inactive scans that have been built for the Site Scanning program. Each scanner exists as a file in the [scanners folder of the domain-scan project](https://github.com/18F/domain-scan/tree/master/scanners).    A list of ideas for future scans to build [can be found here](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md).  
 
 ## Active
 
