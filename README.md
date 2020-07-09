@@ -18,12 +18,12 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 ### Individual Scan Documentation
 * [List of Individual Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#README)
-* [Candidates for Future Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#active)
+* [Candidates for Future Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
 
 
 ### Individual Report Documentation
 * [List of Individual Report Pages](https://github.com/18F/site-scanning-documentation/tree/master/report-pages#README)
-* [Candidates for Future Report Pages](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/candidates.md)
+* [Candidates for Future Report Pages](https://github.com/18F/site-scanning-documentation/blob/master/report-pages/candidate-report-pages.md)
 
 
 ### Technical 
