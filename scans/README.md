@@ -2,15 +2,15 @@ This section documents active and inactive scans that have been built for the Si
 
 ## Active
 
-* [DAP Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/DAP.md) - Checks for and analyzes the Digital Analytics Program snippet
-* [Lighthouse Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/lighthouse.md) - Runs numerous website health and best practice check 
-* [Page Data Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/pagedata.md) - Analyzes characteristics of the hosted files themselves
-* [Privacy Page Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/privacy.md) - Analyzes agency privacty policy pages
-* [Security Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/security.md) - Analyzes https and related website security 
-* [Sitemap Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/sitemap.md) - Checks for and analyzes robots.txt and sitemaps.xml files
-* [Status Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/status.md) - Checks for the presence or absence of a webpage or file
-* [Third Party Services Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/third-party.md) - Checks for the use of third party services on a page
-* [U.S. Web Design System Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/uswds.md) - Checks for and analyzes implementation of the US Web Design System. 
+* [DAP Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/DAP.md) - Checks for and analyzes the Digital Analytics Program snippet
+* [Lighthouse Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/lighthouse.md) - Runs numerous website health and best practice check 
+* [Page Data Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/pagedata.md) - Analyzes characteristics of the hosted files themselves
+* [Privacy Page Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/privacy.md) - Analyzes agency privacty policy pages
+* [Security Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/security.md) - Analyzes https and related website security 
+* [Sitemap Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/sitemap.md) - Checks for and analyzes robots.txt and sitemaps.xml files
+* [Status Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/status.md) - Checks for the presence or absence of a webpage or file
+* [Third Party Services Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/third-party.md) - Checks for the use of third party services on a page
+* [U.S. Web Design System Scan](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/uswds.md) - Checks for and analyzes implementation of the US Web Design System. 
 
 
 ## Inactive 
