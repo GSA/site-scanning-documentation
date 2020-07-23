@@ -308,7 +308,7 @@ Detects the presence of good search engine optimization practices.
 
 * "Agencies must ensure that all content intended for public use on their website can be indexed
 and searched by commonly used commercial search engines." - _[OMB M-17-06](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf)_
-* Websites “contains a search function that allows users to easily search content intended for public use." - _[21st Century Idea](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)_
+* "Encourage best practices for structuring and tagging content (metadata and keywords) and data for search engine optimization and machine-readability" - _[Policies for Dot Gov Domain Issuance for Federal Agency Public Websites (2015)](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/memo/policies-for-dot-gov-domain-issuance-for-federal-agency-public-websites.pdf)_
 
 
 
@@ -327,9 +327,9 @@ Detects the presence of good search engine optimization practices.
 
 * "Agencies must ensure that all content intended for public use on their website can be indexed
 and searched by commonly used commercial search engines." - _[OMB M-17-06](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf)_
-* Websites “contains a search function that allows users to easily search content intended for public use." - _[21st Century Idea](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)_
+* "Encourage best practices for structuring and tagging content (metadata and keywords) and data for search engine optimization and machine-readability" - _[Policies for Dot Gov Domain Issuance for Federal Agency Public Websites (2015)](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/memo/policies-for-dot-gov-domain-issuance-for-federal-agency-public-websites.pdf)_
 
-
+https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/memo/policies-for-dot-gov-domain-issuance-for-federal-agency-public-websites.pdf
 #### Stakeholders
 * OMB - Automates a part of the compliance review for OMB M-17-06 and 21st Century IDEA.
 
