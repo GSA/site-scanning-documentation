@@ -3,16 +3,17 @@
 ## Summary
 
 
-The Sitemap scan checks each website for characteristics in sitemap.xml and robots.txt files if they have them.  Specifically, it checks for the following:
+The Sitemap scan checks each website for characteristics in sitemap.xml and robots.txt files if they have them.  
+
+## Details 
+
+Specifically, the Sitemap scan checks each target url for the following:
 
 * Final URL of the sitemap 
 * Server status code for x.gov/sitemap.xml
 * Any sitemap locations from the robots.txt file
 * URL tag count of the sitemap
 
-## Details 
-
-... 
 
 ## Report Pages
 
@@ -27,4 +28,5 @@ The Sitemap scan checks each website for characteristics in sitemap.xml and robo
 
 #### Relevant Policy
 
-* 
+* "Agencies must ensure that all content intended for public use on their website can be indexed and searched by commonly used commercial search engines." - _[OMB Memo M-17-06](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf)_
+
