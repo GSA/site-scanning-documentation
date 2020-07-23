@@ -4,10 +4,6 @@
 
 The security scan runs [an opensource project built by DHS known as `pshtt`](https://github.com/cisagov/pshtt) that scans for a wide variety of SSL/HTTPS configurations and best practices.  
 
-## Details 
-
-... 
-
 ## Report Pages
 
 * [Spotlight 2.0 Security Report](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/security)
