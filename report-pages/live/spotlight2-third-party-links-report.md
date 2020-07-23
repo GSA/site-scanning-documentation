@@ -1,3 +1,7 @@
+## Summary 
+
+An interface to browse the external domains of third party services employed 
+
 ## Location
 
 * Report Page - https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/critical-components
@@ -7,11 +11,6 @@
 ## Code 
 
 * https://github.com/18F/Spotlight-ui/blob/master/src/pages/critical-components.js
-
-## Summary 
-
-* 
-
 
 ## Filters
 
