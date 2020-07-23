@@ -29,4 +29,4 @@ Specifically, the Sitemap scan checks each target url for the following:
 #### Relevant Policy
 
 * "Agencies must ensure that all content intended for public use on their website can be indexed and searched by commonly used commercial search engines." - _[OMB Memo M-17-06](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf)_
-
+* "Encourage best practices for structuring and tagging content (metadata and keywords) and data for search engine optimization and machine-readability" - _[Policies for Dot Gov Domain Issuance for Federal Agency Public Websites (2015)](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/memo/policies-for-dot-gov-domain-issuance-for-federal-agency-public-websites.pdf)_
