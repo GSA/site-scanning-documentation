@@ -10,4 +10,9 @@ The third party services scan loads the target URL and detects which other websi
 
 #### Relevant Policy
 
+* "Additionally, all domains should ... Encourage the use of gathering customer feedback to make improvements;" - _[Policies for Dot Gov Domain Issuance for Federal Agency Public Websites (2015)](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/memo/policies-for-dot-gov-domain-issuance-for-federal-agency-public-websites.pdf)_
 * "Federal agencies using web measurement and customization technologies in a manner subject to Tier 1 or Tier 2 are authorized to use such technologies so long as the agencies ... (2) provide clear and conspicuous notice in their online Privacy Policy citing the use of such technologies, as specified in Attachment 3 ..." - _[[OMB-M-10-22](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/memoranda_2010/m10-22.pdf)]_
+
+
+
+
