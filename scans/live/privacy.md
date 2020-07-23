@@ -6,13 +6,7 @@
 The privacy scans checks for the presence of a Privacy Policies page at x.gov/privacy and analyzes it for several characteristics, namely: 
 
 * Email addresses listed in the page
-* Major page sections (as indicated by header tags)
-
-
-
-## Details 
-
-... 
+* Major page sections (as indicated by header tags)`
 
 ## Report Pages
 
