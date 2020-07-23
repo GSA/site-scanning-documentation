@@ -4,7 +4,10 @@
 
 This scan checks certain locations for a range of file characteristics.  
 
-Specifically, the scan searches the target URL for: 
+
+## Details 
+
+Specifically, the page data scan searches the target URL for: 
 
 * server response code
 * final url
@@ -13,11 +16,6 @@ Specifically, the scan searches the target URL for:
 * content_length
 * opendata_conforms_to
 * codegov_measurementtype
-
-
-## Details 
-
-... 
 
 ## Report Pages
 
