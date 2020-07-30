@@ -92,3 +92,5 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 
 ## Other Scopes to Scan Against
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?
+* Reach out to .mil again to see if they are interested.  
+* Integrating [the non-.gov and non-.mil websites](https://github.com/GSA/govt-urls/blob/master/2_govt_urls_federal_only.csv).
