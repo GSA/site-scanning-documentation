@@ -39,7 +39,7 @@ Here's the programs that are currently identified as active stakeholders that ar
   * Make a simple, replicatable report page that an agency can use to return DAP status for a set list of agency subdomains (i.e. their hand-curated list of 'actual websites' that leaves off staging environments, etc.)   
 
 
-~~~~~~~~~~~~~~~~~
+=================
 
 
 ## Initiated Stakeholder Relationships
@@ -55,6 +55,7 @@ These programs have been identified as possible stakeholders and we have solicit
 #### GSA Chief Privacy Officer
 
 
+=================
 
 ## Candidate Stakeholders 
 
