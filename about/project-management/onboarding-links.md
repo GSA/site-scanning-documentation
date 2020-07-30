@@ -28,9 +28,22 @@ A set of links that are useful to go through when first getting to know the proj
 
 
 ### Diving Deeper 
-* How each scan works 
-* Inactive scans 
-* Active Stakeholders 
+* [System Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
+* [How each scan works](https://github.com/18F/site-scanning-documentation/tree/master/scans#active)
+* [Inactive scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#inactive)
+* [Active Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/stakeholders.md)
 * Phase 4 plans 
 
+### Granting Permissions
+* [GitHub Group](https://github.com/orgs/18F/teams/10x-site-scanning)
+* [gDrive Folder](https://drive.google.com/drive/u/1/folders/10jBbaVSWfSzyHouksFzseExKb7GAxq7e?ths=true)
+* Cloud.gov
+* Federalist
+* [Google Group (site-scanning@gsa.gov)](https://groups.google.com/u/1/a/gsa.gov/g/site-scanning)
 
+
+
+=======================
+To Add: 
+* [terms](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/terms.md)
+* [simple english system description](https://github.com/18F/Spotlight/blob/master/docs/simple-english-system-description.md)
