@@ -88,6 +88,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * Misc. ideas from Jay  -  CDNs; js Libraries - e.g. what % of the gov us using a (outdated) jQuery; 3rd Party Ads; % of sites that are PHP & Drupal and vulnerable to the drupalgeddon; % of sites that are a CMS (and it would be interesting to know which ones are not); % of sites w/ PDF forms (and tie to Rokus data + DAP usage)
 * Add a layer to the data to reflect if the result has been human verified (perhaps with a date)
 * A fetcher scan: to consume some foundational data that can be integrated into the other scans
+* find geospatial tools like https://resources.hud.gov/
 
 
 ## Other Scopes to Scan Against
