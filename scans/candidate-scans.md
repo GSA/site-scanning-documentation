@@ -86,10 +86,12 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 * A replacement for statuspage
 * Misc. ideas from Jay  -  CDNs; js Libraries - e.g. what % of the gov us using a (outdated) jQuery; 3rd Party Ads; % of sites that are PHP & Drupal and vulnerable to the drupalgeddon; % of sites that are a CMS (and it would be interesting to know which ones are not); % of sites w/ PDF forms (and tie to Rokus data + DAP usage)
+* Finding new .org, .com, .net federal websites to add to https://github.com/GSA/govt-urls
 * Add a layer to the data to reflect if the result has been human verified (perhaps with a date)
 * A fetcher scan: to consume some foundational data that can be integrated into the other scans
 * find geospatial tools like https://resources.hud.gov/
-
+* Add in a layer to offer a real, simple and usable nested list of federal agencies, a la https://github.com/unitedstates/orgchart/tree/master/wikipedia
+* Add in [bureau codes](https://resources.data.gov/resources/dcat-us/#bureauCode) 
 
 ## Other Scopes to Scan Against
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?
