@@ -6,6 +6,8 @@ Here's the programs that are currently identified as active stakeholders that ar
 
 #### Data.gov
 
+...
+
 #### The Digital Analytics Program 
 
 * We've built report pages and direct download links for DAP implementation data that the program needs.  
@@ -16,7 +18,11 @@ Here's the programs that are currently identified as active stakeholders that ar
 
 #### Search.gov 
 
+...
+
 #### USWDS Team 
+
+...
 
 #### TTS Digital Council
 
@@ -31,6 +37,10 @@ Here's the programs that are currently identified as active stakeholders that ar
 * We've built report pages and direct download links for DAP implementation data that the group needs to track agency progress.  
 * Next, we intend to:
   * Make a simple, replicatable report page that an agency can use to return DAP status for a set list of agency subdomains (i.e. their hand-curated list of 'actual websites' that leaves off staging environments, etc.)   
+
+
+~~~~~~~~~~~~~~~~~
+
 
 ## Initiated Stakeholder Relationships
 
