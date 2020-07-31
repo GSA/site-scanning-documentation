@@ -22,6 +22,8 @@ A set of links that are useful to go through when first getting to know the proj
 * v2 - [Spotlight 2.0](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/)
 * V3 - [Site Scanning Program](http://digital.gov/site-scanning)
 
+_[Full list of properties](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/properties.md)_
+
 
 ### Program Management 
 * [Issue Tracker](https://github.com/18F/Spotlight/issues)
