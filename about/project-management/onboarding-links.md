@@ -41,10 +41,11 @@ _[Full list of properties](https://github.com/18F/site-scanning-documentation/bl
 ### Granting Permissions
 * [GitHub Group](https://github.com/orgs/18F/teams/10x-site-scanning)
 * [gDrive Folder](https://drive.google.com/drive/u/1/folders/10jBbaVSWfSzyHouksFzseExKb7GAxq7e?ths=true)
-* Cloud.gov
-* Federalist
+* [Cloud.gov](https://dashboard.fr.cloud.gov/)
+* [Federalist](https://federalist.18f.gov/)
 * [Google Group (site-scanning@gsa.gov)](https://groups.google.com/u/1/a/gsa.gov/g/site-scanning)
-
+* [Google Analytics](https://www.google.com/analytics)
+* [api.data.gov](https://api.data.gov/admin)
 
 
 ======================= 
