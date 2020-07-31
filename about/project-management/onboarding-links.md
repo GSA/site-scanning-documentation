@@ -43,7 +43,8 @@ A set of links that are useful to go through when first getting to know the proj
 
 
 
-=======================
+======================= 
+
 To Add: 
 * [terms](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/terms.md)
 * [simple english system description](https://github.com/18F/Spotlight/blob/master/docs/simple-english-system-description.md)
