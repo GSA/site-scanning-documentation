@@ -29,7 +29,7 @@ _[Full list of properties](https://github.com/18F/site-scanning-documentation/bl
 * [Issue Tracker](https://github.com/18F/Spotlight/issues)
 * [gDrive folder](https://drive.google.com/drive/u/1/folders/10jBbaVSWfSzyHouksFzseExKb7GAxq7e?ths=true)
 * Slack Channel - #10x-Site-Scanning
-
+* [Draft goals and metrics](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/goals-and-metrics.md)
 
 ### Diving Deeper 
 * [System Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
