@@ -32,4 +32,4 @@ _Under construction_
 * Number of estimated labor hours saved 
 * Number of secondary stakeholders served 
 
-_Draft tracker spreadsheet [here](https://docs.google.com/spreadsheets/d/1rOU4jmFy5YhW_DTCf9E8wA-olUfM0Fye960qL43HqZo/edit?pli=1#gid=0)
+_Draft tracker spreadsheet [here](https://docs.google.com/spreadsheets/d/1rOU4jmFy5YhW_DTCf9E8wA-olUfM0Fye960qL43HqZo/edit?pli=1#gid=0)_
