@@ -51,5 +51,5 @@ _[Full list of properties](https://github.com/18F/site-scanning-documentation/bl
 ======================= 
 
 To Add: 
-* [terms](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/terms.md)
+* [terms](https://github.com/18F/site-scanning-documentation/blob/master/about/project-terms.md)
 * [simple english system description](https://github.com/18F/Spotlight/blob/master/docs/simple-english-system-description.md)
