@@ -7,12 +7,6 @@ A set of links that are useful to go through when first getting to know the proj
 * [digitaldashboard.gov](https://digitaldashboard.gov)
 * [2018 TTS Automated Metrics Memo](https://docs.google.com/document/d/1Yntar54u0nx7Cfda4IPBfvLBIb8PaDsV8mN9jyQo6Zo/edit)
 
-###  Websites 
-
-* V1 - [Spotlight 1.0](https://site-scanning.app.cloud.gov/)
-* v2 - [Spotlight 2.0](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/)
-* V3 - [Site Scanning Program](http://digital.gov/site-scanning)
-
 ### Components, by Priority 
 * [Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#readme)
   * [Candidate Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
@@ -20,6 +14,14 @@ A set of links that are useful to go through when first getting to know the proj
 * [Workflows](https://github.com/18F/site-scanning-documentation/tree/master/workflows)
 * [Report Pages](https://github.com/18F/site-scanning-documentation/tree/master/report-pages#readme)
   * [Candidate report pages](https://github.com/18F/site-scanning-documentation/blob/master/report-pages/candidate-report-pages.md)
+
+
+###  Websites 
+
+* V1 - [Spotlight 1.0](https://site-scanning.app.cloud.gov/)
+* v2 - [Spotlight 2.0](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/)
+* V3 - [Site Scanning Program](http://digital.gov/site-scanning)
+
 
 ### Program Management 
 * [Issue Tracker](https://github.com/18F/Spotlight/issues)
