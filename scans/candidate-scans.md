@@ -26,7 +26,7 @@ The list of scans that have alreadby been built and are active is [here](https:/
 ## Business Intelligence for TTS Programs
 
 ## Best practices
-* More with Lighthouse
+* More with Lighthouse (list [here](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/lighthouse.md#details))
 * Core Web Vitals
 * Performance (perhaps addressed in ^^^) 
 * Mobile-friendliness (perhaps addressed in ^^^) 
