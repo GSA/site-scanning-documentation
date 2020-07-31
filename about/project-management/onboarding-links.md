@@ -5,7 +5,7 @@ A set of links that are useful to go through when first getting to know the proj
 * [.gov export](https://github.com/GSA/data/blob/master/dotgov-domains/current-federal.csv)
 * [pulse.cio.giov (archive.org)](https://web.archive.org/web/20171114004224/https://pulse.cio.gov/) - [blogpost](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/)
 * [digitaldashboard.gov](https://digitaldashboard.gov)
-* [2018 TTS Automated Metrics Memo](https://docs.google.com/document/d/1Yntar54u0nx7Cfda4IPBfvLBIb8PaDsV8mN9jyQo6Zo/edit#heading=h.vg0bax398a34)
+* [2018 TTS Automated Metrics Memo](https://docs.google.com/document/d/1Yntar54u0nx7Cfda4IPBfvLBIb8PaDsV8mN9jyQo6Zo/edit)
 
 ###  Websites 
 
