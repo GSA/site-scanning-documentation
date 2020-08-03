@@ -14,6 +14,13 @@ https://spotlight.app.cloud.gov/api/v1/scans/uswds2/csv/?
 
 scan-website.md
 
+
+for spotlight 2.0 documentation, note this [file](https://github.com/18F/Spotlight-ui/blob/master/src/components/report-filters.js
+) and this [one](https://github.com/18F/Spotlight-ui/blob/master/src/pages/security.js), along with this [interview](https://drive.google.com/drive/u/1/folders/0B4f3E1-4As-afnB2Sm9YV0pvSmFqQURwbVlDQmdDMDRfX0lzZjFTczhsOTlGUmZmc3QzM0k).  
+
+
+
+
 ## Overview
 
 This project is in the alpha stage.  Version 1.0 will be what we are comfortable sharing widely with other agencies and will mark the transition of the project to the beta stage (where it will likely stay indefinitely).  
