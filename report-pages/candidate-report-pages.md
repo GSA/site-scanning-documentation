@@ -23,8 +23,6 @@ The list of report pages that have alreadby been built and are active is [here](
 * List of /digitalstrategy pages that aren't for CFO Act agencies, etc.
 
 
-
-
 ## General Agency Use
 
 #### Basic Inventory 
@@ -85,3 +83,7 @@ The envisioned mashup would be a table.  Optional functionality would include ex
 #### USWDS Implementation 2
 
 The same as USWDS Particpation 2, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)). 
+
+## Other
+
+* Create a lightweight browser extension that presented information about the website one was on.  ([issue](https://github.com/18F/Spotlight/issues/409))
