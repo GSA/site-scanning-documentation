@@ -86,4 +86,5 @@ The same as USWDS Particpation 2, with further columns appended with specified f
 
 ## Other
 
+* Create a powerful data querying interface, a la kabana (more details [here](https://github.com/18F/Spotlight/issues/321))
 * Create a lightweight browser extension that presented information about the website one was on.  ([issue](https://github.com/18F/Spotlight/issues/409))
