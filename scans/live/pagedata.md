@@ -29,3 +29,7 @@ Specifically, the page data scan searches the target URL for:
 * [Scan Data (JSON)](https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/)
 * [Scan Data (CSV)](https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/csv/)
 * [Scan Data for a Particular Website (e.g. 18f.gov)](https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/18f.gov)
+
+## Future Plans 
+
+* Pull out further actionable data from the machine readable files (e.g. points of contact for the data.json files?)
