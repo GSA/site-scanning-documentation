@@ -32,4 +32,5 @@ Specifically, the page data scan searches the target URL for:
 
 ## Future Plans 
 
+* Schema validation, at least for code.json and data.json 
 * Pull out further actionable data from the machine readable files (e.g. points of contact for the data.json files?)
