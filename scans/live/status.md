@@ -340,3 +340,5 @@ https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/memo/policies-
 ## Future Plans
 
 * Add searches for: data.x.gov, x.gov/developers, developer.x.gov, developers.x.gov
+* Filter for CFO Act agency status
+* Filter for agencies that are covered by a specific policy
