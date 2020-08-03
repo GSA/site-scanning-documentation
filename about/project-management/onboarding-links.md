@@ -21,6 +21,7 @@ A set of links that are useful to go through when first getting to know the proj
 * V1 - [Spotlight 1.0](https://site-scanning.app.cloud.gov/)
 * v2 - [Spotlight 2.0](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/)
 * V3 - [Site Scanning Program](http://digital.gov/site-scanning)
+* _[Mural.co visualization of the above](https://app.mural.co/t/gsa6/m/gsa6/1595872374970/a78de7393b0f870349fe6b5b6a0017d9da29106e)_
 
 _[Full list of properties](https://github.com/18F/site-scanning-documentation/blob/master/about/web-properties.md)_
 
