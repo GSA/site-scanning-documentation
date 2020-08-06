@@ -18,6 +18,9 @@ The DAP scan looks for the presence of the code snippet in a target URL's source
 * [Scan Data (CSV)](https://site-scanning.app.cloud.gov/api/v1/scans/dap/csv/)
 * [Scan Data for a Particular Website (e.g. 18f.gov)](https://site-scanning.app.cloud.gov/api/v1/scans/dap/18f.gov)
 
+## Source Code 
+
+* [GitHub](https://github.com/18F/domain-scan/blob/master/scanners/dap.py)
 
 ## Relevant Policy
 
