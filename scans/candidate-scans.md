@@ -93,6 +93,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * find geospatial tools like https://resources.hud.gov/
 * Add in a layer to offer a real, simple and usable nested list of federal agencies, a la https://github.com/unitedstates/orgchart/tree/master/wikipedia
 * Add in [bureau codes](https://resources.data.gov/resources/dcat-us/#bureauCode) 
+* add a layer of metadata if an agency has a machine-readable websites.yml file at a fixed location that would enable one to filter for that agencies list of websites.
 
 ## Other Scopes to Scan Against
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?
