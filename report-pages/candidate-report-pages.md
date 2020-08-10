@@ -88,3 +88,6 @@ The same as USWDS Particpation 2, with further columns appended with specified f
 
 * Create a powerful data querying interface, a la kabana (more details [here](https://github.com/18F/Spotlight/issues/321))
 * Create a lightweight browser extension that presented information about the website one was on.  ([issue](https://github.com/18F/Spotlight/issues/409))
+* Create a powerful per-domain view, so that you can search or filter for a specific website and get all/many of the results from the different scans for that websites.  (more notes on this [here](https://github.com/18F/Spotlight/issues/448))
+* Same as the above, but for a domain, all of the websites.  
+
