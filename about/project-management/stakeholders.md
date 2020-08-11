@@ -6,7 +6,9 @@ Here's the programs that are currently identified as active stakeholders that ar
 
 #### Data.gov
 
-
+* We've built report pages and direct download links for data hub, developer hub, and data.json data.  
+* Next, the data.gov team is considering if and how the site scanning program can be useful for powering a new version of [this dashboard](https://labs.data.gov/dashboard/).  
+  * We also need to do a quality assessment of the current scan data.  
 
 #### The Digital Analytics Program 
 
