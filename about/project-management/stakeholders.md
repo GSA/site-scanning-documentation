@@ -6,7 +6,7 @@ Here's the programs that are currently identified as active stakeholders that ar
 
 #### Data.gov
 
-...
+
 
 #### The Digital Analytics Program 
 
@@ -18,11 +18,20 @@ Here's the programs that are currently identified as active stakeholders that ar
 
 #### Search.gov 
 
-...
+* We've built report pages and direct download links for search related data that the program needs.  
+* We've solicited feedback from the search.gov team and identified from them what data they most need from us that they don't yet have.  
+* Next, we intend to:
+  * Use the results of the feedback session to expand what is scanned.  
+  * Perform a quality assessment to further refine the scan methodology.  
+
 
 #### USWDS Team 
 
-...
+* We've built report pages and direct download links for USWDS implementation data that the program needs.  
+* We've performed a quality assessment (link needed) of the USWDS scan data. 
+* Next, we intend to:
+  * Use the results of the quality assessment (link needed) to further refine the scan methodology.  
+
 
 #### TTS Digital Council
 
@@ -32,7 +41,9 @@ Here's the programs that are currently identified as active stakeholders that ar
   
 #### DigitalDashboard.gov
 
-...
+* We've solicited feedback from the digitaldashboarde.gov team and identified from them what data they most need from us that they don't yet have.  
+* First, we intend to:
+  * Restart fresh subdomain list generation.  
 
 #### GSA Digital Council 
 
