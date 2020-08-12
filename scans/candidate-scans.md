@@ -94,6 +94,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 * A replacement for statuspage
 * Misc. ideas from Jay  -  CDNs; js Libraries - e.g. what % of the gov us using a (outdated) jQuery; 3rd Party Ads; % of sites that are PHP & Drupal and vulnerable to the drupalgeddon; % of sites that are a CMS (and it would be interesting to know which ones are not); % of sites w/ PDF forms (and tie to Rokus data + DAP usage)
+* What % of federal .gov websites are hosted on Code.gov?" and/or What % of websites hosted on code.gov that utilize the USWDS (per code.gov) are correctly scanned by the web scanner?
 * Finding new .org, .com, .net federal websites to add to https://github.com/GSA/govt-urls
 * Add a layer to the data to reflect if the result has been human verified (perhaps with a date)
 * A fetcher scan: to consume some foundational data that can be integrated into the other scans
