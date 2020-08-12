@@ -4,26 +4,4 @@
 
 ## Code 
 
-* 
-## Summary 
-
-* 
-
-
-## Filters
-
-* 
-
-
-## Fields 
-
-* 
-
-## CSV Export - Fields
-
-* 
-
-
-## Underlying API - Fields
-
-* 
+* https://github.com/18F/site-scanning-dashboard/blob/main/datagov.md
