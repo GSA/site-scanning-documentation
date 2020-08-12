@@ -3,7 +3,7 @@
 * [Program Website](https://digital.gov/site-scanning) - _[code](https://github.com/GSA/digitalgov.gov/tree/main/content/guides/site-scanning)_
   * [Documentation Hub](https://github.com/18F/site-scanning-documentation)
   * [API Documentation](https://open.gsa.gov/api/spotlight-api/) - _[code](https://github.com/GSA/open-gsa-redesign/blob/master/_apidocs/spotlight-api.md)_
-  * [Report Pages](https://github.com/18F/site-scanning-documentation/tree/master/report-pages)
+  * Report Pages - [list here](https://github.com/18F/site-scanning-documentation/tree/master/report-pages)
   * Repos 
     * Site Scanning Engine - _[code](https://github.com/18F/Spotlight)_
     * [Spotlight 1.0 website](https://spotlight.app.cloud.gov/) - _[code](https://github.com/18F/Spotlight)_
