@@ -67,6 +67,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
   * For any of these scans that detect a machine readable file, copy and store in perpetuity the files themselves, so that powers that be can track trends.  
 * /socialmediaTOS - Per [this](https://digital.gov/resources/federal-compatible-terms-of-service-agreements/#for-federal-agency-points-of-contact) and [this](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2013/m-13-10.pdf)
 * more from fisma reports, as seen in [these](https://www.dhs.gov/sites/default/files/publications/FY%202018%20SAOP%20FISMA%20Metrics-508c.pdf) [questions](https://www.dhs.gov/publication/fy18-fisma-documents)
+* Required links -  About page = “About us OR About”; Contact page = “Contact us”; Accessibility = “Accessibility”; budget/perf = “Budget and Performance”; Equal employment = “No FEAR Act Data”; FOIA = “FOIA or Freedom of Information Act”; Usa.gov link; Privacy = “Privacy Policy”;  IG = “Office of Inspector General”; ?presence of a search bar by searching for the word 'search' (or in a button, or text field?)?
 
 ## Other
 * Presence of forms
