@@ -13,6 +13,7 @@ The list of scans that have alreadby been built and are active is [here](https:/
   * Replicate the data.json analysis done by the [Project Open Data Dashboard](https://labs.data.gov/dashboard/offices/qa) so that the data.gov team doesn't have to do it.   
 * For the Digital Analytics Program
   * Detect CORS policy
+  * Detect subagency filter
   * Detect misconfigurations of the DAP snippet?  
   * Detect and analyze GTM implementations
 * For the Feedback Analytics program
