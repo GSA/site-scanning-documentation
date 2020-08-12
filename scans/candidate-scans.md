@@ -39,6 +39,10 @@ The list of scans that have alreadby been built and are active is [here](https:/
 * Mobile-friendliness (perhaps addressed in ^^^) 
 * a11y: Note that the legislative branch has a specific need, spelled out [here](https://www.congress.gov/bill/116th-congress/house-resolution/756/text#toc-HCE76E2BE29E84D5D8C2611BE41C479D0).  Note that there's a similar effort at 
 https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.  
+* The entire redirect path 
+* scan for problematic or un-inclusive language
+* scan for plainlanguage
+
 
 ## Technical Analysis
 * Use of CDNs
