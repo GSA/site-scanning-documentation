@@ -5,26 +5,3 @@
 ## Code 
 
 * https://github.com/18F/site-scanning-dashboard/blob/master/codegov.md
-
-## Summary 
-
-* 
-
-
-## Filters
-
-* 
-
-
-## Fields 
-
-* 
-
-## CSV Export - Fields
-
-* 
-
-
-## Underlying API - Fields
-
-* 
