@@ -1,6 +1,6 @@
 This is a list of individual scans that _could_ be run with the Site Scanning program.  This is a brainstorming page and all ideas are welcome.  
 
-The list of scans that have alreadby been built and are active is [here](https://github.com/18F/site-scanning-documentation/tree/master/scans#README).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/scans/candidate-scans.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
+The list of scans that have alreadby been built and are active is [here](/scans#README).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/scans/candidate-scans.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
 
 ## Possibly Urgent Scans
 * Mobile Friendliness (b/c of IDEA Act dashboard needs) 
@@ -33,7 +33,7 @@ The list of scans that have alreadby been built and are active is [here](https:/
 ## Business Intelligence for TTS Programs
 
 ## Best practices
-* More with Lighthouse (list [here](https://github.com/18F/site-scanning-documentation/blob/master/scans/live/lighthouse.md#details))
+* More with Lighthouse (list [here](/scans/live/lighthouse.md#details))
 * Core Web Vitals
 * Performance (perhaps addressed in ^^^) 
 * Mobile-friendliness (perhaps addressed in ^^^) 

@@ -13,10 +13,10 @@ Here's the programs that are currently identified as active stakeholders that ar
 #### The Digital Analytics Program 
 
 * We've built report pages and direct download links for DAP implementation data that the program needs.  
-* We've performed a [quality assessment](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap-scan-6-20.md) of the DAP scan data. 
+* We've performed a [quality assessment](/scans/qa_analysis/dap-scan-6-20.md) of the DAP scan data. 
 * Next, we intend to:
   * Propose a report page at analytics.usa.gov/participation that shows current progress in implementing DAP (along the lines that pulse.cio.gov used to provide).  
-  * Use the results of the [quality assessment](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap-scan-6-20.md) to further refine the scan methodology.  
+  * Use the results of the [quality assessment](/scans/qa_analysis/dap-scan-6-20.md) to further refine the scan methodology.  
 
 #### Search.gov 
 
