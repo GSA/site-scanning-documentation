@@ -15,6 +15,10 @@ The list of report pages that have alreadby been built and are active is [here](
 * Table with all of the individual scores broken out and sortable
 * Mashup USWDS scores with Mobile Friendliness, Pagespeed Insights, Accessibility, etc. 
 
+## TTS Digital Council 
+* A USWDS dashboard for a list of websites maintained in a YML file like [this](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml) - [issue](https://github.com/18F/Spotlight/issues/650)
+* A DAP dashboard for a list of websites maintained in a YML file like [this](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml) - [issue](https://github.com/18F/Spotlight/issues/649)
+
 
 ## For OMB
 
@@ -22,6 +26,10 @@ The list of report pages that have alreadby been built and are active is [here](
 * /digitalstrategy pages for CFO Act agencies, etc.
 * List of /digitalstrategy pages that aren't for CFO Act agencies, etc.
 
+
+## GSA Digital Council 
+* A USWDS dashboard for a list of websites maintained in a YML file like [this](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)
+* A DAP dashboard for a list of websites maintained in a YML file like [this](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml) 
 
 ## General Agency Use
 
