@@ -1,6 +1,6 @@
 This is a list of individual report pages that _could_ be built using Site Scanning data.  This is a brainstorming page and all ideas are welcome.  
 
-The list of report pages that have alreadby been built and are active is [here](https://github.com/18F/site-scanning-documentation/tree/master/presentation-layers#active).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/presentation-layers/candidate-report-pages.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.  
+The list of report pages that have alreadby been built and are active is [here](/presentation-layers#active).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/presentation-layers/candidate-report-pages.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.  
 
 
 
@@ -36,7 +36,7 @@ The list of report pages that have alreadby been built and are active is [here](
 
 The envisioned mashup would be a table.  Optional functionality would include exporting as a CSV, filtering, sorting, and searching.  
 
-* A page that lists the domains owned by an agency, whether they are live, whether they redirect, and if so, where they redirect to. ([Example](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/wireframes/agency-domains-advanced-inventory-1.md))
+* A page that lists the domains owned by an agency, whether they are live, whether they redirect, and if so, where they redirect to. ([Example](/presentation-layers/wireframes/agency-domains-advanced-inventory-1.md))
 * A page that lists the domains owned by an organization within an agency, whether they are live, whether they redirect, and if so, where they redirect to.  
 * A page that lists the subdomains owned by an agency, whether they are live, whether they redirect, and if so, where they redirect to.  
 * A page that lists the subdomains owned by an organization, whether they are live, whether they redirect, and if so, where they redirect to.  
@@ -44,7 +44,7 @@ The envisioned mashup would be a table.  Optional functionality would include ex
 
 #### Advanced Inventory 2
 
-The same as Advanced Inventory 1, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)).  ([Example](https://github.com/18F/site-scanning-documentation/blob/master/presentation-layers/wireframes/agency-domains-advanced-inventory-2.md))
+The same as Advanced Inventory 1, with further columns appended with specified further metadata from another YML file ([example](https://github.com/GSA/machine-readable-TTS/blob/master/data/websites.yml)).  ([Example](/presentation-layers/wireframes/agency-domains-advanced-inventory-2.md))
 
 #### Advanced Inventory 3 
 

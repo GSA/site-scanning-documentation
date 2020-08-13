@@ -12,18 +12,18 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 
 ### About 
 
-* [Program Overview](https://github.com/18F/site-scanning-documentation/blob/master/about/about-the-program.md)
-* [Background History](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/project-history.md)
-* [Links for Onboarding Teammates](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/onboarding-links.md)
+* [Program Overview](/about/about-the-program.md)
+* [Background History](/about/project-management/project-history.md)
+* [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
 
 ### Individual Scan Documentation
-* [List of Individual Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#readme)
-* [Candidates for Future Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
+* [List of Individual Scans](/scans#readme)
+* [Candidates for Future Scans](/scans/candidate-scans.md)
 
 
 ### Individual Report Documentation
-* [List of Individual Report Pages](https://github.com/18F/site-scanning-documentation/tree/master/report-pages#readme)
-* [Candidates for Future Report Pages](https://github.com/18F/site-scanning-documentation/blob/master/report-pages/candidate-report-pages.md)
+* [List of Individual Report Pages](/report-pages#readme)
+* [Candidates for Future Report Pages](/report-pages/candidate-report-pages.md)
 
 
 ### Technical 
@@ -35,6 +35,6 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [System Diagram](https://github.com/18F/spotlight/blob/master/docs/scanner-ui.png)
 
 ### Program Management
-* [Program Management Documents](https://github.com/18F/site-scanning-documentation/tree/master/about/project-management) 
-* [Program Milestones](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/project-milestones-version-history.md)
-* [Program Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/stakeholders.md)
+* [Program Management Documents](/about/project-management) 
+* [Program Milestones](/about/project-management/project-milestones-version-history.md)
+* [Program Stakeholders](/about/project-management/stakeholders.md)

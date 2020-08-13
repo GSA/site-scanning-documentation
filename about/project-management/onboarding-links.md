@@ -1,19 +1,19 @@
 A set of links that are useful to go through when first getting to know the project 
 
 ### Background
-* [History Behind the Project](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/project-history.md)
+* [History Behind the Project](/about/project-management/project-history.md)
 * [.gov export](https://github.com/GSA/data/blob/master/dotgov-domains/current-federal.csv)
 * [pulse.cio.giov (archive.org)](https://web.archive.org/web/20171114004224/https://pulse.cio.gov/) - [blogpost](https://18f.gsa.gov/2015/06/02/taking-the-pulse-of-the-federal-governments-web-presence/)
 * [digitaldashboard.gov](https://digitaldashboard.gov)
 * [2018 TTS Automated Metrics Memo](https://docs.google.com/document/d/1Yntar54u0nx7Cfda4IPBfvLBIb8PaDsV8mN9jyQo6Zo/edit)
 
 ### Components, by Priority 
-* [Scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#readme)
-  * [Candidate Scans](https://github.com/18F/site-scanning-documentation/blob/master/scans/candidate-scans.md)
-* [Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/stakeholders.md)
-* [Workflows](https://github.com/18F/site-scanning-documentation/tree/master/workflows)
-* [Report Pages](https://github.com/18F/site-scanning-documentation/tree/master/report-pages#readme)
-  * [Candidate report pages](https://github.com/18F/site-scanning-documentation/blob/master/report-pages/candidate-report-pages.md)
+* [Scans](/scans#readme)
+  * [Candidate Scans](/scans/candidate-scans.md)
+* [Stakeholders](/about/project-management/stakeholders.md)
+* [Workflows](/workflows)
+* [Report Pages](/report-pages#readme)
+  * [Candidate report pages](/report-pages/candidate-report-pages.md)
 
 
 ###  Websites 
@@ -23,20 +23,20 @@ A set of links that are useful to go through when first getting to know the proj
 * V3 - [Site Scanning Program](http://digital.gov/site-scanning)
 * _[Mural.co visualization of the above](https://app.mural.co/t/gsa6/m/gsa6/1595872374970/a78de7393b0f870349fe6b5b6a0017d9da29106e)_
 
-_[Full list of properties](https://github.com/18F/site-scanning-documentation/blob/master/about/web-properties.md)_
+_[Full list of properties](/about/web-properties.md)_
 
 
 ### Program Management 
 * [Issue Tracker](https://github.com/18F/Spotlight/issues)
 * [gDrive folder](https://drive.google.com/drive/u/1/folders/10jBbaVSWfSzyHouksFzseExKb7GAxq7e?ths=true)
 * Slack Channel - #10x-Site-Scanning
-* [Draft goals and metrics](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/goals-and-metrics.md)
+* [Draft goals and metrics](/about/project-management/goals-and-metrics.md)
 
 ### Diving Deeper 
 * [System Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
-* [How each scan works](https://github.com/18F/site-scanning-documentation/tree/master/scans#active)
-* [Inactive scans](https://github.com/18F/site-scanning-documentation/tree/master/scans#inactive)
-* [Active Stakeholders](https://github.com/18F/site-scanning-documentation/blob/master/about/project-management/stakeholders.md)
+* [How each scan works](/scans#active)
+* [Inactive scans](/scans#inactive)
+* [Active Stakeholders](/about/project-management/stakeholders.md)
 * Phase 4 plans 
 
 ### Granting Permissions
@@ -52,5 +52,5 @@ _[Full list of properties](https://github.com/18F/site-scanning-documentation/bl
 ======================= 
 
 To Add: 
-* [terms](https://github.com/18F/site-scanning-documentation/blob/master/about/project-terms.md)
+* [terms](/about/project-terms.md)
 * [simple english system description](https://github.com/18F/Spotlight/blob/master/docs/simple-english-system-description.md)

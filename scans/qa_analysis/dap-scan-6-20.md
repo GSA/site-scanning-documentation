@@ -8,10 +8,10 @@ Compare the DAP scan data results against the [participating websites export](ht
 
 For this analysis, I'm going to just focus on the GSA agency, a medium sized agency with a large number of websites.  
 
-1. Take the pulse subdomain list (the same https.json file which is currently used by the Site Scanning program for its target URLs) [snapshot [here](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap/data-hosts-https.csv)], take the [participating websites export](https://analytics.usa.gov/data/live/sites.csv) on analytics.usa.gov [snapshot [here](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap/analytics.usa.gov-sites-export-6-20.csv)], and combine them.    Filter to just GSA.  
-2. Go to the [v1.0 spotlight website](https://spotlight.app.cloud.gov/), go to the[DAP report page](https://spotlight.app.cloud.gov/search200/dap/), filter for GSA, and export the results as a CSV [snapshot [here](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap/spotlight-1.0-export-dap-scan-6-20.csv)].  
+1. Take the pulse subdomain list (the same https.json file which is currently used by the Site Scanning program for its target URLs) [snapshot [here](/scans/qa_analysis/dap/data-hosts-https.csv)], take the [participating websites export](https://analytics.usa.gov/data/live/sites.csv) on analytics.usa.gov [snapshot [here](/scans/qa_analysis/dap/analytics.usa.gov-sites-export-6-20.csv)], and combine them.    Filter to just GSA.  
+2. Go to the [v1.0 spotlight website](https://spotlight.app.cloud.gov/), go to the[DAP report page](https://spotlight.app.cloud.gov/search200/dap/), filter for GSA, and export the results as a CSV [snapshot [here](/scans/qa_analysis/dap/spotlight-1.0-export-dap-scan-6-20.csv)].  
 3. Remove extraneous columns from both datasets and then put them side by side in [a google spreadsheet](https://docs.google.com/spreadsheets/d/1fjQ5J-Hp9bvfxz9zNqlKoOZEmSad2-S5kUrpp55dfWs/edit?pli=1#gid=1643437513), align them, and analyze the results.  
-4. A snapshot of the final comparison file and notes that informed the below can be found [here](https://github.com/18F/site-scanning-documentation/blob/master/scans/qa_analysis/dap/scan-analysis-6-20.csv). 
+4. A snapshot of the final comparison file and notes that informed the below can be found [here](/scans/qa_analysis/dap/scan-analysis-6-20.csv). 
 
 ## Results  
 

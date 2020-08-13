@@ -3,7 +3,7 @@ _Under construction_
 
 ## Internal program measures of success 
 
-* hubs are current and all links work
+* Hubs are current and all links work
   * the project documentation hub
   * digital.gov page 
   * other repos 
@@ -21,7 +21,7 @@ _Under construction_
   * search.gov
   * USWDS
   * digitaldashboard.gov
-* linked Report pages are working 
+* Linked Report pages are working 
 
 
 ## External program metrics 
