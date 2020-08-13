@@ -30,11 +30,28 @@ Detects how much USWDS code is in use on an agency website.
 ### USWDS Version
 Detects what version of USWDS code is in use on an agency website.
 
-### Relevant Policy
+
+## Report Pages
+
+* [Spotlight 2.0 Design Report](https://federalist-05e4f538-b6c2-49a0-a38c-262ad093ad6d.app.cloud.gov/site/18f/spotlight-ui/design/)
+* [Spotlight 1.0 USWDS Report](https://site-scanning.app.cloud.gov/searchUSWDS/)
+
+## Direct Data Links
+
+* [Scan Data (JSON)](https://site-scanning.app.cloud.gov/api/v1/scans/uswds2/)
+* [Scan Data (CSV)](https://site-scanning.app.cloud.gov/api/v1/scans/uswds2/csv/)
+* [Scan Data for a Particular Website (e.g. 18f.gov)](https://site-scanning.app.cloud.gov/api/v1/scans/uswds2/18f.gov)
+
+## Source Code 
+
+* [GitHub](https://github.com/18F/domain-scan/blob/master/scanners/uswds2.py)
+
+
+## Relevant Policy
 "An executive agency that creates a website or digital service that is intended for use by the public, or conducts a redesign of an existing legacy website or digital service that is intended for use by the public, shall ensure to the greatest extent practicable that any new or redesigned website, web-based form, web-based application, or digital service has a consistent experience - _[21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)_
 
 
-### Related Information
+## Related Information
 * [Curated list of sites using USWDS](https://designsystem.digital.gov/getting-started/showcase/all/)
 
 
