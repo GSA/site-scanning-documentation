@@ -30,7 +30,7 @@ Here's the programs that are currently identified as active stakeholders that ar
 #### USWDS Team 
 
 * We've built report pages and direct download links for USWDS implementation data that the program needs.  
-* We've performed a quality assessment (link needed) of the USWDS scan data. 
+* We've performed a [quality assessment](https://github.com/18F/site-scanning-documentation/blob/main/scans/qa_analysis/uswds-scan-7-20.md) of the USWDS scan data. 
 * Next, we intend to:
   * Use the results of the quality assessment (link needed) to further refine the scan methodology.  
 
