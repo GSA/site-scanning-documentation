@@ -5,7 +5,7 @@ Analyze the quality of the USWDS scan data results by having a human check them 
 
 ## Method
 
-For this analysis, the USWDS team took an export of the scan data and: 
+For this analysis, the USWDS team took an export of the scan data (from the April 22, 2020 scan) and: 
 
 1) For every positive result (a total score above 50), they manually analyzed it to see if they agree with the results.  
 
