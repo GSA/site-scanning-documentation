@@ -1,6 +1,6 @@
 This is a list of individual report pages that _could_ be built using Site Scanning data.  This is a brainstorming page and all ideas are welcome.  
 
-The list of report pages that have alreadby been built and are active is [here](/presentation-layers#active).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/presentation-layers/candidate-report-pages.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.  
+The list of report pages that have alreadby been built and are active is [here](/report-pages#active). Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/presentation-layers/candidate-report-pages.md), [filing an issue](https://github.com/18F/site-scanning/issues), or emailing us at site-scanning@gsa.gov.  
 
 
 
