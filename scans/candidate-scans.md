@@ -30,6 +30,8 @@ The list of scans that have alreadby been built and are active is [here](/scans#
   * Scan for last mod date (of the sitemap/robot files?)
   * Scan for and analyze the search.gov snippet? 
   * Search for other major site scanning implementations 
+* For USWDS 
+  * "Could we find to highlight bad, resolving urls to the same end, e.g. www1 and www"
 * For TTS
   * Which websites use which TTS services
 
