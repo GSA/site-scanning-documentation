@@ -26,7 +26,7 @@ The list of scans that have alreadby been built and are active is [here](/scans#
   * Find new social media accounts that need to be added to the registry by looking at all links in the page
   * A more radical idea - take over what it does by consuming social_media.json files.  Relevant mainly if there's ever a future need to deprecate it's primary engine.  
 * For search.gov
-  * Scan for CMS
+  * Scan for CMS (site-inspector, builtwith API)
   * Have our scan data serve a domain owner to prepare and know that they are ready to move websites or make another major change
   * Or, have a series of datapoints that get to what they look for each time.  E.g. Is domain of entries the same as the domain 
   * Scan for last mod date (of the sitemap/robot files?)
