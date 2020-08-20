@@ -1,23 +1,15 @@
 _[Under Construction - this may end up living elsewhere, possibly on the API docs]_
 
 
+All scanning data - https://site-scanning.app.cloud.gov/api/v1/domains
 
-https://site-scanning.app.cloud.gov/api/v1/domains
-
-
-https://site-scanning.app.cloud.gov/search200/csv/
-https://site-scanning.app.cloud.gov/search200/json/
-https://site-scanning.app.cloud.gov/search200/json/?200page=/code.json&present=Present&
-
-https://site-scanning.app.cloud.gov/uswds2/json/?agency="general services administration"
-https://site-scanning.app.cloud.gov/searchUSWDS/json/?agency="general services administration"
-
-https://site-scanning.app.cloud.gov/api/v1/domains/18f.gov/
-https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/
+All scanning data for one website - https://site-scanning.app.cloud.gov/api/v1/domains/18f.gov/
+All scanning data from a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/
 https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/18f.gov
 https://site-scanning.app.cloud.gov/api/v1/scans/
 https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/scans/
---
+
+
 https://site-scanning.app.cloud.gov/api/v1/scans/dap/
 https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/
 https://site-scanning.app.cloud.gov/api/v1/scans/200scanner/
@@ -109,6 +101,19 @@ https://spotlight.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimet
 https://spotlight.app.cloud.gov/search200/json/?200page=/code.json&date=None&agency=All%20Agencies&domaintype=All%20Branches&org=All%20Organizations&mimetype=application/json&present=Present&displaytype=200-codejson&domainsearch=None
 https://spotlight.app.cloud.gov/search200/csv/?200page=/code.json&date=None&agency=All%20Agencies&domaintype=All%20Branches&org=All%20Organizations&mimetype=application/json&present=Present&displaytype=200-codejson&domainsearch=None
 
+
+
+
+To Process:  
+
+
+
+https://site-scanning.app.cloud.gov/search200/csv/
+https://site-scanning.app.cloud.gov/search200/json/
+https://site-scanning.app.cloud.gov/search200/json/?200page=/code.json&present=Present&
+
+https://site-scanning.app.cloud.gov/uswds2/json/?agency="general services administration"
+https://site-scanning.app.cloud.gov/searchUSWDS/json/?agency="general services administration"
 
 
 
