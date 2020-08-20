@@ -5,6 +5,7 @@ The list of scans that have alreadby been built and are active is [here](/scans#
 ## Possibly Urgent Scans
 * Mobile Friendliness (b/c of IDEA Act dashboard needs) 
 * Core Web Vitals (interest by leadership and relevance to Google search results)
+* 3rd party services/performance/? for pages like [this](https://www.performance.gov/cx/dashboard/va/vha/).
 
 
 ## Functional Scans for TTS Programs
