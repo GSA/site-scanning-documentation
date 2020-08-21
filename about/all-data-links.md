@@ -54,37 +54,33 @@ All Privacy scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/sc
 All Third Party Services scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/scans/third_parties/csv  
 
 
-https://site-scanning.app.cloud.gov/api/v1/lists/dates/  
+List of dates of scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dates/  
   
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
+https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
 https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
 
 
 
 
 
-https://site-scanning.app.cloud.gov/api/v1/lists/dap/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/privacy/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/agencies/  
+List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/agencies/  
 
   
-https://site-scanning.app.cloud.gov/api/v1/lists/dap/domaintypes/  
-https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/200scanner/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/sitemap/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/pshtt/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/uswds2/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/lighthouse/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/privacy/agencies/  
-https://site-scanning.app.cloud.gov/api/v1/scans/third-parties/agencies/  
-
-
-
 
   
 
@@ -118,6 +114,20 @@ https://site-scanning.app.cloud.gov/search200/json/?200page=/code.json&present=P
 
 https://site-scanning.app.cloud.gov/uswds2/json/?agency="general services administration"  
 https://site-scanning.app.cloud.gov/searchUSWDS/json/?agency="general services administration"  
+
+
+broken - 
+
+
+https://site-scanning.app.cloud.gov/api/v1/lists/dap/domaintypes/  
+https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/200scanner/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/sitemap/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/pshtt/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/uswds2/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/lighthouse/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/privacy/agencies/  
+https://site-scanning.app.cloud.gov/api/v1/scans/third-parties/agencies/  
 
 
 
