@@ -50,6 +50,8 @@ Detects what version of USWDS code is in use on an agency website.
 ## Relevant Policy
 "An executive agency that creates a website or digital service that is intended for use by the public, or conducts a redesign of an existing legacy website or digital service that is intended for use by the public, shall ensure to the greatest extent practicable that any new or redesigned website, web-based form, web-based application, or digital service has a consistent experience - _[21st Century Integrated Digital Experience Act](https://www.congress.gov/bill/115th-congress/house-bill/5759/text)_
 
+## Data Quality Reviews
+* [July 2020 Review](https://github.com/18F/site-scanning-documentation/blob/main/scans/qa_analysis/uswds-scan-7-20.md)
 
 ## Related Information
 * [Curated list of sites using USWDS](https://designsystem.digital.gov/getting-started/showcase/all/)
