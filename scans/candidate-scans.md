@@ -103,6 +103,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * others possibly could be found in [here](https://github.com/ombegov/policy-v2)
 * any way to derive what the top tasks for sites might be?
 * keywords? site summaries 
+* all links on the page, to help with sunsetting websites
 * links, aa, to same site, has words 'about', 'contact', etc.
 * readability
 * more from schema.org ?
