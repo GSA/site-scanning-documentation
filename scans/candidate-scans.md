@@ -69,6 +69,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * Mozilla Observatory scans - https://observatory.mozilla.org/analyze/www.gsa.gov
 * Owasp with an eye to detecting ability to redirect (or could be done without owasp) - _[note coverage of this](https://gizmodo.com/a-year-later-u-s-government-websites-are-still-redire-1835336087)_ - a.k.a. Open Redirectors?
 * What libraries does a website pull in?  Note that CISA would be interested in this.  
+* glue records?  (note details [here](https://groups.google.com/u/1/a/gsa.gov/g/spotlight/c/b3Kkla4qrbA))
 
 
 ## Policy Compliance
