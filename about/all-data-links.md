@@ -6,10 +6,10 @@ All scanning data - https://site-scanning.app.cloud.gov/api/v1/domains
 
 All scanning data for one website - https://site-scanning.app.cloud.gov/api/v1/domains/18f.gov/  
 All scanning data from a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/  
-All scanning data for one website from a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/18f.gov  
+All scanning data for one website from a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/18f.gov
 List of active scans - https://site-scanning.app.cloud.gov/api/v1/scans/  
 List of active scans on a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/scans/  
-  
+List of dates for which there is scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dates/  
 
 All DAP scan data - https://site-scanning.app.cloud.gov/api/v1/scans/dap/  
 All Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/  
@@ -41,7 +41,6 @@ All USWDS scan data for one website - https://site-scanning.app.cloud.gov/api/v1
 All Lighthouse scan data for one website - https://site-scanning.app.cloud.gov/api/v1/scans/lighthouse/18f.gov  
 All Privacy scan data for one website - https://site-scanning.app.cloud.gov/api/v1/scans/privacy/18f.gov  
 All Third Party Services scan data for one website - https://site-scanning.app.cloud.gov/api/v1/scans/third_parties/18f.gov  
-  
 
 All DAP scan data, as a CSV - https://site-scanning.app.cloud.gov/api/v1/scans/dap/csv/  
 All Page Data scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/csv/  
@@ -53,60 +52,46 @@ All Lighthouse scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1
 All Privacy scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/scans/privacy/csv/  
 All Third Party Services scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/scans/third_parties/csv  
 
-
-List of dates of scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dates/  
-  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-https://site-scanning.app.cloud.gov/api/v1/date/2020-04-12/domains/18f.gov/  
-
-
-
-
-
 List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/agencies/  
-List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/agencies/  
+List of agencies represented in the Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/agencies/  
+List of agencies represented in the Status scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/agencies/  
+List of agencies represented in the Sitemap scan data - https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/agencies/  
+List of agencies represented in the Security scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/agencies/  
+List of agencies represented in the USWDS scan data - https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/agencies/  
+List of agencies represented in the Lighthouse scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/agencies/  
+List of agencies represented in the Privacy scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/agencies/  
+List of agencies represented in the Third Party Services scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/agencies/  
 
-  
+List of data fields in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/data/  
+List of data fields in the Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/values/data/  
+List of data fields in the Status scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/values/data/  
+List of data fields in the Sitemap scan data - https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/values/data/  
+List of data fields in the Security scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/values/data/  
+List of data fields in the USWDS scan data - https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/values/data/  
+List of data fields in the Lighthouse scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/values/data/  
+List of data fields in the Privacy scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/values/data/  
+List of data fields in the Third Party Services scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/values/data/  
 
-  
-
-https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/data/  
-https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/domain/  
-
-
-
-  
-
-
-
-https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/data/dap_detected/  
-
-
-
-https://spotlight.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimetype=application/json  
-https://spotlight.app.cloud.gov/search200/json/?200page=/code.json&date=None&agency=All%20Agencies&domaintype=All%20Branches&org=All%20Organizations&mimetype=application/json&present=Present&displaytype=200-codejson&domainsearch=None
-https://spotlight.app.cloud.gov/search200/csv/?200page=/code.json&date=None&agency=All%20Agencies&domaintype=All%20Branches&org=All%20Organizations&mimetype=application/json&present=Present&displaytype=200-codejson&domainsearch=None
-
+List of data fields in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/domain/  
+List of data fields in the Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/values/domain/  
+List of data fields in the Status scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/values/domain/  
+List of data fields in the Sitemap scan data - https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/values/domain/  
+List of data fields in the Security scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/values/domain/  
+List of data fields in the USWDS scan data - https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/values/domain/  
+List of data fields in the Lighthouse scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/values/domain/  
+List of data fields in the Privacy scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/values/domain/  
+List of data fields in the Third Party Services scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/values/domain/  
 
 
 
-To Process:  
 
 
+
+To Process: 
+
+https://site-scanning.app.cloud.gov/search200/200-codejson/?200page=/code.json&mimetype=application/json  
+https://site-scanning.app.cloud.gov/search200/json/?200page=/code.json&date=None&agency=All%20Agencies&domaintype=All%20Branches&org=All%20Organizations&mimetype=application/json&present=Present&displaytype=200-codejson&domainsearch=None
+https://site-scanning.app.cloud.gov/search200/csv/?200page=/code.json&date=None&agency=All%20Agencies&domaintype=All%20Branches&org=All%20Organizations&mimetype=application/json&present=Present&displaytype=200-codejson&domainsearch=None
 
 https://site-scanning.app.cloud.gov/search200/csv/  
 https://site-scanning.app.cloud.gov/search200/json/  
@@ -116,8 +101,9 @@ https://site-scanning.app.cloud.gov/uswds2/json/?agency="general services admini
 https://site-scanning.app.cloud.gov/searchUSWDS/json/?agency="general services administration"  
 
 
-broken - 
+broken: 
 
+https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/data/dap_detected/  
 
 https://site-scanning.app.cloud.gov/api/v1/lists/dap/domaintypes/  
 https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/agencies/  
