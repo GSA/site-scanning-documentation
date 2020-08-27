@@ -33,4 +33,4 @@ Scan process [triggered via CircleCI @ 11:45pm ET (2:45 UTC)](https://github.com
                 - Writes data from `/cache`
             - Cleans up old indices (deletes any scans older than 4 days)
             - Copies JSON from /cache into S3
-        - There’s a [rudimentary attempt](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L28) to sleep if a task errors, but the sleep is set for 600 (5 hrs). CircleCI kills processes that run longer than 5hrs, so subsequent tasks never run _[known issue-link?]_.
+        - There’s a [rudimentary attempt](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L28) to sleep if a task can't be started in Cloud.gov. The sleep is set for 10 minutes. CircleCI limits builds to 5hrs, so if a task can't be started in that timeframe those scans never run _[known issue-link?]_.
