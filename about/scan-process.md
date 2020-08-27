@@ -3,15 +3,16 @@ Scan process [triggered via CircleCI @ 11:45pm ET (2:45 UTC)](https://github.com
 - Authenticates to Cloud.gov
 - Runs [`spawn_scans.sh`](https://github.com/18F/Spotlight/blob/main/spawn_scans.sh) This script takes split domains provided by getdomains.sh and spawns concurrent cloud.gov jobs for each.
     - Runs [`getdomains.sh`](https://github.com/18F/Spotlight/blob/main/getdomains.sh)
-    This script fetches all the domains and splits them up into batches that can be used to parallelize the scanning across tasks.
-        - Retrieves current Federal [Dotgov registry](https://github.com/GSA/data/tree/master/dotgov-domains) and [Pulse](https://github.com/GSA/data/raw/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv) domains data [TODO: PLANS FOR ONGOING PULSE DATA?]
-        - Runs [`mergedomainscsv.py`]() This script merges and deduplicates the list of URLs to run scans against
-        - Exports URLs in CSV files limited to 6000 lines each into [TODO: DOCUMENT DIRECTORY/LOCATION AND FILENAME CONVENTION (e.g.`*-scan.csv`)]
-        - Each CSV file represents a `task` to run on Cloud.gov
-    - [Terminate](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L10) any active scans that are running (artifact from Lighthouse being huge) _[known issue-link?]_
-    - [`run-task`](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L22) on cloud.gov:
-        - [Sets](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L22) 1G memory, 4G disk space for each task
-          - Runs [`scan_engine.sh`](https://github.com/18F/Spotlight/blob/main/scan_engine.sh) This script is what gets the list of domains to scan, runs the scanners, collects the data, puts it into s3, and sets how long data is retained.
+    This script fetches all the domains and splits them up into batches that can be used to parallelize the scanning.
+        - Retrieves current Federal [Dotgov registry](https://github.com/GSA/data/tree/master/dotgov-domains) and [Pulse](https://github.com/GSA/data/raw/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv) domains data 
+        [TODO: PLANS FOR ONGOING PULSE DATA?]
+        - Runs [`mergedomainscsv.py`](https://github.com/18F/Spotlight/blob/main/mergedomaincsv.py) This script merges and deduplicates the list of URLs to run scans against
+            - Exports URLs in CSV files [limited to 6000 lines](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/getdomains.sh#L8) each into `/tmp/domains.csv` [TODO: DOCUMENT FILENAME CONVENTION (e.g.`*-scan.csv`)]
+            - Each CSV file represents a `task` to run on Cloud.gov
+        - [Terminate](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L10) any active scans that are running (artifact from Lighthouse being huge) _[known issue-link?]_
+        - [`run-task`](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L22) on cloud.gov:
+            - [Sets](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/spawn_scans.sh#L22) 1G memory, 4G disk space for each task
+              - Runs [`scan_engine.sh`](https://github.com/18F/Spotlight/blob/main/scan_engine.sh) This script is what gets the list of domains to scan, runs the scanners, collects the data, puts it into s3, and sets how long data is retained.
 
             - Get list of (whitelisted? flagged?) [`SCANTYPES`](https://github.com/18F/Spotlight/blob/211ffaab203985205fdf006262dea68248879656/scan_engine.sh#L13)
               - [TODO: DOCUMENT INDIVIDUAL SCAN PROCESSES]
