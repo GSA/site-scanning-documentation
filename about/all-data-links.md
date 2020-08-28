@@ -2,14 +2,19 @@ _[Under Construction - this may end up living elsewhere, possibly on the API doc
 
 _Unless otherwise mentioned, the data is from the most recent date._
 
+## Meta
+
+* Swagger -  https://site-scanning.app.cloud.gov/api/v1/
+* Meta -  https://site-scanning.app.cloud.gov/api/v1/meta/
+
+
+## Data
+
 All scanning data - https://site-scanning.app.cloud.gov/api/v1/domains  
 
 All scanning data for one website - https://site-scanning.app.cloud.gov/api/v1/domains/18f.gov/  
 All scanning data from a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/  
 All scanning data for one website from a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/domains/18f.gov
-List of active scans - https://site-scanning.app.cloud.gov/api/v1/scans/  
-List of active scans on a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/scans/  
-List of dates for which there is scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dates/  
 
 All DAP scan data - https://site-scanning.app.cloud.gov/api/v1/scans/dap/  
 All Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/scans/pagedata/  
@@ -52,6 +57,12 @@ All Lighthouse scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1
 All Privacy scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/scans/privacy/csv/  
 All Third Party Services scan data, as a CSV  - https://site-scanning.app.cloud.gov/api/v1/scans/third_parties/csv  
 
+## Lists
+
+List of active scans - https://site-scanning.app.cloud.gov/api/v1/scans/  
+List of active scans on a certain date - https://site-scanning.app.cloud.gov/api/v1/date/2020-05-16/scans/  
+List of dates for which there is scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dates/  
+
 List of agencies represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/agencies/  
 List of agencies represented in the Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/agencies/  
 List of agencies represented in the Status scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/agencies/  
@@ -61,6 +72,16 @@ List of agencies represented in the USWDS scan data - https://site-scanning.app.
 List of agencies represented in the Lighthouse scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/agencies/  
 List of agencies represented in the Privacy scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/agencies/  
 List of agencies represented in the Third Party Services scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/agencies/  
+
+List of domaintypes (branches) represented in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/domaintypes/
+List of domaintypes (branches) represented in the Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/domaintypes/  
+List of domaintypes (branches) represented in the Status scan data - https://site-scanning.app.cloud.gov/api/v1/lists/200scanner/domaintypes/  
+List of domaintypes (branches) represented in the Sitemap scan data - https://site-scanning.app.cloud.gov/api/v1/lists/sitemap/domaintypes/  
+List of domaintypes (branches) represented in the Security scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pshtt/domaintypes/  
+List of domaintypes (branches) represented in the USWDS scan data - https://site-scanning.app.cloud.gov/api/v1/lists/uswds2/domaintypes/  
+List of domaintypes (branches) represented in the Lighthouse scan data - https://site-scanning.app.cloud.gov/api/v1/lists/lighthouse/domaintypes/  
+List of domaintypes (branches) represented in the Privacy scan data - https://site-scanning.app.cloud.gov/api/v1/lists/privacy/domaintypes/  
+List of domaintypes (branches) represented in the Third Party Services scan data - https://site-scanning.app.cloud.gov/api/v1/lists/third-parties/domaintypes/  
 
 List of data fields in the DAP scan data - https://site-scanning.app.cloud.gov/api/v1/lists/dap/values/data/  
 List of data fields in the Page Data scan data - https://site-scanning.app.cloud.gov/api/v1/lists/pagedata/values/data/  
