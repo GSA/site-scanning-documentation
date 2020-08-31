@@ -2,30 +2,30 @@
 ## Existing Endpoints
 
 
-/api/v1/
-/api/v1/date/{date}/domains/
-/api/v1/date/{date}/domains/{domain}/
-/api/v1/date/{date}/domains/{domain}/{scantype}/
-/api/v1/date/{date}/lists/{scantype}/agencies/
-/api/v1/date/{date}/lists/{scantype}/domaintypes/
-/api/v1/date/{date}/lists/{scantype}/values/{field}/
-/api/v1/date/{date}/lists/{scantype}/values/{field}.{subfield}/
-/api/v1/date/{date}/scans/
-/api/v1/date/{date}/scans/{scantype}/
-/api/v1/date/{date}/scans/{scantype}/{domain}/
-/api/v1/domains/
-/api/v1/domains/{domain}/
-/api/v1/domains/{domain}/{scantype}/
-/api/v1/lists/dates/
-/api/v1/lists/{scantype}/agencies/
-/api/v1/lists/{scantype}/domaintypes/
-/api/v1/lists/{scantype}/values/{field}/
-/api/v1/lists/{scantype}/values/{field}.{subfield}/
-/api/v1/meta/
-/api/v1/scans/
-/api/v1/scans/{scantype}/
-/api/v1/scans/{scantype}/{domain}/ 
-
+/api/v1/  
+/api/v1/date/{date}/domains/  
+/api/v1/date/{date}/domains/{domain}/  
+/api/v1/date/{date}/domains/{domain}/{scantype}/  
+/api/v1/date/{date}/lists/{scantype}/agencies/  
+/api/v1/date/{date}/lists/{scantype}/domaintypes/  
+/api/v1/date/{date}/lists/{scantype}/values/{field}/  
+/api/v1/date/{date}/lists/{scantype}/values/{field}.{subfield}/  
+/api/v1/date/{date}/scans/  
+/api/v1/date/{date}/scans/{scantype}/  
+/api/v1/date/{date}/scans/{scantype}/{domain}/  
+/api/v1/domains/  
+/api/v1/domains/{domain}/  
+/api/v1/domains/{domain}/{scantype}/  
+/api/v1/lists/dates/  
+/api/v1/lists/{scantype}/agencies/  
+/api/v1/lists/{scantype}/domaintypes/  
+/api/v1/lists/{scantype}/values/{field}/  
+/api/v1/lists/{scantype}/values/{field}.{subfield}/  
+/api/v1/meta/  
+/api/v1/scans/  
+/api/v1/scans/{scantype}/  
+/api/v1/scans/{scantype}/{domain}/   
+  
 
 ## Examples, reordered
 
