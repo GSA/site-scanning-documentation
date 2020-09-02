@@ -53,6 +53,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * The entire redirect path 
 * scan for problematic or un-inclusive language
 * scan for plainlanguage
+* scan for a11y, for tts programs as part of their before-you-ship (there's interest)
 
 
 ## Technical Analysis
