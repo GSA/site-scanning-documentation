@@ -6,6 +6,8 @@
 ### To Consider
 * https always? there's 3k http
 * www always? there's 1.7k www
+* Decide whether to have both x.gov and www.x.gov in the results? Etc. 
+
 
 
 
@@ -16,12 +18,15 @@
 _(bold = farther in the future, i.e. not in the upcoming sprints)_
 
 
+* Scan date/time (when data is written)
 * Target URL
 * Base Domain of Target URL
 * Final URL 
 * Base Domain of Final URL
 * Whether Final URL is live
 * Whether the Target URL Redirects
+* Whether the Final URL has the same base domain as the Target URL
+* Whether the Final URL has the same base website as the Target URL
 * Agency Owner of Target URL Base Domain 
 * Office Owner of Target URL Base Domain 
 * Branch (of government)
@@ -30,12 +35,44 @@ _(bold = farther in the future, i.e. not in the upcoming sprints)_
 * Redirect Path 
 * Server Codes at Each Step of the Redirect Path 
 * _Agency Website/Bureau Website?_
+* _Staging/etc?_
 * Bureau Code
 * Agency Code
 * Uses Search.gov/Data.gov/Code.gov/Login.gov/DAP/USWDS/api.data.gov/feedback analytics/(anything else?)
+* Is Target URL/redirecttest-foo-bar-baz live? 
+* File sizE of the final URL
 
 
 
+* Whether DAP is detected at the final URL
+* What DAP parameters are detected at the final URL
+
+
+
+for 16 /somethings, 
+
+* Final URL for x.gov/something
+* Base Domain of Final URL for x.gov/something
+* Whether Final URL is live for x.gov/something
+* Whether the Target URL Redirects for x.gov/something
+* Whether the Final URL has the same base domain as the Target URL for x.gov/something
+* Whether the Final URL has the same base website as the Target URL for x.gov/something
+* Server Status Code of the Target URL for x.gov/something
+* Server Status Code of the Final URL for x.gov/something
+* Redirect Path for x.gov/something
+* Filesize of the final URL 
+
+For the 7 JSON /somethings. 
+
+* how many objects are in them
+
+
+
+
+??
+* human verified DAP?
+* human verified USDWS (unnecc b/c of dataset of known users...) 
+* human verified etc, etc. 
 
 
 ## Considered but rejected
@@ -56,7 +93,10 @@ _(bold = farther in the future, i.e. not in the upcoming sprints)_
 
 ## To Consider 
 
+* should status scanner use final urls for x.gov in x.gov/something?
 *  should Agency Website/Bureau Website be aligned to final or target url? 
 * Should the dataset revolve around target urls or final urls - target
 * Whether to scan for and analyze http/https/www/non-www for every target URL.  Answer: no. 
 * Consider whether to incorporate the agency website/bureau code/tts customer/etc data fields in the subdomain generation process or in the scans.  
+* Does 'Whether the Final URL has the same base website as the Target URL' make sense?  
+
