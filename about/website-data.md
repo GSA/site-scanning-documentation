@@ -1,3 +1,6 @@
+consistent Final vs final 
+
+
 
 ## Subdomain-generation process...
 * ...
@@ -40,8 +43,8 @@ _(bold = farther in the future, i.e. not in the upcoming sprints)_
 * Agency Code
 * Uses Search.gov/Data.gov/Code.gov/Login.gov/DAP/USWDS/api.data.gov/feedback analytics/(anything else?)
 * Is Target URL/redirecttest-foo-bar-baz live? 
-* File sizE of the final URL
-* SEO components - og date, unique title, Main element
+* File size of the final URL
+* SEO components of final URL - og date, unique title, Main element
 
 
 * Whether DAP is detected at the final URL
@@ -71,6 +74,7 @@ For the /sitemap.xml
   
 * number of items   
 * number of pdf urls   
+* ? (following into other sitemaps)?
   
 For the /robots.txt  
 * crawl delay   
@@ -108,6 +112,7 @@ more along the lines of the federal org chart...
 * Office Owner of Final URL Base Domain 
 * Canonical URL
 * Alternative URLs
+* Program Code?
 
 
 
