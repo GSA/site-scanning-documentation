@@ -41,16 +41,16 @@ _(bold = farther in the future, i.e. not in the upcoming sprints)_
 * Uses Search.gov/Data.gov/Code.gov/Login.gov/DAP/USWDS/api.data.gov/feedback analytics/(anything else?)
 * Is Target URL/redirecttest-foo-bar-baz live? 
 * File sizE of the final URL
-
+* SEO components - og date, unique title, Main element
 
 
 * Whether DAP is detected at the final URL
 * What DAP parameters are detected at the final URL
 
-
-
-for 16 /somethings, 
-
+  
+  
+for 16 /somethings,   
+  
 * Final URL for x.gov/something
 * Base Domain of Final URL for x.gov/something
 * Whether Final URL is live for x.gov/something
@@ -61,18 +61,43 @@ for 16 /somethings,
 * Server Status Code of the Final URL for x.gov/something
 * Redirect Path for x.gov/something
 * Filesize of the final URL 
-
-For the 7 JSON /somethings. 
-
-* how many objects are in them
-
-
-
-
-??
+* MIMEtype of the final URL
+  
+For the 7 JSON /somethings.   
+  
+* how many objects are in them  
+  
+For the /sitemap.xml  
+  
+* number of items   
+* number of pdf urls   
+  
+For the /robots.txt  
+* crawl delay   
+* sitemap locations   
+  
+  
+For the /data.json   
+  
+* conforms_to  
+  
+  
+For the /code.json   
+* measurementtype  
+* version  
+  
+  
+## Under consideration 
 * human verified DAP?
 * human verified USDWS (unnecc b/c of dataset of known users...) 
 * human verified etc, etc. 
+* number of datasets, releases in data.json/code.json 
+
+* content length?
+
+* Go ahead and think about other active scans now or no?
+
+
 
 
 ## Considered but rejected
