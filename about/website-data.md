@@ -88,6 +88,9 @@ For the /code.json
   
   
 ## Under consideration 
+
+more along the lines of the federal org chart...
+
 * human verified DAP?
 * human verified USDWS (unnecc b/c of dataset of known users...) 
 * human verified etc, etc. 
