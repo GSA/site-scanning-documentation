@@ -5,7 +5,7 @@ This section documents active and inactive scans that have been built for the Si
 * [DAP Scan](/scans/live/DAP.md) - Checks for and analyzes the Digital Analytics Program snippet
 * [Lighthouse Scan](/scans/live/lighthouse.md) - Runs numerous website health and best practice check 
 * [Page Data Scan](/scans/live/pagedata.md) - Analyzes characteristics of the hosted files themselves
-* [Privacy Page Scan](/scans/live/privacy.md) - Analyzes agency privacty policy pages
+* [Privacy Page Scan](/scans/live/privacy.md) - Analyzes agency privacy policy pages
 * [Security Scan](/scans/live/security.md) - Analyzes https and related website security 
 * [Sitemap Scan](/scans/live/sitemap.md) - Checks for and analyzes robots.txt and sitemaps.xml files
 * [Status Scan](/scans/live/status.md) - Checks for the presence or absence of a webpage or file
