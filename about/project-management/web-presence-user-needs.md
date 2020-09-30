@@ -17,8 +17,13 @@ This is to document the users and their needs for determining the content and fu
     - Alter existing scans (or suggest improvements) 
 
 
-## Web Presence Proposal (and crossmatch to needs)
+## What Web Components Are Needed to Match User Needs
 * Program 'Website' 
-* Scan links and a non-intimidating entry point to filtering the data
+* Non-intimidating entry point to the scan links and filtering the data
 * Deep technical documentation for accessing and understanding the data 
 * Code documentation 
+
+## Possible Solutions
+
+1) Digital.gov presence for the program website.  ?? for the non-intimidating entry point.  API Docs and GitHub repos for the technical documentation and code documentation
+
