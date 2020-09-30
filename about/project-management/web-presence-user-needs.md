@@ -17,5 +17,8 @@ This is to document the users and their needs for determining the content and fu
     - Alter existing scans (or suggest improvements) 
 
 
-
-...
+## Web Presence Proposal (and crossmatch to needs)
+* Program 'Website' 
+* Scan links and a non-intimidating entry point to filtering the data
+* Deep technical documentation for accessing and understanding the data 
+* Code documentation 
