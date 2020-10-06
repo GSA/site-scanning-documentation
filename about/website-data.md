@@ -22,6 +22,7 @@ _(bold = farther in the future, i.e. not in the upcoming sprints)_
 
 
 * Scan date/time (when data is written)
+* Count
 * Target URL
 * Base Domain of Target URL
 * Final URL 
