@@ -47,6 +47,7 @@ Base URL: https://api.gsa.gov/technology/site-scanning/v1/
 ### Questions 
 
 * Should each data call contain all data fields for that Target URL?  Or should there be a way to call in X or Y set of data fields (e.g. expanded basic data, /something data, basic scan results, details of each scan results, programs (e.g. dap, uswds, what else)) 
+* If we had a /websites level to the API, should we have an (e.g.) /agencies level.  If so, what data fields would it have?
 
 ### Other Ideas
 
