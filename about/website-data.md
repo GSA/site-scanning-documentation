@@ -1,18 +1,19 @@
 
 ## Proposed Data to be Gathered for each Website 
 
+**[Bold = proposed for basic data]**
 
-* Scan date/time (when data is written)
-* Count
-* Target URL
-* Base Domain of Target URL
-* Final URL 
-* Base Domain of Final URL
-* Whether Final URL is live
-* Whether the Target URL Redirects
+* **Scan date/time (when data is written)**
+* **Count**
+* **Target URL**
+* **Base Domain of Target URL**
+* **Final URL** 
+* **Base Domain of Final URL**
+* **Whether Final URL is live**
+* **Whether the Target URL Redirects**
 * Whether the Final URL has the same base domain as the Target URL
 * Whether the Final URL has the same base website as the Target URL
-* Agency Owner of Target URL Base Domain 
+* **Agency Owner of Target URL Base Domain**
 * Office Owner of Target URL Base Domain 
 * Branch (of government)
 * Server Status Code of the Target URL
@@ -22,7 +23,7 @@
 * Website Type, e.g. Agency Website/Bureau Website/etc.  (derived from a static separate dataset)
 * URL Category, e.g. Staging/Not-A-Website/etc. (derived from a static separate dataset)
 * OMB Agency/Bureau Code (derived from a static separate dataset)
-* Uses Search.gov/Data.gov/Code.gov/Login.gov/DAP/USWDS/api.data.gov/feedback analytics/(anything else?)
+* Customer of X TTS service, e.g. Search.gov, Data.gov, Code.gov, Login.gov, DAP, USWDS, api.data.gov, feedback analytics, etc. (derived from a static separate dataset)
 * Is Target URL/redirecttest-foo-bar-baz live? 
 * File size of the Final URL
 * SEO components of Final URL - og date, unique title, Main element
