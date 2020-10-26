@@ -8,7 +8,8 @@ This is to document the users and their needs for determining the content and fu
   - Gov/agency engineers (Engineers)
 
 ## User Needs
-  - Managers need to find high-level information about Site Scanning to understand what it is, what it does, and how the program solves their agency’s needs around site information.  - User Stories:
+  - Managers need to find high-level information about Site Scanning to understand what it is, what it does, and how the program solves their agency’s needs around site information.  
+  - User Stories:
     - As an agency program manager/director, I want to know how the Site Scanning program works so that I can decide if the data can be helpful to the agency team members working on our sites.
     - As an agency web manager, I want to know all of the sites that my agency hosts so that I can understand the breadth and depth of our web presence.
     - As an agency web manager, I want to see a list of my sites need modernization so that I can prioritize those efforts accodingly.
