@@ -2,13 +2,7 @@ An important principle of the Site Scanning project is to identify specific prog
 
 ## Active Stakeholder Relationships
 
-Here's the programs that are currently identified as active stakeholders that are using our scans and from whom we are soliciting feedback on each iteration.  
-
-#### Data.gov
-
-* We've built report pages and direct download links for data hub, developer hub, and data.json data.  
-* Next, the data.gov team is considering if and how the site scanning program can be useful for powering a new version of [this dashboard](https://labs.data.gov/dashboard/).  
-  * We also need to do a quality assessment of the current scan data.  
+Here's the programs that are currently identified as active stakeholders that are using our scans and from whom we are soliciting feedback on each iteration.   
 
 #### The Digital Analytics Program 
 
@@ -60,6 +54,13 @@ Here's the programs that are currently identified as active stakeholders that ar
 ## Initiated Stakeholder Relationships
 
 These programs have been identified as possible stakeholders and we have solicited feedback and created at least one MVP product for them.  We need to check back in with the team to re-evaluate what would be useful to them.  
+
+
+#### Data.gov
+
+* We've built report pages and direct download links for data hub, developer hub, and data.json data.  
+* Next, the data.gov team is considering if and how the site scanning program can be useful for powering a new version of [this dashboard](https://labs.data.gov/dashboard/).  
+  * We also need to do a quality assessment of the current scan data. 
 
 #### Code.gov team
 
