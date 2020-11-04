@@ -33,23 +33,34 @@ https://github.com/18F/site-scanning-documentation/blob/main/about/website-data.
 
 Base URL: https://api.gsa.gov/technology/site-scanning/v1/  
 
+* `/` - Goes to a Swagger page
 * `/websites` - Paginated return of all websites with the 8-15 'basic website data' fields included
-* `/websites/datacategory` _[Where datacategory indicates which set of further data fields]_ - Paginated return of all websites with the basic data fields as well as with a set of the further data fields (see question 1 below).  
+* ~`/websites/datacategory` _[Where datacategory indicates which set of further data fields]_ - Paginated return of all websites with the basic data fields as well as with a set of the further data fields (see question 1 below).~
   * `datacategory` options = `expanded-general`, `locations`, `what else?`
 * `/websites/targeturl/` _[Where targeturl indicates a specific Target URL]_ - The 'basic website data' fields for the target URL, e.g. `18f.gsa.gov`
-* `/websites/targeturl/datacategory` - The 'basic website data' fields for the target URL that also includes a set of further data fields. 
+* ~`/websites/targeturl/datacategory` - The 'basic website data' fields for the target URL that also includes a set of further data fields.~ 
+
 
 **Query Options:**  
 
-...
+...  
+count...  
+page...  
 
 
 ### Questions 
 
-* Should each data call contain all data fields for that Target URL?  Or should there be a way to call in X or Y set of data fields (e.g. expanded basic data, /something data, basic scan results, details of each scan results, programs (e.g. dap, uswds, what else)) 
-* If we had a /websites level to the API, should we have an (e.g.) /agencies level.  If so, what data fields would it have?
-* Should we include in an API return for the basic data a data field that indicates that there's more data and links off to it.  
-* What should we have at the root endpoint`/`? I currently have this returning documentation about the API. 
+
+* Affirm what exact queryability functionality should exist.  
+* What does the json actually look? - Settled - all of the fields and flat.  
+
+
+* ~Should each data call contain all data fields for that Target URL?  Or should there be a way to call in X or Y set of data fields (e.g. expanded basic data, /something data, basic scan results, details of each scan results, programs (e.g. dap, uswds, what else))~ 
+* ~If we had a /websites level to the API, should we have an (e.g.) /agencies level.  If so, what data fields would it have?~
+* ~Should we include in an API return for the basic data a data field that indicates that there's more data and links off to it.~  
+* Should querying ability include options like `begins with`, `contains`, range, etc.?
+* Should we have some sort of sorting ability?
+
 
 ### Other Ideas
 
