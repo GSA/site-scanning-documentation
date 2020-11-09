@@ -9,8 +9,24 @@ This page serves as the dictionary of terms for the Site Scanning program.  Want
 * Federal Web Presence - 
 
 
-
-
 #### List of Terms to Add
 
-...
+- Target URL
+- Final URL
+- MIMEtype
+- Open Graph
+- Redirect
+- Domain
+- Subdomain
+- Website
+- Robots.txt
+- Sitemap.txt
+- SEO
+- 404 (test?)
+- Classes
+- Tables
+- CSS
+- Response code
+- Agency Code
+- Bureau Code
+
