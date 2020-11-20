@@ -15,7 +15,7 @@ Here's the programs that are currently identified as active stakeholders that ar
 #### Search.gov 
 
 * We've built report pages and direct download links for search related data that the program needs.  
-* We've solicited feedback from the search.gov team and identified from them what data they most need from us that they don't yet have.  
+* We've [solicited feedback from the search.gov team](https://docs.google.com/document/d/1bdRXgFYRGBASjJ5FEFwLUEksJIk8YxbTSGspVxrdctU/edit) and identified from them what data they most need from us that they don't yet have.  
 * Next, we intend to:
   * Use the results of the feedback session to expand what is scanned.  
   * Perform a quality assessment to further refine the scan methodology.  
