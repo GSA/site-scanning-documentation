@@ -6,6 +6,7 @@ The list of scans that have alreadby been built and are active is [here](/scans#
 * Mobile Friendliness (b/c of IDEA Act dashboard needs) 
 * Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)])
 * 3rd party services/performance/? for pages like [this](https://www.performance.gov/cx/dashboard/va/vha/).
+* Search scan from Carter, as search.gov might use it.  
 
 
 ## Functional Scans for TTS Programs
