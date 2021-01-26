@@ -1,11 +1,10 @@
+_Under Construction.  The archived content of this repo can be found [here](https://github.com/18F/site-scanning-documentation/tree/main/about/version-1-archive)._
+  
+
+
 # Site Scanning program documentation
 
-This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/spotlight).  All feedback should be filed in the [issue backlog](https://github.com/18F/spotlight/issues), but the team can also be reached at site-scanning@gsa.gov.
-
-
-|  [About](https://github.com/18F/site-scanning-documentation#about) |  [The Scans](https://github.com/18F/site-scanning-documentation#individual-scan-documentation) | [Reports](https://github.com/18F/site-scanning-documentation#individual-report-documentation)  | [Technical](https://github.com/18F/site-scanning-documentation#technical)  |  [Program Management](https://github.com/18F/site-scanning-documentation#program-management) |
-|---|---|---|---|---|
-
+This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/site-scanning).  All feedback should be filed in the [issue backlog](https://github.com/18F/site-scanning/issues), but the team can also be reached at site-scanning@gsa.gov.
 
 
 ## Program Index 
@@ -16,23 +15,18 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [Background History](/about/project-management/project-history.md)
 * [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
 
-### Individual Scan Documentation
-* [List of Individual Scans](/scans#readme)
-* [Candidates for Future Scans](/scans/candidate-scans.md)
+### Understanding the Data
+* Understanding the Scan Data
+* Data Dictionary
+* How The Scanning Works
 
-
-### Individual Report Documentation
-* [List of Individual Report Pages](/report-pages#readme)
-* [Candidates for Future Report Pages](/report-pages/candidate-report-pages.md)
+### Common Workflows
+* ...
 
 
 ### Technical 
 
-* [Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
-* [Devops](https://github.com/18F/spotlight/blob/master/docs/DevOps.md)
-* [Install](https://github.com/18F/spotlight/blob/master/docs/INSTALL.md)
-* [Permissions](https://github.com/18F/spotlight/blob/master/docs/permissions.md)
-* [System Diagram](https://github.com/18F/spotlight/blob/master/docs/scanner-ui.png)
+...
 
 ### Program Management
 * [Program Management Documents](/about/project-management) 
