@@ -7,6 +7,7 @@ The list of scans that have alreadby been built and are active is [here](/scans#
 * Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)])
 * 3rd party services/performance/? for pages like [this](https://www.performance.gov/cx/dashboard/va/vha/).
 * Search scan from Carter, as search.gov might use it.  
+* high level numbers - e.g. what percent of each agency's sites have implemented DAP; avg. USWDS total; etc.
 
 
 ## Functional Scans for TTS Programs
