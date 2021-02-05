@@ -20,12 +20,14 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [Program Overview](/about/about-the-program.md)
 * [Background History](/about/project-management/project-history.md)
 * [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
+* [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
 
 ### Program Management
 * [Roadmap](/about/project-management/roadmap.md)
 * [Program Management Documents](/about/project-management) 
 * [Program Milestones](/about/project-management/project-milestones-version-history.md)
 * [Program Stakeholders](/about/project-management/stakeholders.md)
+* [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about/project-management)
 
 ### Technical 
 
