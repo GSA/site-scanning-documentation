@@ -14,6 +14,7 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 * [Data Dictionary](/pages/data-dictionary.md)
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
+* [Popular Workflows/Common Tasks](https://github.com/18F/site-scanning-documentation/blob/main/pages/workflows.md)
 
 ### About 
 
