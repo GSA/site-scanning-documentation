@@ -1,5 +1,5 @@
 # Data Dictionary
-(Download as a CSV)
+([Download as a CSV](https://github.com/18F/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv))
 
 | name  | field id  | description  | data type | queryable   |
 | ----- | --------- | ------------ | --------- | ----------- |
