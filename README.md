@@ -10,7 +10,6 @@ This repository is for the documentation for Site Scanning, a 10x project.  The 
 ## Documentation Index 
 
 ### Understanding the Data
-* [How The Scanning Works](/pages/how-the-scans-work.md)
 * [Data Dictionary](/pages/data-dictionary.md)
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
