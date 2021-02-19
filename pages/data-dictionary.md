@@ -1,4 +1,5 @@
 # Data Dictionary
+(Download as a CSV)
 
 | name  | field id  | description  | data type | queryable   |
 | ----- | --------- | ------------ | --------- | ----------- |
