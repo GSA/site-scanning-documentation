@@ -1,0 +1,57 @@
+name,field id,description,data type,queryable
+Target URL,target_url,URL scanned,string,"yes, exact, via path"
+Target URL - Base Domain,target_url_domain,Base Domain of Target URL,string,"yes, exact"
+Final URL,final_url,"Final URL after redirects (301, 302)",string,future - exact
+Final URL - Base Domain,final_url_domain,Base Domain of Final URL (after redirects),string,"yes, exact"
+Final URL - MIMEtype,final_url_MIMEtype,MIMEtype of Final URL,string,no
+Final URL - Live,final_url_live,Does the Final URL return a 2** response,boolean,"yes, exact"
+Target URL - Redirects,target_url_redirects,Does the Target URL Redirect,boolean,"yes, exact"
+Final URL/Target URL - Same Base Domain,final_url_same_domain,Is the Final URL in same base domain as the Target URL,boolean,no
+Final URL/Target URL - Same Website,final_url_same_website,Is the Final URL has the same base website as the Target URL,boolean,no
+Target URL Base Domain - Agency Owner,target_url_agency_owner,Agency Owner of Target URL Base Domain,string,"yes, exact"
+Target URL Base Domain - Bureau Owner,target_url_bureau_owner,Office Owner of Target URL Base Domain,string,"yes, exact"
+Final URL - Status Code,final_url_status_code,Server Status Code of the Final URL,numeric,future - exact or range
+Target URL - 404 Test,target_url_404_test,"does it return 404 correctly, or false 200 (""page not found"")",boolean,no
+Target URL Base Domain - Agency Code,target_url_agency_code,Agency Code of the Agency Owner of the Target Domain,string,no
+Target URL Base Domain - Bureau Code,target_url_bureau_code,2-digit Bureau Code of the Bureau Owner of the Target Domain,string,no
+Scan Status,scan_status,Status of the core scan,string,"yes, exact (from a set of specified values)"
+Scan Date,scan_date,Scan Date/time (when data is written),datetime,no
+Solutions Scan Status,solutions_scan_status,Status of the GSA/TTS/Solutions program scan,string,no
+USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
+USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
+USWDS - Merriweather Font,uswds_merriweather_font_in_css,Presence of Merriweather font files in CSS,integer,no
+USWDS - Public Sans Font,uswds_public_sans_font_in_css,Presence of Public Sans font files in CSS,integer,no
+USWDS - Source Sans Font,uswds_source_sans_font_in_css,Presence of Source Sans font files in CSS,integer,no
+USWDS - Tables,uswds_tables,Presence of `<table>` tags in HTML (negative indicator of USWDS),integer,no
+USWDS - Count,uswds_count,Calculated likelihood a site is using USWDS,integer,future - exact or range or greatthan/lessthan
+USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
+USWDS - Inline CSS,uswds_inline_css,Presence of `.usa-` class in in-line CSS,integer,no
+USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
+USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,integer,no
+USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,string,no
+USWDS - Version,uswds_version,"Presence of Version of USWDS, if available",integer,no
+DAP - Final URL,dap_detected_final_url,Is DAP detected at the final URL,boolean,"yes, exact"
+DAP - Parameters - Final URL,dap_parameters_final_url,List of DAP parameters detected at the Final URL,object,no
+SEO - article:published_time - Final URL,og_article_published_time_final_url,Open Graph article published time,datetime,no
+SEO - article:modified_time - Final URL,og_article_modified_time_final_url,Open Graph article modified time,datetime,no
+SEO - og:title - Final URL,og_title_final_url,Open Graph page title,string,no
+SEO - og:description - Final URL,og_description_final_url,Open Graph description,string,no
+SEO - Main Element - Final URL,main_element_final_url,Presence of <main> element,boolean,no
+Robots.txt - Final URL,robots_txt_final_url,Final URL,string,no
+Robots.txt - Final URL - Live,robots_txt_final_url_live,Is the Final URL live,boolean,no
+Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the Target URL Redirect,boolean,no
+Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize,Filesize of the final URL (bytes),numeric,no
+Robots.txt - Crawl Delay,robots_txt_crawl_delay,Robot.txt specified crawl delay (seconds),numeric,no
+Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,List of additional sitemap locations (URLs),array,no
+Robots.txt - Detected,robots_txt_detected,Is the Final URL live and does it end with robots.txt,boolean,no
+Robots.txt - MIMEtype,robots_txt_final_url_MIMEtype,MIMEtype of the Robots.txt Final URL,string,no
+Sitemap.xml - Final URL,sitemap_xml_final_url,Final URL,string,no
+Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Is the Final URL live,string,no
+Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the Target URL Redirect,boolean,no
+Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize,Filesize of the Final URL,numeric,no
+Sitemap.xml - MIMEtype,sitemap_xml_final_url_MIMEtype,MIMEtype of the Sitemap.xml Final URL,string,no
+Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in sitemap.xml,numeric,no
+Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs in sitemap.xml with .pdf extension,numeric,no
+Sitemap.xml - Detected,sitemap_xml_detected,Is the Final URL live and does it end with sitemap.xml,boolean,no
+Third Party - Service Domains,third_party_service_domains,List of novel third party domains detected,list,no
+Third Party - Count,third_party_count,Count of novel third party domains detected,numeric,no
