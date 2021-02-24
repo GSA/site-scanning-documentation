@@ -1,4 +1,4 @@
-_Under Construction.  The archived content of this repo can be found [here](https://github.com/18F/site-scanning-documentation/tree/main/about/version-1-archive)._
+_The archived content of this repo can be found [here](https://github.com/18F/site-scanning-documentation/tree/main/about/version-1-archive)._
   
 
 
