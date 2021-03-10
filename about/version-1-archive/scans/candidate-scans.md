@@ -1,3 +1,10 @@
+
+
+## This page is out of date - new page for this is [here](https://github.com/18F/site-scanning-documentation/blob/main/pages/candidate-scans.md).  
+
+
+
+
 This is a list of individual scans that _could_ be run with the Site Scanning program.  This is a brainstorming page and all ideas are welcome.  
 
 The list of scans that have alreadby been built and are active is [here](/scans#README).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/scans/candidate-scans.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
