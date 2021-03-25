@@ -96,6 +96,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * Required links -  About page = “About us OR About”; Contact page = “Contact us”; Accessibility = “Accessibility”; budget/perf = “Budget and Performance”; Equal employment = “No FEAR Act Data”; FOIA = “FOIA or Freedom of Information Act”; Usa.gov link; Privacy = “Privacy Policy”;  IG = “Office of Inspector General”; ?presence of a search bar by searching for the word 'search' (or in a button, or text field?)?
 
 ## Other
+* Blacklight scans
 * Presence of forms
   * Analyze the source code of eage page that loads in order to detect forms and/or PRA numbers.  (a lot more technical detail on ways to do this [here](https://github.com/18F/Spotlight/issues/438))
 * 404 pages - Try to use the detection of 404 pages to discover broken links or websites.  For instance, one idea could be to take ever link found in a page and then check links for their status.  
