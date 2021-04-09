@@ -4,7 +4,7 @@ _The archived content of this repo can be found [here](https://github.com/18F/si
 
 # Site Scanning program documentation
 
-This repository is for the documentation for Site Scanning, a 10x project.  The main project repository is [here](https://github.com/18F/site-scanning).  All feedback should be filed in the [issue backlog](https://github.com/18F/site-scanning/issues), but the team can also be reached at site-scanning@gsa.gov.
+This repository is for the documentation for the Site Scanning program.  The main project repository is [here](https://github.com/GSA/site-scanning).  All feedback should be filed in the [issue backlog](https://github.com/GSA/site-scanning/issues), but the team can also be reached at site-scanning@gsa.gov.
 
 
 ## Documentation Index 
