@@ -12,8 +12,10 @@ Someone suggests how a new scan field could be useful to a potential stakeholder
 The most important initial questions we ask are:
 * Exactly what is being scanned for
 * Who is the specific stakeholder that might want to use this
+* How useful might the stakeholder find this (and how often)
 * What are some methods for scanning this and how hard or easy do we think it would be
-* ...
+
+If we identify a likely stakeholder that there's some reason to think would gain real value from the new data fields and if the possible value may warrant the anticipated effort and difficulty of creating the new scan, then we'll look to proceed to the next step.  
 
 #### C) Build a minimum viable product
 
