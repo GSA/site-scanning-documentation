@@ -19,11 +19,11 @@ If we identify a likely stakeholder that there's some reason to think would gain
 
 #### C) Build a minimum viable product
 
-...
+The next step is then actually engineering in the production system a first pass at scanning for this data. The focus is on quickest path to a partial or full implementation, so that we can get the resulting data in front of the potential stakeholder for feedback as soon as possible since our initial understanding of the need is still mostly hypothesis.  
 
 #### D) Get feedback 
 
-...
+We anticipate that when we first show the ...
 
 #### E) Iterate
 
