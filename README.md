@@ -6,7 +6,7 @@ This repository is for the documentation for the Site Scanning program.  The mai
 ## Documentation Index 
 
 ### Understanding the Data
-* [Data Dictionary](/pages/data-dictionary.md)
+* [Data Dictionary](/data/Site_Scanning_Data_Dictionary.csv)
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
 * [Popular Workflows/Common Tasks](https://github.com/18F/site-scanning-documentation/blob/main/pages/workflows.md)
