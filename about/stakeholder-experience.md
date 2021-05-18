@@ -23,7 +23,7 @@ The next step is then actually engineering in the production system a first pass
 
 #### D) Get feedback 
 
-We anticipate that when we first show the ...
+We anticipate that when we first show it to the potential stakeholder, the prototype scan data will be a true MVP.  
 
 #### E) Iterate
 
