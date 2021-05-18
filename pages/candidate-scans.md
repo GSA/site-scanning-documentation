@@ -80,6 +80,8 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 * What libraries does a website pull in?  Note that CISA would be interested in this.  
 * glue records?  (note details [here](https://groups.google.com/u/1/a/gsa.gov/g/spotlight/c/b3Kkla4qrbA))
 
+### Privacy
+ * Referrer policy (affects what is sent to 3rd parties)
 
 ## Policy Compliance
 * /foia pages
