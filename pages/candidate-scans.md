@@ -99,6 +99,7 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 
 ## Other
 * Blacklight scans
+* Whether a subdomain is a website or a system.
 * Presence of forms
   * Analyze the source code of eage page that loads in order to detect forms and/or PRA numbers.  (a lot more technical detail on ways to do this [here](https://github.com/18F/Spotlight/issues/438))
 * 404 pages - Try to use the detection of 404 pages to discover broken links or websites.  For instance, one idea could be to take ever link found in a page and then check links for their status.  
