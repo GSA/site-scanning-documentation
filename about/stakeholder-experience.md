@@ -4,13 +4,13 @@
 In order to try and keep the work of the Site Scanning program grounded, we've evolved a process for how new scans are added and future work is prioritized.  The goal is to make sure that the program is generating data that real stakeholders actually need.  With a [long list](https://github.com/18F/site-scanning-documentation/blob/main/pages/candidate-scans.md) of _ideas_ for further scans, we hope that the below process keeps us focused and ensures that we are good stewards of our stakeholders' time. 
 
 * [Hypothesis](#a-hypothesis)
-* Research
-* Prototype
-* Feedback
-* Iterate
-* Feedback
-* User Acceptance
-* Sustain
+* [Research](#b-research)
+* [Prototype](#c-build-a-minimum-viable-product-to-prototype)
+* [Feedback](#d-get-feedback)
+* [Iterate](#e-iterate)
+* [Feedback](#f-get-feedback)
+* [User Acceptance](#g-user-acceptance)
+* [Sustain](#h-ensure-long-term-sustainability)
 
 #### A) Hypothesis
 
