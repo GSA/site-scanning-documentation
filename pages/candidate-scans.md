@@ -43,6 +43,8 @@ The list of scans that have alreadby been built and are active is [here](/scans#
 * For USWDS 
   * Try to highlight bad, resolving urls to the same end, e.g. www1 and www
   * Ingest a YML file of their known users to indicate human-verified
+* For login.gov 
+  * presence of a sign in form
 * For TTS
   * Which websites use which TTS services
     * E.g. for federalist, "curl --head https://<URL>" and examining the result for the line that says "X-Server: Federalist"
