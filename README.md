@@ -19,19 +19,14 @@ This repository is for the documentation for the Site Scanning program.  The mai
 * [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
 
 ### Program Management
-* [Roadmap](/about/project-management/roadmap.md)
 * [Program Management Documents](/about/project-management) 
-* [Program Milestones](/about/project-management/project-milestones-version-history.md)
-* [Program Stakeholders](/about/project-management/stakeholders.md)
-* [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about/project-management)
+* [Program Stakeholders](/about/stakeholders.md)
+* [Other Resources](/about/project-management#readme)
 
 ### Technical 
 
-* Architecture
-* Devops
-* Install
-* Permissions
-* System Diagram
+* [Code](https://github.com/GSA/site-scanning-engine)
+* [Architecture](https://github.com/GSA/site-scanning-engine/blob/main/docs/architecture/README.md)
   
   
 _The archived content of this repo can be found [here](https://github.com/18F/site-scanning-documentation/tree/main/about/version-1-archive)._
