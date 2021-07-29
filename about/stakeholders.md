@@ -38,12 +38,12 @@ Here's the programs that are currently identified as active stakeholders that ar
 #### DigitalDashboard.gov
 
 * We've solicited feedback from the digitaldashboarde.gov team and identified from them what data they most need from us that they don't yet have.  
-* First, we intend to:
+* Next, we intend to:
   * Restart fresh subdomain list generation.  
 
 #### GSA Digital Council 
 
-* We've built report pages and direct download links for DAP implementation data that the group needs to track agency progress.  
+* We've built report pages and direct download links for DAP and USWDS implementation data that the group needs to track agency progress.  
 * Next, we intend to:
   * Make a simple, replicatable report page that an agency can use to return DAP status for a set list of agency subdomains (i.e. their hand-curated list of 'actual websites' that leaves off staging environments, etc.)   
 
@@ -58,39 +58,27 @@ These programs have been identified as possible stakeholders and we have solicit
 
 #### Data.gov
 
-* We've built report pages and direct download links for data hub, developer hub, and data.json data.  
-* Next, the data.gov team is considering if and how the site scanning program can be useful for powering a new version of [this dashboard](https://labs.data.gov/dashboard/).  
-  * We also need to do a quality assessment of the current scan data. 
+* We prototyped a scan to detect data hubs, developer hubs, and data.json files and shared the results with the team.  
+* They were interested but did not have an active need for the data, so further work is paused.  One idea that remains under consideration would be to use the site scanning program to power a new version of [this dashboard](https://labs.data.gov/dashboard/).  
+* In the meantime though, they do not have an active need for the data, so further work has been paused.  
 
 #### Code.gov team
 
+* We prototyped a scan to detect code.json files and shared the results with the team.  
+* They were interested but did not have an active need for the data, so further work has been paused.  
+
+
 #### api.data.gov team
+
+* We prototyped a scan to detect developer hubs and shared the results with the team.  
+* They were interested but did not have an active need for the data, so further work has been paused.  
 
 #### Feedback Analytics team
 
+* We prototyped a scan to detect third party services and shared the results with the team.  
+* The potential uses remain under investigation.  
+
 #### GSA Chief Privacy Officer
 
-
-=================
-
-## Candidate Stakeholders 
-
-Below are potential future stakeholders of scans that we could potentially engage in order to solicit feedback and further refine this program's offerings to support.  
-
-#### OMB OFCIO
-
-#### Agency Digital Directors
-
-#### Chief Data Officers Council
-
-#### Chief Privacy Officers Council 
-
-#### GAO 
-
-#### Office of Shared Solutions & Performance Improvement
-
-
-
-
-
-
+* We prototyped a scan to detect privacy pages and to provide analysis of them.  
+* They were interested but did not have an active need for the data, so further work has been paused.  
