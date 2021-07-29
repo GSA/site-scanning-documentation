@@ -26,7 +26,7 @@ Details on what data fields are available can be found in the [data dictionary](
 
 Active user research and iterative development is ongoing.  User interviews and the experience of the wider Technology Transformation Services team has built up [a substantial list of ideas for further development](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).  
 
-The [decision process that has informed which scans have been built so far]((https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md) remains in use to decide which prioritize which scans to build in order to expand the data that is available about these websites.  
+The [decision process that has informed which scans have been built so far](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md) remains in use to decide which prioritize which scans to build in order to expand the data that is available about these websites.  
 
 
 ## How to Engage Us Further
