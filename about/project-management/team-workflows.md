@@ -7,3 +7,10 @@
 
 * File a pull request to [this repo](https://github.com/GSA/open-gsa-redesign/blob/master/_apidocs/site-scanning-api.md).  A preview can be seen at `https://federalist-64fd1e70-2b76-44eb-96ef-4bc40b4b3bac.app.cloud.gov/preview/18f/site-scanning-query-builder/NAME-OF-BRANCH/`.  When the pull request is ready, comment on it to that effect and email api.ciss@gsa.gov with a link to the PR to ask them to merge.  
 
+## Updating the Target URL list
+* Overwrite [this file](https://github.com/GSA/data/blob/master/dotgov-websites/site-scanning/current-federal-subdomains.csv) with the new CSV
+* Log into cloud.gov in the terminal
+* Run `./cloudgov-run-ingest.sh` at the bash prompt
+
+
+
