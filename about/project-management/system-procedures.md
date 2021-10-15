@@ -10,7 +10,8 @@ The System owner and current project developers need commit rights to Site Scann
 
 Specifically, current developers are managed as the `FAS - TTS - Solutions - Site Scanning` team in the GSA GitHub organization.   
 
-Both of the adding and removing processes should be initiated by creating an issue in the project's [issue tracker](https://github.com/GSA/site-scanning/issues).  Any one can create the issue, but the system owner should be the one who addresses and closes it.  
+Both of the adding and removing processes should be initiated by creating an issue in the project's [issue tracker](https://github.com/GSA/site-scanning/issues).  Any one can create the issue, but the system owner should be the one who addresses and closes it. They directly track the presence and departure of staff, but also receive a monthly separation report to ensure that departing staff are tracked and addressed.  
+
 
 These accounts are created for developers that need access to contribute code and deploy apps.
 
@@ -22,7 +23,7 @@ These accounts are created for developers that need access to contribute code an
  
 ### Cloud.gov Access 
 
-The System owner and current project developers need cloud.gov access to Site Scanning.  The system owner (currently Gray Brooks) manages this access, granting access to new project developers when they come onboard and removing access when they leave.  
+The System owner and current project developers need cloud.gov access to Site Scanning.  The system owner (currently Gray Brooks) manages this access, granting access to new project developers when they come onboard and removing access when they leave.  They directly track the presence and departure of staff, but also receive a monthly separation report to ensure that departing staff are tracked and addressed.  
 
 Specifically, current developers are [granted](https://cloud.gov/docs/apps/managing-teammates/) OrgManager rights to `gsatts-sitescan`.  
 
