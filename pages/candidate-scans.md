@@ -13,7 +13,7 @@ The list of scans that have alreadby been built and are active is [here](/scans#
 * 3rd party services/performance/? for pages like [this](https://www.performance.gov/cx/dashboard/va/vha/).
 * Search scan from Carter, as search.gov might use it.  
 * high level numbers - e.g. what percent of each agency's sites have implemented DAP; avg. USWDS total; etc.
-* ipv6 (given new policy around it).  D. Harrity may be a user.  
+* ipv6 (given new policy around it).  D. Harrity may be a user.  [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
 
 
 ## Functional Scans for TTS Programs
