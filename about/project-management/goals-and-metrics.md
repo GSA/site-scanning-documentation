@@ -25,9 +25,9 @@ _Under construction_
 
 
 ## External program metrics 
-* website traffic on our presentation layers - (need to install GA and DAP on all of them so that we can track.  
-* Data downloads - (through GA, but might not be applicable if actually everything is just API calls, in which case on the next one would cover everything.  
-* API calls - (We should integrate api.data.gov [@nickm in #api-data-gov can help with all of this, as much as the team needs]; we should migrate so that everywhere the API is consumed, even internally in our own presentation layers, it is going through the proxy and using an API key.  This way, we're tracking the entirety of how the API is being used.  @nickm can elaborate, but we'd even want to disable traffic directly to the API server except through the proxy's IP addresses)
+* Website traffic  
+* Data downloads 
+* API calls
 * Number of TTS programs being served 
 * Number of estimated labor hours saved 
 * Number of secondary stakeholders served 
