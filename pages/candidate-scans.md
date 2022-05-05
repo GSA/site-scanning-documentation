@@ -1,19 +1,11 @@
-
-
-
-
-
 This is a list of individual scans that _could_ be run with the Site Scanning program.  This is a brainstorming page and all ideas are welcome.  
 
-The list of scans that have alreadby been built and are active is [here](/scans#README).  Feel free to suggest further ideas by [editing this page](https://github.com/18F/site-scanning-documentation/edit/master/scans/candidate-scans.md), [filing an issue](https://github.com/18F/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
+The list of scans that have alreadby been built and are active [can be found here](https://digital.gov/guides/site-scanning/understand-the-data/).  Feel free to suggest further ideas though by [editing this page](https://github.com/GSA/site-scanning-documentation/edit/main/pages/candidate-scans.md), [filing an issue](https://github.com/GSA/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
 
-## Possibly Urgent Scans
-* Mobile Friendliness (b/c of IDEA Act dashboard needs) 
-* Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)])
-* 3rd party services/performance/? for pages like [this](https://www.performance.gov/cx/dashboard/va/vha/).
-* Search scan from Carter, as search.gov might use it.  
-* high level numbers - e.g. what percent of each agency's sites have implemented DAP; avg. USWDS total; etc.
-* ipv6 (given new policy around it).  D. Harrity may be a user.  [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
+
+## In the Works 
+
+* IPv6 (given new policy around it).  D. Harrity may be a user.  [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
 
 
 ## Functional Scans for TTS Programs
@@ -30,11 +22,14 @@ The list of scans that have alreadby been built and are active is [here](/scans#
 * For the Feedback Analytics program
   * Priority - page load time, other performance data.
   * Monitor the adoption of Touchpoints.
+  * Presence of forms
+    * Analyze the source code of eage page that loads in order to detect forms and/or PRA numbers.  (a lot more technical detail on ways to do this [here](https://github.com/18F/Spotlight/issues/438))
 * For the US Digital Registry
   * Maybe some way to validate or authenticate offical government social media accounts? 
   * Find new social media accounts that need to be added to the registry by looking at all links in the page
   * A more radical idea - take over what it does by consuming social_media.json files.  Relevant mainly if there's ever a future need to deprecate it's primary engine.  
 * For search.gov
+  * Implement the search scan that Carter built for them internally
   * Scan for CMS (site-inspector, builtwith API)
   * Have our scan data serve a domain owner to prepare and know that they are ready to move websites or make another major change
   * Or, have a series of datapoints that get to what they look for each time.  E.g. Is domain of entries the same as the domain 
@@ -46,18 +41,22 @@ The list of scans that have alreadby been built and are active is [here](/scans#
   * Ingest a YML file of their known users to indicate human-verified
 * For login.gov 
   * presence of a sign in form
+  * which signup form solution is used
+  * whether the form employs 2FA
 * For TTS
   * Which websites use which TTS services
     * E.g. for federalist, "curl --head https://<URL>" and examining the result for the line that says "X-Server: Federalist"
+  * high level numbers - e.g. what percent of each agency's sites have implemented DAP; avg. USWDS total; etc.
+  * incorporate DAP analytics
 
 
 ## Business Intelligence for TTS Programs
 
 ## Best practices
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details))
-* Core Web Vitals
+* Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)])
 * Performance (perhaps addressed in ^^^) 
-* Mobile-friendliness (perhaps addressed in ^^^) 
+* Mobile-friendliness (perhaps addressed in ^^^)  - also, note possible IDEA Act dashboard needs
 * a11y: Note that the legislative branch has a specific need, spelled out [here](https://www.congress.gov/bill/116th-congress/house-resolution/756/text#toc-HCE76E2BE29E84D5D8C2611BE41C479D0).  Note that there's a similar effort at 
 https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.  
 * The entire redirect path 
@@ -68,7 +67,6 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 
 ## Technical Analysis
 * Use of CDNs
-* CMS
 
 
 ## Security
@@ -104,13 +102,12 @@ https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
 ## Other
 * Blacklight scans
 * Whether a subdomain is a website or a system.
-* Presence of forms
-  * Analyze the source code of eage page that loads in order to detect forms and/or PRA numbers.  (a lot more technical detail on ways to do this [here](https://github.com/18F/Spotlight/issues/438))
+* 3rd party services/performance/? for pages like [this](https://web.archive.org/web/20200716162116/https://www.performance.gov/cx/dashboard/va/vha/).
 * 404 pages - Try to use the detection of 404 pages to discover broken links or websites.  For instance, one idea could be to take ever link found in a page and then check links for their status.  
 * Well known services hosted by webservers:  [more info here](https://en.wikipedia.org/wiki/List_of_/.well-known/_services_offered_by_webservers) and [here](https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml)
 * /security.txt ?
 * Bad SEO/website management in the form of duplicative URLs to the same webpage, e.g. with and without and www., or 2 domains that are CNAMED to the same thing.  
-* data for GSA's privacy dashboard - https://github.com/18f/privacy-dashboard
+* Data for GSA's privacy dashboard - https://github.com/18f/privacy-dashboard
 * Social media pages: Uncover agency's social media pages for inclusion in the [U.S. Digital Registry](https://digital.gov/services/u-s-digital-registry/).
 * HTML Metadata: Uncover HTML metadata, which could help to populate sub-domain scanning capabilities.
 * Others from https://policy.cio.gov/.
