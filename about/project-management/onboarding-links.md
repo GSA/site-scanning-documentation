@@ -10,21 +10,21 @@ A set of links that are useful to go through when first getting to know the proj
 ### Components, by Priority 
 * [Scans](https://digital.gov/guides/site-scanning/understand-the-data/)
   * [Candidate Scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md)
-* [Stakeholders](/about/project-management/stakeholders.md)
+* [Stakeholders](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholders.md)
 
 
 ###  Websites 
 
 * [Program Website](https://digital.gov/site-scanning)
 * [API Documentation](https://open.gsa.gov/api/site-scanning-api/)
-* [Program Documentation](https://github.com/18F/site-scanning-documentation)
+* [Program Documentation](https://github.com/gsa/site-scanning-documentation)
 * [Project Repository](https://github.com/GSA/site-scanning)
 
 ### Program Management 
 * [Issue Tracker](https://github.com/GSA/site-scanning/issues)
 * [gDrive folder](https://drive.google.com/drive/u/1/folders/10jBbaVSWfSzyHouksFzseExKb7GAxq7e?ths=true)
 * Slack Channel - #Site-Scanning
-* [Draft goals and metrics](/about/project-management/goals-and-metrics.md)
+* [Draft goals and metrics](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/goals-and-metrics.md)
 
 ### Granting Permissions
 * [GitHub Group](https://github.com/orgs/18F/teams/10x-site-scanning)
@@ -39,11 +39,6 @@ A set of links that are useful to go through when first getting to know the proj
 ======================= 
 
 To Add: 
-* [terms](/about/project-terms.md)
-* [simple english system description](https://github.com/18F/Spotlight/blob/master/docs/simple-english-system-description.md)
-* ## Diving Deeper 
-* [System Architecture](https://github.com/18F/spotlight/blob/master/docs/Architecture.md)
-* [How each scan works](/scans#active)
-* [Active Stakeholders](/about/project-management/stakeholders.md)
-* Phase 4 plans 
+* [terms](https://github.com/GSA/site-scanning-documentation/blob/main/pages/terms.md)
+
 
