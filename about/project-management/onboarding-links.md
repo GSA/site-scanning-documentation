@@ -23,7 +23,7 @@ A set of links that are useful to go through when first getting to know the proj
 ### Program Management 
 * [Issue Tracker](https://github.com/GSA/site-scanning/issues)
 * [gDrive folder](https://drive.google.com/drive/u/1/folders/10jBbaVSWfSzyHouksFzseExKb7GAxq7e?ths=true)
-* Slack Channel - #10x-Site-Scanning
+* Slack Channel - #Site-Scanning
 * [Draft goals and metrics](/about/project-management/goals-and-metrics.md)
 
 ### Granting Permissions
