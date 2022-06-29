@@ -31,6 +31,3 @@ This project is in ALPHA and the API is under active development, so may change 
 * [Code](https://github.com/GSA/site-scanning-engine)
 * [Architecture](https://github.com/GSA/site-scanning-engine/blob/main/docs/architecture/README.md)
   
-  
-_The archived content of this repo can be found [here](https://github.com/18F/site-scanning-documentation/tree/main/about/version-1-archive)._
-  
