@@ -18,13 +18,17 @@ This project is in ALPHA and the API is under active development, so may change 
 * [Program Overview](/about/about-the-program.md)
 * [Background History](/about/project-management/project-history.md)
 * [10 Minute Walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md)
+* [Questions That Site Scanning Answers](https://github.com/GSA/site-scanning-documentation/blob/main/about/questions-we-answer.md)
+* [Candidate Scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md)
+* [How Candidate Scans Become Active Scans](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md)
+* [Program Stakeholders](/about/stakeholders.md)  
 * [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
 
 ### Program Management
-* [Program Management Documents](/about/project-management) 
-* [Program Stakeholders](/about/stakeholders.md)  
+* [Goals and Metrics](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/goals-and-metrics.md)
 * [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
-* [Other Resources](/about/project-management#readme)
+* [Presentation Slides](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/Site%20Scanning%20Overview%20-%20Brief%20Version.pdf) 
+* [Other Resources](/about/project-management)
 
 ### Technical 
 
