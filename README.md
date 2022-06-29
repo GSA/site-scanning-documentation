@@ -17,7 +17,7 @@ This project is in ALPHA and the API is under active development, so may change 
 
 * [Program Overview](/about/about-the-program.md)
 * [Background History](/about/project-management/project-history.md)
-* [10 minute walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md)
+* [10 Minute Walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md)
 * [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
 
 ### Program Management
