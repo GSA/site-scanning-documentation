@@ -12,18 +12,18 @@ This project is in ALPHA and the API is under active development, so may change 
 * [Data Dictionary](/data/Site_Scanning_Data_Dictionary.csv)
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
-* [Popular Workflows/Common Tasks](https://github.com/18F/site-scanning-documentation/blob/main/pages/workflows.md)
 
 ### About 
 
 * [Program Overview](/about/about-the-program.md)
 * [Background History](/about/project-management/project-history.md)
-* [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
+* [10 minute walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md)
 * [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
 
 ### Program Management
 * [Program Management Documents](/about/project-management) 
-* [Program Stakeholders](/about/stakeholders.md)
+* [Program Stakeholders](/about/stakeholders.md)  
+* [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
 * [Other Resources](/about/project-management#readme)
 
 ### Technical 
