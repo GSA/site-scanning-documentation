@@ -13,19 +13,21 @@ Target URL Base Domain - Bureau Owner,target_url_bureau_owner,Office Owner of Ta
 Target URL Base Domain - Branch,target_url_branch,Branch of Government of the Agency Owner of Target URL Base Domain,string,"yes, exact"
 Final URL - Status Code,final_url_status_code,Server Status Code of the Final URL,numeric,no
 Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly, or give a false 200 (""page not found"")?",boolean,no
-Target URL Base Domain - Agency Code,target_url_agency_code,Agency Code of the Agency Owner of the Target URL Base Domain,string,no
-Target URL Base Domain - Bureau Code,target_url_bureau_code,Bureau Code of the Bureau Owner of the Target URL - Base Domain,string,no
 Scan Date,scan_date,Scan Date/time (when data is written),datetime,no
 Primary Scan Status,primary_scan_status,"Status of the scan of the Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Not Found Scan Status,not_found_scan_status,"Status of the 404 Test scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
+IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
+Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the website was sourced from the Federal .Gov Domains list",boolean,no
+Source List - Digital Analytics Program,source_list_dap,"Whether the website was sourced from the list of Digital Analytics Program websites",boolean,no
+Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the website was sourced from the pulse.cio.gov snapshot",boolean,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
-USWDS - Merriweather Font,uswds_merriweather_font_in_css,Presence of Merriweather font files in CSS,integer,no
-USWDS - Public Sans Font,uswds_public_sans_font_in_css,Presence of Public Sans font files in CSS,integer,no
-USWDS - Source Sans Font,uswds_source_sans_font_in_css,Presence of Source Sans font files in CSS,integer,no
+USWDS - Merriweather Font,uswds_merriweather_font,Presence of Merriweather font files in CSS,integer,no
+USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
+USWDS - Source Sans Font,uswds_source_sans_font,Presence of Source Sans font files in CSS,integer,no
 USWDS - Tables,uswds_tables,Presence of `<table>` tags in HTML (negative indicator of USWDS),integer,no
 USWDS - Count,uswds_count,Calculated likelihood a site is using USWDS,integer,no
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
@@ -57,7 +59,6 @@ Sitemap.xml - MIMEtype,sitemap_xml_final_url_mimetype,MIMEtype of the `sitemap.x
 Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the Final URL of the `sitemap.xml` (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in `sitemap.xml`,numeric,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs in `sitemap.xml` with `.pdf` extension,numeric,no
-IPv6, dns_ipv6,Presence of an AAAA record,boolean,no
 Third Party - Service Domains,third_party_service_domains,List of novel third party domains detected,list,no
 Third Party - Count,third_party_service_count,Count of novel third party domains detected,numeric,no
 Login - Detected,login_detected,List of login indicators detected at the Final URL,object,no
