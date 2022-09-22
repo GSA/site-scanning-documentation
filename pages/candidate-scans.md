@@ -133,5 +133,5 @@ The list of scans that have alreadby been built and are active [can be found her
 ## Other Scopes to Consider Scanning Against
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?
 * Create individual add-on lists for individual scans that would allow people to append further urls to scan to the target list for that scan.
-* Reach out to .mil again to see if they are interested.  
+* Reach out to .mil again to see if they are interested.  Note this [list]([url](https://www.defense.gov/Resources/Military-Departments/DOD-Websites/)).  
 * Integrating [the non-.gov and non-.mil websites](https://github.com/GSA/govt-urls/blob/master/2_govt_urls_federal_only.csv).
