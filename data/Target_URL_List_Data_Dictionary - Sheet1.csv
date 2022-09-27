@@ -1,0 +1,11 @@
+name,field id,description,data type
+Target URL,target_url,URL to be scanned,string
+Target URL - Base Domain,target_url_domain,Base Domain of Target URL,string
+Branch of Government,branch,Branch of Government of the Agency Owner of Base Domain        ,string
+Agency,agency,Agency Owner of Base Domain,string
+Agency Code,agency_code,Agency Code of the Agency Owner of the Base Domain,string
+Bureau,bureau,Office Owner of Base Domain	,string
+Bureau Code,bureau_code,Bureau Code of the Office Owner of the Base Domain,string
+Source List - Federal Domains,source_list_federal_domains,Whether the website was sourced from the Federal .Gov Domains list	,boolean
+Source List - DAP,source_list_dap,Whether the website was sourced from the list of Digital Analytics Program websites	,boolean
+Source List - Pulse,source_list_pulse,Whether the website was sourced from the pulse.cio.gov snapshot	,boolean
