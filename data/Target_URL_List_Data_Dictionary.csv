@@ -9,3 +9,4 @@ Bureau Code,bureau_code,Bureau Code of the Office Owner of the Base Domain,strin
 Source List - Federal Domains,source_list_federal_domains,Whether the website was sourced from the Federal .Gov Domains list	,boolean
 Source List - DAP,source_list_dap,Whether the website was sourced from the list of Digital Analytics Program websites	,boolean
 Source List - Pulse,source_list_pulse,Whether the website was sourced from the pulse.cio.gov snapshot	,boolean
+Source List - Manually Added,source_manually_added,Whether the website was sourced from the manually added list, boolean
