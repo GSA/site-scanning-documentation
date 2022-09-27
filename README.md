@@ -9,7 +9,8 @@ This project is in ALPHA and the API is under active development, so may change 
 ## Documentation Index 
 
 ### Understanding the Data
-* [Data Dictionary](/data/Site_Scanning_Data_Dictionary.csv)
+* [Data Dictionary for the Site Scanning data](/data/Site_Scanning_Data_Dictionary.csv)
+* [Data Dictionary for the Target URL List](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
 
