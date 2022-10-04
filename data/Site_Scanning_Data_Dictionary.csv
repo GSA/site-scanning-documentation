@@ -11,9 +11,9 @@ Final URL/Target URL - Same Website,final_url_same_website,Is the Final URL has 
 Target URL Base Domain - Agency Owner,target_url_agency_owner,Agency Owner of Target URL Base Domain,string,"yes, exact"
 Target URL Base Domain - Bureau Owner,target_url_bureau_owner,Bureau Owner of Target URL Base Domain,string,"yes, exact"
 Target URL Base Domain - Branch,target_url_branch,Branch of Government of the Agency Owner of Target URL Base Domain,string,"yes, exact"
-Final URL - Status Code,final_url_status_code,Server Status Code of the Final URL,numeric,no
+Final URL - Status Code,final_url_status_code,Server status code of the Final URL,numeric,no
 Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly, or give a false 200 (""page not found"")?",boolean,no
-Scan Date,scan_date,Scan Date/time (when data is written),datetime,no
+Scan Date,scan_date,Scan date/time (when data is written),datetime,no
 Primary Scan Status,primary_scan_status,"Status of the scan of the Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Not Found Scan Status,not_found_scan_status,"Status of the 404 Test scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
@@ -35,7 +35,7 @@ USWDS - Inline CSS,uswds_inline_css,Presence of `.usa-` class in in-line CSS,int
 USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
 USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,integer,no
 USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,string,no
-USWDS - Version,uswds_version,"Presence of Version of USWDS, if available",integer,no
+USWDS - Version,uswds_version,"Presence of version of USWDS, if available",integer,no
 SEO - article:published_time - Final URL,og_article_published_final_url,Open Graph article published time,datetime,no
 SEO - article:modified_time - Final URL,og_article_modified_final_url,Open Graph article modified time,datetime,no
 SEO - og:title - Final URL,og_title_final_url,Open Graph page title,string,no
@@ -45,7 +45,7 @@ Robots.txt - Final URL,robots_txt_final_url,"`Robots.txt` Final URL after redire
 Robots.txt - Detected,robots_txt_detected,Is the `robots.txt` Final URL live and does it end with `robots.txt`?,boolean,no
 Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
 Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
-Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server Status Code of the `robots.txt` Final URL,numeric,no
+Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server status code of the `robots.txt` Final URL,numeric,no
 Robots.txt - MIMEtype,robots_txt_final_url_mimetype,MIMEtype of the `robots.txt` Final URL,string,no
 Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the Final URL of the `robots.txt` (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
@@ -54,7 +54,7 @@ Sitemap.xml - Final URL,sitemap_xml_final_url,"`Sitemap.xml` Final URL after red
 Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap.xml` Final URL live and does it end with `sitemap.xml`?,boolean,no
 Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
 Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the `sitemap.xml` Target URL redirect?,boolean,no
-Sitemap.xml - Final URL - Status Code,sitemap_xml_final_url_status_code,Server Status Code of the `sitemap.xml` Final URL,numeric,no
+Sitemap.xml - Final URL - Status Code,sitemap_xml_final_url_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
 Sitemap.xml - MIMEtype,sitemap_xml_final_url_mimetype,MIMEtype of the `sitemap.xml` Final URL,string,no
 Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the Final URL of the `sitemap.xml` (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in `sitemap.xml`,numeric,no
