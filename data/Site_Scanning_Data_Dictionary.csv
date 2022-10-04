@@ -5,11 +5,11 @@ Final URL,final_url,"Final URL after redirects [301, 302, etc.]",string,no
 Final URL - Base Domain,final_url_domain,Base Domain of Final URL (after redirects),string,"yes, exact"
 Final URL - MIMEtype,final_url_mimetype,MIMEtype of Final URL,string,no
 Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
-Target URL - Redirects,target_url_redirects,Does the Target URL Redirect?,boolean,"yes, exact"
+Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
 Final URL/Target URL - Same Base Domain,final_url_same_domain,Is the Final URL in same base domain as the Target URL (e.g. www.18f.gov redirects to 18f.gsa.gov = different base domain)?,boolean,no
 Final URL/Target URL - Same Website,final_url_same_website,Is the Final URL has the same base website as the Target URL (e.g. www.gsaauctions.gov redirects to www.gsaauctions.gov/somepage = same base website)?,boolean,no
 Target URL Base Domain - Agency Owner,target_url_agency_owner,Agency Owner of Target URL Base Domain,string,"yes, exact"
-Target URL Base Domain - Bureau Owner,target_url_bureau_owner,Office Owner of Target URL Base Domain,string,"yes, exact"
+Target URL Base Domain - Bureau Owner,target_url_bureau_owner,Bureau Owner of Target URL Base Domain,string,"yes, exact"
 Target URL Base Domain - Branch,target_url_branch,Branch of Government of the Agency Owner of Target URL Base Domain,string,"yes, exact"
 Final URL - Status Code,final_url_status_code,Server Status Code of the Final URL,numeric,no
 Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly, or give a false 200 (""page not found"")?",boolean,no
@@ -20,9 +20,9 @@ Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.tx
 Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
 IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
-Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the website was sourced from the Federal .Gov Domains list",boolean,no
-Source List - Digital Analytics Program,source_list_dap,"Whether the website was sourced from the list of Digital Analytics Program websites",boolean,no
-Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the website was sourced from the pulse.cio.gov snapshot",boolean,no
+Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the Target URL was sourced from the Federal .Gov Domains list",boolean,no
+Source List - Digital Analytics Program,source_list_dap,"Whether the Target URL was sourced from the list of Digital Analytics Program websites",boolean,no
+Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the Target URL was sourced from the pulse.cio.gov snapshot",boolean,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
 USWDS - Merriweather Font,uswds_merriweather_font,Presence of Merriweather font files in CSS,integer,no
