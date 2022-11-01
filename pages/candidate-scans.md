@@ -69,6 +69,7 @@ The list of scans that have alreadby been built and are active [can be found her
 
 
 ## Security
+* presence of a vulnerability disclosure policy
 * DNS record certificate holder: Monitor changes in agency's DNS record certificate holder, and alert agencies if there are changes, which may be a sign of malicious behavior. 
 * Reach out to Hillary J., who is now at CISA to get thoughts.  
 * Domain certificate transparency scanning (idea -  give a flag to openssl to have it check CT).
