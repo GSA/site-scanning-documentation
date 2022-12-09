@@ -21,6 +21,7 @@ This project is in ALPHA and the API is under active development, so may change 
 * [Background History](/about/project-management/project-history.md)
 * [10 Minute Walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md)
 * [Questions That Site Scanning Answers](https://github.com/GSA/site-scanning-documentation/blob/main/about/questions-we-answer.md)
+* [System Schedule - When ingests, reports, scans, etc. take place each week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
 * [Candidate Scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md)
 * [How Candidate Scans Become Active Scans](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md)
 * [Program Stakeholders](/about/stakeholders.md)  
