@@ -14,6 +14,7 @@ This project is in ALPHA and the API is under active development, so may change 
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
 * Analysis Reports: [Snapshot - Primary](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv); [Snapshot - All](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv); [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
+* [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
 
 ### About 
 
