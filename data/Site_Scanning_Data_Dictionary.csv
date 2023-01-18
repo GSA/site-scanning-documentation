@@ -23,6 +23,7 @@ IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
 Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the Target URL was sourced from the Federal .Gov Domains list",boolean,no
 Source List - Digital Analytics Program,source_list_dap,"Whether the Target URL was sourced from the list of Digital Analytics Program websites",boolean,no
 Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the Target URL was sourced from the pulse.cio.gov snapshot",boolean,no
+Source List - Other,source_list_other,"Whether the Target URL was sourced from the manually added list of other websites",boolean,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
 USWDS - Merriweather Font,uswds_merriweather_font,Presence of Merriweather font files in CSS,integer,no
