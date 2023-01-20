@@ -66,6 +66,7 @@ The list of scans that have alreadby been built and are active [can be found her
 
 ## Technical Analysis
 * Use of CDNs.
+* Other things we could look up from DNS lookup that we're already doing.  
 
 
 ## Security
