@@ -13,6 +13,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * For data.gov:
   * Replicate the data.json analysis done by the [Project Open Data Dashboard](https://labs.data.gov/dashboard/offices/qa) so that the data.gov team doesn't have to do it.   
 * For the Digital Analytics Program:
+  * Whether migrated to GA4.
   * Detect CORS policy.
   * Detect subagency filter.
   * Detect misconfigurations of the DAP snippet?  
