@@ -10,30 +10,29 @@ This is a description of the step-by-step technical process by which we 'scan' e
 
 
 First off, before any scans take place, the process of ingesting the target URL list into the database populates the following fields: 
-* Target URL
-* Target URL - Base Domain 
-* Target URL Base Domain - Agency Owner	
-* Target URL Base Domain - Bureau Owner	
-* Target URL Base Domain - Branch	
-* Source List - Federal .Gov Domains	
-* Source List - Digital Analytics Program	
-* Source List - pulse.cio.gov Snapshot	
-* Source List - Other	
+* `Target URL`
+* `Target URL - Base Domain`
+* `Target URL Base Domain - Agency Owner`
+* `Target URL Base Domain - Bureau Owner`
+* `Target URL Base Domain - Branch`
+* `Source List - Federal .Gov Domains`
+* `Source List - Digital Analytics Program`
+* `Source List - pulse.cio.gov Snapshot`
+* `Source List - Other`
 
 
 
 When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L31) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
 
-The primary scan loads a 
+The primary scan uses [Puppeteer](https://pptr.dev/) to load a target URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L53-L59) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
 
-
-
-    urlScan,
-    dapScan,
-    seoScan,
-    thirdPartyScan,
-    uswdsScan,
-    loginScan,
+At the moment, these 'scan components' are: 
+* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which notes whether the target URL redirects, what the final Url, whether it is live, what it's server status code, filetype, and base domain are, and whether the final URL is on the same domain and same website as the target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - MIMEtype`, `Final URL - Live`, `Target URL - Redirects`, `Final URL/Target URL - Same Base Domain`, `Final URL/Target URL - Same Website`, and `Final URL - Status Code` fields.  
+* [dapScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/dap.ts) - which captures the outbound requests that occur when the target URL loads and notes whether a call using the Digital Analytics Program tag IDs ('UA-33523145-1' or 'G-9TNNMGP8WJ') is one of them.  If it is, the Google Analytics parameters are also captured.  This then populates the `DAP - Final URL` and `DAP - Parameters - Final URL` fields.  
+* seoScan
+* thirdPartyScan
+* uswdsScan
+* loginScan
     
     
 
@@ -59,14 +58,12 @@ Key file - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scann
 for the other four - scan source code is in - https://github.com/GSA/site-scanning-engine/tree/75d5b532c556291353b3dd73fbc4fd2fa3b4a214/libs/core-scanner/src/pages
 
 
-For the primary scan, the target URL is loaded by puppeteer into a headless chrome browser.   
 
 
 url scans -  https://github.com/GSA/site-scanning-engine/blob/75d5b532c556291353b3dd73fbc4fd2fa3b4a214/libs/core-scanner/src/scans/url-scan.ts#L21-L29
 it's being passed the http response that's being received by the browser and then pulls out these figures.  
 
 
-NOTE - the fields that were in the target URL list are put into the database when things are ingested the first time.  same with source fields  
 
 for dap, we capture the outbound requests that take place.  
 
