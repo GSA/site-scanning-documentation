@@ -9,19 +9,52 @@ This is a description of the step-by-step technical process by which we 'scan' e
 * Link to the order of scans  
 
 
+First off, before any scans take place, the process of ingesting the target URL list into the database populates the following fields: 
+* Target URL
+* Target URL - Base Domain 
+* Target URL Base Domain - Agency Owner	
+* Target URL Base Domain - Bureau Owner	
+* Target URL Base Domain - Branch	
+* Source List - Federal .Gov Domains	
+* Source List - Digital Analytics Program	
+* Source List - pulse.cio.gov Snapshot	
+* Source List - Other	
+
+
+
+When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L31) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
+
+The primary scan loads a 
+
+
+
+    urlScan,
+    dapScan,
+    seoScan,
+    thirdPartyScan,
+    uswdsScan,
+    loginScan,
+    
+    
+
+* The technical details of how each scan operates can be found in the following locations: 
+  * [primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)  (and then [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans))
+  * [notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)
+  * [robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)
+  * [sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)
+  * [dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)
+
+
+
+
+
+
 Key file - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts
 
-The scans listed there don't necessarily run in order (it's async - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L27) 
 
 
-https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L27
-
-there's five scans - notFound, primary, robotsTxt, sitemapXml, dns.  
-
-They are completely separate from each other and don't talk to each other.  
 
 
-for the primary scan - the source code is in https://github.com/GSA/site-scanning-engine/tree/75d5b532c556291353b3dd73fbc4fd2fa3b4a214/libs/core-scanner/src/scans, but first here - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts
 
 for the other four - scan source code is in - https://github.com/GSA/site-scanning-engine/tree/75d5b532c556291353b3dd73fbc4fd2fa3b4a214/libs/core-scanner/src/pages
 
