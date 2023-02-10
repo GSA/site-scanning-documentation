@@ -3,6 +3,7 @@ Target URL,target_url,URL scanned,string,"yes, exact, via path"
 Target URL - Base Domain,target_url_domain,Base Domain of Target URL,string,"yes, exact"
 Final URL,final_url,"Final URL after redirects [301, 302, etc.]",string,no
 Final URL - Base Domain,final_url_domain,Base Domain of Final URL (after redirects),string,"yes, exact"
+Final URL - Base Website,final_url_website,Base Website of Final URL (after redirects),string,no
 Final URL - MIMEtype,final_url_mimetype,MIMEtype of Final URL,string,no
 Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
 Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
@@ -20,10 +21,12 @@ Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.tx
 Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
 IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
+DNS Hostname,dns_hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the Target URL was sourced from the Federal .Gov Domains list",boolean,no
 Source List - Digital Analytics Program,source_list_dap,"Whether the Target URL was sourced from the list of Digital Analytics Program websites",boolean,no
 Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the Target URL was sourced from the pulse.cio.gov snapshot",boolean,no
 Source List - Other,source_list_other,"Whether the Target URL was sourced from the manually added list of other websites",boolean,no
+Cloud.gov Pages,cloud_dot_gov_pages,Is the Final URL hosted using Cloud.gov Pages?,boolean,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
 USWDS - Merriweather Font,uswds_merriweather_font,Presence of Merriweather font files in CSS,integer,no
