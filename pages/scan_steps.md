@@ -85,6 +85,8 @@ random url suffix is generated at this point - https://github.com/GSA/site-scann
 
 For the dns scan, 
 
+for the hostnames, only [this list](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79).  
+
 ...
 
 doesn't use puppeteer - uses a node.js library 
