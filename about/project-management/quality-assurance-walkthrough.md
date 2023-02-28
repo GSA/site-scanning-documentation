@@ -12,3 +12,4 @@
   * Consider doing a one off pass at capturing the redirect chains
 
 
+(more [here](https://github.com/GSA/site-scanning/issues/356#issuecomment-1423076180))
