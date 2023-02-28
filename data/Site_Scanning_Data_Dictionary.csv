@@ -13,7 +13,7 @@ Target URL Base Domain - Agency Owner,target_url_agency_owner,Agency Owner of Ta
 Target URL Base Domain - Bureau Owner,target_url_bureau_owner,Bureau Owner of Target URL Base Domain,string,"yes, exact"
 Target URL Base Domain - Branch,target_url_branch,Branch of Government of the Agency Owner of Target URL Base Domain,string,"yes, exact"
 Final URL - Status Code,final_url_status_code,Server status code of the Final URL,numeric,no
-Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly, or give a false 200 (""page not found"")?",boolean,no
+Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly (TRUE), or give a misleading 200 code (FALSE)?",boolean,no
 Scan Date,scan_date,Scan date/time (when data is written),datetime,no
 Primary Scan Status,primary_scan_status,"Status of the scan of the Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Not Found Scan Status,not_found_scan_status,"Status of the 404 Test scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
