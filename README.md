@@ -18,6 +18,8 @@ This project is in ALPHA and the API is under active development, so may change 
 * [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md)
 * [Repository for storing one-off snapshots of scan data](https://github.com/GSA/site-scanning-snapshots)
 * [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
+* [Snapshots that attempt to remove duplicative websites](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results)
+
 
 ### About 
 
