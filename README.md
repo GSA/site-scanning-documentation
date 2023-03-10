@@ -8,19 +8,6 @@ The process of creating and editing the list of URLs to scan is documented in th
 
 ## Documentation Index 
 
-### Understanding the Data
-* [Data Dictionary for the Site Scanning data](/data/Site_Scanning_Data_Dictionary.csv)
-* [Data Dictionary for the Target URL List](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
-* [Terms](/pages/terms.md)
-* [Access the Data](https://digital.gov/guides/site-scanning/data/)
-* Analysis Reports: [Snapshot - Primary](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv); [Snapshot - All](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv); [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
-* [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
-* [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md)
-* [Repository for storing one-off snapshots of scan data](https://github.com/GSA/site-scanning-snapshots)
-* [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
-* [Snapshots that attempt to remove duplicative websites](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results)
-
-
 ### About 
 
 * [Program Overview](/about/about-the-program.md)
@@ -32,6 +19,19 @@ The process of creating and editing the list of URLs to scan is documented in th
 * [How Candidate Scans Become Active Scans](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md)
 * [Program Stakeholders](/about/stakeholders.md)  
 * [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
+
+
+### Understanding the Data
+* [Data Dictionary for the Site Scanning data](/data/Site_Scanning_Data_Dictionary.csv)
+* [Data Dictionary for the Target URL List](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
+* [Terms](/pages/terms.md)
+* [Access the Data](https://digital.gov/guides/site-scanning/data/)
+* Analysis Reports: [Snapshot - Primary](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv); [Snapshot - All](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv); [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
+* [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
+* [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md)
+* [Repository for storing one-off snapshots of scan data](https://github.com/GSA/site-scanning-snapshots)
+* [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
+* [Snapshots that attempt to remove duplicative websites](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results)
 
 ### Program Management
 * [Goals and Metrics](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/goals-and-metrics.md)
