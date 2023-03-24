@@ -42,7 +42,7 @@
   * [Proposal: filter out certain mimetypes (e.g. JSON, XML) from the primary snapshot as well. If done, we should add a similar step to ^^^]
 * Are there certain fields in either snapshot which should not have any empty cells (if so, note them here)? 
 
-## Initial Primary Scan 
+## For individual fields...
 
 * Looking for incorrect redirect info:
   * False negative examples: http://spsweb.jpl.nasa.gov
