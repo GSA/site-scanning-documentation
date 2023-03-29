@@ -21,6 +21,7 @@ Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.tx
 Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
 IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
+HSTS Implementation,hsts,"Presence of a Strict-Transport-Security Header",boolean,no
 DNS Hostname,dns_hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the Target URL was sourced from the Federal .Gov Domains list",boolean,no
 Source List - Digital Analytics Program,source_list_dap,"Whether the Target URL was sourced from the list of Digital Analytics Program websites",boolean,no
