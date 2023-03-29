@@ -3,9 +3,7 @@ This is a list of individual scans that _could_ be run with the Site Scanning pr
 The list of scans that have alreadby been built and are active [can be found here](https://digital.gov/guides/site-scanning/understand-the-data/).  Feel free to suggest further ideas though by [editing this page](https://github.com/GSA/site-scanning-documentation/edit/main/pages/candidate-scans.md), [filing an issue](https://github.com/GSA/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
 
 
-## In the Works 
-
-* IPv6 (given new policy around it - OMB memo m-21-07).  D. Harrity may be a user.  [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
+* Other IPv6? [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
 
 
 ## Functional Scans for TTS Programs
@@ -102,6 +100,7 @@ The list of scans that have alreadby been built and are active [can be found her
 
 ## Other
 * Blacklight scans.
+* Links to translated sites or other language options 
 * Whether a subdomain is a website or a system.
 * 3rd party services/performance/? for pages like [this](https://web.archive.org/web/20200716162116/https://www.performance.gov/cx/dashboard/va/vha/).
 * 404 pages - Try to use the detection of 404 pages to discover broken links or websites.  For instance, one idea could be to take ever link found in a page and then check links for their status.  
