@@ -39,6 +39,7 @@
 * Does the number of results in the primary snapshot ([analysis report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv)) equal the number of urls that returned a 2xx server code in the all snapshot ([analysis report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))?
 * In the [all snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv), do any records with a non-2xx final_url_status_code appear to be live and thus should have returned a 2xx code? 
 * In the [all snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv), do any records with a failing scan status appear to be live and thus should have completed? 
+  * Note - in particular, analyze and think about each error type.  
   * [Proposal: filter out certain mimetypes (e.g. JSON, XML) from the primary snapshot as well. If done, we should add a similar step to ^^^]
 * Are there certain fields in either snapshot which should not have any empty cells (if so, note them here)? 
 
