@@ -30,7 +30,7 @@
   * Does the [resulting file](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv) and the [removed list](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/nonfederal-removed.csv) add up in size to the [previous snapshot](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/remove-ignore.csv) ([analysis report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))? 
 
 * The completed Target URL list 
-  * Are there any empty cells in the file outside of the agency code, bureau, and bureau code columns [analysis report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv)? 
+  * Are there any empty cells in the file outside of the agency code, bureau, and bureau code columns ([analysis report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv))? 
   * Are any of the values in the [analysis report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv) unusually different from [recent history](https://github.com/GSA/site-scanning-analysis/commits/main/reports/target-URL-list.csv)? 
 
 
