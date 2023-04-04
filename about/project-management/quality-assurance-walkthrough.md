@@ -4,7 +4,7 @@
 
 #### Gathering
 
-* [Source Files](https://github.com/GSA/federal-website-index/blob/main/builder/config.py) - [Domains](https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv) | [DAP](https://analytics.usa.gov/data/live/sites-extended.csv) | [Pulse](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv) | [Other](https://github.com/GSA/federal-website-index/blob/main/data/dataset/other-websites.csv) | [OMB](https://resources.data.gov/schemas/dcat-us/v1.1/omb_bureau_codes.csv)  
+* [Source Files](https://github.com/GSA/federal-website-index/blob/main/builder/config.py) - [Domains](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) | [DAP](https://analytics.usa.gov/data/live/sites-extended.csv) | [Pulse](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv) | [Other](https://github.com/GSA/federal-website-index/blob/main/data/dataset/other-websites.csv) | [OMB](https://resources.data.gov/schemas/dcat-us/v1.1/omb_bureau_codes.csv)  
 * [Snapshots of Source Files Used in Most Recent Build](https://github.com/GSA/federal-website-index/tree/main/data/snapshots) - [Domains](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/gov.csv) | [DAP](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/dap.csv) | [Pulse](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/pulse.csv) | [Other](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/other.csv)
   * Do the entries look right when skimmed?  
   * Are there inconsistences, e.g. agency/organization in the domain registry? 
