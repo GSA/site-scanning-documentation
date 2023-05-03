@@ -1,5 +1,7 @@
 An important principle of the Site Scanning project is to identify specific programs and people within TTS, GSA, and the wider government that our scans can deliver real value to.  Asking these users what data would be useful to them and how we can iterate these scans and report pages is key to this program's success.  
 
+We consider an active stakeholder to be a person or team that actively use our program data.  
+
 ## Active Stakeholder Relationships
 
 Here's the programs that are currently identified as active stakeholders that are using our scans and from whom we are soliciting feedback on each iteration.   
