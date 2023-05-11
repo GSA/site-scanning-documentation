@@ -1,5 +1,5 @@
 
-This is a description of the step-by-step technical process by which we 'scan' each Target URL.  
+This is a description of the step-by-step technical process by which we 'scan' each Target URL.  For information on the process of building the Target URL list, go [here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).  
 
 * Order of scans 
   * For each scan, order of operations 
