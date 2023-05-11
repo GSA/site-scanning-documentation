@@ -93,3 +93,7 @@ doesn't use puppeteer - uses a node.js library
 
 for cms - it uses the primary scan, and [this regex library](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) and scans the response body (not any linked assets though) for the snippets.  
 
+
+for the required links scan 
+https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/required-links.ts#L10
+
