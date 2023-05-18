@@ -1,0 +1,8 @@
+
+* https://digital.gov/site-scanning
+* https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv
+* https://github.com/gsa/site-scanning-documentation
+* https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md
+* https://digital.gov/guides/site-scanning/data/
+* https://docs.google.com/spreadsheets/d/1eZS7-9i_s4z1ZpsDxkLlGfdyjVz4M7_eFq28PXK8AK0/edit#gid=1451048475
+* https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md
