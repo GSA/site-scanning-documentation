@@ -32,6 +32,7 @@ If you have questions or feedback, [please let us know](http://github.com/18F/si
 * [Repository for storing one-off snapshots of scan data](https://github.com/GSA/site-scanning-snapshots)
 * [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv)
 * [Snapshots that attempt to remove duplicative websites](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results)
+* [Publicly accessible snapshot of the data in Google Sheets](https://docs.google.com/spreadsheets/d/1eZS7-9i_s4z1ZpsDxkLlGfdyjVz4M7_eFq28PXK8AK0/edit#gid=1451048475)
 
 ### Program Management
 * [Goals and Metrics](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/goals-and-metrics.md)
