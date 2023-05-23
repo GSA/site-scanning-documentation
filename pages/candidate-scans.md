@@ -59,6 +59,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * library of customer service, analytics third party services
 * mobile header?
  
+* [Also, if they required implementation reports being in a machine readable, fixed location - we could analyze that report]
+ 
  
 ## Best Practices
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details)).
