@@ -50,7 +50,16 @@ The list of scans that have alreadby been built and are active [can be found her
 
 
 ## Business Intelligence for TTS Programs
-
+ 
+#### 21st century idea - MVP scan possibilities 
+* a11y
+* Same page title?
+* Has some search capacity
+* More ssl
+* library of customer service, analytics third party services
+* mobile header?
+ 
+ 
 ## Best Practices
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details)).
 * Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)]).
