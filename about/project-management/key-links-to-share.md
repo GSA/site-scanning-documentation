@@ -6,3 +6,5 @@
 * https://digital.gov/guides/site-scanning/data/
 * https://docs.google.com/spreadsheets/d/1eZS7-9i_s4z1ZpsDxkLlGfdyjVz4M7_eFq28PXK8AK0/edit#gid=1451048475
 * https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md
+* https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/Site%20Scanning%20Overview%20-%20Brief%20Version.pdf
+* site-scanning@gsa.gov
