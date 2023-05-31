@@ -26,6 +26,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * For the US Digital Registry:
   * Maybe some way to validate or authenticate offical government social media accounts? 
   * Find new social media accounts that need to be added to the registry by looking at all links in the page.
+  * List of all hyperlinks on the page.  
+  * List of all domains that have hyperlinks on the page. 
   * A more radical idea - take over what it does by consuming social_media.json files.  Relevant mainly if there's ever a future need to deprecate it's primary engine.  
 * For search.gov:
   * Implement the search scan that Carter built for them internally.
