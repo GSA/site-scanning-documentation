@@ -132,6 +132,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * Others possibly could be found in [here](https://github.com/ombegov/policy-v2).
 * Any way to derive what the top tasks for sites might be?
 * A list of all links on the page, to help with sunsetting websites.
+* List of links (or text) in the menu?  list of menu headers? list of links (or hyperlinked text) in the footer? 
+* count of h1s, h2s, h3s
 * Links that have words 'about', 'contact', etc. in them.
 * Readability.
 * More from schema.org ?
