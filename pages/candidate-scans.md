@@ -73,7 +73,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * A11y: Note that the legislative branch has a specific need, spelled out [here](https://www.congress.gov/bill/116th-congress/house-resolution/756/text#toc-HCE76E2BE29E84D5D8C2611BE41C479D0).  Note that there's a similar effort at https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.  
 * The entire redirect path.
 * Scan for problematic or un-inclusive language.
-* Scan for plainlanguage.
+* Scan for plainlanguage (there's a variety of potentially scannable items in https://www.plainlanguage.gov/guidelines).
 * Scan for a11y, for tts programs as part of their before-you-ship (there's interest).
 
 
