@@ -49,3 +49,13 @@ This document contains the schedule of when automated processes take place, as w
 [Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
 
 **Notes:** This action produces the CSV and JSON snapshots of the site scanning engine's most recent scan.
+
+## Generate unique websites list
+
+**When:** Monday, 12 AM UTC
+
+**GitHub Action specification:** https://github.com/GSA/site-scanning-analysis/blob/main/.github/workflows/generate-unique-website-list.yml
+
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-analysis/actions)
+
+**Notes:** This action produces a list of unique final websites found in the primary snapshot.
