@@ -97,3 +97,13 @@ for cms - it uses the primary scan, and [this regex library](https://github.com/
 for the required links scan 
 https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/required-links.ts#L10
 
+for cms scan 
+
+https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts
+
+for login detection - 
+
+https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/login.ts
+
+
+
