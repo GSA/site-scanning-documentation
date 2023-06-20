@@ -63,7 +63,7 @@ it's being passed the http response that's being received by the browser and the
 
 
 
-for dap, we capture the outbound requests that take place.  
+for dap, we capture the outbound requests that take place, via a different scan ([code](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/dap.ts)).  
 
 
 
