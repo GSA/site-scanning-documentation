@@ -28,7 +28,7 @@ Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the Targ
 Source List - Digital Analytics Program,source_list_dap,"Whether the Target URL was sourced from the list of Digital Analytics Program websites",boolean,no
 Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the Target URL was sourced from the pulse.cio.gov snapshot",boolean,no
 Source List - Other,source_list_other,"Whether the Target URL was sourced from the manually added list of other websites",boolean,no
-CMS,cms,Content management system,string,no
+CMS,cms,Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress),string,no
 Cloud.gov Pages,cloud_dot_gov_pages,Is the Final URL hosted using Cloud.gov Pages?,boolean,no
 Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",object,no
 Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",object,no
