@@ -1,4 +1,4 @@
-The Site Scanning program maintains a number of automated processes that, together, generate useful data.  The basic flow of these events are as follows: 
+The Site Scanning program maintains a number of automated processes that, together, consitute the entire project and seek to deliver useful data.  The basic flow of these events are as follows: 
 
 - Each week, a comprehensive list of public federal .gov websites is assembled as the [Federal Website Index](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv).
   - [Process description](), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
