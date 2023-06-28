@@ -18,10 +18,10 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - The ['Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-websites.csv) then finally trims the Unique Final URL snapshot by removing duplicative Final URL - Base Websites ([details](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results#readme)). 
 
 - After these snapshots are generated, a series of reports are run that analyze or pull information out of them.
-  - [Analysis report of the 'All' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv)
-  - [Analysis report of the 'Primary' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv)
-  - [Analysis report for the 'Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv)
-  - [Analysis report for the 'Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv)
+  - [Analysis report of the 'All' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv).
+  - [Analysis report of the 'Primary' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv).
+  - [Analysis report for the 'Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv).
+  - [Analysis report for the 'Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv).
 
 - Other useful information...
   - [Schedule for the above processes is the schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) for the above, automated processes.
