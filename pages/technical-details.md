@@ -2,7 +2,7 @@ The Site Scanning program maintains a number of automated processes that, togeth
 
 - Each week, a comprehensive list of public federal .gov websites is assembled as the [Federal Website Index](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv).
   - [Process description](https://github.com/GSA/federal-website-index#summary-of-methodology), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
-  - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed and which remain.  
+  - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed at each step and which remain.  
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
   - [Analysis report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
   - [Analysis report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv).
@@ -20,3 +20,9 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - [Analysis report for the 'Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv)
   - [Analysis report for the 'Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv)
 - [Schedule for the above processes is the schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) for the above, automated processes.
+- [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv).
+- [List of proposed but not yet built scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).
+- [Archive of historical snapshots](https://github.com/GSA/site-scanning-snapshots/tree/main/snapshots).
+- [Program issue tracker](https://github.com/GSA/site-scanning/issues).
+- [Program repository](https://github.com/GSA/site-scanning).
+- [Program website](https://digital.gov/site-scanning/).
