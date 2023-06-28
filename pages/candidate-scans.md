@@ -67,6 +67,7 @@ The list of scans that have alreadby been built and are active [can be found her
  
 ## Best Practices
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details)).
+  * Example lighthouse scan [here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.gsa.gov); [Scoring methodology](https://github.com/GoogleChrome/lighthouse/blob/main/docs/scoring.md)
 * Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)]).
 * Performance (perhaps addressed in ^^^). 
 * Mobile-friendliness (perhaps addressed in ^^^) - also, note possible IDEA Act dashboard needs.
