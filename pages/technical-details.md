@@ -4,26 +4,19 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - [Process description](), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
   - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed and which remain.  
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
-  - A report for the assembly process, and a report about the finisheed Index are 
-- Every day, the Federal Website Index is scanned by loading each target URL in a virtual browser and noting the results.  This information is the primary Site Scanning data.
+  - [Analysis report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
+  - [Analysis report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv).
+- Every day, the Federal Website Index is then scanned.  This is done by loading each Target URL in a virtual browser and noting the results.  This information then populates the primary Site Scanning database.
   - [Scanning process description](), including what criteria are used to create each field of data.
-  - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv) for the Site Scanning data
+  - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv) for the Site Scanning data.
 - The resulting information is stored in a database that is [queryable via API](https://open.gsa.gov/api/site-scanning-api/), but each week, a series of static snapshot of the data is generated and [made available](https://open.gsa.gov/api/site-scanning-api/#download-the-data-directly) as CSV and JSON files.
   - The ['All' snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv) includes every URL in the Federal Website Index.  
   - The ['Primary' snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv) is a subset of the initial snapshot and includes only live URLs.  This is likely the best starting point for most users.
-  - [Two further snapshots then further trim the Primary snapshot](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results#readme) by removing duplicative Final URLs (so that any URL is only represented once) and Final URL Base Websites (so that any website is only represened once).  
+  - The ['Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-urls.csv) then further trims the Primary snapshot by removing duplicative Final URLs ([details](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results#readme)).
+  - The ['Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-websites.csv) then finally trims the Unique Final URL snapshot by removing duplicative Final URL - Base Websites ([details](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results#readme)). 
 - After these snapshots are generated, a series of reports are run that analyze or pull information out of them.
-  - 
+  - [Analysis report of the 'All' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv)
+  - [Analysis report of the 'Primary' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv)
+  - [Analysis report for the 'Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv)
+  - [Analysis report for the 'Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv)
 - [Schedule for the above processes is the schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) for the above, automated processes.
-
-Need to incorporate above: 
-* Update each index's readme links
-* https://github.com/GSA/federal-website-index  
-* process describing the index creation.
-* update the data download links in the api docs
-expand the rep dataset to include the target url list creation process 
-* finish adding links to https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme
-* need to flex out the two further snapshots
-* https://github.com/GSA/site-scanning-analysis
-* https://github.com/GSA/site-scanning
-* https://github.com/GSA/site-scanning-documentation 
