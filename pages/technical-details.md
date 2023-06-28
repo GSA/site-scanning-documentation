@@ -23,4 +23,7 @@ Need to incorporate above:
 * update the data download links in the api docs
 expand the rep dataset to include the target url list creation process 
 * finish adding links to https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme
-* need to flex out the two further snapshots 
+* need to flex out the two further snapshots
+* https://github.com/GSA/site-scanning-analysis
+* https://github.com/GSA/site-scanning
+* https://github.com/GSA/site-scanning-documentation 
