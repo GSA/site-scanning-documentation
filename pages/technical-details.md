@@ -11,20 +11,16 @@ The Site Scanning program maintains a number of automated processes that, togeth
 - The resulting information is stored in a database that is [queryable via API](https://open.gsa.gov/api/site-scanning-api/), but each week, a series of static snapshot of the data is generated and [made available](https://open.gsa.gov/api/site-scanning-api/#download-the-data-directly) as CSV and JSON files.
   - The ['All' snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv) includes every URL in the Federal Website Index.  
   - The ['Primary' snapshot](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv) is a subset of the initial snapshot and includes only live URLs.  This is likely the best starting point for most users.
+  - [Two further snapshots then further trim the Primary snapshot](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results#readme) by removing duplicative Final URLs (so that any URL is only represented once) and Final URL Base Websites (so that any website is only represened once).  
+- After these snapshots are generated, a series of reports are run that analyze or pull information out of them.
   - 
-  - 
-
-- After these snapshots are generated, a series of reports are run that analyze or pull information out of them 
 - [Schedule for the above processes is the schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) for the above, automated processes.
-- 
 
-
-
-https://github.com/GSA/federal-website-index  
-
-Needed: 
+Need to incorporate above: 
 * Update each index's readme links
+* https://github.com/GSA/federal-website-index  
 * process describing the index creation.
 * update the data download links in the api docs
 expand the rep dataset to include the target url list creation process 
 * finish adding links to https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme
+* need to flex out the two further snapshots 
