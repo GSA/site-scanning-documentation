@@ -5,8 +5,8 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - [Process description](https://github.com/GSA/federal-website-index#summary-of-methodology), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
   - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed at each step and which remain.  
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
-  - [Analysis report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
-  - [Analysis report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv).
+  - [Summary report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
+  - [Summary report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv).
   - [Task repository](https://github.com/GSA/federal-website-index).
 
 - Every day, the Federal Website Index is then scanned.  This is done by loading each Target URL in a virtual browser and noting the results.  This information is the **Site Scanning data**.
@@ -21,10 +21,10 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - The ['Unique Final Website' snapshot](https://raw.githubusercontent.com/GSA/site-scanning-analysis/main/unique_website_list/results/weekly-snapshot-unique-final-websites.csv) (CSV) then finally trims the Unique Final URL snapshot by removing duplicative Final URL - Base Websites ([details](https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list/results#readme)).  This is arguably the best count of federal public .gov websites.   
 
 - After these snapshots are generated, a series of reports are run that analyze or pull information out of them.
-  - [Analysis report of the 'All' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv).
-  - [Analysis report of the 'Primary' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv).
-  - [Analysis report for the 'Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv).
-  - [Analysis report for the 'Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv).
+  - [Summary report of the 'All' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv).
+  - [Summary report of the 'Primary' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv).
+  - [Summary report for the 'Unique Final URL' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv).
+  - [Summary report for the 'Unique Final Website' snapshot](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv).
 
 - Other useful information...
   - [Schedule for the above processes is the schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) for the above, automated processes.
