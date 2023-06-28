@@ -1,7 +1,7 @@
 The Site Scanning program maintains a number of automated processes that, together, consitute the entire project and seek to deliver useful data.  The basic flow of these events are as follows: 
 
 - Each week, a comprehensive list of public federal .gov websites is assembled as the [Federal Website Index](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv).
-  - [Process description](), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
+  - [Process description](https://github.com/GSA/federal-website-index#summary-of-methodology), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
   - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed and which remain.  
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
   - [Analysis report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
