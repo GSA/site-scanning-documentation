@@ -59,3 +59,13 @@ This document contains the schedule of when automated processes take place, as w
 [Manually Run GitHub Action](https://github.com/GSA/site-scanning-analysis/actions)
 
 **Notes:** This action produces a list of unique final websites found in the primary snapshot.
+
+## Generate IDEA report
+
+**When:** Tuesday, 12 AM UTC
+
+**GitHub Action specification:** https://github.com/GSA/site-scanning-analysis/blob/main/.github/workflows/generate-idea-report.yml
+
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-analysis/actions)
+
+**Notes:** This action produces a report containing counts and percentages of DAP and USWDS use.
