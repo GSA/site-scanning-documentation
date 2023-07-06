@@ -69,3 +69,11 @@ This document contains the schedule of when automated processes take place, as w
 [Manually Run GitHub Action](https://github.com/GSA/site-scanning-analysis/actions)
 
 **Notes:** This action produces a report containing counts and percentages of DAP and USWDS use.
+
+## Archive Snapshots
+
+**GitHub Action specification:** https://github.com/GSA/site-scanning-snapshots/blob/main/.github/workflows/archive-snapshot.yml
+
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-snapshots/actions)
+
+**Notes:** This action archives the "all" snapshot on the first day of each month.
