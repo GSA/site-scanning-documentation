@@ -55,7 +55,7 @@ Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server sta
 Robots.txt - MIMEtype,robots_txt_final_url_mimetype,MIMEtype of the `robots.txt` Final URL,string,no
 Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the Final URL of the `robots.txt` (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
-Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters),array,no
+Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
 Sitemap.xml - Final URL,sitemap_xml_final_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
 Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap.xml` Final URL live and does it end with `sitemap.xml`?,boolean,no
 Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
