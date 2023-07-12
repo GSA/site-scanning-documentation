@@ -35,7 +35,7 @@ Required Links - Text,required_links_text,"Presence of certain character strings
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
-USWDS - Count,uswds_count,Calculated likelihood a site is using USWDS,integer,no
+USWDS - Count,uswds_count,"Calculated likelihood a site is using USWDS. Derived by adding the detected USWDS components together, the higher the number the more USWDS-y it is.",integer,no
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
 USWDS - Inline CSS,uswds_inline_css,Presence of `.usa-` class in in-line CSS,integer,no
 USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
