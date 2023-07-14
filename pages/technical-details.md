@@ -32,5 +32,13 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - [List of proposed but not yet built scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).
   - [Archive of historical snapshots](https://github.com/GSA/site-scanning-snapshots/tree/main/snapshots).
   - [Program issue tracker](https://github.com/GSA/site-scanning/issues).
-  - [Program repository](https://github.com/GSA/site-scanning).
   - [Program website](https://digital.gov/site-scanning/).
+  - 
+
+- Project Repositories
+  - [Primary](https://github.com/GSA/site-scanning)
+  - [Documentation](https://github.com/GSA/site-scanning-documentation)
+  - [Analysis](https://github.com/GSA/site-scanning-analysis)
+  - [Federal Website Index](https://github.com/GSA/federal-website-index)
+  - [Site Scanning Engine](https://github.com/GSA/site-scanning-engine)
+  - [Snapshots](https://github.com/GSA/site-scanning-snapshots)
