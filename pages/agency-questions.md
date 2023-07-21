@@ -1,8 +1,12 @@
 
 
-## What is the criteria for inclusion in the Federal Website Index, and thus the Site Scanning data?  
+## What are the criteria for inclusion in the Federal Website Index, and thus the Site Scanning data?  
 
-
+* Public (i.e. accessible over the public internet)
+* Operating on a [federally-owned .gov domain](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) 
+* HTML-based (e.g. not an API endpoint)
+* Is not a staging or development website
+* Is not an authentication page 
 
 
 ## A public federal .gov website is missing from the Federal Website Index and the Site Scanning Data.  How can I add it?  
