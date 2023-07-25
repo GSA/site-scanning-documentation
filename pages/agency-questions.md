@@ -4,9 +4,9 @@
 
 * Public (i.e. accessible over the public internet)
 * Operating on a [federally-owned .gov domain](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) 
-* HTML-based (e.g. not an API endpoint, email server)
 * Is not a staging or development website
-* Is not an authentication page 
+* Is not an API endpoint, email server, or asset server
+* Is not an authentication page to an otherwise non-public site
 
 
 ## A public federal .gov website is missing from the the Site Scanning Data.  How can I add it?  
