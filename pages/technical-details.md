@@ -6,7 +6,7 @@ The Site Scanning program maintains a number of automated processes that, togeth
   - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed at each step and which remain.  
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
   - [Summary report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
-  - [Summary report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-URL-list.csv).
+  - [Summary report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv).
   - [Task repository](https://github.com/GSA/federal-website-index).
 
 - Every day, the Federal Website Index is then scanned.  This is done by loading each Target URL in a virtual browser and noting the results.  This information is the **Site Scanning data**.
