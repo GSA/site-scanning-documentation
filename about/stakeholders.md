@@ -36,12 +36,16 @@ Here's the programs that are currently identified as active stakeholders that ar
 * We've built report pages and direct download links for DAP implementation data that the group needs to track agency progress.  
 * Next, we intend to:
   * Make a simple, replicatable report page that an agency can use to return DAP status for a set list of agency subdomains (i.e. their hand-curated list of 'actual websites' that leaves off staging environments, etc.) 
-  
+
+
+#### ITDashboard.gov
+
+* The site uses our Federal Website Index, DAP data, and USWDS data.  
+
+
 #### DigitalDashboard.gov
 
-* We've solicited feedback from the digitaldashboarde.gov team and identified from them what data they most need from us that they don't yet have.  
-* Next, we intend to:
-  * Restart fresh subdomain list generation.  
+* The site uses our Federal Website Index, DAP data, and USWDS data.  
 
 #### GSA Digital Council 
 
