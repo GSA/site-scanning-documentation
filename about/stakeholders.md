@@ -54,11 +54,13 @@ Here's the programs that are currently identified as active stakeholders that ar
   * Make a simple, replicatable report page that an agency can use to return DAP status for a set list of agency subdomains (i.e. their hand-curated list of 'actual websites' that leaves off staging environments, etc.)   
 
 #### GSA IPv6 Migration Team
-* We've built an MVP of this and delivered it to the interested team.  
+* We've built an MVP of this and delivered it to the interested team.
+
+#### GSA 10x Privacy-protected Engagement With Online Government Services 
+* We've built a scan that captures [the cookies being used on each site](https://github.com/GSA/site-scanning-engine/pull/254).  
 
 #### National Institute of Standards and Technology
 * We've built a scan that detects the presence of certain required hyperlinks.  
 
 #### National Aeronautics and Space Administration
 * They are using Site Scanning data to help inventory and then consolidate their websites.
-
