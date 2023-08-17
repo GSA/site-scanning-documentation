@@ -28,11 +28,11 @@ The Site Scanning data is filtered to only show live sites (`Final URL - Live = 
 
 ## 6. Deduplicate Final URLs
 
-The 'Primary' snapshot is then filtered to remove rows that have the same Final URL in order to create the 'Unique Final URL' snapshot.  The final result is about 12k urls and can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-urls.csv).  An analysis report of this file can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv).  A snapshot of the URLs that are removed can be seen [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/removed-final-urls.csv).  
+The 'Primary' snapshot is then filtered to remove rows that have the same `Final URL` in order to create the 'Unique Final URL' snapshot.  The final result is about 12k urls and can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-urls.csv).  An analysis report of this file can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-url.csv).  A snapshot of the URLs that are removed can be seen [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/removed-final-urls.csv).  
 
 ## 7. Deduplicate Final Websites
 
-The 'Unique Final URL' snapshot is then filtered to remove rows that have the same `Final URL - Base Website' in order to create the 'Unique Final Website' snapshot.  The final result is about 10k urls and can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-websites.csv).  An analysis report of this file can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv). A snapshot of the URLS that are removed can be seen [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/removed-final-url-websites.csv).  
+The 'Unique Final URL' snapshot is then filtered to remove rows that have the same `Final URL - Base Website` in order to create the 'Unique Final Website' snapshot.  The final result is about 10k urls and can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/weekly-snapshot-unique-final-websites.csv).  An analysis report of this file can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/unique-website.csv). A snapshot of the URLS that are removed can be seen [here](https://github.com/GSA/site-scanning-analysis/blob/main/unique_website_list/results/removed-final-url-websites.csv).  
 
 
 
