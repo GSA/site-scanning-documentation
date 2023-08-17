@@ -1,5 +1,5 @@
-
-
+# Filter Stages
+  
 ## Everything We Can Find
 
 The first step of creating the Federal Website Index is combining every url of every data source we're using.  The result is about 35k urls and a snapshot of this can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined.csv).
