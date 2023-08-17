@@ -16,8 +16,10 @@ The next step of creating the Federal Website Index is filtering out websites th
 
 The final step in the creation of the Federal Website Index is filtering out any websites that don't have a base domain that is a federal .gov domain.  Namely, this removes any state/local/tribal websites and any non-.gov websites (e.g. .mil, .edu).  The final result is about 27k urls and can be found [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv). **This is what the Site Scanning engine scans.**  A snapshot of the urls that are removed can be seen [here](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/nonfederal-removed.csv).  
 
------
-At this point, the Site Scanning engine analyzes the Federal Website Index and captures data about each URL.  A snapshot of this data can be seen [here](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv) and is referred to as the 'All' snapshot.  
+----- 
+
+_At this point, the Site Scanning engine analyzes the Federal Website Index and captures data about each URL.  A snapshot of this data can be seen [here](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv) and is referred to as the 'All' snapshot._
+
 -----
 
 ## 5. Inactive Sites Removed
