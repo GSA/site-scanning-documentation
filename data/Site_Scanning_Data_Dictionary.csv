@@ -22,16 +22,12 @@ Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.tx
 Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
 IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
-HSTS Implementation,hsts,"Presence of a Strict-Transport-Security Header",boolean,no
 DNS Hostname,dns_hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
-Source List - Federal .Gov Domains,source_list_federal_domains,"Whether the Target URL was sourced from the Federal .Gov Domains list",boolean,no
-Source List - Digital Analytics Program,source_list_dap,"Whether the Target URL was sourced from the list of Digital Analytics Program websites",boolean,no
-Source List - pulse.cio.gov Snapshot,source_list_pulse,"Whether the Target URL was sourced from the pulse.cio.gov snapshot",boolean,no
-Source List - Other,source_list_other,"Whether the Target URL was sourced from the manually added list of other websites",boolean,no
+Source List,source_list,"Which source datasets included this Target URL",list,no
 CMS,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress)",string,no
 Cloud.gov Pages,cloud_dot_gov_pages,Is the Final URL hosted using Cloud.gov Pages?,boolean,no
-Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",object,no
-Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",object,no
+Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
+Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
@@ -67,6 +63,10 @@ Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in `sitemap.xml`,numer
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs in `sitemap.xml` with `.pdf` extension,numeric,no
 Third Party - Service Domains,third_party_service_domains,List of novel third party domains detected,list,no
 Third Party - Count,third_party_service_count,Count of novel third party domains detected,numeric,no
+Cookies,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
+Login Provider,login_provider,"Name of detected login service",string,no
 Login - Detected,login_detected,List of login indicators detected at the Final URL,object,no
+Search.gov - Detected,searchgov,Is the use of Search.gov detected at the Final URL?,boolean,no
+Site Search - Detected,search_detected,Is a site search functionality detected?,boolean, no
 DAP - Final URL,dap_detected_final_url,Is DAP detected at the final URL?,boolean,"yes, exact"
 DAP - Parameters - Final URL,dap_parameters_final_url,List of DAP parameters detected at the Final URL,object,no
