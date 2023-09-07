@@ -3,7 +3,8 @@
 ## What are the criteria for inclusion in the Federal Website Index, and thus the Site Scanning data?  
 
 * Public (i.e. accessible over the public internet)
-* Operating on a [federally-owned .gov domain](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) 
+* Operating on a [federally-owned .gov domain](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv)
+* Is a 'document' (e.g. HTML, TXT, PDF), not a 'data file' (e.g. XML, JSON, CSV)
 * Is not a staging or development website
 * Is not an API endpoint, email server, or asset server
 * Is not an authentication page to an otherwise non-public site
