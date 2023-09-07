@@ -36,3 +36,8 @@ support the proper performance of an agency function.
 [** Digital services include the delivery of digital information (i.e., data or content) and transactional services (e.g.,
 online forms, benefits applications) across a variety of platforms, devices, and delivery mechanisms (e.g., websites,
 mobile applications, and social media).]
+
+##### [Digital Government Strategy](https://obamawhitehouse.archives.gov/sites/default/files/omb/egov/digital-government/digital-government.html)
+
+A website is the hosted content on a domain, which has a unique homepage and global navigation, e.g. NASA.gov is a domain, but www.nasa.gov and jpl.nasa.gov are both websites on that domain. 
+
