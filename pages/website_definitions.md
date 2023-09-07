@@ -25,3 +25,14 @@ A Federal government website is a unique discoverable hostname or Uniform Resour
 * Is not a staging or development website
 * Is not an API endpoint, email server, or asset server
 * Is not an authentication page to an otherwise non-public site
+
+##### [OMB M-17-06](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf)
+
+Federal Agency public websites and digital services** are defined here as online information resources or services maintained in whole or in part by the departments and agencies in the Executive Branch of the U.S. Federal Government that are operated by an agency, contractor, or other organization on behalf of the agency. 
+
+They provide government information or services to the public or a specific user group across a variety of delivery platforms and devices, and
+support the proper performance of an agency function. 
+
+[** Digital services include the delivery of digital information (i.e., data or content) and transactional services (e.g.,
+online forms, benefits applications) across a variety of platforms, devices, and delivery mechanisms (e.g., websites,
+mobile applications, and social media).]
