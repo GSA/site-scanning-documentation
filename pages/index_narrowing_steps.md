@@ -22,9 +22,9 @@ _At this point, the Site Scanning engine analyzes the Federal Website Index and 
 
 -----
 
-## 4. Inactive Sites Removed
+## 4. Inactive Sites and Data Files Removed
 
-The Site Scanning data is filtered to only show live sites (`Final URL - Live = TRUE`).  The final result is about 14k urls, can be found [here](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv), and is referred to as the 'Primary' snapshot. An analysis report of this file can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv). This is most often what users consult when looking at Site Scanning data.  
+The Site Scanning data is filtered to only show live sites (`Final URL - Live = TRUE`) and to remove machine-readable 'data files' (specifically XML and JSON files).  The final result is about 14k urls, can be found [here](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv), and is referred to as the 'Primary' snapshot. An analysis report of this file can be found [here](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv). This is most often what users consult when looking at Site Scanning data.  
 
 ## 5. Deduplicate Final URLs
 
