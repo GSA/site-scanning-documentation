@@ -1,10 +1,21 @@
-# Site Scanning program documentation
+# Site Scanning Program Documentation
 
-This repository is for the documentation for the Site Scanning program.  The main project repository is [here](https://github.com/GSA/site-scanning).  All feedback should be filed in the [issue backlog](https://github.com/GSA/site-scanning/issues), but the team can also be reached at site-scanning@gsa.gov.
+The [Site Scanning program](https://digital.gov/site-scanning/) automates a wide range of scans of public federal websites and generates data about website health and best practices. 
 
-The process of creating and editing the list of URLs to scan is documented in the [Federal Website Index repository](https://github.com/GSA/federal-website-index/).  
+This repository is for the technical and in-depth documentation of the program.
 
-If you have questions or feedback, [please let us know](http://github.com/18F/site-scanning/issues/)!
+To ask a question or leave feedback for the program, please [file an issue here](https://github.com/GSA/site-scanning/issues) or email us at site-scanning@gsa.gov.    
+
+
+## Program Links
+
+* [Program Website](https://digital.gov/site-scanning)
+* [API Documentation](https://open.gsa.gov/api/site-scanning-api/)
+* [Central Project Repository]
+* [Analysis Repository](https://github.com/GSA/site-scanning-analysis)
+* [Federal Website Index Repository](https://github.com/GSA/federal-website-index)
+* [Site Scanning Engine Repository](https://github.com/GSA/site-scanning-engine)
+* [Extensive List of Links to Technical Details, Snapshots, Analysis Reports, and More](https://digital.gov/guides/site-scanning/technical-details/) (if in doubt, look here)
 
 ## Documentation Index 
 
