@@ -61,6 +61,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * More ssl
 * library of customer service, analytics third party services
 * mobile header?
+* count of pdfs on a site - e.g. [this query](https://www.google.com/search?q=filetype%3Apdf+site%3Agsa.gov)
  
 * [Also, if they required implementation reports being in a machine readable, fixed location - we could analyze that report]
  
