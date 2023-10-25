@@ -18,7 +18,10 @@
 
 ## Debug/analyze the scan process
 * Log into logs.fr.cloud.gov and go to [this page](https://logs.fr.cloud.gov/app/dashboards#/view/0a3c90f0-70ac-11ec-9ac9-d17def83cfd7?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-06-28T00:29:00.000Z',to:'2022-06-29T00:29:30.000Z'))&_a=(description:'Experimenting%20with%20a%20dashboard%20for%20site%20scanner',filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'logs-app*',key:'@cf.app',negate:!f,params:(query:site-scanner-consumer),type:phrase),query:(match_phrase:('@cf.app':site-scanner-consumer)))),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!f,title:'Site%20Scanner%20Summary',viewMode:view)). The scans finishing = a queue of zero.  
-* In order to debug a specific URL's scan results, search the logs for that URL.  
+* In order to debug a specific URL's scan results, search the logs for that URL.
+
+## Template checklist for new fields
+* Look for most recent issues [here](https://github.com/search?q=repo%3AGSA%2Fsite-scanning+checklist+for+new+fields&type=issues).  
 
 ## Other miscellaneous system changes 
 * Change when the weekly export takes place: [edit this line](https://github.com/GSA/site-scanning-engine/blob/5ae7b3a16d047c65796f5b73b69399f971aeb920/vars-prod.yml#L12)
