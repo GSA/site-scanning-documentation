@@ -11,7 +11,8 @@ Q3 FY24
 
 
 Q2 FY24
-- Research and prototype new scans to support 21st Century IDEA implementation  
+- Research and prototype new scans to support 21st Century IDEA implementation
+- Expand source data for .mil websites
 
 
 Q1 FY24
@@ -24,6 +25,10 @@ Q1 FY24
 
 
 Q4 FY23
+- Improved agency/bureau data quality via requests to dotgov registry at CISA
+- Created prototype IDEA reports
+- Removed xml/json files from Primary snapshot
+- 
 
 
 Q3 FY23
