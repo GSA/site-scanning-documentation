@@ -18,8 +18,8 @@ Q1 FY24
 - Add .mil websites to federal website index
 - Add top level domain filtering 
 - Add security scans
-- Add mobile scan
-- Add accessibility scans
+- Add mobile scan (viewport tag)
+- Add accessibility scans (missing alt text, missing html tags, color contrast)
 
 
 
