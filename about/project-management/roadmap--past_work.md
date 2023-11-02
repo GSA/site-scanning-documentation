@@ -11,7 +11,7 @@ Q3 FY24
 
 
 Q2 FY24
-- Update 
+- Research and prototype new scans to support 21st Century IDEA implementation  
 
 
 Q1 FY24
