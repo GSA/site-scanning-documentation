@@ -65,7 +65,7 @@ Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in `sitemap.xml`,numer
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs in `sitemap.xml` with `.pdf` extension,numeric,no
 Third Party - Service Domains,third_party_service_domains,List of novel third party domains detected,list,no
 Third Party - Count,third_party_service_count,Count of novel third party domains detected,numeric,no
-Viewport Meta Tag,viewport_meta_tag,Is there a <meta name="viewport"> tag in the head; does it contain a content attribute; does the content attribute's value contain the text width=,boolean,no
+Viewport Meta Tag,viewport_meta_tag,Is there a <meta name=\"viewport\"> tag in the head; does it contain a content attribute; does the content attribute's value contain the text width=,boolean,no
 Cookies,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
 Login Provider,login_provider,"Name of detected login service",string,no
 Login - Detected,login_detected,List of login indicators detected at the Final URL,object,no
