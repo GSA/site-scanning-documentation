@@ -16,12 +16,12 @@ Target URL - Base Domain Bureau Owner,target_url_bureau_owner,Bureau Owner of Ta
 Target URL - Base Domain Branch,target_url_branch,Branch of Government of the Agency Owner of Target URL Base Domain,string,"yes, exact"
 Final URL - Status Code,final_url_status_code,Server status code of the Final URL,numeric,no
 Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly (TRUE), or give a misleading 200 code (FALSE)?",boolean,no
-Scan Date,scan_date,Scan date/time (when data is written),datetime,no
+Scan Status - Date,scan_date,Scan date/time (when data is written),datetime,no
 Scan Status - Primary,primary_scan_status,"Status of the scan of the Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Scan Status - Not Found,not_found_scan_status,"Status of the 404 Test scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Robots.txt,robots_txt_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
-DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
+Scan Status - DNS,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
 IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
 DNS Hostname,dns_hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Source List,source_list,"Which source datasets included this Target URL",list,no
