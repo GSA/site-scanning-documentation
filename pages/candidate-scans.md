@@ -50,6 +50,8 @@ The list of scans that have alreadby been built and are active [can be found her
     * E.g. for federalist, "curl --head https://<URL>" and examining the result for the line that says "X-Server: Federalist".
   * High level numbers - e.g. what percent of each agency's sites have implemented DAP; avg. USWDS total; etc.
   * Incorporate DAP analytics.
+ * For Cloud.gov Pages
+   * Continuous monitoring for substantial homepage changes, e.g. defacement or remote javascript loading.  
 
 
 ## Business Intelligence for TTS Programs
