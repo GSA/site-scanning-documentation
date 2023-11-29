@@ -2,13 +2,13 @@ name,field id,description,data type,queryable
 Target URL,target_url,URL scanned,string,"yes, exact, via path"
 Target URL - Base Domain,target_url_domain,Base Domain of Target URL,string,"yes, exact"
 Target URL - Top Level Domain,target_url_top_level_domain,Top level domain of Target URL,string,no
+Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
 Final URL,final_url,"Final URL after redirects [301, 302, etc.]",string,no
 Final URL - Base Domain,final_url_domain,Base Domain of Final URL (after redirects),string,"yes, exact"
 Final URL - Base Website,final_url_website,Base Website of Final URL (after redirects),string,no
 Final URL - Top Level Domain,final_url_top_level_domain,Top level domain of Final URL,string,no
 Final URL - MIMEtype,final_url_mimetype,MIMEtype of Final URL,string,no
 Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
-Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
 Final URL - Same Base Domain As Target URL,final_url_same_domain,Is the Final URL in same base domain as the Target URL (e.g. www.18f.gov redirects to 18f.gsa.gov = different base domain)?,boolean,no
 Final URL - Same Base Website As Target URL,final_url_same_website,Is the Final URL has the same base website as the Target URL (e.g. www.gsaauctions.gov redirects to www.gsaauctions.gov/somepage = same base website)?,boolean,no
 Target URL - Base Domain Agency Owner,target_url_agency_owner,Agency Owner of Target URL Base Domain,string,"yes, exact"
