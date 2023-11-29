@@ -21,7 +21,7 @@ Scan Date,scan_date,Scan date/time (when data is written),datetime,no
 Primary Scan Status,primary_scan_status,"Status of the scan of the Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Not Found Scan Status,not_found_scan_status,"Status of the 404 Test scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Robots.txt Scan Status,robots_txt_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
-Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `robots.txt` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Sitemap.xml Scan Status,sitemap_xml_scan_status,"Status of the scan for `sitemap.xml` Final URL [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS Scan Status,dns_scan_status,"Status of the scan of the DNS of the Target URL",string,no
 IPv6 Compliance,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
 DNS Hostname,dns_hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
