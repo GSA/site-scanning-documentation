@@ -7,7 +7,7 @@ Final URL - Base Domain,final_url_domain,Base Domain of Final URL (after redirec
 Final URL - Base Website,final_url_website,Base Website of Final URL (after redirects),string,no
 Final URL - Top Level Domain,final_url_top_level_domain,Top level domain of Final URL,string,no
 Canonical Link,canonical_link,Canonical URL HTML element,string,no
-Final URL - MIMEtype,final_url_mimetype,MIMEtype of Final URL,string,no
+Final URL - MIME type,final_url_mimetype,MIME type of Final URL,string,no
 Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
 Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
 Final URL/Target URL - Same Base Domain,final_url_same_domain,Is the Final URL in same base domain as the Target URL (e.g. www.18f.gov redirects to 18f.gsa.gov = different base domain)?,boolean,no
@@ -50,7 +50,7 @@ Robots.txt - Detected,robots_txt_detected,Is the `robots.txt` Final URL live and
 Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
 Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
 Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server status code of the `robots.txt` Final URL,numeric,no
-Robots.txt - MIMEtype,robots_txt_final_url_mimetype,MIMEtype of the `robots.txt` Final URL,string,no
+Robots.txt - MIME type,robots_txt_final_url_mimetype,MIME type of the `robots.txt` Final URL,string,no
 Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the Final URL of the `robots.txt` (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
@@ -59,7 +59,7 @@ Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap.xml` Final URL live 
 Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
 Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the `sitemap.xml` Target URL redirect?,boolean,no
 Sitemap.xml - Final URL - Status Code,sitemap_xml_final_url_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
-Sitemap.xml - MIMEtype,sitemap_xml_final_url_mimetype,MIMEtype of the `sitemap.xml` Final URL,string,no
+Sitemap.xml - MIME type,sitemap_xml_final_url_mimetype,MIME type of the `sitemap.xml` Final URL,string,no
 Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the Final URL of the `sitemap.xml` (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in `sitemap.xml`,numeric,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs in `sitemap.xml` with `.pdf` extension,numeric,no
