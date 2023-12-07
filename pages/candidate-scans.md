@@ -75,7 +75,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * Core Web Vitals (interest by leadership and relevance to Google search results [[note](https://9to5google.com/2020/11/10/google-search-page-speed/)]).
 * Performance (perhaps addressed in ^^^). 
 * Mobile-friendliness (perhaps addressed in ^^^) - also, note possible IDEA Act dashboard needs.
-* A11y: Note that the legislative branch has a specific need, spelled out [here](https://www.congress.gov/bill/116th-congress/house-resolution/756/text#toc-HCE76E2BE29E84D5D8C2611BE41C479D0).  Note that there's a similar effort at https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.  
+* A11y: Note that the legislative branch has a specific need, spelled out [here](https://www.congress.gov/bill/116th-congress/house-resolution/756/text#toc-HCE76E2BE29E84D5D8C2611BE41C479D0).  Note that there's a similar effort at https://www.feda11y.com/, run by former Pulse engineer Scott McAllister.
+  * scan image alt text for filenames or urls, a common bad practice.
 * The entire redirect path.
 * Scan for problematic or un-inclusive language.
 * Scan for plainlanguage (there's a variety of potentially scannable items in https://www.plainlanguage.gov/guidelines).
