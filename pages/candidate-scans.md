@@ -121,6 +121,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * Required links -  About page = “About us OR About”; Contact page = “Contact us”; Accessibility = “Accessibility”; budget/perf = “Budget and Performance”; Equal employment = “No FEAR Act Data”; FOIA = “FOIA or Freedom of Information Act”; Usa.gov link; Privacy = “Privacy Policy”;  IG = “Office of Inspector General”; ?presence of a search bar by searching for the word 'search' (or in a button, or text field?)?
 
 ## Other
+* Number of words on a page.
+* Number of words on a page when viewed as via mobile user agent?  Compared ^^^?
 * Blacklight scans.
 * Links to translated sites or other language options 
 * Whether a subdomain is a website or a system.
