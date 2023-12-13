@@ -21,7 +21,13 @@
 * In order to debug a specific URL's scan results, search the logs for that URL.
 
 ## Template checklist for new fields
-* Look for most recent issues [here](https://github.com/search?q=repo%3AGSA%2Fsite-scanning+checklist+for+new+fields&type=issues).  
+* Look for most recent issues [here](https://github.com/search?q=repo%3AGSA%2Fsite-scanning+checklist+for+new+fields&type=issues).
+
+## Checklist for Notifying users about upcoming breaking changes
+-  Look up email addresses from API users for the past 3 months
+-  Note known snapshot consumers (currently, just search.gov)
+-  Message them with the time and nature of the upcoming changes
+-  Add a banner to the API documentation
 
 ## Other miscellaneous system changes 
 * Change when the weekly export takes place: [edit this line](https://github.com/GSA/site-scanning-engine/blob/5ae7b3a16d047c65796f5b73b69399f971aeb920/vars-prod.yml#L12)
