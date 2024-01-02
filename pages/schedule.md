@@ -60,6 +60,16 @@ This document contains the schedule of when automated processes take place, as w
 
 **Notes:** This action produces a list of unique final websites found in the primary snapshot.
 
+## Generate agency-specific snapshots
+
+**When:** Monday, 12 AM UTC
+
+**GitHub Action specification:** https://github.com/GSA/site-scanning-snapshots/blob/main/.github/workflows/save-agency-slices.yml
+
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-snapshots/actions)
+
+**Notes:** This action produces a set of snapshots for each agency here: https://github.com/GSA/site-scanning-snapshots/tree/main/by_agency.
+
 ## Generate IDEA report
 
 **When:** Tuesday, 12 AM UTC
