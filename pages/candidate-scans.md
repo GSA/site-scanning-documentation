@@ -67,6 +67,7 @@ The list of scans that have alreadby been built and are active [can be found her
  
 * [Also, if they required implementation reports being in a machine readable, fixed location - we could analyze that report]
  
+* Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
 * Lots of ideas from https://www.screamingfrog.co.uk/seo-spider/
