@@ -71,6 +71,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
+* stuff in a .well-known folder
 * Lots of ideas from https://www.screamingfrog.co.uk/seo-spider/
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details)).
   * Example lighthouse scan [here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.gsa.gov); [Scoring methodology](https://github.com/GoogleChrome/lighthouse/blob/main/docs/scoring.md)
