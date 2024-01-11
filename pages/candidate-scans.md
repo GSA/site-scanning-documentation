@@ -92,6 +92,7 @@ The list of scans that have alreadby been built and are active [can be found her
 
 
 ## Security
+* presence of e.g. https://www.gsa.gov/.well-known/security.txt per https://datatracker.ietf.org/doc/rfc9116/
 * PQC migration 
 * presence of a vulnerability disclosure policy
 * DNS record certificate holder: Monitor changes in agency's DNS record certificate holder, and alert agencies if there are changes, which may be a sign of malicious behavior. 
