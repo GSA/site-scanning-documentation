@@ -12,9 +12,9 @@ Final URL - Status Code,final_url_status_code,Server status code of the Final UR
 Final URL - Media Type,final_url_media_type,Media type of Final URL,string,no
 Final URL - Same Base Domain As Target URL,final_url_same_domain,"Is the Final URL on the same base domain as the Target URL? (e.g. www.18f.gov redirects to 18f.gsa.gov, on a different base domain)",boolean,no
 Final URL - Same Base Website As Target URL,final_url_same_website,"Does the Final URL have the same base website as the Target URL? (e.g. www.gsaauctions.gov redirects to www.gsaauctions.gov/somepage, on the same base website)",boolean,no
-Target URL - Base Domain Agency Owner,target_url_agency_owner,Agency owner of Target URL Base Domain,string,"yes, exact"
-Target URL - Base Domain Bureau Owner,target_url_bureau_owner,Bureau owner of Target URL Base Domain,string,"yes, exact"
-Target URL - Base Domain Branch,target_url_branch,Branch of government of the agency owner of Target URL Base Domain,string,"yes, exact"
+Target URL - Base Domain Agency Owner,target_url_agency_owner,Agency owner of the Target URL Base Domain,string,"yes, exact"
+Target URL - Base Domain Bureau Owner,target_url_bureau_owner,Bureau owner of the Target URL Base Domain,string,"yes, exact"
+Target URL - Base Domain Branch,target_url_branch,Branch of government of the agency owner of the Target URL Base Domain,string,"yes, exact"
 Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly (TRUE), or give a misleading 200 code (FALSE)?",boolean,no
 Target URL - Data Source,source_list,"Which source datasets included this Target URL?",list,no
 Scan Status - Date,scan_date,Scan date/time (when data is written),datetime,no
