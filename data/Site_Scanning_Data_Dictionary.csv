@@ -1,5 +1,5 @@
 name,field id,description,data type,queryable
-Target URL,target_url,URL scanned,string,"yes, exact, via path"
+Target URL,target_url,URL scanned (Note that this is also the Target URL Base Website),string,"yes, exact, via path"
 Target URL - Base Domain,target_url_domain,Base Domain of Target URL,string,"yes, exact"
 Target URL - Top Level Domain,target_url_top_level_domain,Top level domain of Target URL,string,no
 Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
