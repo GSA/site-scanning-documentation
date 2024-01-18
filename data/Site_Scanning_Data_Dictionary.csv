@@ -9,7 +9,7 @@ Final URL - Base Website,final_url_website,Base Website of Final URL,string,no
 Final URL - Top Level Domain,final_url_top_level_domain,Top level domain of Final URL,string,no
 Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
 Final URL - Status Code,final_url_status_code,Server status code of the Final URL,numeric,no
-Final URL - Media Type,final_url_mimetype,Media type of Final URL,string,no
+Final URL - Media Type,final_url_media_type,Media type of Final URL,string,no
 Final URL - Same Base Domain As Target URL,final_url_same_domain,"Is the Final URL on the same base domain as the Target URL? (e.g. www.18f.gov redirects to 18f.gsa.gov, on a different base domain)",boolean,no
 Final URL - Same Base Website As Target URL,final_url_same_website,"Does the Final URL have the same base website as the Target URL? (e.g. www.gsaauctions.gov redirects to www.gsaauctions.gov/somepage, on the same base website)",boolean,no
 Target URL - Base Domain Agency Owner,target_url_agency_owner,Agency owner of Target URL Base Domain,string,"yes, exact"
@@ -23,34 +23,34 @@ Scan Status - Not Found,not_found_scan_status,"Status of the 404 Test Scan [Comp
 Scan Status - Robots.txt,robots_txt_scan_status,"Status of the Robots.txt Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - DNS,dns_scan_status,"Status of the DNS Scan",string,no
-DNS - IPv6,dns_ipv6,"Presence of a DNS AAAA record",boolean,no
-DNS - Hostname,dns_hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
+DNS - IPv6,ipv6,"Presence of a DNS AAAA record",boolean,no
+DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress)",string,no
 Infrastructure - Cloud.gov Pages Detected,cloud_dot_gov_pages,Is the Final URL hosted using Cloud.gov Pages?,boolean,no
 Infrastructure - Login Provider,login_provider,"Name of detected login service",string,no
-Infrastructure - Login Detected,login_detected,List of login indicators detected,object,no
-Infrastructure - Site Search Detected,search_detected,Is a site search functionality detected?,boolean, no
+Infrastructure - Login Detected,login,List of login indicators detected,object,no
+Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean, no
 Infrastructure - Search.gov Detected,searchgov,Is the use of Search.gov detected?,boolean,no
-Infrastructure - DAP Detected,dap_detected_final_url,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
-Infrastructure - DAP Parameters - Final URL,dap_parameters_final_url,List of DAP parameters detected,object,no
+Infrastructure - DAP Detected,dap_detected,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
+Infrastructure - DAP Parameters - Final URL,dap_parameters,List of DAP parameters detected,object,no
 Infrastructure - Third Party Service Domains,third_party_service_domains,List of distinct third party domains detected,list,no
 Infrastructure - Third Party Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
 Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
 Mobile - Viewport Meta Tag,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
 Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
 Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
-SEO - article:published_time,og_article_published_final_url,Open Graph article published time,datetime,no
-SEO - article:modified_time,og_article_modified_final_url,Open Graph article modified time,datetime,no
+SEO - article:published_time,og_article_published,Open Graph article published time,datetime,no
+SEO - article:modified_time,og_article_modified,Open Graph article modified time,datetime,no
 SEO - Canonical Link,canonical_link,Canonical URL HTML element,string,no
-SEO - og:title,og_title_final_url,Open Graph page title,string,no
-SEO - og:description,og_description_final_url,Open Graph description,string,no
-SEO - Main Element,main_element_present_final_url,Presence of `<main>` element,boolean,no
+SEO - og:title,og_title,Open Graph page title,string,no
+SEO - og:description,og_description,Open Graph description,string,no
+SEO - Main Element,main_element_present,Presence of `<main>` element,boolean,no
 Robots.txt - Final URL,robots_txt_final_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
 Robots.txt - Detected,robots_txt_detected,Is the `robots.txt` Final URL live and does it end with `robots.txt`?,boolean,no
 Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
 Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
 Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server status code of the `robots.txt` Final URL,numeric,no
-Robots.txt - Media Type,robots_txt_final_url_mimetype,Media type of the `robots.txt` Final URL,string,no
+Robots.txt - Media Type,robots_txt_final_url_media_type,Media type of the `robots.txt` Final URL,string,no
 Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the Final URL of the `robots.txt` (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
@@ -59,7 +59,7 @@ Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap.xml` Final URL live 
 Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
 Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the `sitemap.xml` Target URL redirect?,boolean,no
 Sitemap.xml - Final URL - Status Code,sitemap_xml_final_url_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
-Sitemap.xml - Media Type,sitemap_xml_final_url_mimetype,Media type of the `sitemap.xml` Final URL,string,no
+Sitemap.xml - Media Type,sitemap_xml_final_url_media_type,Media type of the `sitemap.xml` Final URL,string,no
 Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the Final URL of the `sitemap.xml` (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in the detected `sitemap.xml`,numeric,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs ending in `.pdf` in the detected `sitemap.xml`,numeric,no
