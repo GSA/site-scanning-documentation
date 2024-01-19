@@ -12,11 +12,11 @@ First off, before any scans take place, the process of ingesting the target URL 
 
 When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L36) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
 
-The current scans are: 
+The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages) are: 
 
 - `[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)` - Loads the Target URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
-- `[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)` - Analyzes the DNS of the Final URL.  
-- `[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)` - A random string is added as a path after the Target URL to test how the site handles 404 errors.  
+- `[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)` - Analyzes the DNS of the Final URL using a node.js library (instead of puppeteer).  In the `hostname` field, only certain results that contain [one of these strings](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79) are included.  
+- `[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)` - A [random string](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts#L13-L15) is added as a path after the Target URL to test how the site handles 404 errors.  An https service is used instead of puppeteer.  
 - `[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)` - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
 - `[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)` - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.  
 
@@ -24,7 +24,7 @@ The current scans are:
 The primary scan uses [Puppeteer](https://pptr.dev/) to load a Target URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
 
 At the moment, these 'scan components' are: 
-* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which notes whether the Target URL redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - Base Website`, `Final URL - Top Level Domain`, `Final URL - Media Type`, `Final URL - Live`, `Target URL - Redirects`, `Final URL - Same Base Domain As Target URL`, `Final URL - Same Base Website As Target URL`, and `Final URL - Status Code` fields.
+* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which loads the Target URL and then notes whether the it redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - Base Website`, `Final URL - Top Level Domain`, `Final URL - Media Type`, `Final URL - Live`, `Target URL - Redirects`, `Final URL - Same Base Domain As Target URL`, `Final URL - Same Base Website As Target URL`, and `Final URL - Status Code` fields.
   * For `Final URL - Live` - it is marked `TRUE` if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206.
   * For `Target URL - Redirects` - it is marked `TRUE` if the are one or more components in the redirect chain of the request method.  
 * [cloudDotGovPagesScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cloud-dot-gov-pages.ts) - which looks to see if there's an x-server response header that says `cloud.gov pages`.  This populates the `Infrastructure - Cloud.gov Pages Detected` field.  
@@ -40,79 +40,7 @@ At the moment, these 'scan components' are:
 * [uswdsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/uswds.ts) - which looks for various US Web Design System elements within the page's source code, and also uses a formula to calculate the likelihood that USWDS is present on that page.  This populates the `USWDS - Favicon`, `USWDS - Favicon in CSS`, `USWDS - Merriweather Font`, `USWDS - Public Sans Font`, `USWDS - Source Sans Font`, `USWDS - Tables`, `USWDS - Count`, `USWDS - USA Classes`, `USWDS - Inline CSS`, `USWDS - String`, `USWDS - String in CSS`, `USWDS - Semantic Version`, and `USWDS - Version`	fields.  
 
 
-
-
-
-Key file - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts
-
-
-
-
-
-
-for the other four - scan source code is in - https://github.com/GSA/site-scanning-engine/tree/75d5b532c556291353b3dd73fbc4fd2fa3b4a214/libs/core-scanner/src/pages
-
-
-
-
-url scans -  https://github.com/GSA/site-scanning-engine/blob/75d5b532c556291353b3dd73fbc4fd2fa3b4a214/libs/core-scanner/src/scans/url-scan.ts#L21-L29
-it's being passed the http response that's being received by the browser and then pulls out these figures.  
-
-
-
-for dap, we capture the outbound requests that take place, via a different scan ([code](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/dap.ts)).  
-
-
-
-
-For the robotsTXT scan, 
-
-...
-for robots and sitemap detected, looks at whether live = true instead directly at server status code 
-
-
-For the sitemapxml scan,  
-
-...
-for robots and sitemap detected, looks at whether live = true instead directly at server status code 
-
-
-For the notFound scan,  
-
-...
-doesn't use puppeteer - uses an https service that is passed through to it.  
-
-random url suffix is generated at this point - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts#L13-L14
-404 test - appends to the end /not-found-test${uuid} where uuid is a random string
-
-
-
-
-For the dns scan, 
-
-for the hostnames, only [this list](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79).  
-
-...
-
-doesn't use puppeteer - uses a node.js library 
-
-
-for dns hostname, we only include if the domain of the hostname includes a string from here - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79
-
-
-
-
-* Order of scans 
-  * For each scan, order of operations 
-    * For each operation - a human readable but technical description of what happens and what data fields are written
-    * For each operation - a link to the source code 
-  * For each scan, a link to the source code  
-* Link to the order of scans  
-
-
-sidenote - the x.ts files are the scans and the x.spec.ts files are the test cases 
-
-
-
-
-scan status codes 
+Other Notes:
+- For the `Robots.txt - Detected` and `Sitemap.xml - Detected` fields, the analysis looks at whether `Robots.txt - Final URL - Live` and `Sitemap.xml - Final URL - Live` are `TRUE` for its decision (as opposed to the relevant server status code).
+- In the above folders, the x.ts files are the scans/scan components themselves and the x.spec.ts files are the test cases.
+- Scan status codes ...
