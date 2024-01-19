@@ -1,13 +1,5 @@
-
-This is a description of the step-by-step technical process by which we 'scan' each Target URL.  For information on the process of building the Target URL list, go [here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).  
-
-* Order of scans 
-  * For each scan, order of operations 
-    * For each operation - a human readable but technical description of what happens and what data fields are written
-    * For each operation - a link to the source code 
-  * For each scan, a link to the source code  
-* Link to the order of scans  
-
+[
+This is a description of the step-by-step technical process by which we 'scan' each Target URL.  For information on the process of building the Target URL list, go [here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).]
 
 First off, before any scans take place, the process of ingesting the target URL list into the database populates the following fields: 
 * `Target URL`
@@ -105,6 +97,17 @@ doesn't use puppeteer - uses a node.js library
 
 
 for dns hostname, we only include if the domain of the hostname includes a string from here - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79
+
+
+
+
+* Order of scans 
+  * For each scan, order of operations 
+    * For each operation - a human readable but technical description of what happens and what data fields are written
+    * For each operation - a link to the source code 
+  * For each scan, a link to the source code  
+* Link to the order of scans  
+
 
 sidenote - the x.ts files are the scans and the x.spec.ts files are the test cases 
 
