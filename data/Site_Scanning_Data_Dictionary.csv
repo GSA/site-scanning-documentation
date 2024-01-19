@@ -39,8 +39,8 @@ Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with 
 Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
 Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
 Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
-SEO - title,"title",string,no
-SEO - description,description,string,no
+SEO - title,title,Meta page title,string,no
+SEO - description,description,Meta page description,string,no
 SEO - og:title,og_title,Open Graph page title,string,no
 SEO - og:description,og_description,Open Graph description,string,no
 SEO - article:published_time,og_article_published,Open Graph article published time,datetime,no
