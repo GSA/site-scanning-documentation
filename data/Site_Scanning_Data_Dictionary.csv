@@ -26,7 +26,7 @@ Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Sca
 DNS - IPv6,ipv6,"Presence of a DNS AAAA record",boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress)",string,no
-Infrastructure - Cloud.gov Pages Detected,cloud_dot_gov_pages,Is the Final URL hosted using Cloud.gov Pages?,boolean,no
+Infrastructure - Cloud.gov Pages Detected,cloud_dot_gov_pages,Is the use of Cloud.gov Pages detected?,boolean,no
 Infrastructure - Login Provider,login_provider,"Name of detected login service",string,no
 Infrastructure - Login Detected,login,List of login indicators detected,object,no
 Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean, no
