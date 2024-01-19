@@ -42,6 +42,8 @@ USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,string,no
 USWDS - Version,uswds_version,"Presence of version of USWDS, if available",integer,no
 SEO - article:published_time - Final URL,og_article_published_final_url,Open Graph article published time,datetime,no
 SEO - article:modified_time - Final URL,og_article_modified_final_url,Open Graph article modified time,datetime,no
+SEO - title,title,Meta page title,string,no
+SEO - description,description,Meta page description,string,no
 SEO - og:title - Final URL,og_title_final_url,Open Graph page title,string,no
 SEO - og:description - Final URL,og_description_final_url,Open Graph description,string,no
 SEO - Main Element - Final URL,main_element_present_final_url,Presence of `<main>` element,boolean,no
