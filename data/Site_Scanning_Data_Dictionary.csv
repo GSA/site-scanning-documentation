@@ -32,35 +32,35 @@ Infrastructure - Login Detected,login,List of login indicators detected,object,n
 Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean, no
 Infrastructure - Search.gov Detected,searchgov,Is the use of Search.gov detected?,boolean,no
 Infrastructure - DAP Detected,dap_detected,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
-Infrastructure - DAP Parameters - Final URL,dap_parameters,List of DAP parameters detected,object,no
+Infrastructure - DAP Parameters,dap_parameters,List of DAP parameters detected,object,no
 Infrastructure - Third Party Service Domains,third_party_service_domains,List of distinct third party domains detected,list,no
-Infrastructure - Third Party Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
+Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
 Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
-Mobile - Viewport Meta Tag,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
+Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
 Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
 Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
+SEO - og:title,og_title,Open Graph page title,string,no
+SEO - og:description,og_description,Open Graph description,string,no
 SEO - article:published_time,og_article_published,Open Graph article published time,datetime,no
 SEO - article:modified_time,og_article_modified,Open Graph article modified time,datetime,no
 SEO - Canonical Link,canonical_link,Canonical URL HTML element,string,no
-SEO - og:title,og_title,Open Graph page title,string,no
-SEO - og:description,og_description,Open Graph description,string,no
-SEO - Main Element,main_element_present,Presence of `<main>` element,boolean,no
-Robots.txt - Final URL,robots_txt_final_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
+SEO - Main Element Detected,main_element_present,Presence of `<main>` element,boolean,no
 Robots.txt - Detected,robots_txt_detected,Is the `robots.txt` Final URL live and does it end with `robots.txt`?,boolean,no
-Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
 Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
+Robots.txt - Final URL,robots_txt_final_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
+Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
 Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server status code of the `robots.txt` Final URL,numeric,no
 Robots.txt - Media Type,robots_txt_final_url_media_type,Media type of the `robots.txt` Final URL,string,no
-Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the Final URL of the `robots.txt` (bytes),numeric,no
+Robots.txt - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the Final URL of the `robots.txt` (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
-Sitemap.xml - Final URL,sitemap_xml_final_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
 Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap.xml` Final URL live and does it end with `sitemap.xml`?,boolean,no
-Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
 Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the `sitemap.xml` Target URL redirect?,boolean,no
+Sitemap.xml - Final URL,sitemap_xml_final_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
+Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
 Sitemap.xml - Final URL - Status Code,sitemap_xml_final_url_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
 Sitemap.xml - Media Type,sitemap_xml_final_url_media_type,Media type of the `sitemap.xml` Final URL,string,no
-Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the Final URL of the `sitemap.xml` (bytes),numeric,no
+Sitemap.xml - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the Final URL of the `sitemap.xml` (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in the detected `sitemap.xml`,numeric,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs ending in `.pdf` in the detected `sitemap.xml`,numeric,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
