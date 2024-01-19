@@ -23,16 +23,20 @@ When scanning commences, [this core file](https://github.com/GSA/site-scanning-e
 The primary scan uses [Puppeteer](https://pptr.dev/) to load a target URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
 
 At the moment, these 'scan components' are: 
-* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which notes whether the Target URL redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - Base Website`, `Final URL - Top Level Domain`, `Final URL - Media Type`, `Final URL - Live`, `Target URL - Redirects`, `Final URL - Same Base Domain As Target URL`, `Final URL - Same Base Website As Target URL`, and `Final URL - Status Code` fields.  
-* [dapScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/dap.ts) - which captures the outbound requests that occur when the target URL loads and notes whether a call using the Digital Analytics Program tag IDs ('UA-33523145-1' or 'G-9TNNMGP8WJ') is one of them.  If it is, the Google Analytics parameters are also captured.  This then populates the `DAP - Final URL` and `DAP - Parameters - Final URL` fields.  
-* [seoScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/seo.ts) - which looks for various search engine optimization elements within the page's source code.  This populates the `SEO - article:published_time - Final URL`, `SEO - article:modified_time - Final URL`, `SEO - og:title - Final URL`, `SEO - og:description - Final URL`, and `SEO - Main Element - Final URL` fields.  
-* [thirdPartyScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/third-party.ts) - which captures the outbound requests that occur when the target URL loads, notes them, and counts how many unique third party services they represent.  This populates the `Third Party - Service Domains` and `Third Party - Count` fields.  
-* [uswdsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/uswds.ts) - which lookos for various US Web Design System elements within the page's source code, and also uses a formula to calculate the likelihood that USWDS is present on that page.  This populates the `USWDS - Favicon`, `USWDS - Favicon in CSS`, `USWDS - Merriweather Font`, `USWDS - Public Sans Font`, `USWDS - Source Sans Font`, `USWDS - Tables`, `USWDS - Count`, `USWDS - USA Classes`, `USWDS - Inline CSS`, `USWDS - String`, `USWDS - String in CSS`, `USWDS - Semantic Version`, and `USWDS - Version`	fields.  
-* loginScan
+* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which notes whether the Target URL redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - Base Website`, `Final URL - Top Level Domain`, `Final URL - Media Type`, `Final URL - Live`, `Target URL - Redirects`, `Final URL - Same Base Domain As Target URL`, `Final URL - Same Base Website As Target URL`, and `Final URL - Status Code` fields.
+  * For `Final URL - Live` - it is marked `TRUE` if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206.
+  * For `Target URL - Redirects` - it is marked `TRUE` if the are one or more components in the redirect chain of the request method.  
 * [cloudDotGovPagesScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cloud-dot-gov-pages.ts) - which looks to see if there's an x-server response header that says `cloud.gov pages`.  This populates the `Infrastructure - Cloud.gov Pages Detected` field.  
 * [cmsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) - which looks for certain code snippets in the page html and headers that indicate the use of a certain CMS.  These code snippets are borrowed from the great work of [Wappalyzer](https://github.com/tunetheweb/wappalyzer), specifically the files in [this folder](https://github.com/tunetheweb/wappalyzer/tree/master/src/technologies).
-* 
-    
+* [cookieScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cookies.ts) - which uses Puppeteer's built in functionality to note the domains of all cookies that load.
+* [dapScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/dap.ts) - which captures the outbound requests that occur when the target URL loads and notes whether a call using the Digital Analytics Program tag IDs ('UA-33523145-1' or 'G-9TNNMGP8WJ') is one of them.  If it is, the Google Analytics parameters are also captured.  This then populates the `DAP - Final URL` and `DAP - Parameters - Final URL` fields.  
+* [loginScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/login.ts) - which looks for certain code snippets in the page html to indicate the presence of a login form or the use of a certain  login provider.  This populates the `Infrastructure - Login Provider` and `Infrastructure - Login Detected` fields.  
+* [mobileScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/mobile.ts) - which looks for a certain code snippet to indicate the presence of a viewport meta tag.  This populates the `Mobile - Viewport Meta Tag Detected` field.
+* [requiredLinksScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/required-links.ts) - which looks for certain strings in each hyperlinked text and associated URLs that may indicate the presence of a required link, as specified on [this Digital.gov page](https://digital.gov/resources/required-web-content-and-links).  This populates the `Required Links - URL` and `Required Links - Text` fields.
+* [searchScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/search.ts) - which looks for certain code snippets in the page html to indicate the presence of a site search form or to indicate the use of Search.gov.  This populates the `Infrastructure - Site Search Detected` and `Infrastructure - Search.gov Detected` fields.
+* [seoScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/seo.ts) - which looks for various search engine optimization elements within the page's source code.  This populates the `SEO - title`, `SEO - description`, `SEO - article:published_time`, `SEO - article:modified_time`, `SEO - og:title`, `SEO - og:description`, `SEO - Main Element` and `SEO - Canonical Link` fields.  
+* [thirdPartyScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/third-party.ts) - which captures the outbound requests that occur when the target URL loads, notes them, and counts how many unique third party services they represent.  This populates the `Third Party - Service Domains` and `Third Party - Count` fields.  
+* [uswdsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/uswds.ts) - which looks for various US Web Design System elements within the page's source code, and also uses a formula to calculate the likelihood that USWDS is present on that page.  This populates the `USWDS - Favicon`, `USWDS - Favicon in CSS`, `USWDS - Merriweather Font`, `USWDS - Public Sans Font`, `USWDS - Source Sans Font`, `USWDS - Tables`, `USWDS - Count`, `USWDS - USA Classes`, `USWDS - Inline CSS`, `USWDS - String`, `USWDS - String in CSS`, `USWDS - Semantic Version`, and `USWDS - Version`	fields.  
 
 * The technical details of how each scan operates can be found in the following locations: 
   * [primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)  (and then [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans))
@@ -71,10 +75,14 @@ for dap, we capture the outbound requests that take place, via a different scan 
 For the robotsTXT scan, 
 
 ...
+for robots and sitemap detected, looks at whether live = true instead directly at server status code 
+
 
 For the sitemapxml scan,  
 
 ...
+for robots and sitemap detected, looks at whether live = true instead directly at server status code 
+
 
 For the notFound scan,  
 
@@ -82,6 +90,10 @@ For the notFound scan,
 doesn't use puppeteer - uses an https service that is passed through to it.  
 
 random url suffix is generated at this point - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts#L13-L14
+404 test - appends to the end /not-found-test${uuid} where uuid is a random string
+
+
+
 
 For the dns scan, 
 
@@ -91,48 +103,12 @@ for the hostnames, only [this list](https://github.com/GSA/site-scanning-engine/
 
 doesn't use puppeteer - uses a node.js library 
 
-for cms - it uses the primary scan, and [this regex library](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) and scans the response body (not any linked assets though) for the snippets.  
-
-
-for the required links scan 
-https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/required-links.ts#L10
-
-for cms scan 
-
-https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts
-
-for login detection - 
-
-https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/login.ts
-
-
-target url redirects - looks at the redirect chain in the request method  and if there is 1 or more components to it, then it is considered to have redirected.  
-
-final url = live.  if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206
-
-404 test - appends to the end /not-found-test${uuid} where uuid is a random string
 
 for dns hostname, we only include if the domain of the hostname includes a string from here - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79
-
-for cms scan, we search the html and headers using the rubric linked above 
-
-
-
-
 
 sidenote - the x.ts files are the scans and the x.spec.ts files are the test cases 
 
 
-entire chain of server status codes and notes whether any of them inclue a 3xx code.  
-
-
-uses puppeteer's built in cookie method to note all of the cookies that load 
-
-
-viewport meta tag on for a long time, looking at the html 
-
-
-for robots and sitemap detected, looks at whether live = true instead directly at server status code 
 
 
 scan status codes 
