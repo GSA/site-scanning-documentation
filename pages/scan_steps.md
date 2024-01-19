@@ -69,6 +69,6 @@ At the moment, these 'scan components' are:
   * For `Sitemap.xml - Target URL - Redirects` - it is marked `TRUE` if the are one or more components in the redirect chain of the request method.  
   * For `Sitemap.xml - Detected`, the analysis looks at whether `Robots.txt - Final URL - Live` is `TRUE` for its decision (as opposed to the relevant server status code).
 
-Other Notes:
+### Other Notes
 
 - In the above folders, the x.ts files are the scans/scan components themselves and the x.spec.ts files are the test files.
