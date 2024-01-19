@@ -29,7 +29,9 @@ At the moment, these 'scan components' are:
 * [thirdPartyScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/third-party.ts) - which captures the outbound requests that occur when the target URL loads, notes them, and counts how many unique third party services they represent.  This populates the `Third Party - Service Domains` and `Third Party - Count` fields.  
 * [uswdsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/uswds.ts) - which lookos for various US Web Design System elements within the page's source code, and also uses a formula to calculate the likelihood that USWDS is present on that page.  This populates the `USWDS - Favicon`, `USWDS - Favicon in CSS`, `USWDS - Merriweather Font`, `USWDS - Public Sans Font`, `USWDS - Source Sans Font`, `USWDS - Tables`, `USWDS - Count`, `USWDS - USA Classes`, `USWDS - Inline CSS`, `USWDS - String`, `USWDS - String in CSS`, `USWDS - Semantic Version`, and `USWDS - Version`	fields.  
 * loginScan
-    
+* [cloudDotGovPagesScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cloud-dot-gov-pages.ts) - which looks to see if there's an x-server response header that says `cloud.gov pages`.  This populates the `Infrastructure - Cloud.gov Pages Detected` field.  
+* [cmsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) - which looks for certain code snippets in the page html and headers that indicate the use of a certain CMS.  These code snippets are borrowed from the great work of [Wappalyzer](https://github.com/tunetheweb/wappalyzer), specifically the files in [this folder](https://github.com/tunetheweb/wappalyzer/tree/master/src/technologies).
+* 
     
 
 * The technical details of how each scan operates can be found in the following locations: 
@@ -116,7 +118,6 @@ for cms scan, we search the html and headers using the rubric linked above
 
 
 
-cloud.gov pages - we look to see if there's an x-server response header that says cloud.gov pages 
 
 
 sidenote - the x.ts files are the scans and the x.spec.ts files are the test cases 
