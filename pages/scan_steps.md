@@ -106,4 +106,31 @@ for login detection -
 https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/login.ts
 
 
+target url redirects - looks at the redirect chain in the request method  and if there is 1 or more components to it, then it is considered to have redirected.  
 
+final url = live.  if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206
+
+404 test - appends to the end /not-found-test${uuid} where uuid is a random string
+
+for dns hostname, we only include if the domain of the hostname includes a string from here - https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts#L66-L79
+
+for cms scan, we search the html and headers using the rubric linked above 
+
+
+
+cloud.gov pages - we look to see if there's an x-server response header that says cloud.gov pages 
+
+
+sidenote - the x.ts files are the scans and the x.spec.ts files are the test cases 
+
+
+entire chain of server status codes and notes whether any of them inclue a 3xx code.  
+
+
+uses puppeteer's built in cookie method to note all of the cookies that load 
+
+
+viewport meta tag on for a long time, looking at the html 
+
+
+for robots and sitemap detected, looks at whether live = true instead directly at server status code 
