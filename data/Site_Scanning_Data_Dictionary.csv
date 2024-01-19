@@ -5,8 +5,8 @@ Target URL - Top Level Domain,target_url_top_level_domain,Top Level Domain of th
 Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
 Final URL,final_url,"Final URL that resolves after any redirects [301, 302, etc.]",string,no
 Final URL - Base Domain,final_url_domain,Base Domain of the Final URL,string,"yes, exact"
-Final URL - Base Website,final_url_website,Base Website of the Final URL,string,no
 Final URL - Top Level Domain,final_url_top_level_domain,Top Level Domain of the Final URL,string,no
+Final URL - Base Website,final_url_website,Base Website of the Final URL,string,no
 Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
 Final URL - Status Code,final_url_status_code,Server status code of the Final URL,numeric,no
 Final URL - Media Type,final_url_media_type,Media type of Final URL,string,no
