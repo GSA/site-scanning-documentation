@@ -12,7 +12,16 @@ First off, before any scans take place, the process of ingesting the target URL 
 
 When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L36) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
 
-The primary scan uses [Puppeteer](https://pptr.dev/) to load a target URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
+The current scans are: 
+
+- `[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)` - Loads the Target URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
+- `[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)` - Analyzes the DNS of the Final URL.  
+- `[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)` - A random string is added as a path after the Target URL to test how the site handles 404 errors.  
+- `[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)` - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
+- `[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)` - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.  
+
+
+The primary scan uses [Puppeteer](https://pptr.dev/) to load a Target URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
 
 At the moment, these 'scan components' are: 
 * [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which notes whether the Target URL redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - Base Website`, `Final URL - Top Level Domain`, `Final URL - Media Type`, `Final URL - Live`, `Target URL - Redirects`, `Final URL - Same Base Domain As Target URL`, `Final URL - Same Base Website As Target URL`, and `Final URL - Status Code` fields.
@@ -29,14 +38,6 @@ At the moment, these 'scan components' are:
 * [seoScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/seo.ts) - which looks for various search engine optimization elements within the page's source code.  This populates the `SEO - title`, `SEO - description`, `SEO - article:published_time`, `SEO - article:modified_time`, `SEO - og:title`, `SEO - og:description`, `SEO - Main Element` and `SEO - Canonical Link` fields.  
 * [thirdPartyScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/third-party.ts) - which captures the outbound requests that occur when the target URL loads, notes them, and counts how many unique third party services they represent.  This populates the `Third Party - Service Domains` and `Third Party - Count` fields.  
 * [uswdsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/uswds.ts) - which looks for various US Web Design System elements within the page's source code, and also uses a formula to calculate the likelihood that USWDS is present on that page.  This populates the `USWDS - Favicon`, `USWDS - Favicon in CSS`, `USWDS - Merriweather Font`, `USWDS - Public Sans Font`, `USWDS - Source Sans Font`, `USWDS - Tables`, `USWDS - Count`, `USWDS - USA Classes`, `USWDS - Inline CSS`, `USWDS - String`, `USWDS - String in CSS`, `USWDS - Semantic Version`, and `USWDS - Version`	fields.  
-
-* The technical details of how each scan operates can be found in the following locations: 
-  * [primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)  (and then [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans))
-  * [notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)
-  * [robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)
-  * [sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)
-  * [dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)
-
 
 
 
