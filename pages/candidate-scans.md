@@ -65,6 +65,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * mobile header?
 * count of pdfs on a site - e.g. [this query](https://www.google.com/search?q=filetype%3Apdf+site%3Agsa.gov)
 * content similarity (via comparison of page content [[prototype via Bard](https://docs.google.com/spreadsheets/d/1V12I-FzbZVTD90al-0lwLCHWH-AHsbt8/edit#gid=901101796)], page titles, page desciptions, keywords, and/or page headers)
+* [Other meta tags like these](https://search.gov/indexing/metadata.html#crawling-metadata)
  
 * [Also, if they required implementation reports being in a machine readable, fixed location - we could analyze that report]
  
