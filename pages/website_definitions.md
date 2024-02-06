@@ -52,3 +52,13 @@ For registration purposes, a website is a web page or set of interconnected web 
 ##### [State.gov Foreign Affairs Manual](https://fam.state.gov/fam/05fah08/05fah080110.html)
 
 A website is a collection of web pages typically related by a topic, an organization, a commercial interest, or a government agency. It may contain text, images, videos, audio files, and other content, all of which is delivered under the same base URL (e.g., companyname.com, office.gov, orgname.org).
+
+##### [Archive.org](https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/)
+
+We define a webpage as a valid web capture that is an HTML document, a plain text document, or a PDF.
+
+A domain on the web is an owned section of the internet namespace, such as google.com or archive.org or bbc.co.uk. 
+
+A host on the web is identified by a fully qualified domain name or FQDN that specifies its exact location in the tree hierarchy of the Domain Name System. The FQDN consists of the following parts: hostname and domain name.  As an example, in case of the host blog.archive.org, its hostname is blog and the host is located within the domain archive.org.
+
+We define a website to be a host that has served webpages and has at least one incoming link from a webpage belonging to a different domain.
