@@ -162,6 +162,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * Finding geospatial tools like https://resources.hud.gov/.
 * Add in a layer to offer a real, simple and usable nested list of federal agencies, a la https://github.com/unitedstates/orgchart/tree/master/wikipedia.
 * Add a layer of metadata if an agency has a machine-readable websites.yml file at a fixed location that would enable one to filter for that agencies list of websites.
+* Is www. required?  Does including www. break the link?  ([details, examples, and a metholodgy here](https://github.com/GSA/site-scanning/issues/802))
 
 ## Other Scopes to Consider Scanning Against
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?
