@@ -37,7 +37,7 @@ Infrastructure - Third Party Service Domains,third_party_service_domains,List of
 Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
 Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
 Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
-Performance - Cumulative Layout Shift,cumulative_layout_shift,Performance indicator that expresses when the page that the user experiences shifts the most,string,no
+Performance - Cumulative Layout Shift,cumulative_layout_shift,Performance indicator that measures how much layouts shift for a user while the page loads for a user, expressed by a layout shift score,string,no
 Performance - Largest Contentful Paint,largest_contentful_paint,Performance indicator that counts in milliseconds when what is likely the main content on the page loads,string,no
 Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
 Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
