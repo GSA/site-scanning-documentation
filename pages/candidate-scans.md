@@ -68,6 +68,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * [Other meta tags like these](https://search.gov/indexing/metadata.html#crawling-metadata)
 * Required URLs ([list here](https://github.com/GSA/site-scanning-documentation/blob/a103530b7033b80af6cdd0a34f7d000ffbf4729e/about/version-1-archive/scans/live/status.md#summary) + /design)
 * Other language support aspects, as perhaps revealed by content on https://www.lep.gov/digital-services-and-websites
+* length of sentences
+* character strings of self-hosted feedback tools (e.g. census.gov homepage)
  
 * [Also, if they required implementation reports being in a machine readable, fixed location - we could analyze that report]
  
