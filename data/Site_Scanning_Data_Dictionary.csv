@@ -70,7 +70,7 @@ Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs ending in `.pdf` in 
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
-USWDS - Inline CSS,uswds_inline_css,Presence of `.usa-` class in in-line CSS,integer,no
+USWDS - In-page CSS,uswds_inline_css,Presence of .usa- class in a <style> block in HTML,integer,no
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
 USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
 USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,integer,no
