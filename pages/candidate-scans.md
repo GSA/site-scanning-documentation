@@ -154,7 +154,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * List of links (or text) in the menu?  list of menu headers? list of links (or hyperlinked text) in the footer? 
 * count of h1s, h2s, h3s
 * Links that have words 'about', 'contact', etc. in them.
-* Readability.
+* Readability.  e.g. https://www.webfx.com/tools/read-able/?url=https://gsa.gov
 * More from schema.org ?
 * More from this [market research](https://docs.google.com/document/d/1hzNRRPL1SiJmw4EpTgXjtaPePnGZ0EFNPRyIWUxV6_Y/edit?pli=1).
 * A replacement for statuspage.
