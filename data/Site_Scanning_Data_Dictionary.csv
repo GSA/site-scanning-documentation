@@ -17,12 +17,17 @@ Target URL - Base Domain Bureau Owner,target_url_bureau_owner,Bureau owner of th
 Target URL - Base Domain Branch,target_url_branch,Branch of government of the agency owner of the Target URL Base Domain,string,"yes, exact"
 Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly (TRUE), or give a misleading 200 code (FALSE)?",boolean,no
 Target URL - Data Source,source_list,"Which source datasets included this Target URL?",list,no
+Target URL - Public,public,Whether a website should be considered public-facing in regards to OMB/21st Century IDEA implementation,boolean,no
 Scan Status - Date,scan_date,Scan date/time (when data is written),datetime,no
 Scan Status - Primary,primary_scan_status,"Status of the Primary Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
-Scan Status - DNS,dns_scan_status,"Status of the DNS Scan",string,no
+Scan Status - Accessibility,accessibility_scan_status,"Status of the Accessibility Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Scan Status - DNS,dns_scan_status,"Status of the DNS Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Not Found,not_found_scan_status,"Status of the 404 Test Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Scan Status - Performance,performance_scan_status,"Status of the Performance Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Robots.txt,robots_txt_scan_status,"Status of the Robots.txt Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Scan Status - Security,"Status of the Security Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Accessibility - Violations,accessibility_violations,Count of Axe rules which have 1+ voilations detected - by category of rule,string,no
 DNS - IPv6,ipv6,"Presence of a DNS AAAA record",boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress)",string,no
@@ -39,15 +44,23 @@ Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with 
 Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
 Performance - Cumulative Layout Shift,cumulative_layout_shift,"Performance indicator that measures how much layouts shift for a user while the page loads for a user, expressed by a layout shift score",string,no
 Performance - Largest Contentful Paint,largest_contentful_paint,Performance indicator that counts in milliseconds when what is likely the main content on the page loads,string,no
-Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
-Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links)",list,no
+Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
+Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
+Security - HTTPS Required,https_enforced,Whether the Final URL enforces HTTPS,boolean,no
+Security - HSTS Preloaded,hsts_preloaded,Whether the Final URL domain is preloaded for HSTS,boolean,no
 SEO - title,title,Meta page title,string,no
 SEO - description,description,Meta page description,string,no
+SEO - keywords,keywords,Meta page keywords,string,no
 SEO - og:title,og_title,Open Graph page title,string,no
 SEO - og:description,og_description,Open Graph description,string,no
 SEO - article:published_time,og_article_published,Open Graph article published time,datetime,no
 SEO - article:modified_time,og_article_modified,Open Graph article modified time,datetime,no
+SEO - og:image,og_image,Open Graph image link,string,no
+SEO - og:type,og_type,Open Graph type tag,string,no
+SEO - og:url,og_url,Open Graph object URL,string,no
 SEO - Canonical Link,canonical_link,Canonical URL HTML element,string,no
+SEO - Language,language,Meta language tag,string,no
+SEO - Language Links,language_link,HTML link attributes for the langauge of linked pages,string,no
 SEO - Main Element Detected,main_element_present,Presence of `<main>` element,boolean,no
 Robots.txt - Detected,robots_txt_detected,Is the `robots.txt` Final URL live and does it end with `robots.txt`?,boolean,no
 Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
