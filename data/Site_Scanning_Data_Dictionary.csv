@@ -51,7 +51,6 @@ Security - HSTS Preloaded,hsts_preloaded,Whether the Final URL domain is preload
 SEO - title,title,Meta page title,string,no
 SEO - description,description,Meta page description,string,no
 SEO - keywords,keywords,Meta page keywords,string,no
-SEO - Canonical Link,canonical_link,Canonical URL HTML element,string,no
 Open Graph - og:title,og_title,Open Graph page title,string,no
 Open Graph - og:description,og_description,Open Graph description,string,no
 Open Graph - article:published_time,og_article_published,Open Graph article published time,datetime,no
@@ -59,6 +58,7 @@ Open Graph - article:modified_time,og_article_modified,Open Graph article modifi
 Open Graph - og:image,og_image,Open Graph image link,string,no
 Open Graph - og:type,og_type,Open Graph type tag,string,no
 Open Graph - og:url,og_url,Open Graph object URL,string,no
+Other Tags - Canonical Link,canonical_link,Canonical URL HTML element,string,no
 Other Tags - Language,language,Meta language tag,string,no
 Other Tags - Language Links,language_link,HTML link attributes for the langauge of linked pages,string,no
 Other Tags - Main Element Detected,main_element_present,Presence of `<main>` element,boolean,no
