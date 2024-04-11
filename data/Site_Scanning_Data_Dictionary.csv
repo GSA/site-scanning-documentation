@@ -62,7 +62,7 @@ Other Tags - Canonical Link,canonical_link,Canonical URL HTML element,string,no
 Other Tags - Language,language,Meta language tag,string,no
 Other Tags - Language Links,language_link,HTML link attributes for the langauge of linked pages,string,no
 Other Tags - Main Element Detected,main_element_present,Presence of `<main>` element,boolean,no
-Robots.txt - Detected,robots_txt_detected,Is the `robots.txt` Final URL live and does it end with `robots.txt`?,boolean,no
+Robots.txt - Detected,robots_txt_detected,Is the `robots_txt_final_url` live (has a 2xx code) and is its entire path `/robots.txt`? (Note that a robots.txt file that redirects to a subdirectory would then not count given that the protocol appears to require that the file live in the top directory),boolean,no
 Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
 Robots.txt - Final URL,robots_txt_final_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
 Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
@@ -71,7 +71,7 @@ Robots.txt - Final URL - Media Type,robots_txt_final_url_media_type,Media type o
 Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the `robots.txt` Final URL (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
-Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap.xml` Final URL live and does it end with `sitemap.xml`?,boolean,no
+Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_final_url` live (has a 2xx code) and is its entire path `/sitemap.xml`?,boolean,no
 Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the `sitemap.xml` Target URL redirect?,boolean,no
 Sitemap.xml - Final URL,sitemap_xml_final_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
 Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
