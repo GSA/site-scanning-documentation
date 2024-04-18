@@ -60,6 +60,16 @@ This document contains the schedule of when automated processes take place, as w
 
 **Notes:** This action produces the CSV and JSON snapshots of the site scanning engine's most recent scan.
 
+## Produce accessibility details snapshot
+
+**When:** Sunday, 12:15 AM UTC
+
+**GitHub Action specification:** https://github.com/GSA/site-scanning-engine/blob/main/.github/workflows/create-a11y-snapshot.yml
+
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
+
+**Notes:** This action produces JSON snapshot containing accessibility-related violation details from the site scanning engine's most recent scan.
+
 ## Generate unique websites list
 
 **When:** Monday, 12 AM UTC
