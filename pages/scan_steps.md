@@ -13,11 +13,16 @@ When scanning commences, [this core file](https://github.com/GSA/site-scanning-e
 
 The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages) are: 
 
-- `[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)` - Loads the Target URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
-- `[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)` - Analyzes the DNS of the Final URL using a node.js library (instead of puppeteer).  
-- `[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)` -  An https service (instead of puppeteer) is used to test for proper 404 behavoir.  
-- `[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)` - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
-- `[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)` - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
+- **[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)** - Loads the Target URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
+- **[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)** - Analyzes the DNS of the Final URL using a node.js library (instead of puppeteer).  
+- **[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)** -  An https service (instead of puppeteer) is used to test for proper 404 behavoir.  
+- **[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)** - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
+- **[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)** - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
+- **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - ...
+- **[performance](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/performance.ts)** - ...
+- **security** - ...
+
+
 
 Each scan notes whether it Completed, or failed due to one of the following reasons: Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error.  These populate the `Scan Status - Primary`, `Scan Status - DNS`, `Scan Status - Not Found`, `Scan Status - Robots.txt`, and `Scan Status - Sitemap.xml` fields.  
 
