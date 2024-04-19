@@ -18,9 +18,9 @@ The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/c
 - **[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)** -  An https service (instead of puppeteer) is used to test for proper 404 behavoir.  
 - **[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)** - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
 - **[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)** - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
-- **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - ...
-- **[performance](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/performance.ts)** - ...
-- **security** - ...
+- **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - Loads axe-core to run against each Target URL, then preserves the results from certain tests.  
+- **[performance](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/performance.ts)** - Loads a performance observer object to capture the relevant fields from the browser's API.  
+- **security** - Refers to XXXXXXX file and applies the second column.  
 
 
 
