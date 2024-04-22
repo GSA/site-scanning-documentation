@@ -41,6 +41,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * For USWDS: 
   * Try to highlight bad, resolving urls to the same end, e.g. www1 and www.
   * Ingest a YML file of their known users to indicate human-verified.
+  * Scan just for the banner itself 
 * For login.gov:
   * Presence of a sign in form.
   * Which signup form solution is used.
@@ -76,7 +77,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
-* stuff in a .well-known folder
+* offers structured data - https://search.google.com/test/rich-results/
+*  stuff in a .well-known folder
 * Lots of ideas from https://www.screamingfrog.co.uk/seo-spider/
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details)).
   * Example lighthouse scan [here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.gsa.gov); [Scoring methodology](https://github.com/GoogleChrome/lighthouse/blob/main/docs/scoring.md)
@@ -130,6 +132,8 @@ The list of scans that have alreadby been built and are active [can be found her
 * Required links -  About page = “About us OR About”; Contact page = “Contact us”; Accessibility = “Accessibility”; budget/perf = “Budget and Performance”; Equal employment = “No FEAR Act Data”; FOIA = “FOIA or Freedom of Information Act”; Usa.gov link; Privacy = “Privacy Policy”;  IG = “Office of Inspector General”; ?presence of a search bar by searching for the word 'search' (or in a button, or text field?)?
 
 ## Other
+* More tests that Google tests for - https://support.google.com/webmasters/topic/9456557?hl=en&ref_topic=4558844&sjid=12716533698097656242-NA
+* Average age of content, via lastmods of sitemap.xml files 
 * Number of words on a page.
 * Number of words on a page when viewed as via mobile user agent?  Compared ^^^?
 * Blacklight scans.
