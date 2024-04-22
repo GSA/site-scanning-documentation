@@ -8,6 +8,9 @@
 * File a pull request to [this repo](https://github.com/GSA/open-gsa-redesign/blob/master/_apidocs/site-scanning-api.md).  A preview can be seen at `https://federalist-64fd1e70-2b76-44eb-96ef-4bc40b4b3bac.app.cloud.gov/preview/18f/site-scanning-query-builder/NAME-OF-BRANCH/`.  When the pull request is ready, comment on it to that effect and email api.ciss@gsa.gov with a link to the PR to ask them to merge.
 
 ## Refresh everything in the system
+
+Below is the order in which to [trigger actions](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) so as to rebuild everything.  Unless otherwise specified, wait 5 minutes in between each action.  
+
 * Fetch security data
 * Build federal website index
 * Ingest federal website index
