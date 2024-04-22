@@ -11,9 +11,9 @@
 
 Below is the order in which to [trigger actions](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) so as to rebuild everything.  Unless otherwise specified, wait 5 minutes in between each action.  
 
-* Fetch security data
 * Build federal website index
 * Ingest federal website index
+* Fetch security data
 * Scan websites
 * Wait 12 hours 
 * Produce snapshots
