@@ -77,6 +77,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
+* AMP compliant?  
 * offers structured data - https://search.google.com/test/rich-results/
 *  stuff in a .well-known folder
 * Lots of ideas from https://www.screamingfrog.co.uk/seo-spider/
