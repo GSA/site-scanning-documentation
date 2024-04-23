@@ -80,8 +80,8 @@ Sitemap.xml - Final URL - Media Type,sitemap_xml_final_url_media_type,Media type
 Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the `sitemap.xml` Final URL (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in the detected `sitemap.xml`,numeric,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs ending in `.pdf` in the detected `sitemap.xml`,numeric,no
-USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file in markup,integer,no
-USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file in CSS,integer,no
+USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file (part of the standard header banner) in markup,integer,no
+USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file (part of the standard header banner) in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
 USWDS - In-page CSS,uswds_inpage_css,Presence of .usa- class in a <style> block in HTML,integer,no
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
