@@ -1,13 +1,12 @@
 
-
-
-
-
-Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error
-
-
-
-
+# Scan Statuses Explained
+- **Completed** - The scan was able to run successfully.
+- **Timeout** - When the headless browser loaded the Target URL, the request timed out (i.e. there's something at that URL, but it never finished loading).
+- **DNS resolution error** - When the headless browser loaded the Target URL, the DNS request did not resolve (i.e. there's nothing at that URL accessible over the public internet).
+- **Invalid SSL cert** - The Target URL's SSL certificate, used for HTTPS, is expired or not properly configured.
+- **Connection refused** - When the headless browser loaded the Target URL, the site's server actively refused the connection request, blocking the scan engine.
+- **Connection reset** - For an unknown reason, a part of the connection request failed either at the browser, computer, network, or server level.  
+- **Unknown error** - An error occured that kept the scan from running successfully that is not one of the above.  
 
 
 ## Website Index Ingestion
