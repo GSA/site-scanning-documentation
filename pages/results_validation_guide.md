@@ -47,7 +47,7 @@ Performance - Cumulative Layout Shift
 Performance - Largest Contentful Paint  
 Required Links - URL  
 Required Links - Text  
-Security - HTTPS Required  
+Security - HTTPS Required  - Note the https_bad_hostname, https_expired_cert, and downgrades_https fields in the original file as  context for possible failures. 
 Security - HSTS Preloaded  
 SEO - title  
 SEO - description  
