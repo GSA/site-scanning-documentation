@@ -35,8 +35,10 @@ Infrastructure - CMS Provider
 Infrastructure - Cloud.gov Pages Detected  
 Infrastructure - Login Provider  
 Infrastructure - Login Detected  
-Infrastructure - Site Search Detected  - ??? If any element in the page is using a `usa-search` class.  it will look for the string search anywhere in an id, class, or action attribute within an input or form element. If it detects one, then the result will be TRUE. If not, FALSE.
-Infrastructure - Search.gov Detected: View the page source and search for an HTML element that has an 'action' attribute which equals `https://search.usa.gov/search`.  
+Infrastructure - Site Search Detected  - Updated:  does 'search' in form action; uswds search, type=search, for all form elements -  appear anywhere in an id, class, or name attribute; same for all of the input elements 
+
+??? If any element in the page is using a `usa-search` class.  it will look for the string search anywhere in an id, class, or action attribute within an input or form element. If it detects one, then the result will be TRUE. If not, FALSE.  
+Infrastructure - Search.gov Detected: View the page source and search for an HTML element that has an 'action' attribute which equals `https://search.usa.gov/search`.    
 Infrastructure - DAP Detected  
 Infrastructure - DAP Parameters  
 Infrastructure - Third Party Service Domains  
