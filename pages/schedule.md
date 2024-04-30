@@ -1,6 +1,6 @@
 # Site Scanning Schedule
 
-This document contains the schedule of when automated processes take place, as well as notes on how they operate.
+This document contains the schedule of when automated processes take place, as well as notes on how they operate.  (Note the recommended order for rebuilding [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/team-workflows.md#refresh-everything-in-the-system).)
 
 ## Build federal website index
 
