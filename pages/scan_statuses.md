@@ -9,6 +9,9 @@
 - **Unknown error** - An error occured that kept the scan from running successfully that is not one of the above.  
 
 
+_note - explain what the below are, in greater detail_
+
+
 ## Website Index Ingestion
 
 - Target URL
