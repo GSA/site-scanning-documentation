@@ -7,6 +7,9 @@
 - www.army.nationalguard.mil has a strange media type (text/htmltext/html)
 - scnewsltr.dodlive.mil has a strange media type (text/htmltext/html)
 
+## Department of the Interior 
+- ribd.recreation.gov. has a `lang` tag of `null` instead of `en`, that is oddly present when the DOM loads but not in the source code directly ([screenshot](https://github.com/GSA/site-scanning/issues/914#issuecomment-2061118800))
+
 ## FERC 
 * https://ferconline.ferc.gov has a popup before page load
 
