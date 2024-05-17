@@ -1,11 +1,21 @@
 
 # Scan Statuses Explained
 - **Completed** - The scan was able to run successfully.
-- **Timeout** - When the headless browser loaded the Target URL, the request timed out (i.e. there's something at that URL, but it never finished loading).
+- **Address Unreachable** - Often the result of a site no longer existing.  (ERR_ADDRESS_UNREACHABLE)
+- **Connection closed** - Often the result of a a server/hosting service flaw or the site no longer existing. (ERR_CONNECTION_CLOSED)
+- **Connection refused** - When the headless browser loaded the Target URL, the site's server actively refused the connection request, blocking the scan engine. (ERR_CONNECTION_REFUSED)
+- **Connection reset** - For an unknown reason, a part of the connection request failed either at the browser, computer, network, or server level.
 - **DNS resolution error** - When the headless browser loaded the Target URL, the DNS request did not resolve (i.e. there's nothing at that URL accessible over the public internet).
+- **Empty Response** -
+- **Evaluation Failed** - 
+- **Execution Context Destroyed** - 
+- **HTTP2 Error** -
 - **Invalid SSL cert** - The Target URL's SSL certificate, used for HTTPS, is expired or not properly configured.
-- **Connection refused** - When the headless browser loaded the Target URL, the site's server actively refused the connection request, blocking the scan engine.
-- **Connection reset** - For an unknown reason, a part of the connection request failed either at the browser, computer, network, or server level.  
+- **Page Frame Not Ready** - 
+- **SSL Version Cipher Mismatch** - 
+- **Timeout** - When the headless browser loaded the Target URL, the request timed out (i.e. there's something at that URL, but it never finished loading).
+- **Too Many Redirects** - A misconfiguration of the server, page source, or third party services is causing an infinite redirect loop.  (ERR_TOO_MANY_REDIRECTS)
+  - This requires correction by the site owner.  
 - **Unknown error** - An error occured that kept the scan from running successfully that is not one of the above.  
 
 
