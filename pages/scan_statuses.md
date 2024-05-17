@@ -9,10 +9,10 @@
 - **Unknown error** - An error occured that kept the scan from running successfully that is not one of the above.  
 
 
-_note - explain what the below are, in greater detail_
 
+# Which Fields Come From Which Scan
 
-## Website Index Ingestion
+### [These fields are generated when the index is first ingested and not by a scan]
 
 - Target URL
 - Target URL - Base Domain
@@ -22,13 +22,9 @@ _note - explain what the below are, in greater detail_
 - Target URL - Base Domain Branch
 - Target URL - Data Source
 - Target URL - Public
-
-## All/Any Scans
-
 - Scan Status - Date
 
-
-## Scan Status - Primary
+### Scan Status - Primary
 
 - Target URL - Redirects
 - Final URL
@@ -82,23 +78,23 @@ _note - explain what the below are, in greater detail_
 
 
 
-## Scan Status - Not Found
+### Scan Status - Not Found
 
 - Target URL - 404 Test
 
 
-## Scan Status - Accessibility
+### Scan Status - Accessibility
 
 - Accessibility - Violations
 
-## Scan Status - DNS
+### Scan Status - DNS
 
 - DNS - IPv6
 - DNS - Hostname
 
 
 
-## Scan Status - Performance
+### Scan Status - Performance
 
 - Performance - Cumulative Layout Shift
 - Performance - Largest Contentful Paint
@@ -109,13 +105,13 @@ _note - explain what the below are, in greater detail_
 
 
 
-## Scan Status - Security
+### Scan Status - Security
 
 
 - Security - HTTPS Required
 - Security - HSTS Preloaded
 
-## Scan Status - Robots.txt
+### Scan Status - Robots.txt
 
 
 - Robots.txt - Detected
@@ -128,7 +124,7 @@ _note - explain what the below are, in greater detail_
 - Robots.txt - Crawl Delay
 - Robots.txt - Sitemap Locations
 
-## Scan Status - Sitemap.xml
+### Scan Status - Sitemap.xml
 
 
 - Sitemap.xml - Detected
