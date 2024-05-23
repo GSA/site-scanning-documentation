@@ -5,6 +5,8 @@ The list of scans that have alreadby been built and are active [can be found her
 
 * Other IPv6? [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
 
+## Scan status/diagnostics for Site Scanning engine
+- time page takes to load ([link for ideas](https://www.google.com/search?q=puppeteer+request+time&rlz=1CAXJLZ_enUS1099US1099&oq=puppeteer+request+time&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogQyCggFEAAYgAQYogQyCggGEAAYgAQYogTSAQkyNzU3M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8)).  E.g. scans time out after 60 seconds.  Is it possible to capture what amount of time shorter than that it took?  
 
 ## Functional Scans for TTS Programs
 
