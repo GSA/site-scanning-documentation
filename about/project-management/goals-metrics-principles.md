@@ -23,13 +23,13 @@ _Draft tracker spreadsheet [here](https://docs.google.com/spreadsheets/d/1rOU4jm
 
 ## Principles
 
-- We work in the open.
+- We work [in the open](https://github.com/GSA/site-scanning/issues).
 - We only consume information that is available to anyone over the public internet.
-- The program's products are machine-readable data files that are made publicly available, either as static flat files or curable APIs.
+- The program's products are machine-readable data files that are made publicly available, either as [static flat files or queryable APIs](https://digital.gov/guides/site-scanning/data/).
 - We do not make presentation layers.
 - We only design and build scans in response to user needs articulated by known stakeholders.
-- All scans run against the complete Federal Website Index.
+- All scans run against the complete [Federal Website Index](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv).
 - If a scan is no longer needed or used by a known stakeholder, we deprecate it.
 - We follow the [stakeholder experience](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md).
 - We prioritize reliability and accuracy of scans that we have launched.
-- Our focus is on current data. Though scan data is snapshotted to an archive repo once a month, our system is ruthlessly focused on best providing current data and not on being a warehouse for historical data.
+- Our focus is on current data. Though scan data is [snapshotted to an archive repo](https://github.com/GSA/site-scanning-snapshots/tree/main/snapshots) once a month, our system is ruthlessly focused on best providing current data and not on being a warehouse for historical data.
