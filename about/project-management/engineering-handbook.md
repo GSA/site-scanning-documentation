@@ -158,6 +158,10 @@ to the codebase, rebuilding the app, and running the scan engine against one or
 more target URLs where the issue crops up--all of this happens in the Site
 Scanning engineer's **local** environment.
 
+### Monitoring Dependency Updates
+
+The Site Scanning program's engineer is responsible for keeping up with [Dependabot alerts](https://github.com/GSA/site-scanning-engine/security).
+
 ## Potentially Useful Scripts
 
 The scripts below fetch information concerning active cloud.gov deployments. To run them, you must log in to cloud.gov from the command line as
