@@ -1,5 +1,8 @@
 The following is a step by step means to looking for where bad data might come into the process and be incorporated in the final site scanning data files. 
 
+_(To add: directions for running scans using the dev environment; how to track the progress and completion of the above steps.)_
+
+
 ## Analysis 
 
 * Review [the original datasets themselves](https://github.com/GSA/federal-website-index/blob/main/builder/config.py) that are combined in order to generate the target URL list.  One can look at the original source files or at [snapshots of them](https://github.com/GSA/federal-website-index/tree/main/data/snapshots) which were generated the last time that the target URL list was updated, in case the source files have changed in the interim.  
@@ -23,5 +26,10 @@ Here is the order to consider for each step of the process if one wants to rebui
 6. After the snapshots have been created, regenerate the analysis files by running the `Generate all analysis` action [here](https://github.com/GSA/site-scanning-analysis/actions).  
 
 
+## Overall Quality Assurance Process
 
-_(To add: directions for running scans using the dev environment; how to track the progress and completion of the above steps.)_
+* Look at [Federal Website Index](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv) 
+  * Look at [two](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv) [reports](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv) for oddities 
+  * Directly note number of target URLs
+  * Check if any are duplicative
+    
