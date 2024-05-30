@@ -32,4 +32,5 @@ Here is the order to consider for each step of the process if one wants to rebui
   * Look at [two](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv) [reports](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv) for oddities 
   * Directly note number of target URLs
   * Check if any are duplicative
+  * search for .com, .edu, .org
     
