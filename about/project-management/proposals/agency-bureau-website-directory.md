@@ -48,6 +48,8 @@ Permissions for the repository could be expanded to grant 1-2 representatives pe
 
 Such a single, centralized file could be CSV (for easy downloading into spreadsheets) or YML (for easy reading).  See [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/federal_websites.csv) and [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/federal-websites.yml) for examples of what the files could look like.  
 
+A file such as this would be very large, but would still be very manageable by those without software and technical skills.  By having basic norms such as keeping the file alphabetized by agency, then bureau, then website would make the file more usable as well.  
+
 3) Create a decentralized, standardized file
 
 A similar but different approach would be to expand on existing OMB practice by setting a location such as agency.gov/websites.yml or agency.gov/websites.csv to serve as the canonical source for this information in the future.  This follows the success of numerous information collections that agencies are already familiar with and have in place, such as the Open Data Policy (agency.gov/data.json), Open Source Policy (agency.gov/code.json), Digital Government Strategy (agency.gov/digitalstrategy.json), and FITARA (agenct.gov/digitalstrategy/FITARAmilestones.json, etc.).  
