@@ -18,15 +18,15 @@
   bureau: Office of the Chief Information Officer
   website: usda.gov
   public: yes
-- Agency: Department of Commerce
+- agency: Department of Commerce
   bureau: International Trade Administration
   website: export.gov
   public: yes
-- Agency: Department of Energy
+- agency: Department of Energy
   bureau: Departmental Administration
   website: energy.gov
   public: yes
-- Agency: Department of Energy
+- agency: Department of Energy
   bureau: National Nuclear Security Administration
   website: cams.nnsa.energy.gov
   public: no
