@@ -39,22 +39,32 @@ One key feature that would need to be developed would be for the resulting direc
 
 It would be trivially easy to create and operate the entire index in one location in GitHub.  Either GSA or CISA would be suitable owners and the existing  or https://github.com/cisagov/dotgov-data/ repositories would already be good fits - there's not necessarily a need to look further than one of those places.  
 
-What would be needed is 
+What would be needed is simply to:
+- Decide on an initial schema
+- Populate the file with existing, confirmed information
+- Direct agencies to update the file on a regular basis
 
+Permissions for the repository could be expanded to grant 1-2 representatives per agency to have direct edit access and then everyone else could be directed to submit further edits with pull requests.  
 
+Such a single, centralized file could be CSV (for easy downloading into spreadsheets) or YML (for easy reading).  See [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/federal_websites.csv) and [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/federal-websites.yml) for examples of what the files could look like.  
 
+3) Create a decentralized, standardized file
 
-Create a central DNS solution 
+A similar but different approach would be to expand on existing OMB practice by setting a location such as agency.gov/websites.yml or agency.gov/websites.csv to serve as the canonical source for this information in the future.  This follows the success of numerous information collections that agencies are already familiar with and have in place, such as the Open Data Policy (agency.gov/data.json), Open Source Policy (agency.gov/code.json), Digital Government Strategy (agency.gov/digitalstrategy.json), and FITARA (agenct.gov/digitalstrategy/FITARAmilestones.json, etc.).  
 
-Touchpoints 
+Such as file could look like [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.csv) or [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.yml).  They could then be crawled, harvested, and combined on a regular occastion.  
 
-metadata (which)
+One advantage of this model is that it makes agency adoption and responsible upkeep of their list much more visible and directly attritable.   
 
-Centralized file 
+4) Create a norm around metadata
 
+Agencies should already be applying certain metadata tags to their webpages.  Some, like page title, are considered basic best practices.  Others are useful and desirable but have lower adoption in society (e.g. 'subject' or 'author').  
 
-Decentralized file 
+One possible solution to have reliable agency and bureau ownership information for websites is to promulgate a standard for metadata tags that would serve it.  
 
+For instance, if the 'owner' tag was used in a consistent structure such as `Agency - Bureau`.  A third level could be optional along the lines of `Agency - Bureau - Office`.  So, a website might have a metatag like this: `<meta name='owner' content='Department of Agriculture - Economic Research Service'>`
 
+Or, the keywords tag could be used in such a creative manner like this:  `<meta name='keywords' content='agency:Deparment_of_Agriculture, bureau:Economic_Research_Service'>`
 
-### Proposal 
+Note [this list](https://gist.github.com/whitingx/) of other common tags as well as [the results of a March 2024 analysis](https://github.com/GSA/site-scanning/issues/869#issuecomment-2009879132) to see which metatags are already used by agencies and how widely they've been adopted.  For instance, only 0.17% of federal websites currently use the owner tag and 11.45% use the keyword tag.  
+
