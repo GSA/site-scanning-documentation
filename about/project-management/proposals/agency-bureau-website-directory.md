@@ -68,5 +68,5 @@ For instance, if the 'owner' tag was used in a consistent structure such as `Age
 
 Or, the keywords tag could be used in such a creative manner like this:  `<meta name='keywords' content='agency:Deparment_of_Agriculture, bureau:Economic_Research_Service'>`
 
-Note [this list](https://gist.github.com/whitingx/) of other common tags as well as [the results of a March 2024 analysis](https://github.com/GSA/site-scanning/issues/869#issuecomment-2009879132) to see which metatags are already used by agencies and how widely they've been adopted.  For instance, only 0.17% of federal websites currently use the owner tag and 11.45% use the keyword tag.  
+Note [this list](https://gist.github.com/whitingx/3840905) of other common tags as well as [the results of a March 2024 analysis](https://github.com/GSA/site-scanning/issues/869#issuecomment-2009879132) to see which metatags are already used by agencies and how widely they've been adopted.  For instance, only 0.17% of federal websites currently use the owner tag and 11.45% use the keyword tag.  
 
