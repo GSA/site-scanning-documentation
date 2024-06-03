@@ -1,2 +1,9 @@
-Agency,Bureau,Website,HISP
-Department of Agriculture,Food and Nutrition Service,www.foodstamps.gov,yes
+agency,bureau,website,public
+Department of Agriculture,Center for Nutrition Policy and Promotion,choosemyplate.gov,yes
+Department of Agriculture,Economic Research Service,ers.usda.gov,yes
+Department of Agriculture,Office of the Secretary,farmers.gov,yes
+Department of Agriculture,Office of the Secretary,search.farmers.gov,yes
+Department of Agriculture,Office of the Chief Information Officer,usda.gov,yes
+Department of Commerce,International Trade Administration,export.gov,yes
+Department of Energy,Departmental Administration,energy.gov,yes
+Department of Energy,National Nuclear Security Administration,cams.nnsa.energy.gov,no
