@@ -1,9 +1,32 @@
-- Department of Agriculture
-  - www.farmers.gov
-  - www.fsa.usda.gov
-  - www.usda.gov
-- Department of Commerce
-  - www.bis.doc.gov
-  - www.commerce.gov
-- Department of Defense
-  - www.defense.gov
+- agency: Department of Agriculture
+  bureau: Center for Nutrition Policy and Promotion
+  website: choosemyplate.gov
+  public: yes
+- agency: Department of Agriculture
+  bureau: Economic Research Service
+  website: ers.usda.gov
+  public: yes
+- agency: Department of Agriculture
+  bureau: Office of the Secretary
+  website: farmers.gov
+  public: yes
+- agency: Department of Agriculture
+  bureau: Office of the Secretary
+  website: search.farmers.gov
+  public: yes
+- agency: Department of Agriculture
+  bureau: Office of the Chief Information Officer
+  website: usda.gov
+  public: yes
+- Agency: Department of Commerce
+  bureau: International Trade Administration
+  website: export.gov
+  public: yes
+- Agency: Department of Energy
+  bureau: Departmental Administration
+  website: energy.gov
+  public: yes
+- Agency: Department of Energy
+  bureau: National Nuclear Security Administration
+  website: cams.nnsa.energy.gov
+  public: no
