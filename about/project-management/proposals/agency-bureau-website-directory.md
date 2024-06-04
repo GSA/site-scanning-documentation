@@ -6,7 +6,7 @@ There's an unmet need for a reliable, canonical, comprehensive directory of fede
 
 ### Details 
 
-The [Site Scanning program](https://digital.gov/site-scanning), through its [Federal Website Index](https://github.com/GSA/federal-website-index), provides an aspect of this by maintaining the most reliable, comprehensive directory of federal websites (i.e. subdomains).  It uses the .gov registry's canonical [List of  Federal .gov Domains](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) to then apply an agency and bureau owner to each website, but this is an imperfect solution, since different burueas within an agency may operate different websites on the same domain.  
+The [Site Scanning program](https://digital.gov/site-scanning), through its [Federal Website Index](https://github.com/GSA/federal-website-index), provides an aspect of this by maintaining the most reliable, comprehensive directory of federal websites (i.e. subdomains).  It uses the .gov registry's canonical [List of  Federal .gov Domains](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) to then apply an agency and bureau owner to each website, but this is an imperfect solution, since different bureaus within an agency may operate different websites on the same domain.  
 
 Notably, as part of the implementation of [OMB-23-22](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf), agencies generated a one off correction of Site Scanning data that improved the agency and bureau information for 9,000 websites.  Importantly, the memorandum has a requirement that agencies keep this information up to date going forward (See section IV, C, 1 at the bottom of page 31).  
 
