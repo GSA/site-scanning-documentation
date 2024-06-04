@@ -44,7 +44,7 @@ What would be needed is simply to:
 - Populate the file with existing, confirmed information
 - Direct agencies to update the file on a regular basis
 
-Permissions for the repository could be expanded to grant 1-2 representatives per agency to have direct edit access and then everyone else could be directed to submit further edits with pull requests.  
+Permissions for the repository could be expanded to grant 1-2 representatives per agency to have direct edit access and then anyone else could be directed to submit further edits with pull requests.  
 
 Such a single, centralized file could be CSV (for easy downloading into spreadsheets) or YML (for easy reading).  See [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/federal_websites.csv) and [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/federal-websites.yml) for examples of what the files could look like.  
 
