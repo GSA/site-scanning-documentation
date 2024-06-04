@@ -33,11 +33,11 @@ The [Touchpoints shared service](https://touchpoints.app.cloud.gov/index) is a w
 
 Modifying Touchpoints to become a complete solution for a cross-government website need would be easy, scalable, and agency-friendly.  
 
-One key feature that would need to be developed would be for the resulting directory to be publicly available as a bulk file.  Right now, Touchpoints data is available via an API, but there are important use cases that would benefit from the complete directory also being downloadable and accessible at a fixed location as a bulk, flat file.  However, this is not a difficult feature to add.  
+One key feature that would need to be developed would be for the resulting directory to be publicly available as a bulk file.  Right now, Touchpoints data is available via an API, but there are important use cases that would benefit from the complete directory also being downloadable and accessible at a fixed location as a flat file.  However, this is not a difficult feature to add.  
 
 2) One centralized, agreed-upon file
 
-It would be trivially easy to create and operate the entire index in one location in GitHub.  Either GSA or CISA would be suitable owners and the existing  or https://github.com/cisagov/dotgov-data/ repositories would already be good fits - there's not necessarily a need to look further than one of those places.  
+It would be trivially easy to create and operate the entire index in one location in GitHub.  Either GSA or CISA would be suitable owners and the existing https://github.com/GSA/federal-website-index/ or https://github.com/cisagov/dotgov-data/ repositories would already be good fits - there's not necessarily a need to look further than one of those places.  
 
 What would be needed is simply to:
 - Decide on an initial schema
