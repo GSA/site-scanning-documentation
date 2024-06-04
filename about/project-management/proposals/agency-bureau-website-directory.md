@@ -33,7 +33,7 @@ The [Touchpoints shared service](https://touchpoints.app.cloud.gov/index) is a w
 
 Modifying Touchpoints to become a complete solution for a cross-government website need would be easy, scalable, and agency-friendly.  
 
-One key feature that would need to be developed would be for the resulting directory to be publicly available as a bulk file.  Right now, Touchpoints data is available via an API, but there's important use cases that would benefit from the complete directory also being downloadable and accessible at a fixed location as a bulk, flat file.  However, this is not a difficult feature to add.  
+One key feature that would need to be developed would be for the resulting directory to be publicly available as a bulk file.  Right now, Touchpoints data is available via an API, but there are important use cases that would benefit from the complete directory also being downloadable and accessible at a fixed location as a bulk, flat file.  However, this is not a difficult feature to add.  
 
 2) One centralized, agreed-upon file
 
