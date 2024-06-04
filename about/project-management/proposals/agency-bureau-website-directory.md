@@ -19,7 +19,7 @@ Suggested elements of the directory include:
 - Includes all three branches
 - Includes the .gov and .mil domains
 - Includes non .gov and .mil domain sites (e.g. .com, .org, .edu)
-- Employes an agreed upon list of agencies and bureaus both for spelling and consistency
+- Employs an agreed upon list of agencies and bureaus both for spelling and consistency
 - Includes the ability to describe a third level ownership below the bureau, such as an office or program
 - Includes a public/non-public field
 - Either initially stored in one known place, or consumed to be available in one known place (e.g. by the Site Scanning program)
