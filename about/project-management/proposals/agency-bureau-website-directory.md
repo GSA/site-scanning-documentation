@@ -54,7 +54,7 @@ A file such as this would be very large, but would still be very manageable by t
 
 A similar but different approach would be to expand on existing OMB practice by setting a location such as agency.gov/websites.yml or agency.gov/websites.csv to serve as the canonical source for this information in the future.  This follows the success of numerous information collections that agencies are already familiar with and have in place, such as the Open Data Policy (agency.gov/data.json), Open Source Policy (agency.gov/code.json), Digital Government Strategy (agency.gov/digitalstrategy.json), and FITARA (agenct.gov/digitalstrategy/FITARAmilestones.json, etc.).  
 
-Such as file could look like [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.csv) or [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.yml).  They could then be crawled, harvested, and combined on a regular occastion.  
+Such as file could look like [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.csv) or [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.yml).  They could then be crawled, harvested, and combined on a regular occastion, by the Site Scanning program or another system.  
 
 One advantage of this model is that it makes agency adoption and responsible upkeep of their list much more visible and directly attributable.   
 
@@ -69,4 +69,6 @@ For instance, if the 'owner' tag was used in a consistent structure such as `Age
 Or, the keywords tag could be used in such a creative manner like this:  `<meta name='keywords' content='agency:Deparment_of_Agriculture, bureau:Economic_Research_Service'>`
 
 Note [this list](https://gist.github.com/whitingx/3840905) of other common tags as well as [the results of a March 2024 analysis](https://github.com/GSA/site-scanning/issues/869#issuecomment-2009879132) to see which metatags are already used by agencies and how widely they've been adopted.  For instance, only 0.17% of federal websites currently use the owner tag and 11.45% use the keyword tag.  
+
+Regardless of which tag is used and how, the Site Scanning program could scan this information, aggregating it into a unified dataset as a result.  
 
