@@ -1,4 +1,4 @@
-_[This is a description of the step-by-step technical process by which we 'scan' each Target URL.  For information on the process of building the Target URL list, go [here](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).]_
+_[This is a description of the step-by-step technical process by which we 'scan' each Target URL. These steps come after the initial process of [building the Target URL list](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).]_
 
 First off, before any scans take place, the process of ingesting the target URL list into the database populates the following fields: 
 * `Target URL`
@@ -14,8 +14,8 @@ When scanning commences, [this core file](https://github.com/GSA/site-scanning-e
 The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages) are: 
 
 - **[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)** - Loads the Target URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
-- **[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)** - Analyzes the DNS of the Final URL using a node.js library (instead of puppeteer).  
-- **[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)** -  An https service (instead of puppeteer) is used to test for proper 404 behavoir.  
+- **[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)** - Analyzes the DNS of the Final URL using a Node.js library (instead of Puppeteer).  
+- **[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)** -  Tests for proper 404 behavior using an https service (instead of Puppeteer).
 - **[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)** - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
 - **[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)** - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
 - **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - Loads axe-core to run against each Target URL, then preserves the results from certain tests.  
