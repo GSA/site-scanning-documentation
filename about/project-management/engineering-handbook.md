@@ -16,7 +16,7 @@ by way of scheduled GitHub Action workflows:
 - [site-scanning-snapshots](https://github.com/GSA/site-scanning-snapshots)
 
 The remainder of this document will focus on the scan engine proper. Details as
-to when routines in the repositories listed above run are in listed the
+to when routines in the repositories listed above run are listed in the
 [site-scanning-documentation](https://github.com/GSA/site-scanning-documentation)
 repository's [schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
 page.
