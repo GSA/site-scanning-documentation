@@ -8,7 +8,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **GitHub Action specification:** https://github.com/GSA/federal-website-index/blob/main/.github/workflows/build-list.yml
 
-[Manually Run GitHub Action](https://github.com/GSA/federal-website-index/actions)
+[Manually Run GitHub Action](https://github.com/GSA/federal-website-index/actions/workflows/build-list.yml)
 
 **Notes:** This action builds the target URL list using [this list of sources](https://github.com/GSA/federal-website-index/blob/main/builder/config.py) and [these instructions](https://github.com/GSA/federal-website-index/blob/main/builder/__main__.py) and saves it [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv), along with an analysis file containing metadata about the list creation process [here](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv). Various snapshot files are generated at each step of the build process in order to serve as breadcrumbs and are saved [here](https://github.com/GSA/federal-website-index/tree/main/data/snapshots).
 
@@ -18,7 +18,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **GitHub Action specification:** https://github.com/GSA/site-scanning-engine/blob/main/.github/workflows/fetch-security-data.yml
 
-[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions/workflows/fetch-security-data.yml)
 
 **Notes:** This action fetches data concerning https and hsts usage from a publically hosted [CSV file](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/cisa_https.csv).
 
@@ -28,7 +28,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **GitHub Action specification:** https://github.com/GSA/site-scanning-engine/blob/main/.github/workflows/enqueue-scans.yml
 
-[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions/workflows/enqueue-scans.yml)
 
 **Notes:** This action prompts the scanning engine to add every website in the database to the scanning queue.
 
@@ -38,7 +38,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **GitHub Action specification:** https://github.com/GSA/site-scanning-engine/blob/main/.github/workflows/ingest.yml
 
-[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions/workflows/ingest.yml)
 
 ## Analyze snapshots and target URL list
 
@@ -56,7 +56,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **GitHub Action specification:** https://github.com/GSA/site-scanning-engine/blob/main/.github/workflows/create-snapshot.yml
 
-[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions/workflows/create-snapshot.yml)
 
 **Notes:** This action produces the CSV and JSON snapshots of the site scanning engine's most recent scan.
 
@@ -66,7 +66,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **GitHub Action specification:** https://github.com/GSA/site-scanning-engine/blob/main/.github/workflows/create-a11y-snapshot.yml
 
-[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions)
+[Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions/workflows/create-a11y-snapshot.yml)
 
 **Notes:** This action produces JSON snapshot containing accessibility-related violation details from the site scanning engine's most recent scan.
 
