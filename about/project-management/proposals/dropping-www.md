@@ -42,8 +42,8 @@ The resulting scan data can be seen here.  XXXXXXXXXX-add link-XXXXXXXXXXXXXX
 The dataset includes 26163 target URLs.  However, for an unknown reason, the `www. scan` did not run on 325 target URLs and thus don't have data in the four new fields, so I'm removing them from consideration.
 
 We realized that the best way to think of this issue is by thinking of this matter in two buckets: 
-- Target URLs that are straightforward second level domains (e.g. x.gov)
-- Target URLs that have subdomains (e.g. x.y.gov and x.y.z.gov)
+1) Target URLs that are straightforward second level domains (e.g. x.gov)
+2) Target URLs that have subdomains (e.g. x.y.gov and x.y.z.gov)
 
 To distinguish these buckets, we've created a new column of data that counts the number of periods in the target URL.  This is useful because there's different expectations for each bucket, and certain standards and behavior can perhaps more reasonably be proposed.  
 
