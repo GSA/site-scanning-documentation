@@ -58,7 +58,7 @@ Bucket 1:
   * 162 work with www, but not without.  (e.g. www.y.gov resolves but y.gov does not)
   * (13 others don't resolve either with or without but fail in different ways.)
  
-From a user-experience perspective, both the groups of 72 and 162 groups would resolve this.  It's common to assume that `www.` would neither be required nor breaking, and it's a straightfoward change to implement.  
+From a user-experience perspective, both the groups of 72 and 162 groups should resolve this.  It's common to assume that `www.` would neither be required nor breaking, and it's a straightfoward change to implement.  
 
 _For the purposes of this proposal though, the most noticable effect will be that 162 target URLs that are currently being scanned and have robsut results in the Site Scanning data will begin breaking and won't return results until their teams update the sites to not require `www.`._
 
