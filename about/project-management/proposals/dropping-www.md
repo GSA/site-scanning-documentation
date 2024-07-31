@@ -100,3 +100,5 @@ Currently, we successfully generate scan data for about 16,000 websites.  Implem
 
 #### Notes
 - www.youthrules.gov is still in the target URL list by accident
+- There's an oddity whereby 14 cap.gov target URLs have www_final_urls on the sji.gov domain. I can't see why that would have happened and basically suspect the site scanning engine to have ... burped at that point.  Despite a lot of other interactions with the data, I haven't seen any other systemic looking issues like that, so I suspect that said burp was small and limited, but I'm keeping it in the back of my mind.
+- Despite the best intentions, there's 2k duplicates in the target URL list. There are 26,180 unique target URLs.  The scan actually does not include 17 of those and has 26,163 results instead. This is usually because of special/breaking characters in the target URL and isn't a concern.  
