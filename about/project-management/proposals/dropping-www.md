@@ -1,6 +1,3 @@
-Add link in here - https://github.com/GSA/site-scanning-snapshots/tree/main/other/misc
-
-
 ## Problem
 
 We have historically treated x.gov and www.x.gov as distinct websites.  This is formally correct but is unintuitive to many people since, in practice, the two almost always function are used interchangeably.  As a result, we often have agencies asking why both are included and saying that the result is duplicative data.  
@@ -35,7 +32,7 @@ To quantify the impact this change would have, we have run a one-off experimenta
   - www_same - whether the final_url and www_final_url fields are the same
 - Generate a one off snapshot of all of the normal data in a snapshot with these four fields added in at the end.
 
-The resulting scan data can be seen here.  XXXXXXXXXX-add link-XXXXXXXXXXXXXX
+[The resulting scan data can be seen here](https://github.com/GSA/site-scanning-snapshots/blob/main/other/misc/www-scan-2024-06-19.csv). 
 
 #### Analysis of Results
 
