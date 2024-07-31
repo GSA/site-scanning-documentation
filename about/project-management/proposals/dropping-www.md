@@ -67,9 +67,9 @@ A less important but still noteworthy trend to note is whether the target URL ar
 * Of the 1162 Target URLs that return the same HTTP status code either way, 809 are live (in the sense that a 200 or 202 status code is returned).
   * Interestingly, only 134 of those have idential Final URLs.
   * In other words, 675 resolve to different URLs depending on whether `www.` is used.
-  * Offhand, this is quite bad.  In most of these cases, it's simply a matter of a trailing `/` being added in one of the two cases (e.g. the two final URLs are https://www.x.gov and https://www.x.gov/).  Specifically, 536 of the 675 act this way.  As best as I can tell, there's no problem with this behavior.
-  * There are, however, 139 that appear to resolve to different URLs.  In most of these cases, it's a matter that the one doesn't redirect to the other (e.g. x.gov resolves to https://x.gov and www.x.gov resolves to https://www.x.gov).  This would seem to be counter to technical norms and should be corrected.  
-  * There are even a few of the 139 sites where x.gov and www.x.gov resolve to entirely different pages, which is really not good at all and should be corrected.  
+  * Offhand, this is quite bad.  In most of these cases, it's simply a matter of a trailing `/` being added in one of the two cases (e.g. the two final URLs are https://www.x.gov and https://www.x.gov/).  Specifically, 534 of the 675 act this way.  As best as I can tell, there's no problem with this behavior.
+  * There are, however, 141 that appear to resolve to different URLs.  In most of these cases, it's a matter that the one doesn't redirect to the other (e.g. x.gov resolves to https://x.gov and www.x.gov resolves to https://www.x.gov).  This would seem to be counter to technical norms and should be corrected.  
+  * There are even a few of the 141 sites where x.gov and www.x.gov resolve to entirely different pages, which is really not good at all and should be corrected.  
 
 Technical standards would say that both x.gov and www.x.gov should resolve and one should redirect to the other.  To my knowledge, there's not a best practice of which version should be the canonical URL.  In the federal .gov scene though, most redirect to the `www.` version.  Specifically, 544 of the 1162 redirect from x.gov to www.x.gov, while 101 redirect from www.x.gov to x.gov. 
 
