@@ -1,3 +1,6 @@
+Add link in here - https://github.com/GSA/site-scanning-snapshots/tree/main/other/misc
+
+
 ## Problem
 
 We have historically treated x.gov and www.x.gov as distinct websites.  This is formally correct but is unintuitive to many people since, in practice, the two almost always function are used interchangeably.  As a result, we often have agencies asking why both are included and saying that the result is duplicative data.  
@@ -94,3 +97,6 @@ _The 1265 are important because they are sites whose scan results would be lost 
 ## Summary of Analysis
 
 Currently, we successfully generate scan data for about 16,000 websites.  Implementing this change would likely cause roughly 1427 (162+1265) websites to begin failing our scans and no longer generating data.  This is about 8-9%.  This would improve by roughly 1% as agencies addressed the first bucket of 162 domains that require `www.` for a second level domain to load, but realistically, even with engagement across all of these topic areas, my guess is that we would lose insight into about 5% of the federal web presence.  This is a significant cost, though it is balanced against the substantial benefit outlined at the start of this memo.  
+
+#### Notes
+- www.youthrules.gov is still in the target URL list by accident
