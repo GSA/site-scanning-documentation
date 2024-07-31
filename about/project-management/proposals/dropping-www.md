@@ -81,21 +81,16 @@ Of 24,429 target URLs that have a subdomain (2+ periods), 10,331 have the same H
 
 The 8755 are not unexpected.  On any given day, of the roughly 28,000 target URLs that are scanned, only 15-16,000 are live.  
 
-The 1576 are notable in seemingly 
+The 1576 are notable in seemingly being sites whose subdomains resolve whether a `www.` is included before them or not.  It's worth noting that only 211 of these resolve to identical final URLs, but the vast majority of the other 1365 that don't are again a matter of a trailing slash being added.  
+
+The 14,098 target URLs that have subdomains and return different status codes depending on if there's a `www.` or not are where the substance of this bucket lies though.
+- Of them 10,466 work without a www but not when one is added (work = 200/202 status code).  This would seem to be normal and expected behavior.  
+- 1265 work with `www.` included. but not without. 
+- (2367 fail in either case but in different ways)
+
+_The 1265 are important because they are sites whose scan results would be lost in this proposed change (e.g. www.x.y.gov is currently being scanned and returning data, but when we switch to scanning x.y.gov, the scan will fail because the URL will not load).  Notably, I'm not confident that agencies would readily change this configuration even when it is brought to their attention because it isn't clear that their setup violates industry standards._
 
 
-211 have the same final URL.  1365 have different final URLs 
+## Summary of Analysis
 
-
-
-- Of the 14,098 that have different results depending on if there's a www, 10,466 work without a www but not when one is added and,
-- 1265 work with a www. but not without.
-- 2367 fail in different ways
-
-  
-
-Conclusion: 
-
-
-
-
+Currently, we successfully generate scan data for about 16,000 websites.  Implementing this change would likely cause roughly 1427 (162+1265) websites to begin failing our scans and no longer generating data.  This is about 8-9%.  This would improve by roughly 1% as agencies addressed the first bucket of 162 domains that require `www.` for a second level domain to load, but realistically, even with engagement across all of these topic areas, my guess is that we would lose insight into about 5% of the federal web presence.  This is a significant cost, though it is balanced against the substantial benefit outlined at the start of this memo.  
