@@ -1,5 +1,5 @@
 
-# Scan Statuses Explained (technical status in parenthesis) 
+# Scan Statuses Explained (technical status in parenthesis; remediation in sub-bullet) 
 - **Completed** - The scan was able to run successfully.
   - No remediation needed.  
 - **Address Unreachable** - Often the result of a site no longer existing.  (ERR_ADDRESS_UNREACHABLE)
