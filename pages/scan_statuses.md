@@ -27,7 +27,7 @@
 - **SSL Version Cipher Mismatch** - Often the result of invalid or misconfigured SSL certificates.  (ERR_SSL_VERSION_OR_CIPHER_MISMATCH)
   - Ask your agency's network team to check for and remedy any issues with the HTTPS/HSTS configuration for the site.  
 - **Timeout** - When the headless browser loaded the Target URL, the request timed out (i.e. there's something at that URL, but it never finished loading).  (ERR_CONNECTION_TIMED_OUT; ETIMEDOUT)
-  - 
+  - There are several possible causes.  Check the redirect chain of the site to look for any META or javascript redirects as those are a common source.  
 - **Too Many Redirects** - A misconfiguration of the server, page source, or third party services is causing an infinite redirect loop. This requires correction by the site owner.   (ERR_TOO_MANY_REDIRECTS)
   - Ask your website's technical owner to investigate the redirect chain of the site.  
 - **Unknown error** - An error occured that kept the scan from running successfully that is not one of the above.  
@@ -36,7 +36,7 @@
 
 # Which Fields Come From Which Scan
 
-### [These fields are generated when the index is first ingested and not by a scan]
+#### [These fields are generated when the index is first ingested and not by a scan]
 
 - Target URL
 - Target URL - Base Domain
