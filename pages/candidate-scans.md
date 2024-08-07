@@ -138,6 +138,8 @@ The list of scans that have alreadby been built and are active [can be found her
   * 
 
 ## Other
+* Look at popular alternatives like SiteImprove, [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/pricing/)
+* [Federal Website Standards](https://github.com/GSA-TTS/federal-website-standards)
 * More tests that Google tests for - https://support.google.com/webmasters/topic/9456557?hl=en&ref_topic=4558844&sjid=12716533698097656242-NA
 * Average age of content, via lastmods of sitemap.xml files 
 * Number of words on a page.
