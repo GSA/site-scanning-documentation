@@ -20,11 +20,15 @@ A Federal government website is a unique discoverable hostname or Uniform Resour
 ##### Site Scanning Program
 
 * Public (i.e. accessible over the public internet)
-* Operating on a [federally-owned .gov domain](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv)
+* Operating on a [federally-owned .gov or .mil domain](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv)
 * Is a human-readable 'document' (e.g. HTML, TXT), not a machine-readable 'data file' (e.g. XML, JSON, CSV)
 * Is not a staging or development website
 * Is not an API endpoint, email server, or asset server
 * Is not an authentication page to an otherwise non-public site
+
+##### [OMB M-23-22](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf)
+
+ “Website” means a group of globally accessible interlinked web pages under a unique host name that is accessible using a web browser.
 
 ##### [OMB M-17-06](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2017/m-17-06.pdf)
 
