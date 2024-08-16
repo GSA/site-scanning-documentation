@@ -15,4 +15,16 @@ To begin with, I'm assembling currently available resources.  Below are descript
   - [NARA list of agencies that are not subject to the Federal Records Act](https://www.archives.gov/records-mgmt/agency/non-fra)
 -  [Agencies and organization Information in the .gov Registry](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv)
 -  Modifications to the agency/organization information in Action #2 of agency implementation of OMB 23-22 (agency clarifications to .gov registry information as applied to subdomains)
--  
+
+
+#### Substantial questions to work out....
+
+For each ABCDE agency, does it make sense to include a bureau ABCDE (the same name again) so that any entries that are at the agency level and not part of a subcomponent have the bureau field populated?  Or should it be empty?  Or something generic like `------` or `agency level`?
+
+
+
+
+
+## Observations 
+
+No one dataset is perfect.  Below are notes on the 
