@@ -21,16 +21,16 @@ Here's the programs that are currently identified as active stakeholders that ar
 * We've built report pages and direct download links for USWDS implementation data that the program needs.  
 * We've performed a [quality assessment](https://github.com/18F/site-scanning-documentation/blob/main/scans/qa_analysis/uswds-scan-7-20.md) of the USWDS scan data. 
 
+#### Touchpoints
+* The site uses much of the available data in Site Scanning for its [statuscard pages](https://touchpoints.app.cloud.gov/admin/websites/252/statuscard)
 
 #### TTS Digital Council
 
 * We've built report pages and direct download links for DAP implementation data that the group needs to track agency progress.  
 
-
 #### ITDashboard.gov
 
 * The site uses our Federal Website Index, DAP data, and USWDS data.  
-
 
 #### DigitalDashboard.gov
 
@@ -39,7 +39,6 @@ Here's the programs that are currently identified as active stakeholders that ar
 #### GSA Digital Council 
 
 * We've built report pages and direct download links for DAP and USWDS implementation data that the group needs to track agency progress.  
-
 
 #### GSA IPv6 Migration Team
 * We've built an MVP of this and delivered it to the interested team.
