@@ -37,6 +37,7 @@ Infrastructure - Login Detected,login,List of login indicators detected,object,n
 Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean, no
 Infrastructure - Search.gov Detected,searchgov,Is the use of Search.gov detected?,boolean,no
 Infrastructure - DAP Detected,dap_detected,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
+Infrastructure - DAP Version,dap_version,Version number of the DAP snippet,string,no
 Infrastructure - DAP Parameters,dap_parameters,List of DAP parameters detected,object,no
 Infrastructure - Third Party Service Domains,third_party_service_domains,List of distinct third party domains detected,list,no
 Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
