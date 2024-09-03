@@ -85,6 +85,8 @@ USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file (part of the standa
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file (part of the standard header banner) in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
 USWDS - In-page CSS,uswds_inpage_css,Presence of .usa- class in a <style> block in HTML,integer,no
+USWDS - USA Class List,uswds_usa_class_list,List of each known USWDS class used,string,no 
+USWDS - Here's How Link,uswds_banner_heres_how,Presence of the USWDS 'official website of the US government/Here's how you know' banner,boolean,no
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
 USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
 USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,integer,no
