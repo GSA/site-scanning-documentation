@@ -1,5 +1,36 @@
 
 
+# Version 2.0 
+
+
+Sept. 4, 2024 - [Here is a spreadsheet with the 1503 canonical link sites that have an identified issue](https://github.com/GSA/site-scanning-analysis/blob/main/reports/website-requests/sites-with-issues-9-4-24.csv). The highlighted issues are...
+
+**Possible scan issue arising from META redirect**
+The presence or use of a META redirect in the redirect chain is possibly causing the scan to timeout or fail.   
+
+**Possible SSL issues**
+Broken or missing SSL prevents the site from resolving properly.  
+
+**Resolve to different Final URLs depending on if www. is included or not**
+Site resolves to different locations depending on if 'www.' is included or not.  
+
+**Site errors out** 
+Site is breaking or not loading.  
+
+**Site not present**
+Site is breaking or not loading.  
+
+**www. breaks**
+Site breaks or will not load if it is prepended with `www.` 
+
+**www. required**
+The target URL breaks or will not load if 'www.' is not included.  Since all websites that are scanned for 21st Century IDEA are done so without 'www.', the scans will not resolve.  
+
+
+==============================
+
+# Version 1.0
+
 ## Department of Agriculture
 * naldc.nal.usda.gov never finishes loading
 
