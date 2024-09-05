@@ -65,7 +65,7 @@ This document contains the schedule of when automated processes take place, as w
 
 **When: Daily, 1:00 PM UTC**
 
-**GitHub Action specification:** https://github.com/GSA/site-scanning-analysis/blob/main/.github/workflows/generate-all-analysis.yml
+**GitHub Action specification:** https://github.com/GSA/site-scanning-analysis/blob/main/.github/workflows/generate-all-reports.yml
 
 [Manually Run GitHub Action](https://github.com/GSA/site-scanning-analysis/actions)
 
@@ -103,6 +103,8 @@ This document contains the schedule of when automated processes take place, as w
 **Notes:** This action produces a report containing counts and percentages of DAP and USWDS use.
 
 ## Archive Snapshots
+
+**When:** Monthly, 12 AM UTC
 
 **GitHub Action specification:** https://github.com/GSA/site-scanning-snapshots/blob/main/.github/workflows/archive-snapshot.yml
 
