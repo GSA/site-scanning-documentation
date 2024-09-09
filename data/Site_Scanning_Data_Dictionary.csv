@@ -27,7 +27,6 @@ Scan Status - Performance,performance_scan_status,"Status of the Performance Sca
 Scan Status - Robots.txt,robots_txt_scan_status,"Status of the Robots.txt Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Security,security_scan_status,"Status of the Security Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
-Accessibility - Violations,accessibility_violations,Count of Axe rules which have 1+ voilations detected - by category of rule,string,no
 DNS - IPv6,ipv6,"Presence of a DNS AAAA record",boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress)",string,no
