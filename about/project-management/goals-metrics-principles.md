@@ -33,3 +33,9 @@ _Draft tracker spreadsheet [here](https://docs.google.com/spreadsheets/d/1rOU4jm
 - We follow the [stakeholder experience](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md).
 - We prioritize reliability and accuracy of scans that we have launched.
 - Our focus is on current data. Though scan data is [snapshotted to an archive repo](https://github.com/GSA/site-scanning-snapshots/tree/main/snapshots) once a month, our system is ruthlessly focused on best providing current data and not on being a warehouse for historical data.
+
+## Internal Reliability Metrics
+- All Target URLs included in Site Scanning data
+- Number/Percent of scans completed
+- Fields populated
+- Total time of scanning
