@@ -104,6 +104,7 @@ The list of scans that have alreadby been built and are active [can be found her
 
 
 ## Security
+* content securitt policy - CSP ([notes](https://gist.github.com/ryanwoldatwork/11db16d1b11ea9dcb06dfdadd69b123d))
 * presence of e.g. https://www.gsa.gov/.well-known/security.txt per https://datatracker.ietf.org/doc/rfc9116/
 * PQC migration 
 * presence of a vulnerability disclosure policy
