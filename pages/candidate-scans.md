@@ -65,6 +65,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * Has some search capacity
 * More ssl
 * library of customer service, analytics third party services
+  * "capturing data layer values in scan data; might be possible to sniff out targeting/sampling parameters for sites that e.g. only fire a feedback survey script every nth pageLoad."
 * mobile header?
 * count of pdfs on a site - e.g. [this query](https://www.google.com/search?q=filetype%3Apdf+site%3Agsa.gov)
 * content similarity (via comparison of page content [[prototype via Bard](https://docs.google.com/spreadsheets/d/1V12I-FzbZVTD90al-0lwLCHWH-AHsbt8/edit#gid=901101796)], page titles, page desciptions, keywords, and/or page headers)
