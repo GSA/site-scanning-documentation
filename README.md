@@ -57,7 +57,7 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Goals and Metrics](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/goals-and-metrics.md)
 * [Links for Onboarding Teammates](/about/project-management/onboarding-links.md)
 * [Presentation Slides](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/Site%20Scanning%20Overview%20-%20Brief%20Version.pdf) 
-* [Other Resources](/about/project-management)
+* [Other Program Management Resources](/about/project-management)
 
 ### Technical 
 
