@@ -32,14 +32,12 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Examples of Other, Similar Scanning Projects and Tools](https://github.com/GSA/site-scanning-documentation/blob/main/about/other_scans.md)
 * [Press Mentions](https://github.com/GSA/site-scanning-documentation/blob/main/about/press.md)
 * [FAQ for Federal Agencies](https://github.com/GSA/site-scanning-documentation/blob/main/pages/agency-questions.md)
-* [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
 
 ### How Site Scanning Works
 * [How the Federal Website Index is Created](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
 * [How the Scans Run](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md)
 * [System Schedule - When ingests, reports, scans, etc. take place each week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
 * [Scan Statuses Explained](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_statuses.md)
-
 
 ### Understanding the Data
 * [Data Dictionary for the Site Scanning data](/data/Site_Scanning_Data_Dictionary.csv)
