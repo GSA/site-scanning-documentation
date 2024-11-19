@@ -26,6 +26,18 @@ A Federal government website is a unique discoverable hostname or Uniform Resour
 * Is not an API endpoint, email server, or asset server
 * Is not an authentication page to an otherwise non-public site
 
+##### Site Scanning Program, con't
+
+_under construction_
+
+- A hostname or fully qualified domain name, with `www.` removed
+- Does not redirect to another base website
+
+##### Federal Website Directory
+
+_[under construction](https://github.com/GSA/federal-website-directory)_
+
+
 ##### [OMB M-23-22](https://www.whitehouse.gov/wp-content/uploads/2023/09/M-23-22-Delivering-a-Digital-First-Public-Experience.pdf)
 
  “Website” means a group of globally accessible interlinked web pages under a unique host name that is accessible using a web browser.
