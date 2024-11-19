@@ -26,11 +26,19 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Background History](/about/project-management/project-history.md)
 * [10 Minute Walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md)
 * [Questions That Site Scanning Answers](https://github.com/GSA/site-scanning-documentation/blob/main/about/questions-we-answer.md)
-* [System Schedule - When ingests, reports, scans, etc. take place each week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
 * [Candidate Scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md)
 * [How Candidate Scans Become Active Scans](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md)
-* [Program Stakeholders](/about/stakeholders.md)  
+* [Program Stakeholders](/about/stakeholders.md)
+* [Examples of Other, Similar Scanning Projects and Tools](https://github.com/GSA/site-scanning-documentation/blob/main/about/other_scans.md)
+* [Press Mentions](https://github.com/GSA/site-scanning-documentation/blob/main/about/press.md)
+* [FAQ for Federal Agencies](https://github.com/GSA/site-scanning-documentation/blob/main/pages/agency-questions.md)
 * [Other Resources](https://github.com/18F/site-scanning-documentation/tree/main/about)
+
+### How Site Scanning Works
+* [How the Federal Website Index is Created](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
+* [How the Scans Run](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md)
+* [System Schedule - When ingests, reports, scans, etc. take place each week](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
+* [Scan Statuses Explained](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_statuses.md)
 
 
 ### Understanding the Data
@@ -38,6 +46,7 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Data Dictionary for the Target URL List](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv)
 * [Terms](/pages/terms.md)
 * [Access the Data](https://digital.gov/guides/site-scanning/data/)
+* [Results Validation Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/results_validation_guide.md)
 * Analysis Reports: [Snapshot - Primary](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv); [Snapshot - All](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv); [Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv); [Federal Website Index Creation Process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
 * [Snapshots at each stage of the target URL list generation process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme)
 * [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md); [Quality Assurance Walkthrough](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/quality-assurance-walkthrough.md)
@@ -56,4 +65,5 @@ To ask a question or leave feedback for the program, please [file an issue here]
 
 * [Code](https://github.com/GSA/site-scanning-engine)
 * [Architecture](https://github.com/GSA/site-scanning-engine/blob/main/docs/architecture/README.md)
+* [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md)
   
