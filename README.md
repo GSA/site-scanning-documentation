@@ -32,6 +32,7 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Examples of Other, Similar Scanning Projects and Tools](https://github.com/GSA/site-scanning-documentation/blob/main/about/other_scans.md)
 * [Press Mentions](https://github.com/GSA/site-scanning-documentation/blob/main/about/press.md)
 * [FAQ for Federal Agencies](https://github.com/GSA/site-scanning-documentation/blob/main/pages/agency-questions.md)
+* [Guide for Federal Agencies](https://github.com/GSA/site-scanning-documentation/blob/main/pages/federal_agency_guide.md)
 
 ### How Site Scanning Works
 * [How the Federal Website Index is Created](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
