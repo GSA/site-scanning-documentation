@@ -17,3 +17,12 @@ Please email [site-scanning@gsa.gov](mailto:site-scanning@gsa.gov) with any webs
 ## You include a website which should be filtered out.  How can I have it removed from the Site Scanning data?  
 
 Please email [site-scanning@gsa.gov](mailto:site-scanning@gsa.gov) with any websites that you think should be removed, along with a few words as to why.  After confirming that they meet the criteria for exclusion, we will then add them to [this file](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv), which will ensure that they are filtered out in the weekly index rebuilding.  
+
+## Can I request a new scan?  
+
+Please!!  Every scan field that the Site Scanning program currently offers came into existence because a program or agency requested it.  Please check out our [Stakeholder Experience page](https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md) for perspective on how the team operates and  email [site-scanning@gsa.gov](mailto:site-scanning@gsa.gov) anytime!  
+
+
+## Can I run Site Scanning against more pages on my websites or against internal sites?  
+
+The hosted Site Scanning program is focused on scanning the homepage of public-facing federal websites for the foreseeable future.  That said, it's very straightforward to run a local instance of the Site Scanning engine off of a personal computer and laptop and when you do so, you can target and generate data for any webpages that you and your computer have access to.  Installation directions [can be found here](https://github.com/GSA/site-scanning-engine?tab=readme-ov-file#table-of-contents), but also feel free to contact the Site Scanning team at [site-scanning@gsa.gov](mailto:site-scanning@gsa.gov) if you have questions about how to do this yourself.  
