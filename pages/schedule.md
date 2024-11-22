@@ -117,3 +117,4 @@ This document contains the schedule of when automated processes take place, as w
 
 - Rescan stale (older than 3 days) results - [Action](https://github.com/GSA/site-scanning-engine/actions/workflows/requeue-stale-scans.yml)
 - Scan a single URL (likely has to be a url already in the site index) - [Action](https://github.com/GSA/site-scanning-engine/actions/workflows/enqueue-site.yml)
+- Enqueue a limited number of URLs - [Action](https://github.com/GSA/site-scanning-engine/actions/workflows/enqueue-limited-scans.yml)
