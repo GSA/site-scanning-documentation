@@ -37,5 +37,5 @@ We believe that this model has some advantages:
 - The Final Website field could reliably serve as the website identifier within Site Scanning data.
 - The consistent URL/Website/Base Domain/Top Level Domain structure provides greater symmetry between the Target and Final sets of fields.
 - Target URL becomes more accurate and there is a pivot away from Target URL and Final URL as adjectives and towards Target and Final.
-- One downside is the awkward but necessary caveating of Final Website to indicate that it is the resulting hostname _sans `www.`_.  
+- One downside is the awkward but necessary caveating of Final Website to indicate that it is the resulting hostname _sans `www.`_.  Note that Target Website does not have a similar caveat because we are moving towards a Federal Website Index/Target URL list that strips all `www.` from the start anyway.  
 
