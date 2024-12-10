@@ -1,7 +1,9 @@
 name,field id,description,data type,queryable
-Target URL,target_url,URL scanned (Note that the `Target URL` and `Target URL - Base Website` are the same),string,"yes, exact, via path"
-Target URL - Base Domain,target_url_domain,Base Domain of the Target URL,string,"yes, exact"
-Target URL - Top Level Domain,target_url_top_level_domain,Top Level Domain of the Target URL,string,no
+Site ID,site_id,"The hostname of the Scanned URL, with www. removed if present",string,no
+Initial URL,initial_url,The URL that is initially loaded,string,"yes, exact, via path"
+Initial Base Domain,target_url_domain,Base Domain of the Initial URL,string,"yes, exact"
+Initial Top Level Domain,initial_top_level_domain,Top Level Domain of the Initial URL,string,no
+Scanned URL,,,,
 Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
 Final URL,final_url,"Final URL that resolves after any redirects [301, 302, etc.]",string,no
 Final URL - Base Domain,final_url_domain,Base Domain of the Final URL,string,"yes, exact"
