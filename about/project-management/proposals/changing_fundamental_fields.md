@@ -1,4 +1,4 @@
-The first 12-14 data in the Site Scanning data can be thought of as fundamentally trying to address what is being looked at.  Notably, they include these fields:  
+The first dozen fields in [Site Scanning data](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv) can be thought of as fundamentally trying to address what is being looked at.  Notably, they include these fields:  
 
 | name	| description | example result |
 | --- | --- | ---- | 
