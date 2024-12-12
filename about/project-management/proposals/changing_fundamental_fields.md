@@ -63,10 +63,10 @@ A hybrid of the two could look like this:
 | Initial Website	| Website of the Target URL | blog.usaid.gov  |
 | Initial Base Domain	| Base Domain of the Target URL | usaid.gov   |
 | Initial Top Level Domain | 	Top Level Domain of the Target URL |  .gov  |
-| Scanned URL	| Final URL that resolves after any redirects [301, 302, etc.]|  https://www.usaid.gov/stories  |
-| Website	| Website of the Final URL |  www.usaid.gov  |
-| Base Domain | 	Base Domain of the Final URL |  usaid.gov  |
-| Top Level Domain	| Top Level Domain of the Final URL | .gov  | 
+| Scanned URL	| Final URL that resolves after any redirects, which is then scanned|  https://www.usaid.gov/stories  |
+| Website	| Website of the Scanned URL |  www.usaid.gov  |
+| Base Domain | 	Base Domain of the Scanned URL |  usaid.gov  |
+| Top Level Domain	| Top Level Domain of the Scanned URL | .gov  | 
 
 
 
