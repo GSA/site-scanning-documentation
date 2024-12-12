@@ -58,7 +58,7 @@ A hybrid of the two could look like this:
 
 | name	| description | example result |
 | --- | --- | ---- | 
-| Site ID	| The hostname of the Scanned URL, with `www.` removed if present  | usaid.gov | 
+| Site Name	| The hostname of the Scanned URL, with `www.` removed if present  | usaid.gov | 
 | Initial URL	| URL scanned | https://blog.usaid.gov  |
 | Initial Domain	| Domain of the Initial URL | blog.usaid.gov  |
 | Initial Base Domain	| Base Domain of the Initial URL | usaid.gov   |
