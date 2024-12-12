@@ -60,11 +60,11 @@ A hybrid of the two could look like this:
 | --- | --- | ---- | 
 | Site ID	| The hostname of the Scanned URL, with `www.` removed if present  | usaid.gov | 
 | Initial URL	| URL scanned | https://blog.usaid.gov  |
-| Initial Website	| Website of the Initial URL | blog.usaid.gov  |
+| Initial Domain	| Domain of the Initial URL | blog.usaid.gov  |
 | Initial Base Domain	| Base Domain of the Initial URL | usaid.gov   |
 | Initial Top Level Domain | 	Top Level Domain of the Initial URL |  .gov  |
 | Scanned URL	| Final URL that resolves after any redirects, which is then scanned|  https://www.usaid.gov/stories  |
-| Website	| Website of the Scanned URL |  www.usaid.gov  |
+| Domain	| Domain of the Scanned URL |  www.usaid.gov  |
 | Base Domain | 	Base Domain of the Scanned URL |  usaid.gov  |
 | Top Level Domain	| Top Level Domain of the Scanned URL | .gov  | 
 
