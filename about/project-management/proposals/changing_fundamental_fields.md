@@ -68,5 +68,8 @@ A hybrid of the two could look like this:
 | Base Domain | 	Base Domain of the Scanned URL |  usaid.gov  | gsa.gov |
 | Top Level Domain	| Top Level Domain of the Scanned URL | .gov  |  .gov |
 
+Further fields could include: 
+- Major Redirect?  (maybe in lieu of the current redirect field) 
+- Homepage?  Root?  Primary Result?
 
 
