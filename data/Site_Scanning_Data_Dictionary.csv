@@ -37,7 +37,7 @@ Infrastructure - Search.gov Detected,searchgov,Is the use of Search.gov detected
 Infrastructure - DAP Detected,dap_detected,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
 Infrastructure - DAP Parameters,dap_parameters,List of DAP parameters detected,object,no
 Infrastructure - DAP Version,dap_version,Version number of the DAP snippet,string,no
-Infrastructure - Google Analytics Tag ID,ga_tag_id,Tag ID of any detected google analytics snippets,
+Infrastructure - Google Analytics Tag ID,ga_tag_id,Tag ID of any detected google analytics snippets,string,no
 Infrastructure - Third Party Service Domains,third_party_service_domains,List of distinct third party domains detected,list,no
 Infrastructure - Third Party Service URLs,third_party_service_urls,List of distinct third party urls detected,list,no
 Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
