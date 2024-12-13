@@ -29,16 +29,17 @@ Scan Status - Security,security_scan_status,"Status of the Security Scan [Comple
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 DNS - IPv6,ipv6,"Presence of a DNS AAAA record",boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
-Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress)",string,no
-Infrastructure - Cloud.gov Pages Detected,cloud_dot_gov_pages,Is the use of Cloud.gov Pages detected?,boolean,no
+Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress, Cloud.gov)",string,no
 Infrastructure - Login Provider,login_provider,"Name of detected login service",string,no
 Infrastructure - Login Detected,login,List of login indicators detected,object,no
 Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean, no
 Infrastructure - Search.gov Detected,searchgov,Is the use of Search.gov detected?,boolean,no
 Infrastructure - DAP Detected,dap_detected,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
-Infrastructure - DAP Version,dap_version,Version number of the DAP snippet,string,no
 Infrastructure - DAP Parameters,dap_parameters,List of DAP parameters detected,object,no
+Infrastructure - DAP Version,dap_version,Version number of the DAP snippet,string,no
+Infrastructure - Google Analytics Tag ID,ga_tag_id,Tag ID of any detected google analytics snippets,
 Infrastructure - Third Party Service Domains,third_party_service_domains,List of distinct third party domains detected,list,no
+Infrastructure - Third Party Service URLs,third_party_service_urls,List of distinct third party urls detected,list,no
 Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
 Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
 Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
