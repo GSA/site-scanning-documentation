@@ -8,6 +8,11 @@ Here's the programs that are currently identified as active stakeholders that ar
 
 #### The Digital Analytics Program 
 
+They use Site Scanning data to:
+- Identify federal websites that have not installed DAP
+- Identify federal websites that have out of date or misconfigured DAP implementations.
+- Compare agency adoption of DAP vs. Google Analytics more broadly.
+- Track adoption of code updates.  
 
 
 #### Search.gov 
