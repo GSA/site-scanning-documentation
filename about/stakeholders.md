@@ -14,6 +14,11 @@ They use Site Scanning data to:
 - Compare agency adoption of DAP vs. Google Analytics more broadly.
 - Track adoption of code updates.  
 
+They want to know:  
+- Which websites have DAP on them.  
+- How are those website's DAP code configured.
+- Which websites have GA on them.  
+
 
 #### Search.gov 
 
