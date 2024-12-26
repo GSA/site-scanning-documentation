@@ -73,3 +73,8 @@ Further fields could include:
 - Homepage?  Root?  Primary Result?
 
 
+## Update - Final Proposal
+
+https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/proposed_dictionary_changes-12-24.csv
+
+
