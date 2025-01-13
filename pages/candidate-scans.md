@@ -58,6 +58,10 @@ The list of scans that have alreadby been built and are active [can be found her
 
 
 ## Business Intelligence for TTS Programs
+
+2025 new ideas:
+- How to associate subdomains together as veritably unified with the primary website
+- buckets of traffic by domain, by website 
  
 #### 21st century idea - MVP scan possibilities 
 * a11y
