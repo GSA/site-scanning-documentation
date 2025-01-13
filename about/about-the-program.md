@@ -7,7 +7,7 @@ The core of the program is a scanning engine that performs a series of scans tha
 
 ### Value Proposition
 
-The Site Scanning programs provides a comprehensive index of federal websites, and generates over 100 data points about each one.  
+The Site Scanning programs provides the only comprehensive index of federal websites, and generates over 100 data points about each one.  With this data, GSA, OMB, and other agencies can track what and how many public websites each agency operates and offers qualitative metrics for performance, accessibility, compliance, and more.  TTS programs are also able to use Site Scanning data for business intelligence to compute adoption rates and to perform market research.  
 
 
 ### Utilization
