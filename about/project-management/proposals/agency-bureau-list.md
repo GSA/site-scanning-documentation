@@ -32,7 +32,8 @@ For each ABCDE agency, does it make sense to include a bureau ABCDE (the same na
 
 ## Observations 
 
-No one dataset is perfect.  Below are notes on the 
+- No one dataset is perfect.  Below are notes on each dataset.
+- Also, there should be an overlay with agency flagship sites.  
 
 
 
