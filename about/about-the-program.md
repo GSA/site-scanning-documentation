@@ -62,8 +62,15 @@ The Site Scanning programs provides the only comprehensive index of federal webs
 ### Return on Investment
 
 - Usage Definition: Site Scanning data downloads
+
+1) Hypothetical service offering by a company (doesn't exist though):
 - 87 agencies via m-23-22.  Another 4 agency stakeholders past those.  
 - Rough estimate for value of dataset if licensed: $10k/agency/year.
 - Rough value generated: $910,000/year
+
+2) Agencies stand up and run their own instance of Site Scanning:
+- Assume 50% of current users want to continue having this data for their agency
+- $60K/year Cloud.gov & $72K/year Software engineering (25% FTE, 40 hrs/month, $150/hr) per agency
+- Rough value generated: $5.4M
 
 
