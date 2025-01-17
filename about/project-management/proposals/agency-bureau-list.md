@@ -18,25 +18,32 @@ To begin with, I'm assembling currently available resources.  Below are descript
 -  [eCFR list of agencies](https://www.ecfr.gov/agencies)
 -  [CISA list of Federal Civilian Executive Branch Agencies](https://www.cisa.gov/news-events/directives/federal-civilian-executive-branch-agencies-list)
 -  [GSA MySales list of agencies and bureaus](https://mysales.fas.gsa.gov/htm/agencybureaucodes.htm)
--  
-
-Other lists that are candidates but I haven't incorporated include the , , [USASpending.gov list of agencies](https://www.usaspending.gov/agency), [Lobbying Disclosure Act form list of agencies and bureaus](https://lda.congress.gov/ld/help/default.htm?turl=Documents%2FAppNames.htm), [GAO list of agencies](https://www.gao.gov/agencies/all-agencies), [Federal Register list of agencies](https://www.federalregister.gov/agencies), [regulations.gov list of participating and non-participating agencies](https://www.regulations.gov/agencies), [OPM list of federal agencies](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/), [USA.gov list of agencies](https://www.usa.gov/agency-index), [ACUS Sourcebook of US Executive Agencies Data](https://www.acus.gov/appendix/sourcebook-data), and the [US Government Manual Org Chart/List of Boards, Commissions, and Committees/Agency Acronyms](https://www.usgovernmentmanual.gov/).
+-  [USASpending.gov list of agencies](https://www.usaspending.gov/agency)
+-  [Lobbying Disclosure Act form list of agencies and bureaus](https://lda.congress.gov/ld/help/default.htm?turl=Documents%2FAppNames.htm)
+-  [GAO list of agencies](https://www.gao.gov/agencies/all-agencies)
+-  [Federal Register list of agencies](https://www.federalregister.gov/agencies)
+-  [regulations.gov list of participating and non-participating agencies](https://www.regulations.gov/agencies)
+-  [OPM list of federal agencies](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/)
+-  [USA.gov list of agencies](https://www.usa.gov/agency-index)
+-  [ACUS Sourcebook of US Executive Agencies Data](https://www.acus.gov/appendix/sourcebook-data)
+-  [US Government Manual Org Chart/List of Boards, Commissions, and Committees/Agency Acronyms](https://www.usgovernmentmanual.gov/).
 
 
 #### Substantial questions to work out....
 
-For each ABCDE agency, does it make sense to include a bureau ABCDE (the same name again) so that any entries that are at the agency level and not part of a subcomponent have the bureau field populated?  Or should it be empty?  Or something generic like `------` or `agency level`?
+- For each ABCDE agency, does it make sense to include a bureau ABCDE (the same name again) so that any entries that are at the agency level and not part of a subcomponent have the bureau field populated?  Or should it be empty?  Or something generic like `------` or `agency level`?
 
 
 
 #### Notes
 - ACUS report "[Mapping the Contours of the Federal Government](https://www.acus.gov/sites/default/files/documents/EXCERPT_ABA_Spring2013_final.pdf)"
+- Link to combined data
 
 
 
 ## Observations 
 
-- No one dataset is perfect.  Below are notes on each dataset.
+- No one dataset is perfect.  I'm going to try and make notes on each.  
 - Also, there should be an overlay with agency flagship sites.  
 
 
