@@ -48,5 +48,10 @@ To begin with, I'm assembling currently available resources.  Below are descript
 
 
 
+Analysis: 
+- Agency Count
+- Bureau Count
+- Comprehensiveness 
+
 
 
