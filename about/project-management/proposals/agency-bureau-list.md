@@ -57,6 +57,8 @@ Analysis:
 General Recommendations:
 - Do not include US, U.S., United States, of the United States, etc. in the name.
 - Do not use a comma to reorder the name in order to promote alphabetization (e.g. `Acme, Offie of`)
+- Spell out words like `and` instead of using symbols
+- Do not abbreviate
 
 
 
