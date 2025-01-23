@@ -51,7 +51,12 @@ To begin with, I'm assembling currently available resources.  Below are descript
 Analysis: 
 - Agency Count
 - Bureau Count
-- Comprehensiveness 
+- Comprehensiveness
+- Observations
+
+General Recommendations:
+- Do not include US, U.S., United States, of the United States, etc. in the name.
+- Do not use a comma to reorder the name in order to promote alphabetization (e.g. `Acme, Offie of`)
 
 
 
