@@ -1,23 +1,24 @@
 name,field id,description,data type,queryable
-Target URL,target_url,URL scanned (Note that the `Target URL` and `Target URL - Base Website` are the same),string,"yes, exact, via path"
-Target URL - Base Domain,target_url_domain,Base Domain of the Target URL,string,"yes, exact"
-Target URL - Top Level Domain,target_url_top_level_domain,Top Level Domain of the Target URL,string,no
-Target URL - Redirects,target_url_redirects,Does the Target URL redirect?,boolean,"yes, exact"
-Final URL,final_url,"Final URL that resolves after any redirects [301, 302, etc.]",string,no
-Final URL - Base Domain,final_url_domain,Base Domain of the Final URL,string,"yes, exact"
-Final URL - Top Level Domain,final_url_top_level_domain,Top Level Domain of the Final URL,string,no
-Final URL - Base Website,final_url_website,Base Website of the Final URL,string,no
-Final URL - Live,final_url_live,Does the Final URL return a 2** response?,boolean,"yes, exact"
-Final URL - Status Code,final_url_status_code,Server status code of the Final URL,numeric,no
-Final URL - Media Type,final_url_media_type,Media type of the Final URL,string,no
-Final URL - Same Base Domain As Target URL,final_url_same_domain,"Is the Final URL on the same base domain as the Target URL? (e.g. www.18f.gov redirects to 18f.gsa.gov, on a different base domain)",boolean,no
-Final URL - Same Base Website As Target URL,final_url_same_website,"Does the Final URL have the same base website as the Target URL? (e.g. www.gsaauctions.gov redirects to www.gsaauctions.gov/somepage, on the same base website)",boolean,no
-Target URL - Base Domain Agency Owner,target_url_agency_owner,Agency owner of the Target URL Base Domain,string,"yes, exact"
-Target URL - Base Domain Bureau Owner,target_url_bureau_owner,Bureau owner of the Target URL Base Domain,string,"yes, exact"
-Target URL - Base Domain Branch,target_url_branch,Branch of government of the agency owner of the Target URL Base Domain,string,"yes, exact"
-Target URL - 404 Test,target_url_404_test,"Does the Target URL return 404s correctly (TRUE), or give a misleading 200 code (FALSE)?",boolean,no
-Target URL - Data Source,source_list,"Which source datasets included this Target URL?",list,no
-Target URL - Public,public,Whether a website should be considered public-facing in regards to OMB/21st Century IDEA implementation,boolean,no
+Name,name,"The hostname of the Final URL, with www. removed if present",string,no
+Initial URL,initial_url,URL ingested to begin a scan,string,"yes, exact, via path"
+Initial Domain,initial_domain,Domain of the Initial URL,string,no
+Initial Base Domain,initial_base_domain,Base Domain of the Initial URL,string,"yes, exact"
+Initial Top Level Domain,initial_top_level_domain,Top Level Domain of the Initial URL,string,no
+Redirects,redirects,Whether Name is different from the Initial Domain,boolean,"yes, exact"
+URL,url,"Final URL that resolves after any redirects, which is then scanned",string,no
+Domain,domain,Domain,string,no
+Base Domain,base_domain,Base Domain,string,"yes, exact"
+Top Level Domain,top_level_domain,Top Level Domain,string,no
+Live,live,Whether the URL returns a 2** status code,boolean,"yes, exact"
+Filter,filter,Whether the Initial URL would be filtered out if suspected non-public/non-websites are filtered out,boolean,no
+Status Code,status_code,HTTP status code,numeric,no
+Media Type,media_type,Media type,string,no
+Agency,agency,Agency owner of the Initial Base Domain,string,"yes, exact"
+Bureau,bureau,Bureau owner of the Initial Base Domain,string,"yes, exact"
+Branch,branch,Brach of government of the agency owner of the Initial Base Domain,string,"yes, exact"
+404 Test,404_test,Whether the Initial Domain return 404s correctly (TRUE) or gives a misleading 2** code (FALSE0   ,boolean,no
+Data Source,source_list,Which source datasets included this Initial URL?,list,no
+Public,public,Whether a website should be considered public-facing in regards to OMB/21st Century IDEA implementation,boolean,no
 Scan Status - Date,scan_date,Scan date/time (when data is written),datetime,no
 Scan Status - Primary,primary_scan_status,"Status of the Primary Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Scan Status - Accessibility,accessibility_scan_status,"Status of the Accessibility Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
@@ -27,22 +28,22 @@ Scan Status - Performance,performance_scan_status,"Status of the Performance Sca
 Scan Status - Robots.txt,robots_txt_scan_status,"Status of the Robots.txt Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Security,security_scan_status,"Status of the Security Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
-Accessibility - Violations,accessibility_violations,"Count of violations detected for certain accessibility categories that are able to be detected through automated scanning. These violations were identified and selected in close coordination with the U.S. Access Board and GSA’s Government-wide IT Accessibility Program. Site Scanning uses axe-core rules to detect these violations. Use of automated scanning for accessibility does not replace the need for manual testing or assessment.",string,no
-DNS - IPv6,ipv6,"Presence of a DNS AAAA record",boolean,no
+Accessibility - Violations,accessibility_violations,Count of violations detected for certain accessibility categories that are able to be detected through automated scanning. These violations were identified and selected in close coordination with the U.S. Access Board and GSA’s Government-wide IT Accessibility Program. Site Scanning uses axe-core rules to detect these violations. Use of automated scanning for accessibility does not replace the need for manual testing or assessment.,string,no
+DNS - IPv6,ipv6,Presence of a DNS AAAA record,boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress, Cloud.gov)",string,no
-Infrastructure - Login Provider,login_provider,"Name of detected login service",string,no
+Infrastructure - Login Provider,login_provider,Name of detected login service,string,no
 Infrastructure - Login Detected,login,List of login indicators detected,object,no
-Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean, no
-Infrastructure - Search.gov Detected,searchgov,Is the use of Search.gov detected?,boolean,no
-Infrastructure - DAP Detected,dap_detected,"Is the Digital Analytics Program (DAP) tag detected?",boolean,"yes, exact"
+Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,boolean,no
+Infrastructure - Search.gov Detected,search_dot_gov,Is the use of Search.gov detected?,boolean,no
+Infrastructure - DAP Detected,dap,Is the Digital Analytics Program (DAP) tag detected?,boolean,"yes, exact"
 Infrastructure - DAP Parameters,dap_parameters,List of DAP parameters detected,object,no
 Infrastructure - DAP Version,dap_version,Version number of the DAP snippet,string,no
 Infrastructure - Google Analytics Tag ID,ga_tag_id,Tag ID of any detected google analytics snippets,string,no
 Infrastructure - Third Party Service Domains,third_party_service_domains,List of distinct third party domains detected,list,no
 Infrastructure - Third Party Service URLs,third_party_service_urls,List of distinct third party urls detected,list,no
 Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,numeric,no
-Infrastructure - Cookie Domains,cookie_domains,"List of domains associated with each cookie sent by a server",list,no
+Infrastructure - Cookie Domains,cookie_domains,List of domains associated with each cookie sent by a server,list,no
 Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,boolean,no
 Performance - Cumulative Layout Shift,cumulative_layout_shift,"Performance indicator that measures how much layouts shift for a user while the page loads for a user, expressed by a layout shift score",string,no
 Performance - Largest Contentful Paint,largest_contentful_paint,Performance indicator that counts in milliseconds when what is likely the main content on the page loads,string,no
@@ -65,28 +66,24 @@ Other Tags - Language,language,Meta language tag,string,no
 Other Tags - Language Links,language_link,HTML link attributes for the langauge of linked pages,string,no
 Other Tags - Main Element Detected,main_element_present,Presence of `<main>` element,boolean,no
 Robots.txt - Detected,robots_txt_detected,Is the `robots_txt_final_url` live (has a 2xx code) and is its entire path `/robots.txt`? (Note that a robots.txt file that redirects to a subdirectory would then not count given that the protocol appears to require that the file live in the top directory),boolean,no
-Robots.txt - Target URL - Redirects,robots_txt_target_url_redirects,Does the `robots.txt` Target URL Redirect?,boolean,no
-Robots.txt - Final URL,robots_txt_final_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
-Robots.txt - Final URL - Live,robots_txt_final_url_live,Does the `robots.txt` Final URL return a 2** response?,boolean,no
-Robots.txt - Final URL - Status Code,robots_txt_final_url_status_code,Server status code of the `robots.txt` Final URL,numeric,no
-Robots.txt - Final URL - Media Type,robots_txt_final_url_media_type,Media type of the `robots.txt` Final URL,string,no
-Robots.txt - Final URL - Filesize,robots_txt_final_url_filesize_in_bytes,Filesize of the `robots.txt` Final URL (bytes),numeric,no
+Robots.txt - Final URL,robots_txt_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
+Robots.txt - Final URL - Status Code,robots_txt_status_code,Server status code of the `robots.txt` Final URL,numeric,no
+Robots.txt - Final URL - Media Type,robots_txt_media_type,Media type of the `robots.txt` Final URL,string,no
+Robots.txt - Final URL - Filesize,robots_txt_filesize,Filesize of the `robots.txt` Final URL (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
 Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_final_url` live (has a 2xx code) and is its entire path `/sitemap.xml`?,boolean,no
-Sitemap.xml - Target URL - Redirects,sitemap_xml_target_url_redirects,Does the `sitemap.xml` Target URL redirect?,boolean,no
-Sitemap.xml - Final URL,sitemap_xml_final_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
-Sitemap.xml - Final URL - Live,sitemap_xml_final_url_live,Does the `sitemap.xml` Final URL return a 2** response?,string,no
-Sitemap.xml - Final URL - Status Code,sitemap_xml_final_url_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
-Sitemap.xml - Final URL - Media Type,sitemap_xml_final_url_media_type,Media type of the `sitemap.xml` Final URL,string,no
-Sitemap.xml - Final URL - Filesize,sitemap_xml_final_url_filesize_in_bytes,Filesize of the `sitemap.xml` Final URL (bytes),numeric,no
+Sitemap.xml - Final URL,sitemap_xml_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
+Sitemap.xml - Final URL - Status Code,sitemap_xml_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
+Sitemap.xml - Final URL - Media Type,sitemap_xml_media_type,Media type of the `sitemap.xml` Final URL,string,no
+Sitemap.xml - Final URL - Filesize,sitemap_xml_filesize,Filesize of the `sitemap.xml` Final URL (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in the detected `sitemap.xml`,numeric,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs ending in `.pdf` in the detected `sitemap.xml`,numeric,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file (part of the standard header banner) in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file (part of the standard header banner) in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
 USWDS - In-page CSS,uswds_inpage_css,Presence of .usa- class in a <style> block in HTML,integer,no
-USWDS - USA Class List,uswds_usa_class_list,List of each known USWDS class used,string,no 
+USWDS - USA Class List,uswds_usa_class_list,List of each known USWDS class used,string,no
 USWDS - Here's How Link,uswds_banner_heres_how,Presence of the USWDS 'official website of the US government/Here's how you know' banner,boolean,no
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
 USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
