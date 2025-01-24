@@ -44,7 +44,11 @@ To begin with, I'm assembling currently available resources.  Below are descript
 ## Observations 
 
 - No one dataset is perfect.  I'm going to try and make notes on each.  
-- Also, there should be an overlay with agency flagship sites.  
+- Also, there should be an overlay with agency flagship sites.
+- Outside of departments, less, but inside departments, offices are bureaus too.  everything formal tends to agree, except nara.  in that way, nara is better, right?  this is less the case with commerce though.  
+  - omb works for ag, commerce, ed, hhs, 
+  - ?? defense, energy,
+  - omb includes some ?bureaus? that aren't, e.g. allowances.  
 
 
 
@@ -86,23 +90,7 @@ General Recommendations:
 
 
 
-OMB Circular A-11, Appendix C
-NARA list of agencies that are subject to the Federal Records Act
-NARA list of agencies that are not subject to the Federal Records Act
-Agencies and organization Information in the .gov Registry
-Modifications to the agency/organization information in Action #2 of agency implementation of OMB 23-22 (agency clarifications to .gov registry information as applied to subdomains)
-eCFR list of agencies
-CISA list of Federal Civilian Executive Branch Agencies
-GSA MySales list of agencies and bureaus
-USASpending.gov list of agencies
-Lobbying Disclosure Act form list of agencies and bureaus
-GAO list of agencies
-Federal Register list of agencies
-regulations.gov list of participating and non-participating agencies
-OPM list of federal agencies
-USA.gov list of agencies
-ACUS Sourcebook of US Executive Agencies Data
-US Government Manual Org Chart/List of Boards, Commissions, and Committees/Agency Acronyms.
+
 
 
 
