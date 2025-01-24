@@ -61,5 +61,52 @@ General Recommendations:
 - Do not abbreviate
 - Do not include parenthetical additions
 
+## Analysis of Options
+
+
+|  Source | Type  | Notes | Advantages  |  Disadvantages | 
+|  --- | ---  | --- | ---  |  --- | 
+|  OMB  |  Primary |  |   |   | 
+|   NARA | Curated  |  |   |   | 
+|  OPM  |  Primary |  |   | Has extra characters that need removing; all caps;   | 
+|  Federal Register  |  Primary |  |   |   | 
+|  ECFR  | Curated  |  |   |   | 
+|  Regulations.gov  | Curated  |  |   |   | 
+|  US Government Manual | Curated  |  |   |   | 
+|  USA.gov  |  Curated |  |   |   | 
+|  USAspending.gov  | Curated  |  |   |   | 
+|  Get.gov  |  Primary |  |   |   | 
+|  M-23-22  |  Curated |  |   |   | 
+|  MySales  | Primary   |  |   |   | 
+|   LDA |  Primary |  |   | Abbreviates; has acronym;   | 
+|  ACUS  |  Curated |  |   |   | 
+| GAO   | Curated  |  |   |   | 
+|   CISA | Curated  |  |   |   | 
+
+
+
+
+OMB Circular A-11, Appendix C
+NARA list of agencies that are subject to the Federal Records Act
+NARA list of agencies that are not subject to the Federal Records Act
+Agencies and organization Information in the .gov Registry
+Modifications to the agency/organization information in Action #2 of agency implementation of OMB 23-22 (agency clarifications to .gov registry information as applied to subdomains)
+eCFR list of agencies
+CISA list of Federal Civilian Executive Branch Agencies
+GSA MySales list of agencies and bureaus
+USASpending.gov list of agencies
+Lobbying Disclosure Act form list of agencies and bureaus
+GAO list of agencies
+Federal Register list of agencies
+regulations.gov list of participating and non-participating agencies
+OPM list of federal agencies
+USA.gov list of agencies
+ACUS Sourcebook of US Executive Agencies Data
+US Government Manual Org Chart/List of Boards, Commissions, and Committees/Agency Acronyms.
+
+
+
+
+
 
 
