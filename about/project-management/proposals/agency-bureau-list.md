@@ -32,6 +32,7 @@ To begin with, I'm assembling currently available resources.  Below are descript
 #### Substantial questions to work out....
 
 - For each ABCDE agency, does it make sense to include a bureau ABCDE (the same name again) so that any entries that are at the agency level and not part of a subcomponent have the bureau field populated?  Or should it be empty?  Or something generic like `------` or `agency level`?
+- What should we think of as bureaus - I think the closest thing to a consensus is that bureaus are only within Departments and are lined drawn by some different rubrics.  
 
 
 
@@ -67,6 +68,23 @@ General Recommendations:
 
 ## Analysis of Options
 
+- OMB is the leading candidate.
+  - It's list of agencies is very good, though it uses the following in the agency slot in ways that are problematic:  District of Columbia, International Assistance Programs, Judicial Branch, Legislative Branch, and Other Defense Civil Programs.  Also, oddly, it gives bureaus to FDIC and GSA similarly to how it does departments but not other agencies.  Reasonable solutions to these would be to remove the DC fields; remove the FDIC and GSA bureaus, and promote from bureau to agency the entries under International Assistance Programs, Judicial Branch, Legislative Branch, and Other Defense Civil Programs.  
+  - Departments have bureaus in a way that usually looks good.  The exceptions to this though are Defense and Energy, which skimp in a way that is doesn't fit as well.
+- NARA is a strong competitor.
+  - It's generally very good and handles Departments very well, including Defense and Energy. The following hold Agency slots and the entitites therein would be best promoted from the Bureau to Agency fields: Boards Commissions and Committees, Independant Agencies, Judicial Branch, Legislative Branch, Legislative Commission, and Wholly-owned Government Corporation.
+  - There's a small number of obscure agencies that aren't included, but that's okay.
+  - In a few cases, they add some extras (like United States or U.S.) but not too often or really more than any other dataset.
+- OPM is the third main competitor.
+  - Includes a nice extra layer by describing independent agencies as large, medium, or small and also staff sizes.
+  - Includes many more bureaus within departments than other sources do.
+  - Promotes Army, Navy, and Air Force to their own Departments with Bureaus.
+  - Assigns Bureaus to many agencies in a way that the other datasets do not.
+  - Includes abbreviations in the name fields.
+  - Adds some extras (like United States or U.S.).
+  - In a number of cases, severely abbreviates the agency name instead of listing it out.  
+
+
 
 |  Source | Type  | Notes | Advantages  |  Disadvantages | 
 |  --- | ---  | --- | ---  |  --- | 
@@ -77,15 +95,15 @@ General Recommendations:
 |  ECFR  | Curated  |  |   |   | 
 |  Regulations.gov  | Curated  |  |   |   | 
 |  US Government Manual | Curated  |  |   |   | 
-|  USA.gov  |  Curated |  |   |   | 
+|  USA.gov  |  Curated | High quality, good curation, but doesn't distinguish between agencies and bureaus  |   |   | 
 |  USAspending.gov  | Curated  |  |   |   | 
-|  Get.gov  |  Primary |  |   |   | 
-|  M-23-22  |  Curated |  |   |   | 
-|  MySales  | Primary   |  |   |   | 
+|  Get.gov  |  Primary | Useful for other purposes but includes substantailly more subcomponents beyond agencies and bureaus |   |   | 
+|  M-23-22  |  Curated | Useful for other purposes but includes substantailly more subcomponents beyond agencies and bureaus; not comprehensive |   |   | 
+|  MySales  | Primary   | Includes many subcomponents beyond agencies and bureaus |   |   | 
 |   LDA |  Primary |  |   | Abbreviates; has acronym;   | 
 |  ACUS  |  Curated |  |   |   | 
-| GAO   | Curated  |  |   |   | 
-|   CISA | Curated  |  |   |   | 
+| GAO   | Curated  | Informal, offers several names sometimes, and doesn't distinguish agencies and bureaus |   |   | 
+|   CISA | Curated  | Informal, not fully comprehensive and doesn't distinguish agencies and bureaus |   |   | 
 
 
 
