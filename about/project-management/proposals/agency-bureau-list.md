@@ -74,6 +74,7 @@ General Recommendations:
 - NARA is a strong competitor.
   - It's generally very good and handles Departments very well, including Defense and Energy. The following hold Agency slots and the entitites therein would be best promoted from the Bureau to Agency fields: Boards Commissions and Committees, Independant Agencies, Judicial Branch, Legislative Branch, Legislative Commission, and Wholly-owned Government Corporation.
   - There's a small number of obscure agencies that aren't included, but that's okay.
+  - Includes territorial governments when other datasets don't but they could be easily excluded.  
   - In a few cases, they add some extras (like United States or U.S.) but not too often or really more than any other dataset.
 - OPM is the third main competitor.
   - Includes a nice extra layer by describing independent agencies as large, medium, or small and also staff sizes.
