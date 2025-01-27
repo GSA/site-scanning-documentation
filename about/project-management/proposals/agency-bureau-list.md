@@ -31,7 +31,7 @@ To begin with, I'm assembling currently available resources.  Below are descript
 
 #### Notes
 - ACUS report "[Mapping the Contours of the Federal Government](https://www.acus.gov/sites/default/files/documents/EXCERPT_ABA_Spring2013_final.pdf)"
-- Link to worksheet with combined and processed data
+- [Link to worksheet with combined and processed data (work in progress)](https://github.com/GSA/site-scanning-documentation/raw/refs/heads/main/about/project-management/datasets/Agency_Bureau%20Lists%20-%20Working%20Notes.xlsx)
 
 ## Analysis of Options
 
@@ -59,11 +59,11 @@ To begin with, I'm assembling currently available resources.  Below are descript
 |  --- | ---  | --- | ---  |  --- | 
 |  OMB  |  Primary | 143 Agencies, 253 Bureaus; With proposed change: 189, 191 | Authoritative, good use of exact names  |  Some entities in agency field not agencies; overly descriptive of 2 agences; under descriptive of 2 agencies | 
 |   NARA | Curated  | 51, 278; With proposed change: 173, 156 |  Very intuitive |  Some entities in agency field not agencies; missing a few very small entities; includes territorial governments; adds informal content to some names | 
-|  OPM  |  Primary | 120, 526 | Authoritative; More expansive  | Has extra characters that need removing; all caps; sometimes abbreviates names | 
+|  OPM  |  Primary | 120, 526 | Authoritative; More expansive; available as a static file/API  | Has extra characters that need removing; all caps; sometimes abbreviates names | 
 |  Federal Register  |  Primary | 233, 203 | Authoritative  |   | 
 |  ECFR  | Curated  | 153, 163 |   | Limited in Scope  | 
 |  Regulations.gov  | Curated  | 326 |   |  Some duplication; doesn't distinguish between agencies and bureaus | 
-|  US Government Manual | Curated  | 95 |  Straightforward | Limited in scope, doesn't distinguish between agencies and bureaus  | 
+|  US Government Manual | Curated  | 95 |  Straightforward; available as a static file | Limited in scope, doesn't distinguish between agencies and bureaus  | 
 |  USA.gov  |  Curated | 607 |  High quality, good curation | Doesn't distinguish between agencies and bureaus; is perhaps overly inclusive  | 
 |  USAspending.gov  | 108 Curated  |  |   |   | 
 |  Get.gov  |  Primary | 148, 578  | Agency-provided  |  Useful for other purposes but includes substantailly more subcomponents beyond agencies and bureau; contains duplicates  | 
@@ -74,6 +74,16 @@ To begin with, I'm assembling currently available resources.  Below are descript
 | GAO   | Curated  | 72  |  Offers alternate names | Informal, limited scope; offers several names sometimes, and doesn't distinguish agencies and bureaus  | 
 |   CISA | Curated  | 102  | Straightforward  |  Informal, not fully comprehensive and doesn't distinguish agencies and bureaus | 
 
+
+## Practical Scenarios
+
+
+1. Convert the OMB dataset into a CSV and maintain and use it as is.
+2. Convert the OMB dataaset into a CSV, make and document discrete improvements, and use it.
+3. Request NARA to host source file, or manually convert it into a CSV and use it as it is.
+4. Convert the NARA dataset into a CSV, make and document discrete improvements, and use it.
+5. Use the OPM file directly
+6. Take the OPM file, make and document discrete improvements, and use it.  
 
 
 
