@@ -58,9 +58,9 @@ To begin with, I'm assembling currently available resources.  Below are descript
 
 |  Source | Type  | Counts | Advantages  |  Disadvantages | 
 |  --- | ---  | --- | ---  |  --- | 
-|  OMB  |  Primary | 143 Agencies, 253 Bureaus; With proposed change: 189, 191 | Authoritative, good use of exact names  |  Some entities in agency field not agencies; overly descriptive of 2 agences; under descriptive of 2 agencies | 
-|   NARA | Curated  | 51, 278; With proposed change: 173, 156 |  Very intuitive |  Some entities in agency field not agencies; missing a few very small entities; includes territorial governments; adds informal content to some names | 
-|  OPM  |  Primary | 120, 526 | Authoritative; More expansive; available as a static file/API  | Has extra characters that need removing; all caps; sometimes abbreviates names | 
+|  OMB  |  Primary | 143 Agencies, 253 Bureaus; with proposed change: 189, 191 | Authoritative, good use of exact names  |  Some entities in agency field not agencies; overly descriptive of 2 agences; under descriptive of 2 agencies | 
+|   NARA | Curated  | 51, 278; with proposed change: 173, 156 |  Very intuitive |  Some entities in agency field not agencies; missing a few very small entities; includes territorial governments; adds informal content to some names | 
+|  OPM  |  Primary | 120, 526; with proposed changes 117, 363 | Authoritative; More expansive; available as a static file/API  | all caps; sometimes abbreviates names | 
 |  Federal Register  |  Primary | 233, 203 | Authoritative  |   | 
 |  ECFR  | Curated  | 153, 163 |   | Limited in Scope  | 
 |  Regulations.gov  | Curated  | 326 |   |  Some duplication; doesn't distinguish between agencies and bureaus | 
