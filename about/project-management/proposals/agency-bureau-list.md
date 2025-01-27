@@ -1,3 +1,9 @@
+TL;DR - After extensive analysis, I recommend that we use the [OPM agency dataset](https://www.opm.gov/about-us/open-government/Data/Apps/agencies/agencies.xml), apply the following discrete changes, and use it as a canonical source of agency/bureau names.  
+- Change case to only uppercase the first letter of each word.
+- Downgrade the Departments of Air Force, Army, and Navy to become Department of Defense subelements.
+- Use the OMB Agency/Bureau code dataset to establish certain name changes in order to ensure the full name of an agency (e.g. `Japan` -> `Japan-United States Friendship Commission`.
+- Use the OMB Agency/Bureau code dataset to generate the list of Legislative and Judicial agencies to append.
+
 ## Problem
 
 Both for the [website directory project](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/proposals/agency-bureau-website-directory.md) as well as several other projects, there's a need to have a consistent, agreed upon list of federal agencies and bureaus that can be used as the reference dataset.  The need is mainly to bring about a consistent spelling, capitalization, and punctuation within a given project but also would help to promote consistency across projects.  
@@ -60,7 +66,7 @@ To begin with, I'm assembling currently available resources.  Below are descript
 |  --- | ---  | --- | ---  |  --- | 
 |  OMB  |  Primary | 143 Agencies, 253 Bureaus; with proposed change: 189, 191 | Authoritative, good use of exact names  |  Some entities in agency field not agencies; overly descriptive of 2 agences; under descriptive of 2 agencies | 
 |   NARA | Curated  | 51, 278; with proposed change: 173, 156 |  Very intuitive |  Some entities in agency field not agencies; missing a few very small entities; includes territorial governments; adds informal content to some names | 
-|  OPM  |  Primary | 120, 526; with proposed changes 117, 363 | Authoritative; More expansive; available as a static file/API  | all caps; sometimes abbreviates names | 
+|  OPM  |  Primary | 120, 526; with proposed changes 117, 363 | Authoritative; More expansive; available as a static file/API  | all caps; sometimes abbreviates names; does not have other branches | 
 |  Federal Register  |  Primary | 233, 203 | Authoritative  |   | 
 |  ECFR  | Curated  | 153, 163 |   | Limited in Scope  | 
 |  Regulations.gov  | Curated  | 326 |   |  Some duplication; doesn't distinguish between agencies and bureaus | 
