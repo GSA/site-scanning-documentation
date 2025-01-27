@@ -31,7 +31,8 @@ To begin with, I'm assembling currently available resources.  Below are descript
 
 #### Notes
 - ACUS report "[Mapping the Contours of the Federal Government](https://www.acus.gov/sites/default/files/documents/EXCERPT_ABA_Spring2013_final.pdf)"
-- [Link to worksheet with combined and processed data (work in progress)](https://github.com/GSA/site-scanning-documentation/raw/refs/heads/main/about/project-management/datasets/Agency_Bureau%20Lists%20-%20Working%20Notes.xlsx)
+- [Link to lists, combined and compared (recommended, though still a work in progress)](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency_Bureau%20Lists-combined.csv) 
+- [Link to worksheet with notes and further analysis (work in progress)](https://github.com/GSA/site-scanning-documentation/raw/refs/heads/main/about/project-management/datasets/Agency_Bureau%20Lists%20-%20Working%20Notes.xlsx)
 
 ## Analysis of Options
 
