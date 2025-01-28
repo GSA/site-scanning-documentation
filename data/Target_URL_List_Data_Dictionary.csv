@@ -1,20 +1,21 @@
 name,field id,description,data type
-Target URL,target_url,URL to be scanned,string
-Target URL - Base Domain,base_domain,Base Domain of Target URL,string
-Branch of Government,branch,Branch of Government of the Agency Owner of Base Domain,string
-Agency,agency,Agency Owner of Base Domain,string
-Agency Code,agency_code,Agency Code of the Agency Owner of the Base Domain,string
-Bureau,bureau,Bureau Owner of Base Domain,string
-Bureau Code,bureau_code,Bureau Code of the Bureau Owner of the Base Domain,string
-Source List - Federal Domains,source_list_federal_domains,Whether the Target URL was sourced from the Federal .Gov Domains list,boolean
-Source List - DAP,source_list_dap,Whether the Target URL was sourced from the list of Digital Analytics Program websites,boolean
-Source List - Pulse,source_list_pulse,Whether the Target URL was sourced from the pulse.cio.gov snapshot,boolean
-Source List - OMB/IDEA,source_list_omb_idea,Whether the Target URL was sourced from the omb_idea snapshot,boolean
-Source List - 2020 EOT,source_list_2020_eot,Whether the Target URL was sourced from the 2020 EOT snapshot,boolean
-Source List - USAGOV,source_list_usagov,Whether the Target URL was sourced from the USA.gov directory snapshot,boolean
-Source List - Government Manual,source_list_gov_man,Whether the Target URL was sourced from the US Government Manual,boolean
-Source List - US Courts,source_list_uscourts,Whether the Target URL was sourced from the US Courts directory,boolean
-Source List - OIRA,source_list_oira,Whether the Target URL was sourced from the OIRA Inventory Report,boolean
-Source List - Other,source_list_other,Whether the Target URL was sourced from the manually added list of other websites,boolean
+Initial URL,initial_url,URL to be scanned,string
+Initial Base Domain,base_domain,Base Domain of initial URL,string
+Initial Top Level Domain,top_level_domain,Top Level Domain of initial URL,string
+Branch,branch,Branch of Government of the Agency Owner of initial Base Domain,string
+Agency,agency,Agency Owner of initial Base Domain,string
+Bureau,bureau,Bureau Owner of initial Base Domain,string
+Source List - Federal Domains,source_list_federal_domains,Whether the Initial URL was sourced from the Federal .Gov Domains list,boolean
+Source List - DAP,source_list_dap,Whether the Initial URL was sourced from the list of Digital Analytics Program websites,boolean
+Source List - Pulse,source_list_pulse,Whether the Initial URL was sourced from the pulse.cio.gov snapshot,boolean
+Source List - OMB/IDEA,source_list_omb_idea,Whether the Initial URL was sourced from the omb_idea snapshot,boolean
+Source List - 2020 EOT,source_list_eotw,Whether the Initial URL was sourced from the 2020 EOT snapshot,boolean
+Source List - USAGOV,source_list_usagov,Whether the Initial URL was sourced from the USA.gov directory snapshot,boolean
+Source List - Government Manual,source_list_gov_man,Whether the Initial URL was sourced from the US Government Manual,boolean
+Source List - US Courts,source_list_uscourts,Whether the Initial URL was sourced from the US Courts directory,boolean
+Source List - OIRA,source_list_oira,Whether the Initial URL was sourced from the OIRA Inventory Report,boolean
+Source List - Other,source_list_other,Whether the Initial URL was sourced from the manually added list of other websites,boolean
+Source List - .mil 1,source_list_mil_1,Whether the Initial URL was sourced from the web.mil list of customers,boolean
+Source List - .mil 2,source_list_mil_2,Whether the Initial URL was sourced from a list of .mil websites provided to digitaldashboard.gov,boolean
 OMB/IDEA - Public,omb_idea_public,Whether a website should be considered public-facing in regards to OMB/21st Century IDEA implementation,boolean
-Source List - .mil,source_list_mil,Whether the Target URL was sourced from the web.mil list of customers,boolean
+Filtered,filtered,Whether a website is identified by several filter lists as likely not a public website,boolean
