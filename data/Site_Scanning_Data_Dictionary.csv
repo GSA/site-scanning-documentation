@@ -1,5 +1,5 @@
 name,field id,description,data type,queryable
-Name,name,"The domain of the Final URL [`Domain`], with www. removed if present",string,no
+Name,name,"The domain of the Final URL [`Domain`], with www. removed if present at the beginning",string,no
 Initial URL,initial_url,URL ingested to begin a scan,string,"yes, exact, via path"
 Initial Domain,initial_domain,Domain of the Initial URL,string,no
 Initial Base Domain,initial_base_domain,Base Domain of the Initial URL,string,"yes, exact"
