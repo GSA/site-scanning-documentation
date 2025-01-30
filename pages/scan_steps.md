@@ -1,25 +1,27 @@
-_[This is a description of the step-by-step technical process by which we 'scan' each Target URL. These steps come after the initial process of [building the Target URL list](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).]_
+_[This is a description of the step-by-step technical process by which we 'scan' each Initial URL. These steps come after the initial process of [building the website index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md).]_
 
-First off, before any scans take place, the process of ingesting the target URL list into the database populates the following fields: 
-* `Target URL`
-* `Target URL - Base Domain`
-* `Target URL - Top Level Domain`
-* `Target URL - Base Domain Agency Owner`
-* `Target URL - Base Domain Bureau Owner`
-* `Target URL - Base Domain Branch`
-* `Target URL - Data Source`
-* `Target URL - Public`
+First off, before any scans take place, the process of ingesting the initial URL list into the database populates the following fields: 
+* `Initial URL`
+* `Initial Domain`
+* `Initial Base Domain`
+* `Initial Top Level Domain`
+* `Agency`
+* `Bureau`
+* `Branch`
+* `Data Source`
+* `Public`
+* `Filtered`
 
 When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L36) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
 
 The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages) are: 
 
-- **[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)** - Loads the Target URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
+- **[primary](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts)** - Loads the Initial URL and analyzes the resulting Final URL, generating most of the Site Scanning data.  
 - **[dns](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/dns.ts)** - Analyzes the DNS of the Final URL using a Node.js library (instead of Puppeteer).  
 - **[notFound](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/not-found.ts)** -  Tests for proper 404 behavior using an https service (instead of Puppeteer).
-- **[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)** - Appends `/robots.txt` to the Target URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
-- **[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)** - Appends `/sitemap.xml` to the Target URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
-- **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - Loads axe-core to run against each Target URL, then preserves the results from certain tests.  
+- **[robotsTxt](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/robots-txt.ts)** - Appends `/robots.txt` to the Initial URL, loads it, and analyzes the resulting `robots.txt` Final URL.  
+- **[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)** - Appends `/sitemap.xml` to the Initial URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
+- **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - Loads axe-core to run against each Initial URL, then preserves the results from certain tests.  
 - **[performance](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/performance.ts)** - Loads a performance observer object to capture the relevant fields from the browser's API.  
 - **security** - Refers to XXXXXXX file and applies the second column.  
 
@@ -32,12 +34,12 @@ The `Scan Status - Date` field is populated when the scan data is written to the
 
 ### Primary Scan
 
-The primary scan uses [Puppeteer](https://pptr.dev/) to load a Target URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
+The primary scan uses [Puppeteer](https://pptr.dev/) to load a Initial URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
 
 At the moment, these 'scan components' are: 
-* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which loads the Target URL and then notes whether it redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Target URL. This populates the `Final URL`, `Final URL - Base Domain`, `Final URL - Base Website`, `Final URL - Top Level Domain`, `Final URL - Media Type`, `Final URL - Live`, `Target URL - Redirects`, `Final URL - Same Base Domain As Target URL`, `Final URL - Same Base Website As Target URL`, and `Final URL - Status Code` fields.
-  * For `Final URL - Live` - it is marked `TRUE` if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206.
-  * For `Target URL - Redirects` - it is marked `TRUE` if there are one or more components in the redirect chain of the request method.  
+* [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which loads the Initial URL and then notes whether it redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Initial URL. This populates the `URL`, `Domain`, `Base Domain`, `Top Level Domain`, `Media Type`, `Live`, `Redirects`, and `Status Code` fields.
+  * For `Live` - it is marked `TRUE` if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206.
+  * For `Redirects` - it is marked `TRUE` if there are one or more components in the redirect chain of the request method.  
 * [cloudDotGovPagesScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cloud-dot-gov-pages.ts) - which looks to see if there's an x-server response header that says `cloud.gov pages`.  This populates the `Infrastructure - Cloud.gov Pages Detected` field.  
 * [cmsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) - which looks for certain code snippets in the page html and headers that indicate the use of a certain CMS.  These code snippets are borrowed from the great work of [Wappalyzer](https://github.com/tunetheweb/wappalyzer), specifically the files in [this folder](https://github.com/tunetheweb/wappalyzer/tree/master/src/technologies). This populates the `Infrastructure - CMS Provider` field.  
 * [cookieScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cookies.ts) - which uses Puppeteer's built in functionality to note the domains of all cookies that load. This populates the `Infrastructure - Cookie Domains` field.  
