@@ -1,3 +1,16 @@
+# Overview 
+
+| Step | Standard | How to Analyze | 
+| -- | -- | -- | 
+| Index Assembly | Comprehsive list of seed lists | Search for and integrate more datasets | 
+| Index Assembly | Index properly Assembled | Ensure combining, dedupping, removal of `wwww.`, and removal of non-current/non-federal | 
+| Index Assembly | Filter label applied properly | Analyze waht is filtered and what isn't and make changes | 
+| Scan | Every site gets scanned | Ensure that all sites in the index and in the scan data | 
+| Scan | Every scan completes | Analyze scan data | 
+
+
+
+
 
 
 ## Target URL List creation 
