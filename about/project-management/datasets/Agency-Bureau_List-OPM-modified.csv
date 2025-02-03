@@ -1,0 +1,387 @@
+name,agency_subelement
+Department Of Defense,Office Of The Secretary Of Defense
+Department Of Defense,Organization Of The Joint Chiefs Of Staff
+Department Of Defense,Defense Information Systems Agency
+Department Of Defense,Defense Security Cooperation Agency
+Department Of Defense,Defense Logistics Agency
+Department Of Defense,U.S. Court Of Appeals For The Armed Forces
+Department Of Defense,Defense Contract Audit Agency
+Department Of Defense,Defense Security Service
+Department Of Defense,Defense Advanced Research Projects Agency
+Department Of Defense,Department Of Defense Education Activity
+Department Of Defense,Washington Headquarters Services
+Department Of Defense,Office Of Local Defense Community Cooperation
+Department Of Defense,Defense Legal Services Agency
+Department Of Defense,Office Of The Inspector General
+Department Of Defense,Missile Defense Agency
+Department Of Defense,Defense Technology Security Administration
+Department Of Defense,Defense Commissary Agency
+Department Of Defense,Defense Finance And Accounting Service
+Department Of Defense,Defense Human Resources Activity
+Department Of Defense,Defense Prisoner Of War/Missing Personnel Office
+Department Of Defense,Tricare Management Activity
+Department Of Defense,Defense Threat Reduction Agency
+Department Of Defense,Defense Contract Management Agency
+Department Of Defense,Pentagon Force Protection Agency
+Department Of Defense,Department Of Defense Test Resource Management Center
+Department Of Defense,National Defense University
+Department Of Defense,Defense Technical Information Center
+Department Of Defense,Business Transformation Agency
+Department Of Defense,Defense Media Activity
+Department Of Defense,Department Of The Air Force
+Department Of Defense,Department Of The Army
+Department Of Defense,Department Of The Navy
+Department Of Agriculture,Office Of The Secretary Of Agriculture
+Department Of Agriculture,Agricultural Marketing Service
+Department Of Agriculture,Agricultural Research Service
+Department Of Agriculture,Rural Housing Service
+Department Of Agriculture,Risk Management Agency
+Department Of Agriculture,Foreign Agricultural Service
+Department Of Agriculture,Forest Service
+Department Of Agriculture,Office Of Communications
+Department Of Agriculture,Office Of The General Counsel
+Department Of Agriculture,Rural Utilities Service
+Department Of Agriculture,Natural Resources Conservation Service
+Department Of Agriculture,Economic Research Service
+Department Of Agriculture,National Agricultural Statistics Service
+Department Of Agriculture,National Institute Of Food And Agriculture
+Department Of Agriculture,Office Of The Inspector General
+Department Of Agriculture,Food And Nutrition Service
+Department Of Agriculture,Rural Business
+Department Of Agriculture,Animal And Plant Health Inspection Service
+Department Of Agriculture,"Grain Inspection, Packers And Stockyards Administration"
+Department Of Agriculture,Food Safety And Inspection Service
+Department Of Agriculture,Office Of The Chief Economist
+Department Of Agriculture,Office Of Budget And Program Analysis
+Department Of Agriculture,Office Of The Chief Financial Officer
+Department Of Agriculture,Civil Rights
+Department Of Agriculture,Departmental Administration
+Department Of Agriculture,Office Of The Executive Secretariat
+Department Of Agriculture,Farm Service Agency
+Department Of Agriculture,Homeland Security Staff
+Department Of Agriculture,Office Of The Chief Information Officer
+Department Of Agriculture,National Appeals Division
+Department Of Commerce,Office Of The Secretary
+Department Of Commerce,Economic Development Administration
+Department Of Commerce,Bureau Of Economic Analysis
+Department Of Commerce,National Oceanic And Atmospheric Administration
+Department Of Commerce,International Trade Administration
+Department Of Commerce,Patent And Trademark Office
+Department Of Commerce,National Institute Of Standards And Technology
+Department Of Commerce,Minority Business Development Agency
+Department Of Commerce,National Telecommunications And Information Administration
+Department Of Commerce,National Technical Information Service
+Department Of Commerce,Bureau Of The Census
+Department Of Commerce,Office Of The Inspector General
+Department Of Commerce,Economics And Statistics Administration
+Department Of Commerce,Bureau Of Industry And Security
+Department Of Justice,Unspecified
+Department Of Justice,"Offices, Boards And Divisions"
+Department Of Justice,Federal Bureau Of Investigation
+Department Of Justice,Bureau Of Prisons/Federal Prison System
+Department Of Justice,Drug Enforcement Administration
+Department Of Justice,Office Of Justice Programs
+Department Of Justice,U.S. Marshals Service
+Department Of Justice,Executive Office For U.S. Attorneys And The Offices Of The U.S. Attorneys
+Department Of Justice,Office Of The Inspector General
+Department Of Justice,U.S. Trustee Program
+Department Of Justice,Executive Office For Immigration Review
+Department Of Justice,Community Relations Service
+Department Of Justice,"Bureau Of Alcohol, Tobacco, Firearms, And Explosives"
+Department Of Labor,Office Of The Secretary Of Labor
+Department Of Labor,Office Of The Assistant Secretary For Administration And Management
+Department Of Labor,Bureau Of International Labor Affairs
+Department Of Labor,Office Of Congressional And Intergovernmental Affairs
+Department Of Labor,Office Of The Chief Financial Officer
+Department Of Labor,Office Of Disability Employment Policy
+Department Of Labor,Employment Standards Administration
+Department Of Labor,Employment And Training Administration
+Department Of Labor,Office Of The Inspector General
+Department Of Labor,Bureau Of Labor Statistics
+Department Of Labor,Mine Safety And Health Administration
+Department Of Labor,Office Of Public Affairs
+Department Of Labor,Office Of The Assistant Secretary For Policy
+Department Of Labor,Employee Benefits Security Administration
+Department Of Labor,Occupational Safety And Health Administration
+Department Of Labor,Office Of The Solicitor
+Department Of Labor,Veterans Employment And Training Services
+Department Of Labor,Women's Bureau
+Department Of Energy,Department Of Energy
+Department Of Education,Immediate Office Of The Secretary Of Education
+Department Of Education,Office Of The Duty Secretary Of Education
+Department Of Education,Office For Civil Rights
+Department Of Education,"Office Of Planning, Evaluation And Policy Development"
+Department Of Education,Office Of The Under Secretary
+Department Of Education,Office Of Inspector General
+Department Of Education,Office Of The General Counsel
+Department Of Education,Office Of Special Education And Rehabilitative Services
+Department Of Education,Office Of The Chief Information Officer
+Department Of Education,Office Of Legislation And Congressional Affairs
+Department Of Education,Office Of The Chief Financial Officer
+Department Of Education,Office Of Management
+Department Of Education,Federal Student Aid
+Department Of Education,Office Of Communications And Outreach
+Department Of Education,Office Of Postsecondary Education
+Department Of Education,Office Of Safe And Drug
+Department Of Education,Institute Of Education Sciences
+Department Of Education,Office Of Elementary And Secondary Education
+Department Of Education,Office Of English Language Acquisition
+Department Of Education,Office Of Innovation And Improvement
+Department Of Education,Office Of Vocational And Adult Education
+Department Of Education,National Institute For Literacy
+Department Of Education,Advisory Councils And Committees
+Department Of Education,National Assessment Governing Board
+Department Of Health And Human Services,Office Of The Secretary Of Health And Human Services
+Department Of Health And Human Services,Program Support Center
+Department Of Health And Human Services,Administration On Aging
+Department Of Health And Human Services,Office Of The Assistant Secretary For Health
+Department Of Health And Human Services,Substance Abuse And Mental Health Services Administration
+Department Of Health And Human Services,Agency For Healthcare Research And Quality
+Department Of Health And Human Services,Health Resources And Services Administration
+Department Of Health And Human Services,Agency For Toxic Substances And Disease Registry
+Department Of Health And Human Services,Food And Drug Administration
+Department Of Health And Human Services,Indian Health Service
+Department Of Health And Human Services,National Institutes Of Health
+Department Of Health And Human Services,Centers For Disease Control And Prevention
+Department Of Health And Human Services,Centers For Medicare & Medicaid Services
+Department Of Health And Human Services,Administration For Children And Families
+Department Of Homeland Security,DHS Headquarters
+Department Of Homeland Security,Bureau Of Citizenship And Immigration Services
+Department Of Homeland Security,U.S. Coast Guard
+Department Of Homeland Security,U.S. Secret Service
+Department Of Homeland Security,Office Of The Inspector General
+Department Of Homeland Security,Bureau Of Immigration And Customs Enforcement
+Department Of Homeland Security,Transportation Security Administration
+Department Of Homeland Security,Bureau Of Customs And Border Protection
+Department Of Homeland Security,Federal Law Enforcement Training Center
+Department Of Homeland Security,Federal Emergency Management Agency
+Department Of Homeland Security,Domestic Nuclear Detection Office
+Department Of Homeland Security,Office Of The Under Secretary For Science And Technology
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For New England
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For New York/New Jersey
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Mid
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Southeast/Caribbean
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Midwest
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Southwest
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Great Plains
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Rocky Mountains
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Pacific/Hawaii
+Department Of Housing And Urban Development,Office Of The Senior Coordinator For Northwest/Alaska
+Department Of Housing And Urban Development,Office Of The Secretary Of Housing And Urban Development
+Department Of Housing And Urban Development,Assistant Secretary For Administration
+Department Of Housing And Urban Development,Office Of General Counsel
+Department Of Housing And Urban Development,Assistant Secretary For Community Planning And Development
+Department Of Housing And Urban Development,Assistant Secretary For Fair Housing And Equal Opportunity
+Department Of Housing And Urban Development,Office Of The Chief Financial Officer
+Department Of Housing And Urban Development,Office Of Inspector General
+Department Of Housing And Urban Development,Office Of Departmental Operations And Coordination
+Department Of Housing And Urban Development,Assistant Secretary For Congressional And Intergovernmental Relations
+Department Of Housing And Urban Development,Center For Faith
+Department Of Housing And Urban Development,Office Of Field Policy And Management
+Department Of Housing And Urban Development,Office Of Healthy Homes And Lead Hazard Control
+Department Of Housing And Urban Development,Assistant Secretary For Housing
+Department Of Housing And Urban Development,Office Of The Chief Procurement Officer
+Department Of Housing And Urban Development,Assistant Secretary For Public And Indian Housing
+Department Of Housing And Urban Development,Office Of The Chief Information Officer
+Department Of Housing And Urban Development,Assistant Secretary For Policy Development And Research
+Department Of Housing And Urban Development,Government National Mortgage Association (Ginnie Mae)
+Department Of Housing And Urban Development,Office Of Departmental Equal Employment Opportunity
+Department Of Housing And Urban Development,Assistant Secretary For Public Affairs
+Department Of The Interior,Office Of The Secretary Of The Interior
+Department Of The Interior,Bureau Of Land Management
+Department Of The Interior,Indian Affairs
+Department Of The Interior,Bureau Of Reclamation
+Department Of The Interior,Geological Survey
+Department Of The Interior,National Park Service
+Department Of The Interior,U.S. Fish And Wildlife Service
+Department Of The Interior,Office Of The Solicitor
+Department Of The Interior,"Office Of Surface Mining, Reclamation And Enforcement"
+Department Of The Interior,Mineral Management Service
+Department Of The Interior,Office Of The Inspector General
+Department Of State,Department Of State
+Department Of Transportation,Office Of The Secretary Of Transportation
+Department Of Transportation,Federal Aviation Administration
+Department Of Transportation,Federal Highway Administration
+Department Of Transportation,Federal Railroad Administration
+Department Of Transportation,Saint Lawrence Seaway Development Corporation
+Department Of Transportation,Federal Transit Administration
+Department Of Transportation,National Highway Traffic Safety Administration
+Department Of Transportation,Research And Innovative Technonogy Adminstration
+Department Of Transportation,Office Of Inspector General
+Department Of Transportation,Maritime Administration
+Department Of Transportation,Surface Transportation Board
+Department Of Transportation,Pipeline And Hazardous Materials Safety Administration
+Department Of Transportation,Federal Motor Carrier Safety Administration
+Department Of The Treasury,Office Of Thrift Supervision
+Department Of The Treasury,Special Inspector General For The Troubled Assets Relief Program (Tarp)
+Department Of The Treasury,Alcohol And Tobacco Tax And Trade Bureau
+Department Of The Treasury,Departmental Offices
+Department Of The Treasury,Internal Revenue Service
+Department Of The Treasury,Office Of Inspector General
+Department Of The Treasury,Financial Management Service
+Department Of The Treasury,Bureau Of The Public Debt
+Department Of The Treasury,U.S. Mint
+Department Of The Treasury,Financial Crimes Enforcement Network
+Department Of The Treasury,Bureau Of Engraving And Printing
+Department Of The Treasury,Office Of The Comptroller Of The Currency
+Department Of The Treasury,Office Of The Inspector General For Tax Administration
+Department Of Veterans Affairs,Unspecified
+Department Of Veterans Affairs,Office Of The Secretary
+Department Of Veterans Affairs,Board Of Veterans Appeals
+Department Of Veterans Affairs,General Counsel
+Department Of Veterans Affairs,Inspector General
+Department Of Veterans Affairs,Immediate Office Of The Assistant Secretary For Human Resources And Administration
+Department Of Veterans Affairs,Deputy Assistant Secretary For Human Resources Management And Labor Relations
+Department Of Veterans Affairs,Deputy Assistant Secretary For Equal Opportunity
+Department Of Veterans Affairs,Deputy Assistant Secretary For Administration
+Department Of Veterans Affairs,Deputy Assistant Secretary For Office Of Resolution Management
+Department Of Veterans Affairs,Immediate Office Of The Assistant Secretary For Management
+Department Of Veterans Affairs,Deputy Assistant Secretary For Budget
+Department Of Veterans Affairs,Deputy Assistant Secretary For Finance
+Department Of Veterans Affairs,Deputy Assistant Secretary For Acquisition And Materiel Management
+Department Of Veterans Affairs,Immediate Office Of The Assistant Secretary For Information And Technology
+Department Of Veterans Affairs,Deputy Assistant Secretary For Information And Technology
+Department Of Veterans Affairs,Immediate Office Of The Assistant Secretary For Policy And Planning
+Department Of Veterans Affairs,Deputy Assistant Secretary For Program And Data Analysis
+Department Of Veterans Affairs,Deputy Assistant Secretary For Planning And Evaluation
+Department Of Veterans Affairs,National Center For Veteran Analysis And Statistics
+Department Of Veterans Affairs,Office Of The Assistant Secretary For Public And Intergovernmental Affairs
+Department Of Veterans Affairs,Deputy Assistance Secretary For Intergovernmental Affairs
+Department Of Veterans Affairs,Deputy Assistant Secretary For Public Affairs
+Department Of Veterans Affairs,Immediate Office Of The Assistant Secretary For Congressional And Legislative Affairs
+Department Of Veterans Affairs,Deputy Assistant Secretary For Congressional Affairs
+Department Of Veterans Affairs,Veterans Benefits Administration
+Department Of Veterans Affairs,National Cemetery Administration
+Department Of Veterans Affairs,Veterans Health Administration
+National Credit Union Administration,National Credit Union Administration
+Equal Employment Opportunity Commission,Equal Employment Opportunity Commission
+Environmental Protection Agency,Environmental Protection Agency
+Federal Communications Commission,Federal Communications Commission
+Federal Deposit Insurance Corporation,Federal Deposit Insurance Corporation
+Court Services And Offender Supervision Agency For The District Of Columbia,Office Of The Director
+Court Services And Offender Supervision Agency For The District Of Columbia,Pretrial Services Agency
+Federal Trade Commission,Federal Trade Commission
+General Services Administration,Immediate Office Of The Administrator
+General Services Administration,Public Buildings Service
+General Services Administration,Office Of Civil Rights
+General Services Administration,Office Of Small Business Utilization
+General Services Administration,Office Of The Chief Financial Officer
+General Services Administration,Office Of General Counsel
+General Services Administration,Gsa Board Of Contract Appeals
+General Services Administration,Office Of The Chief Human Capital Officer
+General Services Administration,Office Of Inspector General
+General Services Administration,Office Of The Chief Acquisition Officer
+General Services Administration,Office Of Citizen Services And Communications
+General Services Administration,Office Of Congressional And Intergovernmental Affairs
+General Services Administration,Offices Of The Regional Administrators
+General Services Administration,Office Of Governmentwide Policy
+General Services Administration,Office Of The Chief Information Officer
+General Services Administration,Federal Acquisition Service
+General Services Administration,Office Of Emergency Response And Recovery
+Broadcasting Board Of Governors,Broadcasting Board Of Governors
+Government Printing Office,Government Printing Office
+National Science Foundation,National Science Foundation
+National Labor Relations Board,National Labor Relations Board
+National Aeronautics And Space Administration,"Headquarters, Nasa"
+National Aeronautics And Space Administration,Ames Research Center
+National Aeronautics And Space Administration,John Glenn Research Center At Lewis Field
+National Aeronautics And Space Administration,Langley Research Center
+National Aeronautics And Space Administration,Dryden Flight Research Center
+National Aeronautics And Space Administration,Goddard Space Flight Center
+National Aeronautics And Space Administration,George C. Marshall Space Flight Center
+National Aeronautics And Space Administration,John C. Stennis Space Center
+National Aeronautics And Space Administration,Lyndon B. Johnson Space Center
+National Aeronautics And Space Administration,John F. Kennedy Space Center
+National Archives And Records Administration,National Archives And Records Administration
+Nuclear Regulatory Commission,Nuclear Regulatory Commission
+Office Of Personnel Management,Office Of Personnel Management
+Small Business Administration,Small Business Administration
+Securities And Exchange Commission,Securities And Exchange Commission
+Smithsonian Institution,National Gallery Of Art
+Smithsonian Institution,Woodrow Wilson International Center For Scholars
+Smithsonian Institution,Smithsonian Institution (Except Units Administered Under Separate Boards Of Trustees)
+Smithsonian Institution,John F. Kennedy Center For The Performing Arts
+Social Security Administration,Social Security Administration
+National Foundation On The Arts And The Humanities,National Endowment For The Humanities
+National Foundation On The Arts And The Humanities,Institute Of Museum And Library Services
+Federal Labor Relations Authority,Federal Labor Relations Authority
+Merit Systems Protection Board,Merit Systems Protection Board
+Defense Nuclear Facilities Safety Board,Defense Nuclear Facilities Safety Board
+Pension Benefit Guaranty Corporation,Pension Benefit Guaranty Corporation
+Office Of Management And Budget,Office Of Management And Budget
+Commodity Futures Trading Commission,Commodity Futures Trading Commission
+Export,Export
+Office Of Administration,Office Of Administration
+Farm Credit Administration,Farm Credit Administration
+Federal Mediation And Conciliation Service,Federal Mediation And Conciliation Service
+Office Of Special Counsel,Office Of Special Counsel
+Overseas Private Investment Corporation,Overseas Private Investment Corporation
+Presidio Trust,Presidio Trust
+International Boundary And Water Commission:  United States And Mexico,International Boundary And Water Commission:  United States And Mexico
+U.S. Holocaust Memorial Museum,U.S. Holocaust Memorial Museum
+Federal Housing Finance Agency,Federal Housing Finance Agency
+Corporation For National And Community Service,Corporation For National And Community Service
+Federal Election Commission,Federal Election Commission
+U.S. Tax Court,U.S. Tax Court
+Federal Maritime Commission,Federal Maritime Commission
+Millennium Challenge Corporation,Millennium Challenge Corporation
+Peace Corps,Peace Corps
+Armed Forces Retirement Home,Armed Forces Retirement Home
+Railroad Retirement Board,Railroad Retirement Board
+Consumer Product Safety Commission,Consumer Product Safety Commission
+Selective Service System,Selective Service System
+National Transportation Safety Board,National Transportation Safety Board
+U.S. International Trade Commission,U.S. International Trade Commission
+Office Of The U.S. Trade Representative,Office Of The U.S. Trade Representative
+African Development Foundation,African Development Foundation
+Appalachian Regional Commission,Appalachian Regional Commission
+Arctic Research Commission,Arctic Research Commission
+James Madison Memorial Fellowship Foundation,James Madison Memorial Fellowship Foundation
+Architectural And Transportation Barriers Compliance Board,Architectural And Transportation Barriers Compliance Board
+Nuclear Waste Technical Review Board,Nuclear Waste Technical Review Board
+Christopher Columbus Fellowship Foundation,Christopher Columbus Fellowship Foundation
+Commission On Civil Rights,Commission On Civil Rights
+Council Of Economic Advisers,Council Of Economic Advisers
+Commission Of Fine Arts,Commission Of Fine Arts
+National Commission On Libraries And Information Science,National Commission On Libraries And Information Science
+Public Interest Declassification Board,Public Interest Declassification Board
+Office Of The Federal Coordinator For Alaska Natural Gas Transportation Pro,Office Of The Federal Coordinator For Alaska Natural Gas Transportation Projects
+Denali Commission,Denali Commission
+Morris K. Udall Scholarship And Excellence In National Environmental Policy,Morris K. Udall Scholarship And Excellence In National Environmental Policy Foundation
+Council On Environmental Quality/Office Of Environmental Quality,Council On Environmental Quality/Office Of Environmental Quality
+Trade And Development Agency,Trade And Development Agency
+Federal Financial Institutions Examination Council,Federal Financial Institutions Examination Council
+Chemical Safety And Hazard Investigation Board,Chemical Safety And Hazard Investigation Board
+Farm Credit System Insurance Corporation,Farm Credit System Insurance Corporation
+Barry Goldwater Scholarship And Excellence In Education Foundation,Barry Goldwater Scholarship And Excellence In Education Foundation
+Office Of Government Ethics,Office Of Government Ethics
+Valles Caldera Trust,Valles Caldera Trust
+Vietnam Education Foundation,Vietnam Education Foundation
+Election Assistance Commission,Election Assistance Commission
+International Boundary Commission:  United States And Canada,International Boundary Commission:  United States And Canada
+International Joint Commission:  United States And Canada,International Joint Commission:  United States And Canada
+Committee For Purchase From People Who Are Blind Or Severely Disabled,Committee For Purchase From People Who Are Blind Or Severely Disabled
+Advisory Council On Historic Preservation,Advisory Council On Historic Preservation
+Harry S. Truman Scholarship Foundation,Harry S. Truman Scholarship Foundation
+U.S. Interagency Council On Homelessness,U.S. Interagency Council On Homelessness
+Inter,Inter
+Marine Mammal Commission,Marine Mammal Commission
+National Council On Disability,National Council On Disability
+National Mediation Board,National Mediation Board
+National Capital Planning Commission,National Capital Planning Commission
+National Security Council,National Security Council
+Occupational Safety And Health Review Commission,Occupational Safety And Health Review Commission
+Office Of National Drug Control Policy,Office Of National Drug Control Policy
+Office Of Navajo And Hopi Indian Relocation,Office Of Navajo And Hopi Indian Relocation
+Federal Retirement Thrift Investment Board,Federal Retirement Thrift Investment Board
+Federal Mine Safety And Health Review Commission,Federal Mine Safety And Health Review Commission
+Recovery Act Accountability & Transparency Board,Recovery Act Accountability & Transparency Board
+Office Of Science And Technology Policy,Office Of Science And Technology Policy
+Japan,Japan
+Utah Reclamation Mitigation And Conservation Commission,Utah Reclamation Mitigation And Conservation Commission
+Commission On The Prevention Of Weapons Of Mass Destruction Proliferation A,Commission On The Prevention Of Weapons Of Mass Destruction Proliferation And Terrorism
+Financial Crisis Inquiry Commission,Financial Crisis Inquiry Commission
+Medicare Payment Advisory Commission,Medicare Payment Advisory Commission
+U.S. Commission On International Religious Freedom,U.S. Commission On International Religious Freedom
+United States,United States
+Dwight D. Eisenhower Memorial Commission,Dwight D. Eisenhower Memorial Commission
