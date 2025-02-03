@@ -1,5 +1,8 @@
 I almost thought that [OPM Federal Agencies List dataset](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/) would be the best option for a consistent list and naming convention to use, as outlined below. However, it has several issues with it.  Most of them could be addressed with discrete modifications, sourced from the [OMB Agency/Bureau code list](https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/06/a11.pdf#page=849).  But most critically, the dataset has not been kept up to date to an unknown degree.  
 
+- [Vanilla OPM Agency/Subelement List](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OPM.csv)
+- [Proposed Modified Agency/Subelement List](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OPM-modified.csv)
+
 ## Advantanges
 
 - The dataset comes from an authoritative source and is available as a machine-readable file.
@@ -32,25 +35,22 @@ I almost thought that [OPM Federal Agencies List dataset](https://www.opm.gov/ab
 - Remove extraneous columns, leaving only `name` and `agency_subelement`.  
 - Use the `=proper()` function to correct casing.
 - Move `Department Of The Air Force`, `Department Of The Army`, `Department Of The Navy` under `Department Of Defense`.  In other words, delete the rows that have those as `Agency` and add three rows under Defense for them.
-- Correct agency names that are impacted by the hyphen bug (details below).
 - Add in agencies that were created since the dataset was last updated (details below).
 - Make miscellaneous casing corrections (details below).  
 
 
-Further possibilities? 
-- Lowercase `Of`, `And`, etc. 
-
-## Notes 
-- (We should drop the 'Bureau' framing)
-
 
 ## Details of Suggested Edits to OPM dataset
 
-
-A
 - Casing corrections:
   - Lowercase the `S` in `Department of Labor - Women'S Bureau`
   - Uppercase the `H` and `S` in `Department of Homeland Security - Dhs Headquarters`
-  - National Aeronautics And Space Administration	Headquarters, Nasa
+  - National Aeronautics And Space Administration	Headquarters, Nasa...
 
-- 
+## Possible Other Edits to OMB dataset to consider
+
+- Correct agency names that are impacted by the hyphen bug (details below).
+- Correct agency names that are impacted by the hyphen bug 
+- Add in agencies that were created since the dataset was last updated 
+- Make miscellaneous casing corrections 
+- Lowercase `Of`, `And`, etc. 
