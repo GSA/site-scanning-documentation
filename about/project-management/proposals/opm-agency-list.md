@@ -1,4 +1,4 @@
-After [a good bit of analysis and consideration](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/proposals/agency-bureau-list.md), I believe that the [OPM Federal Agencies List dataset](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/) is the best option for a consistent list and naming convention to use.  However, it needs several modifications to it, best sourced from the [OMB Agency/Bureau code list](https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/06/a11.pdf#page=849).  
+I almost thought that [OPM Federal Agencies List dataset](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/) would be the best option for a consistent list and naming convention to use, as outlined below. However, it has several issues with it.  Most of them could be addressed with discrete modifications, sourced from the [OMB Agency/Bureau code list](https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/06/a11.pdf#page=849).  But most critically, the dataset has not been kept up to date to an unknown degree.  
 
 ## Advantanges
 
@@ -8,6 +8,7 @@ After [a good bit of analysis and consideration](https://github.com/GSA/site-sca
 
 ## Disadvantages 
 
+- The dataset is out of date and does not include recently created agencies and name changes.  
 - The names are in all caps.
 - There's currently a bug that causes names that have a hyphen to drop everything after that character.
 - The Army, Navy, and Air Force are framed as peers of Defense instead of subcomponents.
