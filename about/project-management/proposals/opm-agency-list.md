@@ -1,4 +1,4 @@
-After [a good bit of analysis and consideration](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/proposals/agency-bureau-list.md), I believe that the [OPM Federal Agencies List dataset](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/) is the best option for a consistent list and naming convention to use.  
+After [a good bit of analysis and consideration](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/proposals/agency-bureau-list.md), I believe that the [OPM Federal Agencies List dataset](https://www.opm.gov/about-us/open-government/Data/Apps/Agencies/) is the best option for a consistent list and naming convention to use.  However, it needs several modifications to it, best sourced from the [OMB Agency/Bureau code list](https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/06/a11.pdf#page=849).  
 
 ## Advantanges
 
@@ -31,9 +31,10 @@ After [a good bit of analysis and consideration](https://github.com/GSA/site-sca
 - Remove extraneous columns, leaving only `name` and `agency_subelement`.  
 - Use the `=proper()` function to correct casing.
 - Move `Department Of The Air Force`, `Department Of The Army`, `Department Of The Navy` under `Department Of Defense`.  In other words, delete the rows that have those as `Agency` and add three rows under Defense for them.
-- Lowercase the `S` in `Department of Labor - Women'S Bureau`
-- Uppercase the `H` and `S` in `Department of Homeland Security - Dhs Headquarters`
-- National Aeronautics And Space Administration	Headquarters, Nasa
+- Correct agency names that are impacted by the hyphen bug (details below).
+- Add in agencies that were created since the dataset was last updated (details below).
+- Make miscellaneous casing corrections (details below).  
+
 
 Further possibilities? 
 - Lowercase `Of`, `And`, etc. 
@@ -41,3 +42,14 @@ Further possibilities?
 ## Notes 
 - (We should drop the 'Bureau' framing)
 
+
+## Details of Suggested Edits to OPM dataset
+
+
+A
+- Casing corrections:
+  - Lowercase the `S` in `Department of Labor - Women'S Bureau`
+  - Uppercase the `H` and `S` in `Department of Homeland Security - Dhs Headquarters`
+  - National Aeronautics And Space Administration	Headquarters, Nasa
+
+- 
