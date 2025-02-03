@@ -1,5 +1,8 @@
 One of the two best solutions for applying a consistent agency/bureau listing would be to employ [OMB's agency/bureau code list](https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/06/a11.pdf#page=849).  
 
+* [Vanilla OMB Agency/Bureau List](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OMB.csv)
+* [Proposed Modified Agency/Bureau List](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OMB-modified.csv)
+
 ## Advantages
 - The dataset comes from an authoritative source.
 - The dataset is up to date (July 2024).
