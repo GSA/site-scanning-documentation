@@ -11,7 +11,9 @@ After [a good bit of analysis and consideration](https://github.com/GSA/site-sca
 - The names are in all caps.
 - There's currently a bug that causes names that have a hyphen to drop everything after that character.
 - The Army, Navy, and Air Force are framed as peers of Defense instead of subcomponents.
-- Legislative and Judicial agencies are not included.  
+- Legislative and Judicial agencies are not included.
+- Agencies without subelements repeat the agency name in that field.
+- No Department of Energy subelements.  
 
 
 ## Alternatives 
@@ -24,7 +26,17 @@ After [a good bit of analysis and consideration](https://github.com/GSA/site-sca
 - dotgov.gov
 - Digital Analytics Program
 
+## Workflow
+- Take the [bulk XML file](https://www.opm.gov/about-us/open-government/Data/Apps/agencies/agencies.xml) that OPM provides.
+- Remove extraneous columns, leaving only `name` and `agency_subelement`.  
+- Use the `=proper()` function to correct casing.
+- Move `Department Of The Air Force`, `Department Of The Army`, `Department Of The Navy` under `Department Of Defense`.  In other words, delete the rows that have those as `Agency` and add three rows under Defense for them.
+- Lowercase the `S` in `Department of Labor - Women'S Bureau`
+- Uppercase the `H` and `S` in `Department of Homeland Security - Dhs Headquarters`
+- National Aeronautics And Space Administration	Headquarters, Nasa
 
+Further possibilities? 
+- Lowercase `Of`, `And`, etc. 
 
 ## Notes 
 - (We should drop the 'Bureau' framing)
