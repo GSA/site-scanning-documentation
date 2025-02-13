@@ -64,6 +64,7 @@ The list of scans that have alreadby been built and are active [can be found her
 - buckets of traffic by domain, by website 
  
 #### 21st century idea - MVP scan possibilities 
+* content length header, as a proxy for hashing the page
 * a11y
 * Same page title?
 * Has some search capacity
