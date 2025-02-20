@@ -1,0 +1,7 @@
+Name,URL,Description
+Index Builder,https://github.com/GSA/federal-website-index/tree/main/builder,Combines and processes several seed lists to make the Federal Website Index
+Site Scanning Engine,https://github.com/GSA/site-scanning-engine,Runs a number of daily scans against the Federal Website Index to create the Site Scanning dataset
+Unique Website List Generator,https://github.com/GSA/site-scanning-analysis/tree/main/unique_website_list,Trims the Site Scanning dataset to deduplicate the websites in it
+Report Generators,https://github.com/GSA/site-scanning-analysis/tree/main/report_generators,Creates a number of reports by analyzing the Site Scanning dataset
+Archiver,https://github.com/GSA/site-scanning-snapshots/tree/main/archiver,Creates a monthly snapshot of the Site Scanning dataset
+Slicer,https://github.com/GSA/site-scanning-snapshots/tree/main/slicer,Slides the Site Scanning dataset into agency-specific files
