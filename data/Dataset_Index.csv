@@ -1,0 +1,20 @@
+Originating website seed files,See list here - https://github.com/GSA/federal-website-index/blob/main/data/target_url_sources.csv
+Snapshots of seed files,See files here - https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots
+Index assembly snapshots,See files here - https://github.com/GSA/federal-website-index/tree/main/data/process-snapshots
+Filter Criteria File - Contains,https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-contains.csv
+Filter Criteria File - Begins With,https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-begins.csv
+Federal Website Index ,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv
+Index Creation - Analysis File,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv
+Index - Analysis File,https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv
+Site Scanning Daily Snapshot - All,https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv
+Site Scanning Daily Snapshot - Primary ,https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot.csv
+Site Scanning Daily Snapshot - Unique Websites,https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-unique.csv
+Site Scanning - Accessibility Violation Details ,https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-accessibility-details.json
+Site Scanning API Endpoint,https://api.gsa.gov/technology/site-scanning/v1/websites?api_key=DEMO_KEY
+Site Scanning Daily Snapshot - Monthly Archive,See files here - https://github.com/GSA/site-scanning-snapshots/tree/main/snapshots
+All Snapshot - Analysis Report,https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv
+Primary Snapshot - Analysis Report ,https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-primary.csv
+Federal Website Standards Implementation Report,https://github.com/GSA/site-scanning-analysis/blob/main/reports/standards.csv
+Federal Website Standards Implementation Report (with Bureaus),https://github.com/GSA/site-scanning-analysis/blob/main/reports/standards-bureau.csv
+21st Century IDEA Implementation Report,https://github.com/GSA/site-scanning-analysis/blob/main/reports/idea.csv
+21st Century IDEA Implementation Report (with Bureaus),https://github.com/GSA/site-scanning-analysis/blob/main/reports/idea-bureau.csv
