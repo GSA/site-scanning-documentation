@@ -1,0 +1,67 @@
+Category,Section,Specific Page,URL
+Promotion,Public Web Presence,Homepage,https://digital.gov/site-scanning/
+Promotion,Public Web Presence,Access the Data,https://digital.gov/guides/site-scanning/data/#content-start
+Promotion,Public Web Presence,Understand the Data,https://digital.gov/guides/site-scanning/understand-the-data/#content-start
+Promotion,Public Web Presence,Technical Details,https://digital.gov/guides/site-scanning/technical-details/#content-start
+Promotion,Public Web Presence,Learn More About the Program,https://digital.gov/guides/site-scanning/learn-more-about-the-program/#content-start
+Technical,API Documentation,--,https://open.gsa.gov/api/site-scanning-api/
+Project Management,Central Project Repository,--,https://github.com/GSA/site-scanning
+Project Management,Central Project Repository,Issue Tracker,https://github.com/gsa/site-scanning/issues
+About,Documentation Repository,--,https://github.com/GSA/site-scanning-documentation
+About,Documentation Repository,10 Minute Walkthrough,https://github.com/GSA/site-scanning-documentation/blob/main/about/10-minute-walkthrough.md
+About,Documentation Repository,ETL visual,https://github.com/GSA/site-scanning-documentation/blob/main/about/Federal.Website.Index.-.ETL.Process.pdf
+About,Documentation Repository,About the Program,https://github.com/GSA/site-scanning-documentation/blob/main/about/about-the-program.md
+About,Documentation Repository,Federal Web Presence,https://github.com/GSA/site-scanning-documentation/blob/main/about/federal-web-presence.md
+About,Documentation Repository,Other Scans,https://github.com/GSA/site-scanning-documentation/blob/main/about/other_scans.md
+About,Documentation Repository,Press and Mashups,https://github.com/GSA/site-scanning-documentation/blob/main/about/press.md
+About,Documentation Repository,Questions We Answer,https://github.com/GSA/site-scanning-documentation/blob/main/about/questions-we-answer.md
+About,Documentation Repository,Requests for Agencies,https://github.com/GSA/site-scanning-documentation/blob/main/about/requests-for-agencies.md
+About,Documentation Repository,Stakeholder Experience,https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholder-experience.md
+About,Documentation Repository,Stakeholders,https://github.com/GSA/site-scanning-documentation/blob/main/about/stakeholders.md
+Project Management,Documentation Repository,Demo Slides,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/Site%20Scanning%20Overview%20-%20Brief%20Version.pdf
+Project Management,Documentation Repository,Engineering Handbook,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/engineering-handbook.md
+Project Management,Documentation Repository,"Goals, Metrics, Principles",https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/goals-metrics-principles.md
+Project Management,Documentation Repository,Key Links,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/key-links-to-share.md
+Project Management,Documentation Repository,Onboarding Links,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/onboarding-links.md
+Project Management,Documentation Repository,Idea Backlog,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/program-ideas-backlog.md
+Project Management,Documentation Repository,Project History,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/project-history.md
+Project Management,Documentation Repository,QA Walkthrough,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/quality-assurance-walkthrough.md
+Project Management,Documentation Repository,Roadmap - Past Work,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/roadmap--past_work.md
+Project Management,Documentation Repository,System Procedures,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/system-procedures.md
+Project Management,Documentation Repository,Talking Points,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/talking-points.md
+Project Management,Documentation Repository,Team Workflows,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/team-workflows.md
+Project Management,Documentation Repository,Datasets,https://github.com/GSA/site-scanning-documentation/tree/main/about/project-management/datasets
+Project Management,Documentation Repository,Proposals,https://github.com/GSA/site-scanning-documentation/tree/main/about/project-management/proposals
+Project Management,Documentation Repository,Prototypes,https://github.com/GSA/site-scanning-documentation/tree/main/about/project-management/prototypes
+Table,Documentation Repository,Axe Core Rules,https://github.com/GSA/site-scanning-documentation/blob/main/data/Axe-core-rules.csv
+Table,Documentation Repository,Code Base Index,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/Code_Base_Index.csv
+Table,Documentation Repository,Representative Sample Dataset,https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv
+Table,Documentation Repository,Data Dictionary - Site Scanning,https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv
+Table,Documentation Repository,Data Dictionary - Federal Website Index,https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv
+Table,Documentation Repository,Dataset Index,https://github.com/GSA/site-scanning-documentation/blob/main/data/Dataset_Index.csv
+Table,Documentation Repository,Documentation Index,https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/Documentation_Index.csv
+About,Documentation Repository,Agency FAQ,https://github.com/GSA/site-scanning-documentation/blob/main/pages/agency-questions.md
+About,Documentation Repository,Candidate Scans,https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md
+About,Documentation Repository,Debugging Guide,https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md
+About,Documentation Repository,Guide for Federal Agencies,https://github.com/GSA/site-scanning-documentation/blob/main/pages/federal_agency_guide.md
+About,Documentation Repository,Index Narrowing Steps,https://github.com/GSA/site-scanning-documentation/blob/main/pages/index_narrowing_steps.md
+About,Documentation Repository,Scan Statuses,https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_statuses.md
+About,Documentation Repository,Scan Steps,https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md
+About,Documentation Repository,Schedule,https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md
+About,Documentation Repository,Suggested Agency Improvements,https://github.com/GSA/site-scanning-documentation/blob/main/pages/suggested-agency-improvements.md
+About,Documentation Repository,Technical Details - Copy,https://github.com/GSA/site-scanning-documentation/blob/main/pages/technical_details-copy.md
+About,Documentation Repository,Terms,https://github.com/GSA/site-scanning-documentation/blob/main/pages/terms.md
+About,Documentation Repository,Website Definitions,https://github.com/GSA/site-scanning-documentation/blob/main/pages/website_definitions.md
+About,Federal Website Index Repository,--,https://github.com/GSA/federal-website-index
+Technical,Federal Website Index Repository,Ignore List Analysis,https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-criteria-analysis.md
+Table,Federal Website Index Repository,Target URL Sources,https://github.com/GSA/federal-website-index/blob/main/data/target_url_sources.csv
+Technical,Federal Website Index Repository,Index Creation Process,https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md
+Technical,Federal Website Index Repository,Index QA,https://github.com/GSA/federal-website-index/blob/main/process/index_qa.md
+About,Analysis Repository,--,https://github.com/GSA/site-scanning-analysis
+Technical,Analysis Repository,Analytical Experiments,https://github.com/GSA/site-scanning-analysis/tree/main/experiments
+Technical,Analysis Repository,Reports,https://github.com/GSA/site-scanning-analysis/tree/main/reports
+Technical,Analysis Repository,Prototype Reports,https://github.com/GSA/site-scanning-analysis/tree/main/reports/drafts
+Technical,Analysis Repository,Suggested Agency Improvements 2,https://github.com/GSA/site-scanning-analysis/tree/main/reports/website-requests
+Technical,Site Scanning Engine Code Repository,--,https://github.com/GSA/site-scanning-engine
+Technical,Site Scanning Engine Code Repository,System Documentation,https://github.com/GSA/site-scanning-engine/tree/main/docs
+Technical,Snapshots Repository,--,https://github.com/GSA/site-scanning-snapshots
