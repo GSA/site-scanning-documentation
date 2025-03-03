@@ -1,8 +1,10 @@
-TL;DR - After extensive analysis, I recommend that we use the [OPM agency dataset](https://www.opm.gov/about-us/open-government/Data/Apps/agencies/agencies.xml), apply the following discrete changes, and use it as a canonical source of agency/bureau names.  
-- Change case to only uppercase the first letter of each word.
-- Downgrade the Departments of Air Force, Army, and Navy to become Department of Defense subelements.
-- Use the OMB Agency/Bureau code dataset to establish certain name changes in order to ensure the full name of an agency (e.g. `Japan` -> `Japan-United States Friendship Commission`.
-- Use the OMB Agency/Bureau code dataset to generate the list of Legislative and Judicial agencies to append.
+~TL;DR - After extensive analysis, I recommend that we use the [OPM agency dataset](https://www.opm.gov/about-us/open-government/Data/Apps/agencies/agencies.xml), apply the following discrete changes, and use it as a canonical source of agency/bureau names.~
+- ~Change case to only uppercase the first letter of each word.~
+- ~Downgrade the Departments of Air Force, Army, and Navy to become Department of Defense subelements.~
+- ~Use the OMB Agency/Bureau code dataset to establish certain name changes in order to ensure the full name of an agency (e.g. `Japan` -> `Japan-United States Friendship Commission`.~
+- ~Use the OMB Agency/Bureau code dataset to generate the list of Legislative and Judicial agencies to append.~
+
+Note - we now recommend [using OMB](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/proposals/omb-agency-list.md) as a canonical file.  
 
 ## Problem
 
