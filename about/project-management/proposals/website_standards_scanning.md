@@ -1,0 +1,1 @@
+The Site Scanning program currently scans for a number of aspects of the Federal Website Standards, but has been asked to expand that and seek to become comprehensive.  This proposal will lay out different options to do that.  
