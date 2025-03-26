@@ -28,7 +28,11 @@ Scan Status - Performance,performance_scan_status,"Status of the Performance Sca
 Scan Status - Robots.txt,robots_txt_scan_status,"Status of the Robots.txt Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Security,security_scan_status,"Status of the Security Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,"Status of the Sitemap.xml Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Scan Status - WWW,www_scan_status,"Status of the WWW Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
+Homepage Hash,page_hash,"MD5 Hash of the URL",string,no
 Accessibility - Violations,accessibility_violations,Count of violations detected for certain accessibility categories that are able to be detected through automated scanning. These violations were identified and selected in close coordination with the U.S. Access Board and GSA’s Government-wide IT Accessibility Program. Site Scanning uses axe-core rules to detect these violations. Use of automated scanning for accessibility does not replace the need for manual testing or assessment.,string,no
+Analytics - Pageviews,pageviews,"Combined pageviews over the last 30 days for this domain, per the Top Hostnames User Traffic Report on analytics.usa.gov",string,no
+Analytics - Visits,visits,"Combined visits over the last 30 days for this domain, per the Top Hostnames User Traffic Report on analytics.usa.gov",string,no
 DNS - IPv6,ipv6,Presence of a DNS AAAA record,boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",string,no
 Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress, Cloud.gov)",string,no
@@ -67,18 +71,20 @@ Other Tags - Language Links,language_link,HTML link attributes for the langauge 
 Other Tags - Main Element Detected,main_element_present,Presence of `<main>` element,boolean,no
 Robots.txt - Detected,robots_txt_detected,Is the `robots_txt_final_url` live (has a 2xx code) and is its entire path `/robots.txt`? (Note that a robots.txt file that redirects to a subdirectory would then not count given that the protocol appears to require that the file live in the top directory),boolean,no
 Robots.txt - Final URL,robots_txt_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",string,no
-Robots.txt - Final URL - Status Code,robots_txt_status_code,Server status code of the `robots.txt` Final URL,numeric,no
+Robots.txt - Final URL - Status Code,robots_txt_status_code,HTTP status code of the `robots.txt` Final URL,numeric,no
 Robots.txt - Final URL - Media Type,robots_txt_media_type,Media type of the `robots.txt` Final URL,string,no
 Robots.txt - Final URL - Filesize,robots_txt_filesize,Filesize of the `robots.txt` Final URL (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
 Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_final_url` live (has a 2xx code) and is its entire path `/sitemap.xml`?,boolean,no
 Sitemap.xml - Final URL,sitemap_xml_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
-Sitemap.xml - Final URL - Status Code,sitemap_xml_status_code,Server status code of the `sitemap.xml` Final URL,numeric,no
+Sitemap.xml - Final URL - Status Code,sitemap_xml_status_code,HTTP status code of the `sitemap.xml` Final URL,numeric,no
 Sitemap.xml - Final URL - Media Type,sitemap_xml_media_type,Media type of the `sitemap.xml` Final URL,string,no
 Sitemap.xml - Final URL - Filesize,sitemap_xml_filesize,Filesize of the `sitemap.xml` Final URL (bytes),numeric,no
 Sitemap.xml - Items Count,sitemap_xml_count,Count of URLs in the detected `sitemap.xml`,numeric,no
+Sitemap.xml - Last Modified,sitemap_xml_lastmod,"Most recent `Lastmod` value in the sitemap.xml file",datetime,no
 Sitemap.xml - PDF Count,sitemap_xml_pdf_count,Count of URLs ending in `.pdf` in the detected `sitemap.xml`,numeric,no
+Sitemap.xml - Hash,sitemap_xml_page_hash,"MD5 hash of the sitemap.xml file",string,no
 USWDS - Favicon,uswds_favicon,Presence of USWDS favicon file (part of the standard header banner) in markup,integer,no
 USWDS - Favicon in CSS,uswds_favicon_in_css,Presence of USWDS favicon file (part of the standard header banner) in CSS,integer,no
 USWDS - Public Sans Font,uswds_publicsans_font,Presence of Public Sans font files in CSS,integer,no
@@ -91,3 +97,6 @@ USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,inte
 USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,string,no
 USWDS - Version,uswds_version,"Presence of version of USWDS, if available",integer,no
 USWDS - Count,uswds_count,"Calculated likelihood a site is using USWDS. Derived by adding the detected USWDS components together, the higher the number the more USWDS-y it is.",integer,no
+WWW - URL,"Final URL that resolves when `www.` is added to the begining of the Initial URL",string,no
+WWW - Status Code,www_status_code,"HTTP status code when `www.` is added to the begining of the Initial URL",numeric,no
+WWW - Title,www_title,Meta page title when `www.` is added to the begining of the Initial URL",string,no
