@@ -2,6 +2,7 @@ The following is a step by step means to looking for where bad data might come i
 
 _(To add: directions for running scans using the dev environment; how to track the progress and completion of the above steps.)_
 
+#v1.0
 
 ## Analysis 
 
@@ -33,4 +34,12 @@ Here is the order to consider for each step of the process if one wants to rebui
   * Directly note number of target URLs
   * Check if any are duplicative
   * search for .com, .edu, .org
-    
+
+
+
+
+ # v2.0
+
+ Think about at each step.  
+ 
+1.  
