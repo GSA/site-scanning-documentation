@@ -99,4 +99,4 @@ USWDS - Version,uswds_version,"Presence of version of USWDS, if available",integ
 USWDS - Count,uswds_count,"Calculated likelihood a site is using USWDS. Derived by adding the detected USWDS components together, the higher the number the more USWDS-y it is.",integer,no
 WWW - URL,"Final URL that resolves when `www.` is added to the begining of the Initial URL",string,no
 WWW - Status Code,www_status_code,"HTTP status code when `www.` is added to the begining of the Initial URL",numeric,no
-WWW - Title,www_title,Meta page title when `www.` is added to the begining of the Initial URL",string,no
+WWW - Title,www_title,"Meta page title when `www.` is added to the begining of the Initial URL",string,no
