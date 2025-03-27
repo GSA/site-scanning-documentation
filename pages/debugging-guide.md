@@ -45,6 +45,9 @@ Think about at each step.
 1.  Program Outline
 2.  Index Creation
   -  Sources Used
+    - Add others
+    - Vet them for typos - [link1](https://github.com/GSA/site-scanning-analysis/blob/main/reports/missing-target-url-in-snapshot.csv), 
+    - Think about how to prevent reintroduction of typos   
   -  Process for Assembling
   -  End Product
   -  Analysis Throughout
