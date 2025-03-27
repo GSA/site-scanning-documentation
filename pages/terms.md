@@ -2,7 +2,7 @@
 V2
 
 To define: 
-- Federal Website Index
+- Federal Website Index - What's included, what's not.  
 - Federal Website Directory
 - Target List
 - Source List (note table)
