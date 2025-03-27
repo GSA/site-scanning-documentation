@@ -1,4 +1,5 @@
-Originating website seed files,See list here - https://github.com/GSA/federal-website-index/blob/main/data/target_url_sources.csv
+Name,Location
+Originating website seed files,See list here - https://github.com/GSA/federal-website-index/blob/main/data/source_lists.csv
 Snapshots of seed files,See files here - https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots
 Index assembly snapshots,See files here - https://github.com/GSA/federal-website-index/tree/main/data/process-snapshots
 Filter Criteria File - Contains,https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list-contains.csv
