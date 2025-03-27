@@ -2,7 +2,7 @@ The following is a step by step means to looking for where bad data might come i
 
 _(To add: directions for running scans using the dev environment; how to track the progress and completion of the above steps.)_
 
-#v1.0
+# v1.0
 
 ## Analysis 
 
@@ -40,6 +40,20 @@ Here is the order to consider for each step of the process if one wants to rebui
 
  # v2.0
 
- Think about at each step.  
+Think about at each step.  
  
-1.  
+1.  Program Outline
+2.  Index Creation
+  3. Sources Used
+  4. Process for Assembling
+  5. End Product
+  6. Analysis Throughout
+7.  Schedule of Events
+  8. Process for each event
+  9. End Product
+  10. Analysis Throughout
+11.  Scans Themselves
+  12. Process for Each scan
+  13. End Product
+  14. Analysis Throughout
+15. Alternative End Products   
