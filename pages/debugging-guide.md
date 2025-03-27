@@ -48,12 +48,12 @@ Think about at each step.
   -  Process for Assembling
   -  End Product
   -  Analysis Throughout
-7.  Schedule of Events
+3.  Schedule of Events
   -  Process for each event
   -  End Product
   -  Analysis Throughout
-11.  Scans Themselves
+4.  Scans Themselves
   -  Process for Each scan
   -  End Product
   -  Analysis Throughout
-15. Alternative End Products   
+5. Alternative End Products   
