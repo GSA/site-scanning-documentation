@@ -62,4 +62,6 @@ They want to know:
 * They use the 'Third Party Service URLs' field to look for the use of unsafe third party services by agencies.  
 
 #### OMB Office of the Federal CIO
-* The Federal Website Index, DAP compliance, and USWDS compliance are used to implement and track compliance for 21st Century IDEA. 
+* The Federal Website Index, DAP compliance, and USWDS compliance are used to implement and track compliance for 21st Century IDEA.
+* Site Scanning data is being used to populate a d2d dashboard used by OFCIO and the DX Council.  
+* Site Scanning data is being used for the Public Web Rationalization effort.  
