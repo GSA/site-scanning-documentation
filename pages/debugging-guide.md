@@ -44,7 +44,7 @@ Think about at each step.
  
 1.  Program Outline
 2.  Index Creation
-  -  ources Used
+  -  Sources Used
   -  Process for Assembling
   -  End Product
   -  Analysis Throughout
