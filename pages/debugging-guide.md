@@ -44,16 +44,16 @@ Think about at each step.
  
 1.  Program Outline
 2.  Index Creation
-  3. Sources Used
-  4. Process for Assembling
-  5. End Product
-  6. Analysis Throughout
+  -  ources Used
+  -  Process for Assembling
+  -  End Product
+  -  Analysis Throughout
 7.  Schedule of Events
-  8. Process for each event
-  9. End Product
-  10. Analysis Throughout
+  -  Process for each event
+  -  End Product
+  -  Analysis Throughout
 11.  Scans Themselves
-  12. Process for Each scan
-  13. End Product
-  14. Analysis Throughout
+  -  Process for Each scan
+  -  End Product
+  -  Analysis Throughout
 15. Alternative End Products   
