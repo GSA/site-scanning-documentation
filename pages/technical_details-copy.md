@@ -3,6 +3,56 @@ _Note - This page is intended to serve as a backup clone of https://digital.gov/
 
 -------------
 
+# v2.0 
+
+
+
+## Overview 
+
+
+## Building the Federal Website Index 
+
+Every day, a comprehensive list of public federal websites is assembled as the **Federal Website Index**.
+
+  - [Description of the Federal Website Index](https://github.com/GSA/federal-website-index/tree/main?tab=readme-ov-file#federal-website-index).
+  - [Direct download of the current Federal Website Index](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv).
+  - [Process description](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
+  - [List of the source lists that are combined to make the index](https://github.com/GSA/federal-website-index/blob/main/data/source_lists.csv).   
+  - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed at each step and which remain.
+  - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
+  - [Summary report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
+  - [Summary report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv).
+  - Source lists that are under consideration but have not been incorporated into the Index creation process.  
+  - [Task repository](https://github.com/GSA/federal-website-index).
+
+
+## Running the Scans 
+
+Every day, the Federal Website Index is then scanned. This is done by loading each Initial URL in a virtual browser and noting the results. This information is the **Site Scanning data**.
+
+  - [Scanning process description](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md), including what criteria are used to create each field of data.
+  - [Direct download of the complete Site Scanning dataset](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv).
+  - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv) for the Site Scanning data.
+
+## Daily Actions 
+
+Every day, after the Federal Website Index is assembled, a series of discrete actions run that kick off the scans and 
+
+
+
+
+## Other Useful Links
+- [List of all datasets used or created](https://github.com/GSA/site-scanning-documentation/blob/main/data/Dataset_Index.csv)
+
+
+
+
+-------------
+
+# v1.0
+
+-------------
+
 
 The Site Scanning program maintains a number of automated processes that, together, consitute the entire project and seek to deliver useful data. The basic flow of these events are as follows:
 
