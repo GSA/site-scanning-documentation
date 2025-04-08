@@ -34,7 +34,10 @@ Read more:
 Standard: Ensure that the base domain works both with or without www.
 Why: This will ensure a better visitor experience by elimating failed page loads if a user attemps to load a domain with or without `www.`.  
 Research questions:  ...
-Read more: _(any links to authoritative sources that support the need for this standard)_
+Read more:
+- "With these techniques, you can configure your server to respond correctly for both, the www-prefixed and the non-www-prefixed domains. It is good advice to do this since you can't predict which URL users will type in their browser's URL bar."  [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs)
+- "...your site must work with or without the www." [sitepoint.com](https://www.sitepoint.com/domain-www-or-no-www/)
+- "...it’s important to ensure both the ‘www’ and non-‘www’ versions of your domain are accessible, as users may type either." [sitepoint.com](https://www.sitepoint.com/domain-name-www-or-not/)
 
 
 Standard: _(briefly describe what the standard is (one sentence))_
