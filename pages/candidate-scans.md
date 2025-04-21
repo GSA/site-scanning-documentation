@@ -54,6 +54,7 @@ The list of scans that have alreadby been built and are active [can be found her
   * High level numbers - e.g. what percent of each agency's sites have implemented DAP; avg. USWDS total; etc.
   * Incorporate DAP analytics.
  * For Cloud.gov Pages
+   * Whether a site is hosted on cloud.gov pages or not.
    * Continuous monitoring for substantial homepage changes, e.g. defacement or remote javascript loading.  
 
 
