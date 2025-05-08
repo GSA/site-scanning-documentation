@@ -1,7 +1,7 @@
 
 ## Updating the digital.gov pages
 
-* File a pull request to [this repo](https://github.com/GSA/digitalgov.gov/tree/main/content/guides/site-scanning).  A preview can be seen at `https://federalist-ecc58765-2903-48b3-920c-5d93318ad084.app.cloud.gov/preview/gsa/open-gsa-redesign/NAME-OF-BRANCH/api/site-scanning-api/`.  When the pull request is ready, comment on it to that effect and add Sara Cope as a reviewer.  They should get to it soon but if a while goes by (~a week), ask over in #digitalgov to make sure it's on their radar.  
+* Log in [here](https://cms.digital.gov/user/login), and then go [here](https://cms.digital.gov/guides/site-scanning/technical-details#content-start).  Edit in the top right corner under local tasks.  
 
 ## Updating the api docs
 
