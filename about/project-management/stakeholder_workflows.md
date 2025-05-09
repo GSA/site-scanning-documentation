@@ -6,7 +6,7 @@
 
 - Navigate to [the file](https://github.com/GSA/federal-website-directory/blob/main/us-government-website-directory.csv) in your browswer.
 - Click on the pencil in the top right corner.
-- Make any necessary changes (note that any field that cas commas in it will need to remain wrapped in quotation marks).
+- Make any necessary changes (note that any field that has commas in it will need to remain wrapped in quotation marks).
 - Click 'Commit changes...'.
 - Put a quick, cursory note on what you changed in the 'Commit message'
 - Click 'Commit changes'
