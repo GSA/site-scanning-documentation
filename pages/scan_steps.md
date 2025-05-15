@@ -12,7 +12,7 @@ First off, before any scans take place, the process of ingesting the initial URL
 * `Public`
 * `Filtered`
 
-When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L36) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
+When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L166-L244) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
 
 The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages) are: 
 
@@ -23,25 +23,25 @@ The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/c
 - **[sitemapXml](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/sitemap-xml.ts)** - Appends `/sitemap.xml` to the Initial URL, loads it, and analyzes the resulting `sitemap.xml` Final URL.
 - **[accessibility](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/pages/accessibility)** - Loads axe-core to run against each Initial URL, then preserves the results from certain tests.  
 - **[performance](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/performance.ts)** - Loads a performance observer object to capture the relevant fields from the browser's API.  
-- **security** - Refers to XXXXXXX file and applies the second column.  
+- **security** - Refers to XXXXXXX file and applies the second column.
+- **[www](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/www.ts)** - Loads each initial URL with `www.` prepended in order to see if the site requires or forbids `www.`
 
 
 
-Each scan notes whether it Completed, or failed due to one of the following reasons: Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error.  These populate the `Scan Status - Primary`, `Scan Status - DNS`, `Scan Status - Not Found`, `Scan Status - Robots.txt`, and `Scan Status - Sitemap.xml` fields.  
+Each scan notes whether it Completed, or failed due to one of the following reasons: Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error.  These populate the `Scan Status - Primary`, `Scan Status - DNS`, `Scan Status - Not Found`, `Scan Status - Robots.txt`, `Scan Status - Sitemap.xml`, and `Scan Status - www` fields.  
 
 The `Scan Status - Date` field is populated when the scan data is written to the database.  
 
 
 ### Primary Scan
 
-The primary scan uses [Puppeteer](https://pptr.dev/) to load a Initial URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L48-L58) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
+The primary scan uses [Puppeteer](https://pptr.dev/) to load a Initial URL in a headless Chrome/Chromium browser.  It then (again asynchronously) runs a number of what might be thought of as scan components, the list of which can be found [here](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/pages/primary.ts#L50-L59) and the code for which can be found [here](https://github.com/GSA/site-scanning-engine/tree/main/libs/core-scanner/src/scans).  
 
 At the moment, these 'scan components' are: 
 * [urlScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/url-scan.ts) - which loads the Initial URL and then notes whether it redirects; what the Final URL is; whether it is live; what its server status code, filetype, and base domain are; and whether the Final URL is on the same domain and same website as the Initial URL. This populates the `URL`, `Domain`, `Base Domain`, `Top Level Domain`, `Media Type`, `Live`, `Redirects`, and `Status Code` fields.
   * For `Live` - it is marked `TRUE` if the final server status code is one of these - 200, 201, 202, 203, 204, 205, 206.
   * For `Redirects` - it is marked `TRUE` if there are one or more components in the redirect chain of the request method.  
-* [cloudDotGovPagesScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cloud-dot-gov-pages.ts) - which looks to see if there's an x-server response header that says `cloud.gov pages`.  This populates the `Infrastructure - Cloud.gov Pages Detected` field.  
-* [cmsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) - which looks for certain code snippets in the page html and headers that indicate the use of a certain CMS.  These code snippets are borrowed from the great work of [Wappalyzer](https://github.com/tunetheweb/wappalyzer), specifically the files in [this folder](https://github.com/tunetheweb/wappalyzer/tree/master/src/technologies). This populates the `Infrastructure - CMS Provider` field.  
+* [cmsScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cms.ts) - which looks for certain code snippets in the page html and headers that indicate the use of a certain CMS.  These code snippets are borrowed from the great work of [Wappalyzer](https://github.com/tunetheweb/wappalyzer), specifically the files in [this folder](https://github.com/tunetheweb/wappalyzer/tree/master/src/technologies). In order to detect the use of Cloud.gov pages, the x-server response header is also checked to see if it contains `cloud.gov pages`. This populates the `Infrastructure - CMS Provider` field.  
 * [cookieScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/cookies.ts) - which uses Puppeteer's built in functionality to note the domains of all cookies that load. This populates the `Infrastructure - Cookie Domains` field.  
 * [dapScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/dap.ts) - which captures the outbound requests that occur when the target URL loads and notes whether a call using the Digital Analytics Program tag IDs ('G-CSLL4ZEK4L') is one of them.  If it is, the Google Analytics parameters are also captured.  This capture of parameters fails though if the DAP snippet is self-hosted.  Therefore, the scan looks at all outbound requests and sees if they come from a url ending in `Universal-Federated-Analytics-Min.js` and if it does, then still captures the parameters.  These steps populate the `Infrastructure - DAP Detected` and `Infrastructure - DAP Parameters` fields.  
 * [loginScan](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/scans/login.ts) - which looks for certain code snippets in the page html to indicate the presence of a login form or the use of a certain  login provider.  This populates the `Infrastructure - Login Provider` and `Infrastructure - Login Detected` fields.  
