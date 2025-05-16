@@ -1,7 +1,9 @@
 
-# Scan Statuses Explained (technical status in parenthesis; remediation in sub-bullet) 
+# Scan Statuses Explained (technical status in parenthesis; remediation in sub-bullet; relevant code [here](https://github.com/GSA/site-scanning-engine/blob/main/entities/scan-status.ts))
 - **Completed** - The scan was able to run successfully.
-  - No remediation needed.  
+  - No remediation needed.
+- **Aborted** - The page load is aborted for one of several unusual reasons.  (ERR_ABORTED)
+  - Recreate the page load experience manually and the underlying issue is often clear.  
 - **Address Unreachable** - Often the result of a site no longer existing.  (ERR_ADDRESS_UNREACHABLE)
   - Check the website's status.  
 - **Connection closed** - Often the result of a a server/hosting service flaw or the site no longer existing. (ERR_CONNECTION_CLOSED)
@@ -19,11 +21,17 @@
 - **Execution Context Destroyed** - Puppeteer experienced an error because the page it was scanning changed after the scan began, possibly due to further navigation. (Execution context was destroyed) 
   - The Site Scanning engine failed.  
 - **HTTP2 Error** - Often the result of the website not supporting HTTP2 or an SSL configuration. (ERR_HTTP2_PROTOCOL_ERROR)
-  - Ask your agency's network team to check for and remedy an HTTP2 protocol error.  
+  - Ask your agency's network team to check for and remedy an HTTP2 protocol error.
+- **Invalid Auth Credentials** - Website requires credentials in order to load. (ERR_INVALID_AUTH_CREDENTIALS)
+  - N/a
+- **Invalid Response** - The website or underlying server may be experiencing technical difficulties. (ERR_INVALID_RESPONSE)
+  - Check the website's status. 
 - **Invalid SSL cert** - The Target URL's SSL certificate, used for HTTPS, is expired or not properly configured. (ERR_CERT_COMMON_NAME_INVALID; ERR_CERT_DATE_INVALID; ERR_BAD_SSL_CLIENT_AUTH_CERT; unable to verify the first certificate)
   - Ask your agency's network team to check for and remedy any issues with the HTTPS/HSTS configuration for the site.  
 - **Page Frame Not Ready** - Specific to the accessibility scans, this status indicates that page or an element did not finish loading and could not be scanned. (Page/Frame is not ready)
-  - The Site Scanning engine failed.  
+  - The Site Scanning engine failed.
+- **SSL Protocol Error** - Often the result of invalid or misconfigured SSL.  (ERR_SSL_PROTOCOL_ERROR)
+  - Ask your agency's network team to check for and remedy any issues with the HTTPS/HSTS configuration for the site.  
 - **SSL Version Cipher Mismatch** - Often the result of invalid or misconfigured SSL certificates.  (ERR_SSL_VERSION_OR_CIPHER_MISMATCH)
   - Ask your agency's network team to check for and remedy any issues with the HTTPS/HSTS configuration for the site.  
 - **Timeout** - When the headless browser loaded the Target URL, the request timed out (i.e. there's something at that URL, but it never finished loading).  (ERR_CONNECTION_TIMED_OUT; ETIMEDOUT)
