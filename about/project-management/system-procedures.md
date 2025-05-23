@@ -4,7 +4,37 @@ This document is to memorialize internal project procedures.  Other agencies or 
 
 ### GitHub Tokens!!!
 
-...
+This guide outlines the steps to generate a GitHub personal access token (PAT) with permissions to create issues in repositories.
+
+## Step-by-Step Instructions
+
+1. **Sign in to GitHub**
+   - Go to [https://github.com/login](https://github.com/login) and sign in to your account.
+
+2. **Navigate to Developer Settings**
+   - In the top-right corner of any page, click your profile photo, then click **Settings**.
+   - In the left sidebar, click **Developer settings**.
+
+3. **Create a Personal Access Token**
+   - Click **Personal access tokens** > **Tokens (classic)**
+   - Click **Generate new token**.
+
+4. **Configure Token Settings**
+   - **Name** your token (e.g., `smoke-test-token`).
+   - Set an **expiration date** (recommended).
+   - Select **repo** scope if using classic tokens:
+     - Check the `repo` checkbox to include all repository permissions.
+   - Ensure **`repo:issues`** permission is included to allow issue creation.
+
+5. **Generate and Save the Token**
+   - Click **Generate token** at the bottom of the form.
+   - **Copy** the token immediately and store it securely. You won't be able to see it again.
+
+6. **Update GitHub Actions Secret**
+   - Navigate to the `site-scanning-analysis` repository.
+   - Click on **Settings** > **Secrets and variables** > **Actions**.
+   - Find the secret named `ISSUE_TOKEN`. Click the pencil icon to **edit** it.
+   - **Paste** the new token in the value field and click **Update secret**.
 
 
 ### GitHub Access 
