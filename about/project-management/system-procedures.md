@@ -6,7 +6,7 @@ This document is to memorialize internal project procedures.  Other agencies or 
 
 This guide outlines the steps to generate a GitHub personal access token (PAT) with permissions to create issues in repositories.
 
-## Step-by-Step Instructions
+### Step-by-Step Instructions
 
 1. **Sign in to GitHub**
    - Go to [https://github.com/login](https://github.com/login) and sign in to your account.
