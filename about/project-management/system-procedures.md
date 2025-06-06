@@ -4,7 +4,7 @@ This document is to memorialize internal project procedures.  Other agencies or 
 
 ### GitHub Tokens!!!
 
-This guide outlines the steps to generate a GitHub personal access token (PAT) with permissions to create issues in repositories.
+This guide outlines the steps to generate a GitHub personal access token (PAT) with permissions to create issues in repositories.  This isn't needed for most of the github actions we use though.  
 
 ### Step-by-Step Instructions
 
