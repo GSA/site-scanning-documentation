@@ -23,6 +23,21 @@ Seasonal changes in traffic are important to factor in.  Does a candidate websit
 
 ### Out of date sites 
 
+We've investigated three methods for doing this, two of which are still active and available but only one of which is possibly useful.  
+
+#### Old `lastmod` dates
+
+Virtually every website should have a sitemap.xml and a common if not required metatag in sitemaps is the `lastmod` field.  The `sitemap_xml_lastmod` field in Site Scanning data captures the most recent lastmod date in a sitemap.  In a recent scan, 1354 sites have results for this field.  Of those: 1017 have lastmod dates from 2025, 110 from 2024, 71 from 2023; 33 from 2022, 26 fromo 2021, 14 from 2020, 62 from the 2010s, and 6 from the 2000s. 
+
+At a minimum, sites with lastmod dates in the 2000s and 2010s could reasonable be put to their respective agencies with the question of whether the sites are still needed.  
+
+#### Unchanging hash marks for website homepages and sitemaps
+
+A more powerful indicator has been running since roughly Feb 20, 2025.  One could take the [2-20-25 snapshot](https://api.gsa.gov/technology/site-scanning/data/archive/csv/weekly-snapshot-2025-02-20T12:01:58.490Z.csv) and compare the `page_hash` and `sitemap_xml_page_hash` fields (columns AE and CF) and then the current snapshot and determine whether the homepage and/or sitemap have changed in any way.  This is not likely useful enough for the purposes of identifying stale websites since the data only goes back 4 months, but over time will increasingly become so.  Underlying it though is a judgment call of when an unchanging website is indicative of something greater.  Is that threshold a year?  Two?  Regardless, the resulting list should be run by the relevant agencies to request that the clarify if the site is still needed and to justify so/briefly explain why it has not changed any if so.  
+
+#### Other date-based metafields
+
+There's a variety of other metatags that could be helpful, such as `revised`, `date`, or `last-modified`, however a 2024 analysis found that these and other potentially useful tags are profoundly under-used ([exact stats here](https://github.com/GSA/site-scanning/issues/869#issuecomment-2009879132)). As a result, these fields are not likely to be of use, though it's worth having thought through their potential use.  
 
 
 ### Duplicative or overlapping sites 
