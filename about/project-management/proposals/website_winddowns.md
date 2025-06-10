@@ -42,6 +42,24 @@ There's a variety of other metatags that could be helpful, such as `revised`, `d
 
 ### Duplicative or overlapping sites 
 
+At the moment, I believe that our best means of approaching this is to take the below cut of Site Scanning data and use AI tools to analyze them at scale and suggest where there's substantial overlap in the substance of any sites.  
+
+The complete Site Scanning dataset should be trimmed down by: 
+- Removing non-live sites
+- Removing redirects
+- Collapsing any Open Graph titles or descriptions into the title and description columns if the respective cell is empty.
+- Collapsing the www_title into the title field if the latter cell is empty.  
+- Removing all columns but: title, description, keyword, domain, base_domain, agency, bureau
+
+A snapshot of the 6-10-25 scan data cut to the above specifications can be found [here](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/website-metadata-6-10-25.csv).  
+
+GSA currently has two sets of AI resources available to staff:  chat.gsa.gov and the Gemini integration directly in Google Suite.  The latter is convenient as it can be used direction in sheets.  However, my attempts with it so far have been unproductive as it seems to only be engaging this data characters in cells in the sheet, not as representations of websites beyond the sheet.  For example, 'which of these sites are duplicative of each other?' only returns exact analysis of whether any fields are the exact same for any sites.  So far, I can't get it to think a bit more abstractly about what these rows convey.  
+
+The other resource we have access to is chat.gsa.gov, which currently offers claude and meta AI engines.  One initial blocker is that our implementation limits the filetypes that can be uploaded for a prompt to PDFs, documents, and image files.  Spreadsheet files cannot be uploaded, which limits our ability to get it to interpet the associted title/description/keyword metadata.  
+
+I've tried to circumvent this by just taking the column of domains and saving it as [a txt file to upload](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/website-list-6-10-25.txt).  This worked but the ensuing analysis didn't actually look at the websites themselves over the internet.  Rather, it just looked at the domains themselves and basically grouped those on the same base domain as potentially duplicative.  
+
+At this time, this effort hasn't proven fruitful, but within the near future, the tools available to us may change and improve and better enable this.  
 
 
 ### Disproportionately Expensive 
@@ -51,10 +69,14 @@ There's a variety of other metatags that could be helpful, such as `revised`, `d
 
 
 
+
 ## Related Proposals 
 
-#### Classify Sites 
+### Classify Sites 
 - Create a new file or overlap with the federal website directory to promulgage a labelling system with these categories:
   - Content, Application, Public Service, Internal, Infrastructure
+
+### Proactive Curation
+
 
 
