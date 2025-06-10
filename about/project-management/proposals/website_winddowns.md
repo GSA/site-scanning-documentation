@@ -61,22 +61,23 @@ I've tried to circumvent this by just taking the column of domains and saving it
 
 At this time, this effort hasn't proven fruitful, but within the near future, the tools available to us may change and improve and better enable this.  
 
+### Ideas for other models 
 
-### Disproportionately Expensive 
+Here's a running list of other potential frameworks for tackling this issue.  They would need further research on feasibility and practical application.  
 
-
-### Out of Scope for an Agency
-
-
+- Disproportionately Expensive
+- Out of Scope for Agency
 
 
 ## Related Proposals 
 
 ### Classify Sites 
-- Create a new file or overlap with the federal website directory to promulgage a labelling system with these categories:
+
+- Create a new file or overlap with the [federal website directory](https://github.com/GSA/federal-website-directory/blob/main/us-government-website-directory.csv) to promulgage a labelling system with these categories:
   - Content, Application, Public Service, Internal, Infrastructure
+- This could then populate a new tag field in Site Scanning, and be used to significantly improve the mapping of the federal web presence.   
 
 ### Proactive Curation
 
-
+Another approach would be to employ a central authority to coordinate a cross-government editorial engagement that convenes agencies to cooperatively map out a unified, integrated federal web presence and drive agencies to then fit into it.  This could allow a turn away from the utterily distributed, one-might-say schizophrenic web presnce that currently exists and could lead to the reduction of duplicative websites.  
 
