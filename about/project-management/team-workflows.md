@@ -35,8 +35,9 @@ Below is the order in which to [trigger actions](https://github.com/GSA/site-sca
 * Look for most recent issues [here](https://github.com/search?q=repo%3AGSA%2Fsite-scanning+checklist+for+new+fields&type=issues).
 
 ## Checklist for Notifying users about upcoming breaking changes
+-  Note the contacts of identified stakeholders [here](https://docs.google.com/spreadsheets/d/14fTk_ri-aVvJms-mxDcfvLEDKaESP2EIRxAKkqO0fCw/edit?gid=197836991#gid=197836991)
 -  Look up email addresses from API users for the past 3 months
--  Note known snapshot consumers (currently, just search.gov)
+-  Note other known snapshot consumers (currently, just search.gov)
 -  Message them with the time and nature of the upcoming changes
 -  Add a banner to the API documentation
 
