@@ -4,7 +4,7 @@ Initial URL,initial_url,URL ingested to begin a scan,string,"yes, exact, via pat
 Initial Domain,initial_domain,Domain of the Initial URL,string,no
 Initial Base Domain,initial_base_domain,Base Domain of the Initial URL,string,"yes, exact"
 Initial Top Level Domain,initial_top_level_domain,Top Level Domain of the Initial URL,string,no
-Redirects,redirects,Whether Name is different from the Initial Domain,boolean,"yes, exact"
+Redirect,redirect,Whether Name is different from the Initial Domain,boolean,"yes, exact"
 URL,url,"Final URL that resolves after any redirects, which is then scanned",string,no
 Domain,domain,Domain,string,no
 Base Domain,base_domain,Base Domain,string,"yes, exact"
@@ -18,7 +18,6 @@ Bureau,bureau,Bureau owner of the Initial Base Domain,string,"yes, exact"
 Branch,branch,Brach of government of the agency owner of the Initial Base Domain,string,"yes, exact"
 404 Test,404_test,Whether the Initial Domain return 404s correctly (TRUE) or gives a misleading 2** code (FALSE0   ,boolean,no
 Data Source,source_list,Which source datasets included this Initial URL?,list,no
-Public,public,Whether a website should be considered public-facing in regards to OMB/21st Century IDEA implementation,boolean,no
 Scan Status - Date,scan_date,Scan date/time (when data is written),datetime,no
 Scan Status - Primary,primary_scan_status,"Status of the Primary Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
 Scan Status - Accessibility,accessibility_scan_status,"Status of the Accessibility Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,no
@@ -54,7 +53,7 @@ Performance - Largest Contentful Paint,largest_contentful_paint,Performance indi
 Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
 Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
 Security - HTTPS Required,https_enforced,Whether the Final URL enforces HTTPS,boolean,no
-Security - HSTS Preloaded,hsts_preloaded,Whether the Final URL domain is preloaded for HSTS,boolean,no
+Security - HSTS Preloaded,hsts,Whether the Final URL domain is preloaded for HSTS,boolean,no
 SEO - title,title,Meta page title,string,no
 SEO - description,description,Meta page description,string,no
 SEO - keywords,keywords,Meta page keywords,string,no
