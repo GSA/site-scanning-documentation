@@ -22,7 +22,6 @@ Every day, a comprehensive list of public federal websites is assembled as the *
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
   - [Summary report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
   - [Summary report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv).
-  - Source lists that are under consideration but have not been incorporated into the Index creation process.  
   - [Task repository](https://github.com/GSA/federal-website-index).
 
 
