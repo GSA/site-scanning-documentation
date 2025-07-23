@@ -30,7 +30,7 @@ Every day, the Federal Website Index is then scanned. This is done by loading ea
 
 ## Daily Actions 
 
-Every day, after the Federal Website Index is assembled, a series of discrete actions run that kick off the scans and 
+Every day, after the Federal Website Index is assembled, a series of discrete actions run that kick off the scans and generate a series of snapshots and analytical reports.   
 
 
 
