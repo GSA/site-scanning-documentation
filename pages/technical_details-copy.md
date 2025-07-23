@@ -5,11 +5,6 @@ _Note - This page is intended to serve as a backup clone of https://digital.gov/
 
 # v2.0 
 
-
-
-## Overview 
-
-
 ## Building the Federal Website Index 
 
 Every day, a comprehensive list of public federal websites is assembled as the **Federal Website Index**.
