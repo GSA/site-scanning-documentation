@@ -90,6 +90,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * AMP compliant?  
 * offers structured data - https://search.google.com/test/rich-results/
 *  stuff in a .well-known folder
+  * just the presence of the /.well-known/ folder?  (I don't think that'll work but it's interesting to ponder). 
 * Lots of ideas from https://www.screamingfrog.co.uk/seo-spider/
 * More with Lighthouse (list [here](/scans/live/lighthouse.md#details)).
   * Example lighthouse scan [here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fwww.gsa.gov); [Scoring methodology](https://github.com/GoogleChrome/lighthouse/blob/main/docs/scoring.md)
