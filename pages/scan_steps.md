@@ -28,7 +28,7 @@ The [current scans](https://github.com/GSA/site-scanning-engine/tree/main/libs/c
 
 
 
-Each scan notes whether it Completed, or failed due to one of the following reasons: Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error.  These populate the `Scan Status - Primary`, `Scan Status - DNS`, `Scan Status - Not Found`, `Scan Status - Robots.txt`, `Scan Status - Sitemap.xml`, and `Scan Status - www` fields.  
+Each scan notes whether it Completed, or failed due to one [a number of different reasons](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_statuses.md), such as: Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error.  These populate the `Scan Status - Primary`, `Scan Status - DNS`, `Scan Status - Not Found`, `Scan Status - Robots.txt`, `Scan Status - Sitemap.xml`, and `Scan Status - www` fields.  
 
 The `Scan Status - Date` field is populated when the scan data is written to the database.  
 
