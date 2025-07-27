@@ -26,14 +26,17 @@ Every day, the Federal Website Index is then scanned. This is done by loading ea
 
   - [Scanning process description](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md), including what criteria are used to create each field of data.
   - [Direct download of the complete Site Scanning dataset](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv).
+  - Opther download options
+  - Archived snapshots
+  - API documentation 
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv) for the Site Scanning data.
   - [Explanation of possible scan statuses](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_statuses.md)
 
-## Daily Actions 
+## Analyzing and Snapshotting the Data
 
 Every day, after the Federal Website Index is assembled, a series of discrete actions run that kick off the scans and generate a series of snapshots and analytical reports.   
 
-
+  - Description and Schedule of Daily Actions
 
 
 ## Other Useful Links
