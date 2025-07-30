@@ -16,7 +16,7 @@ Media Type,media_type,Media type,string,no
 Agency,agency,Agency owner of the Initial Base Domain,string,"yes, exact"
 Bureau,bureau,Bureau owner of the Initial Base Domain,string,"yes, exact"
 Branch,branch,Brach of government of the agency owner of the Initial Base Domain,string,"yes, exact"
-404 Test,404_test,Whether the Initial Domain return 404s correctly (TRUE) or gives a misleading 2** code (FALSE0   ,boolean,no
+404 Test,404_test,Whether the Initial Domain return 404s correctly (TRUE) or gives a misleading 2** code (FALSE),boolean,no
 Data Source,source_list,Which source datasets included this Initial URL?,list,no
 Scan Status - Date,scan_date,Scan date/time (when data is written),datetime,no
 Scan Status - Primary,primary_scan_status,"Status of the Primary Scan [Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, Unknown error]",string,"yes, exact (from a set of specified values)"
