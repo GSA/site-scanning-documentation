@@ -31,6 +31,9 @@ Below is the order in which to [trigger actions](https://github.com/GSA/site-sca
 * Log into logs.fr.cloud.gov and go to [this page](https://logs.fr.cloud.gov/app/dashboards#/view/0a3c90f0-70ac-11ec-9ac9-d17def83cfd7?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-06-28T00:29:00.000Z',to:'2022-06-29T00:29:30.000Z'))&_a=(description:'Experimenting%20with%20a%20dashboard%20for%20site%20scanner',filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!f,index:'logs-app*',key:'@cf.app',negate:!f,params:(query:site-scanner-consumer),type:phrase),query:(match_phrase:('@cf.app':site-scanner-consumer)))),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!f,title:'Site%20Scanner%20Summary',viewMode:view)). The scans finishing = a queue of zero.  
 * In order to debug a specific URL's scan results, search the logs for that URL.
 
+## Check New Relic
+- Go [here](https://one.newrelic.com/synthetics/monitor-overview/MjQ4NDc2N3xTWU5USHxNT05JVE9SfGViOTBjODUzLTFiYjktNDc5Yy04ZTEzLTk0YmM3NTUxMzFmOA?account=2484767&duration=1800000&state=a2c88aef-f325-027f-0460-5f92caba855e) and log on with single-sign on.  
+
 ## Template checklist for new fields
 * Look for most recent issues [here](https://github.com/search?q=repo%3AGSA%2Fsite-scanning+checklist+for+new+fields&type=issues).
 
