@@ -38,10 +38,6 @@ They want to know:
 
 * The site uses our Federal Website Index, DAP data, and USWDS data.  
 
-#### DigitalDashboard.gov
-
-* The site uses our Federal Website Index, DAP data, and USWDS data.  
-
 #### GSA Digital Council 
 
 
