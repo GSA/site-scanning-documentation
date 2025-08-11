@@ -2,9 +2,9 @@
 
 | Step | Standard | How to Analyze | 
 | -- | -- | -- | 
-| Index Assembly | Comprehsive list of seed lists | Search for and integrate more datasets | 
-| Index Assembly | Index properly Assembled | Ensure combining, dedupping, removal of `wwww.`, and removal of non-current/non-federal | 
-| Index Assembly | Filter label applied properly | Analyze waht is filtered and what isn't and make changes | 
+| Index Assembly | Comprehensive list of seed lists | Search for and integrate more datasets | 
+| Index Assembly | Index properly Assembled | Ensure combining, dedupping, removal of `www.`, and removal of non-current/non-federal | 
+| Index Assembly | Filter label applied properly | Analyze what is filtered and what isn't and make changes | 
 | Scan | Every site gets scanned | Ensure that all sites in the index and in the scan data | 
 | Scan | Every scan completes | Analyze scan data | 
 
@@ -20,7 +20,7 @@
 * [Source Files](https://github.com/GSA/federal-website-index/blob/main/builder/config.py) - [Domains](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv) | [DAP](https://analytics.usa.gov/data/live/sites-extended.csv) | [Pulse](https://raw.githubusercontent.com/GSA/data/master/dotgov-websites/pulse-subdomains-snapshot-06-08-2020-https.csv) | [Other](https://github.com/GSA/federal-website-index/blob/main/data/dataset/other-websites.csv) | [OMB](https://resources.data.gov/schemas/dcat-us/v1.1/omb_bureau_codes.csv)  
 * [Snapshots of Source Files Used in Most Recent Build](https://github.com/GSA/federal-website-index/tree/main/data/snapshots) - [Domains](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/gov.csv) | [DAP](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/dap.csv) | [Pulse](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/pulse.csv) | [Other](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/other.csv)
   * Do the entries look right when skimmed?  
-  * Are there inconsistences, e.g. agency/organization in the domain registry? 
+  * Are there inconsistencies, e.g. agency/organization in the domain registry? 
 
 #### Assembly 
 
@@ -35,7 +35,7 @@
 * Ignore list is applied 
   * Does the [snapshot](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/remove-ignore.csv) look right when skimmed?  
   * Are there entries in the [snapshot](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/remove-ignore.csv) that we would like to have the [ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) filter out?  If so, how could the ignore list be modified to do that.  
-  * Are there entires in the [removed list](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed.csv) that we wish the [ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) hadn't filtered out?  If so, how could the ignore list be modified to do that?  
+  * Are there entries in the [removed list](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed.csv) that we wish the [ignore list](https://github.com/GSA/federal-website-index/blob/main/criteria/ignore-list.csv) hadn't filtered out?  If so, how could the ignore list be modified to do that?  
   * Does the [snapshot](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/remove-ignore.csv) and the [removed list](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/ignored-removed.csv) add up in size to the [previous snapshot](https://github.com/GSA/federal-website-index/blob/main/data/snapshots/combined-dedup.csv) ([analysis report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))?
 
 * Nonfederal are removed, resulting in the Target URL list

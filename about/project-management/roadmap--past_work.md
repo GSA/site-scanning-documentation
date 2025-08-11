@@ -1,8 +1,8 @@
 ### Q4 FY24
-- Currenty under research 
+- Currently under research 
 
 ### Q3 FY24
-- Currenty under research 
+- Currently under research 
 
 ### Q2 FY24
 - Research and prototype new scans to support 21st Century IDEA implementation

@@ -15,7 +15,7 @@ _(To add: directions for running scans using the dev environment; how to track t
 
 ## Rebuilding
 
-The regular, automated schedule by which the target URL list is assembled and ingested, that the scans are run, and that the analysis files and shapshots are generated can be found [here](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md).  They will all take place on their own each week, but each step can also be manually triggered to help with debugging.  
+The regular, automated schedule by which the target URL list is assembled and ingested, that the scans are run, and that the analysis files and snapshots are generated can be found [here](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md).  They will all take place on their own each week, but each step can also be manually triggered to help with debugging.  
 
 Here is the order to consider for each step of the process if one wants to rebuild the any or all of these files:  
 

@@ -28,7 +28,7 @@ This document contains the schedule of when automated processes take place, as w
 
 [Manually Run GitHub Action](https://github.com/GSA/site-scanning-engine/actions/workflows/fetch-security-data.yml)
 
-**Notes:** This action fetches data concerning https and hsts usage from a publically hosted [CSV file](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/cisa_https.csv).
+**Notes:** This action fetches data concerning https and hsts usage from a publicly hosted [CSV file](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/dataset/cisa_https.csv).
 
 ## Scan websites
 

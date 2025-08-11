@@ -1,6 +1,6 @@
 # Site Scanning Engineer's Handbook - May, 2024
 
-[[Note linke to June, 2025 version](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/SiteScanning-DeveloperHandoff-6-25.pdf)]
+[[Note linked to June, 2025 version](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/SiteScanning-DeveloperHandoff-6-25.pdf)]
 
 ## Intent
 
@@ -32,7 +32,7 @@ framework. There are three apps:
 - `apps/cli`: exposes a command-line interface that lets the Site Scanning
   engineer perform tasks via the command line locally or via GitHub Actions.
 - `apps/scan-engine`: when the `.github/workflows/deploy.yml` action runs, this
-  app is bootstraped and started along with the API. It watches the message
+  app is bootstrapped and started along with the API. It watches the message
   queue (configured in `libs/message-queue` and `libs/queue`) and starts
   processing jobs if the queue has one or more jobs in it.
 

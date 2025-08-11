@@ -14,5 +14,5 @@
 
 ## Other Comments 
 
-- :wave: I'm starting a new project today with a partner agency. It's been helpful to review the site scanning data for this agency to get quick data about their web presence. :thank-youuuu:
+- :wave: I'm starting a new project today with a partner agency. It's been helpful to review the site scanning data for this agency to get quick data about their web presence. :thank-you:
 - 

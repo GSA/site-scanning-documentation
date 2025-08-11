@@ -3,7 +3,7 @@ I almost thought that [OPM Federal Agencies List dataset](https://www.opm.gov/ab
 - [Vanilla OPM Agency/Subelement List](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OPM.csv)
 - [Proposed Modified Agency/Subelement List](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OPM-modified.csv)
 
-## Advantanges
+## Advantages
 
 - The dataset comes from an authoritative source and is available as a machine-readable file.
 - Comparisons of the dataset against alternatives show it to have a good balance between being comprehensive but not overly inclusive.  
