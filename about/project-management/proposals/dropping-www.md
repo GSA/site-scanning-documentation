@@ -8,13 +8,13 @@ Also, CISA's [HTTPS scan data](https://github.com/GSA/federal-website-index/blob
 
 Consider changing our [Federal Website Index](https://github.com/GSA/federal-website-index), which we use as the Target URL list for scanning, so that `www.` is dropped from any target URLs that have it.  This _should_ simplify the conversation about what what is being targeted so that we don't have to differentiate between www.x.gov and x.gov, would reduce what is often thought of as duplication, and would allow for easier matching of CISA scan data with our Target URL list.  
 
-Specifically, what we would likely do is continue [assemblying the Federal Website Index in the same fashion](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md), but add a step at the end to drop `www.` from the start of any Target URLs and do a final deduplication step.  We would also remove a step earlier in the index creation process that takes the list of federal .gov domains and re-adds them with `www.` at the beginning.  
+Specifically, what we would likely do is continue [assembling the Federal Website Index in the same fashion](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md), but add a step at the end to drop `www.` from the start of any Target URLs and do a final deduplication step.  We would also remove a step earlier in the index creation process that takes the list of federal .gov domains and re-adds them with `www.` at the beginning.  
 
 ## Details 
 
 The biggest problem with this change would be losing scan data for the non-trivial number of sites that won't load without `www.`.  Though it's considered a bad practice, quite a number of webpages won't load if `www.` isn't included and as a result, scan entries for which we are currently getting useful data will start failing and will not allow for scanning until and unless the team that operates it changes the site's configuration to not require `www.` at the beginning.  Though this is a loss, it would be nice to motivate that change.  
 
-We want to quantify the impact this change would have on Site Scanning data, specificly how much scan data for users will be lost by this change.  Moreso though, we should think of this in terms of 'what is the best way to think of the federal web presence?.'  Is Federal Website Index that is always stripped of `www.` the cleanest way to think of this, or is a sometimes more complicated and conflicting list that includes some urls with `www.` and others without superior?  
+We want to quantify the impact this change would have on Site Scanning data, specifically how much scan data for users will be lost by this change.  Moreso though, we should think of this in terms of 'what is the best way to think of the federal web presence?.'  Is Federal Website Index that is always stripped of `www.` the cleanest way to think of this, or is a sometimes more complicated and conflicting list that includes some urls with `www.` and others without superior?  
 
 For perspective, as of June 28, 2024, 3181 of 28803 target URLs in the Federal Website Index begin with `www.`.  Of those, 1438 have two periods (e.g. www.x.gov) and might be thought of as the classic use of `www.`.  The other 1743 target URLs that begin with `www.` have that before 1 or more subdomains (e.g. www.x.y.gov).   
 
@@ -55,14 +55,14 @@ Bucket 1:
   * 162 work with www, but not without.  (e.g. www.y.gov resolves but y.gov does not)
   * (13 others don't resolve either with or without but fail in different ways.)
  
-From a user-experience perspective, both the groups of 72 and 162 groups should resolve this.  It's common to assume that `www.` would neither be required nor breaking, and it's a straightfoward change to implement.  
+From a user-experience perspective, both the groups of 72 and 162 groups should resolve this.  It's common to assume that `www.` would neither be required nor breaking, and it's a straightforward change to implement.  
 
-_For the purposes of this proposal though, the most noticable effect will be that 162 target URLs that are currently being scanned and have robsut results in the Site Scanning data will begin breaking and won't return results until their teams update the sites to not require `www.`._
+_For the purposes of this proposal though, the most noticeable effect will be that 162 target URLs that are currently being scanned and have robust results in the Site Scanning data will begin breaking and won't return results until their teams update the sites to not require `www.`._
 
 A less important but still noteworthy trend to note is whether the target URL arrives at an identical final URL, regardless of if `www.` is used or not.  As a matter of canonicalization, it's important that x.gov and www.x.gov both resolve _to the same URL._  
 
 * Of the 1162 Target URLs that return the same HTTP status code either way, 809 are live (in the sense that a 200 or 202 status code is returned).
-  * Interestingly, only 134 of those have idential Final URLs.
+  * Interestingly, only 134 of those have identical Final URLs.
   * In other words, 675 resolve to different URLs depending on whether `www.` is used.
   * Offhand, this is quite bad.  In most of these cases, it's simply a matter of a trailing `/` being added in one of the two cases (e.g. the two final URLs are https://www.x.gov and https://www.x.gov/).  Specifically, 534 of the 675 act this way.  As best as I can tell, there's no problem with this behavior.
   * There are, however, 141 that appear to resolve to different URLs.  In most of these cases, it's a matter that the one doesn't redirect to the other (e.g. x.gov resolves to https://x.gov and www.x.gov resolves to https://www.x.gov).  This would seem to be counter to technical norms and should be corrected.  
@@ -96,7 +96,7 @@ _The 1265 are important because they are sites whose scan results would be lost 
 Currently, we successfully generate scan data for about 16,000 websites.  Implementing this change would likely cause roughly 1427 (162+1265) websites to begin failing our scans and no longer generating data.  This is about 8-9%.  This would improve by roughly 1% as agencies addressed the first bucket of 162 domains that require `www.` for a second level domain to load, but realistically, even with engagement across all of these topic areas, my guess is that we would lose insight into about 5% of the federal web presence.  This is a significant cost, though it is balanced against the substantial benefit outlined at the start of this memo.  
 
 #### Notes
-- In processing the above, I added several columns to the end of the scan data spreadsheet.  Notably, one that counts periods in the target URL; one that says if the http status codes are the same; and one that says if the final URLs are the same.  Lastly, there's also an analysis column that idicates:
+- In processing the above, I added several columns to the end of the scan data spreadsheet.  Notably, one that counts periods in the target URL; one that says if the http status codes are the same; and one that says if the final URLs are the same.  Lastly, there's also an analysis column that indicates:
   - If www. seems to be required for the target URL to load.  These are the urls that will break and scan data be lost for if this proposal is implemented.
   - If www. seems to break a target URL if added to it.  These won't be impacted by the proposed change, but reflect a bad practice that would be good to remedy.
   - If the final URLs that resolve are different, and don't seem to be just a matter of the trailing slash being added in one case.  Worth remedying.  

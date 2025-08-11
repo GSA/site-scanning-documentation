@@ -81,7 +81,7 @@ These accounts are created for developers that need access to contribute code an
 
 ### Public API Users 
 
-Pulic API users may self-provision API keys using the sign up form on the [API documentation for the Site Scanning API](https://open.gsa.gov/api/site-scanning-api/).  These keys then allow them general, public access to the API.  
+Public API users may self-provision API keys using the sign up form on the [API documentation for the Site Scanning API](https://open.gsa.gov/api/site-scanning-api/).  These keys then allow them general, public access to the API.  
 
 These keys are then used to identify the developer when making API calls, but do not provide any site authentication.  There is no login or admin experience by which a public API user interacts with or manages their API key(s).  
 

@@ -54,7 +54,7 @@ A file such as this would be very large, but would still be very manageable by t
 
 A similar but different approach would be to expand on existing OMB practice by setting a location such as agency.gov/websites.yml or agency.gov/websites.csv to serve as the canonical source for this information in the future.  This follows the success of numerous information collections that agencies are already familiar with and have in place, such as the Open Data Policy (agency.gov/data.json), Open Source Policy (agency.gov/code.json), Digital Government Strategy (agency.gov/digitalstrategy.json), and FITARA (agenct.gov/digitalstrategy/FITARAmilestones.json, etc.).  
 
-Such as file could look like [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.csv) or [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.yml).  They could then be crawled, harvested, and combined on a regular occastion, by the Site Scanning program or another system.  
+Such as file could look like [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.csv) or [this](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/prototypes/agency_websites.yml).  They could then be crawled, harvested, and combined on a regular occasion, by the Site Scanning program or another system.  
 
 One advantage of this model is that it makes agency adoption and responsible upkeep of their list much more visible and directly attributable.   
 

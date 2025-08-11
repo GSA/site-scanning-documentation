@@ -1,6 +1,6 @@
 This is a list of individual scans that _could_ be run with the Site Scanning program.  This is a brainstorming page and all ideas are welcome.  
 
-The list of scans that have alreadby been built and are active [can be found here](https://digital.gov/guides/site-scanning/understand-the-data/).  Feel free to suggest further ideas though by [editing this page](https://github.com/GSA/site-scanning-documentation/edit/main/pages/candidate-scans.md), [filing an issue](https://github.com/GSA/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
+The list of scans that have already been built and are active [can be found here](https://digital.gov/guides/site-scanning/understand-the-data/).  Feel free to suggest further ideas though by [editing this page](https://github.com/GSA/site-scanning-documentation/edit/main/pages/candidate-scans.md), [filing an issue](https://github.com/GSA/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
 
 
 * Other IPv6? [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
@@ -24,9 +24,9 @@ The list of scans that have alreadby been built and are active [can be found her
   * Priority - page load time, other performance data.
   * Monitor the adoption of Touchpoints.
   * Presence of forms.
-    * Analyze the source code of eage page that loads in order to detect forms and/or PRA numbers.  (a lot more technical detail on ways to do this [here](https://github.com/18F/site-scanning/issues/438)).
+    * Analyze the source code of each page that loads in order to detect forms and/or PRA numbers.  (a lot more technical detail on ways to do this [here](https://github.com/18F/site-scanning/issues/438)).
 * For the US Digital Registry:
-  * Maybe some way to validate or authenticate offical government social media accounts? 
+  * Maybe some way to validate or authenticate official government social media accounts? 
   * Find new social media accounts that need to be added to the registry by looking at all links in the page.
   * List of all hyperlinks on the page.  
   * List of all domains that have hyperlinks on the page. 
@@ -188,7 +188,7 @@ The list of scans that have alreadby been built and are active [can be found her
 * Finding geospatial tools like https://resources.hud.gov/.
 * Add in a layer to offer a real, simple and usable nested list of federal agencies, a la https://github.com/unitedstates/orgchart/tree/master/wikipedia.
 * Add a layer of metadata if an agency has a machine-readable websites.yml file at a fixed location that would enable one to filter for that agencies list of websites.
-* Is www. required?  Does including www. break the link?  ([details, examples, and a metholodgy here](https://github.com/GSA/site-scanning/issues/802))
+* Is www. required?  Does including www. break the link?  ([details, examples, and a methodology here](https://github.com/GSA/site-scanning/issues/802))
 
 ## Other Scopes to Consider Scanning Against
 * Run scans against second level domains, subdomains, and top 500 (or) 1000 pages in DAP.  Also, consider CFO act delineations, agency delineations, what else?

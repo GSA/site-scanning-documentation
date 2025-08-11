@@ -16,7 +16,7 @@ The main issues are:
 
 
 
-What I would propose is to decide on a colloquel definition of an agency and a bureau and think about how the terms could be applied successfully.  
+What I would propose is to decide on a colloquial definition of an agency and a bureau and think about how the terms could be applied successfully.  
 
 
 Notes: 
