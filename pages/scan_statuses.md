@@ -38,7 +38,7 @@
   - There are several possible causes.  Check the redirect chain of the site to look for any META or javascript redirects as those are a common source.  
 - **Too Many Redirects** - A misconfiguration of the server, page source, or third party services is causing an infinite redirect loop. This requires correction by the site owner.   (ERR_TOO_MANY_REDIRECTS)
   - Ask your website's technical owner to investigate the redirect chain of the site.  
-- **Unknown error** - An error occured that kept the scan from running successfully that is not one of the above.  
+- **Unknown error** - An error occurred that kept the scan from running successfully that is not one of the above.  
 
 
 

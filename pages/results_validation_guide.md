@@ -3,7 +3,7 @@ _Under Construction_
 Target URL: N/A  
 Target URL - Base Domain: Extract the second level domain of the `Target URL`  
 Target URL - Top Level Domain: Extract the top level domain of the `Target URL`   
-Target URL - Redirects: ???   (possibly note if there's 2 or more entries in the network tab when the page is loaded, but need to test against meta redirets, etc.)  Note exact wording of how puppeteer does it.  
+Target URL - Redirects: ???   (possibly note if there's 2 or more entries in the network tab when the page is loaded, but need to test against meta redirects, etc.)  Note exact wording of how puppeteer does it.  
 Final URL: Copy the `Target URL` into a browser's address bar, load the page, and note the last URL that resolves  
 Final URL - Base Domain: Extract the second level domain of the Final URL   
 Final URL - Top Level Domain: Extract the top level domain of the Final URL  
@@ -16,7 +16,7 @@ Final URL - Same Base Website As Target URL:  ???
 Target URL - Base Domain Agency Owner: Take the `Target URL - Base Domain` field and compare it to the `Domain name` field [here](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv), then note the Agency column.  
 Target URL - Base Domain Bureau Owner:  Take the `Target URL - Base Domain` field and compare it to the `Domain name` field [here](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv), then note the `Organization name` column.  
 Target URL - Base Domain Branch:  Take the `Target URL - Base Domain` field and compare it to the `Domain name` field [here](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv), then note the `Domain type` column.  
-Target URL - 404 Test: Open Chrome's Developer Tools; choose the Network tab, take the Target URL, apend a `/randomstringofcharacters` as a path, load the resulting combined URL, note the last (lowest) code in the Status column, and ???? 
+Target URL - 404 Test: Open Chrome's Developer Tools; choose the Network tab, take the Target URL, append a `/randomstringofcharacters` as a path, load the resulting combined URL, note the last (lowest) code in the Status column, and ???? 
 Target URL - Data Source:  Check the [snapshots of the source files](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme) that were generated at the most recent creation of the Federal Website Index and note whether the Target URL appears as a website in a particular file.  
 Target URL - Public  
 Scan Status - Date  

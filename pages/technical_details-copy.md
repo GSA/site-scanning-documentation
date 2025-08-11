@@ -26,7 +26,7 @@ Every day, the Federal Website Index is then scanned. This is done by loading ea
 
   - [Scanning process description](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md), including what criteria are used to create each field of data.
   - [Direct download of the complete Site Scanning dataset](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv).
-  - Opther download options
+  - Other download options
   - Archived snapshots
   - [API documentation](https://open.gsa.gov/api/site-scanning-api/)
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Site_Scanning_Data_Dictionary.csv) for the Site Scanning data.
@@ -53,7 +53,7 @@ Every day, after the Federal Website Index is assembled, a series of discrete ac
 -------------
 
 
-The Site Scanning program maintains a number of automated processes that, together, consitute the entire project and seek to deliver useful data. The basic flow of these events are as follows:
+The Site Scanning program maintains a number of automated processes that, together, constitute the entire project and seek to deliver useful data. The basic flow of these events are as follows:
 
 - Each week, a comprehensive list of public federal .gov websites is assembled as the **Federal Website Index**.
   - [Direct download of the current Federal Website Index](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv).
