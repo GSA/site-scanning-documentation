@@ -55,7 +55,7 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Publicly accessible snapshot of the data in Google Sheets](https://docs.google.com/spreadsheets/d/1eZS7-9i_s4z1ZpsDxkLlGfdyjVz4M7_eFq28PXK8AK0/edit#gid=1451048475)
 
 ### Other Technical Details
-* [Index of Technical Docoumentation](https://digital.gov/guides/site-scanning/technical-details/#content-start) (**Recommended**)
+* [Index of Technical Documentation](https://digital.gov/guides/site-scanning/technical-details/#content-start) (**Recommended**)
 * [Code](https://github.com/GSA/site-scanning-engine)
 * [Architecture](https://github.com/GSA/site-scanning-engine/blob/main/docs/architecture/README.md)
 * [Debugging Guide](https://github.com/GSA/site-scanning-documentation/blob/main/pages/debugging-guide.md)

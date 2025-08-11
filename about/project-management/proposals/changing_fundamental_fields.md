@@ -15,7 +15,7 @@ With these fields, we attempt to make clear what exactly is being analyzed, both
 A few issues that this model has are: 
 - No one field works perfectly as an identifier for websites.  As part of [some related efforts](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/proposals/dropping-www.md), the Site Scanning team is moving to adopt the following for this role: 'the hostname or fully qualified domain name, with `www.` removed'.
 - The Target URL field is a bit misleading since it is actually not a URL but what is combined with `https://` to generate the target URL.
-- There's an inbalance between the Target URL and Final URL fields, what with the Final URL having a Base Website.  
+- There's an imbalance between the Target URL and Final URL fields, what with the Final URL having a Base Website.  
 - `Target URL` and `Final URL` are used as adjectives for several dozen fields but they have proved a bit clunky and unintuitive to our end users.
 
 We have been researching different taxonomies to address some of these issues.  The leading contender at the moment is this:

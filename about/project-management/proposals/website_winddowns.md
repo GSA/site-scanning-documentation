@@ -27,7 +27,7 @@ We've investigated three methods for doing this, two of which are still active a
 
 #### Old `lastmod` dates
 
-Virtually every website should have a sitemap.xml and a common if not required metatag in sitemaps is the `lastmod` field.  The `sitemap_xml_lastmod` field in Site Scanning data captures the most recent lastmod date in a sitemap.  In a recent scan, 1354 sites have results for this field.  Of those: 1017 have lastmod dates from 2025, 110 from 2024, 71 from 2023; 33 from 2022, 26 fromo 2021, 14 from 2020, 62 from the 2010s, and 6 from the 2000s. 
+Virtually every website should have a sitemap.xml and a common if not required metatag in sitemaps is the `lastmod` field.  The `sitemap_xml_lastmod` field in Site Scanning data captures the most recent lastmod date in a sitemap.  In a recent scan, 1354 sites have results for this field.  Of those: 1017 have lastmod dates from 2025, 110 from 2024, 71 from 2023; 33 from 2022, 26 from 2021, 14 from 2020, 62 from the 2010s, and 6 from the 2000s. 
 
 At a minimum, sites with lastmod dates in the 2000s and 2010s could reasonable be put to their respective agencies with the question of whether the sites are still needed.  
 
@@ -55,7 +55,7 @@ A snapshot of the 6-10-25 scan data cut to the above specifications can be found
 
 GSA currently has two sets of AI resources available to staff:  chat.gsa.gov and the Gemini integration directly in Google Suite.  The latter is convenient as it can be used direction in sheets.  However, my attempts with it so far have been unproductive as it seems to only be engaging this data characters in cells in the sheet, not as representations of websites beyond the sheet.  For example, 'which of these sites are duplicative of each other?' only returns exact analysis of whether any fields are the exact same for any sites.  So far, I can't get it to think a bit more abstractly about what these rows convey.  
 
-The other resource we have access to is chat.gsa.gov, which currently offers claude and meta AI engines.  One initial blocker is that our implementation limits the filetypes that can be uploaded for a prompt to PDFs, documents, and image files.  Spreadsheet files cannot be uploaded, which limits our ability to get it to interpet the associted title/description/keyword metadata.  
+The other resource we have access to is chat.gsa.gov, which currently offers claude and meta AI engines.  One initial blocker is that our implementation limits the filetypes that can be uploaded for a prompt to PDFs, documents, and image files.  Spreadsheet files cannot be uploaded, which limits our ability to get it to interpret the associated title/description/keyword metadata.  
 
 I've tried to circumvent this by just taking the column of domains and saving it as [a txt file to upload](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/website-list-6-10-25.txt).  This worked but the ensuing analysis didn't actually look at the websites themselves over the internet.  Rather, it just looked at the domains themselves and basically grouped those on the same base domain as potentially duplicative.  
 
@@ -73,11 +73,11 @@ Here's a running list of other potential frameworks for tackling this issue.  Th
 
 ### Classify Sites 
 
-- Create a new file or overlap with the [federal website directory](https://github.com/GSA/federal-website-directory/blob/main/us-government-website-directory.csv) to promulgage a labelling system with these categories:
+- Create a new file or overlap with the [federal website directory](https://github.com/GSA/federal-website-directory/blob/main/us-government-website-directory.csv) to promulgate a labeling system with these categories:
   - Content, Application, Public Service, Internal, Infrastructure
 - This could then populate a new tag field in Site Scanning, and be used to significantly improve the mapping of the federal web presence.   
 
 ### Proactive Curation
 
-Another approach would be to employ a central authority to coordinate a cross-government editorial engagement that convenes agencies to cooperatively map out a unified, integrated federal web presence and drive agencies to then fit into it.  This could allow a turn away from the utterily distributed, one-might-say schizophrenic web presnce that currently exists and could lead to the reduction of duplicative websites.  
+Another approach would be to employ a central authority to coordinate a cross-government editorial engagement that convenes agencies to cooperatively map out a unified, integrated federal web presence and drive agencies to then fit into it.  This could allow a turn away from the utterly distributed, one-might-say schizophrenic web presence that currently exists and could lead to the reduction of duplicative websites.  
 
