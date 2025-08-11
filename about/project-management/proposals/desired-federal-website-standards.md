@@ -36,7 +36,7 @@ Read more:
 
 
 Standard: Ensure that the base domain works both with or without www.    
-Why: This will ensure a better visitor experience by elimating failed page loads if a user attemps to load a domain with or without `www.`.      
+Why: This will ensure a better visitor experience by eliminating failed page loads if a user attempts to load a domain with or without `www.`.      
 Research questions:  ...    
 Read more:    
 - "With these techniques, you can configure your server to respond correctly for both, the www-prefixed and the non-www-prefixed domains. It is good advice to do this since you can't predict which URL users will type in their browser's URL bar."  [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs)    

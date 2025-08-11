@@ -49,7 +49,7 @@ To begin with, I'm assembling currently available resources.  Below are descript
   - Departments have bureaus in a way that usually looks good.  The exceptions to this though are Defense and Energy, which skimp in a way that is doesn't fit as well.
   - The bureau breakdown for the Department of Defense will be unintuitive to most.  I would instead promote the 4 that they list as alternatives.  
 - NARA is a strong competitor.
-  - It's generally very good and handles Departments very well, including Defense and Energy. The following hold Agency slots and the entitites therein would be best promoted from the Bureau to Agency fields: Boards Commissions and Committees, Independant Agencies, Judicial Branch, Legislative Branch, Legislative Commission, and Wholly-owned Government Corporation.
+  - It's generally very good and handles Departments very well, including Defense and Energy. The following hold Agency slots and the entities therein would be best promoted from the Bureau to Agency fields: Boards Commissions and Committees, Independent Agencies, Judicial Branch, Legislative Branch, Legislative Commission, and Wholly-owned Government Corporation.
   - There's a small number of obscure agencies that aren't included, but that's okay.
   - Includes territorial governments when other datasets don't but they could be easily excluded.  
   - In a few cases, they add some extras (like United States or U.S.) but not too often or really more than any other dataset.
@@ -66,7 +66,7 @@ To begin with, I'm assembling currently available resources.  Below are descript
 
 |  Source | Type  | Counts | Advantages  |  Disadvantages | 
 |  --- | ---  | --- | ---  |  --- | 
-|  OMB  |  Primary | 143 Agencies, 253 Bureaus; with proposed change: 189, 191 | Authoritative, good use of exact names  |  Some entities in agency field not agencies; overly descriptive of 2 agences; under descriptive of 2 agencies | 
+|  OMB  |  Primary | 143 Agencies, 253 Bureaus; with proposed change: 189, 191 | Authoritative, good use of exact names  |  Some entities in agency field not agencies; overly descriptive of 2 agencies; under descriptive of 2 agencies | 
 |   NARA | Curated  | 51, 278; with proposed change: 173, 156 |  Very intuitive |  Some entities in agency field not agencies; missing a few very small entities; includes territorial governments; adds informal content to some names | 
 |  OPM  |  Primary | 120, 526; with proposed changes 117, 363 | Authoritative; More expansive; available as a static file/API  | all caps; sometimes abbreviates names; does not have other branches | 
 |  Federal Register  |  Primary | 233, 203 | Authoritative  |   | 
@@ -75,8 +75,8 @@ To begin with, I'm assembling currently available resources.  Below are descript
 |  US Government Manual | Curated  | 95 |  Straightforward; available as a static file | Limited in scope, doesn't distinguish between agencies and bureaus  | 
 |  USA.gov  |  Curated | 607 |  High quality, good curation | Doesn't distinguish between agencies and bureaus; is perhaps overly inclusive  | 
 |  USAspending.gov  | 108 Curated  |  |   |   | 
-|  Get.gov  |  Primary | 148, 578  | Agency-provided  |  Useful for other purposes but includes substantailly more subcomponents beyond agencies and bureau; contains duplicates  | 
-|  M-23-22  |  Curated | 67, 412  |  Agency-provided |  Useful for other purposes but includes substantailly more subcomponents beyond agencies and bureaus; not comprehensive | 
+|  Get.gov  |  Primary | 148, 578  | Agency-provided  |  Useful for other purposes but includes substantially more subcomponents beyond agencies and bureau; contains duplicates  | 
+|  M-23-22  |  Curated | 67, 412  |  Agency-provided |  Useful for other purposes but includes substantially more subcomponents beyond agencies and bureaus; not comprehensive | 
 |  MySales  | Primary   | 1179 |  Super comprehensive | Includes many subcomponents beyond agencies and bureaus   | 
 |   LDA |  Primary | 248 |   | Abbreviates; has acronyms in name   | 
 |  ACUS  |  Curated | 96, 184 | High quality, good curation  |  Missing a number of entities; unclear when last updated | 
@@ -88,7 +88,7 @@ To begin with, I'm assembling currently available resources.  Below are descript
 
 
 1. Convert the OMB dataset into a CSV and maintain and use it as is.
-2. Convert the OMB dataaset into a CSV, make and document discrete improvements, and use it.
+2. Convert the OMB dataset into a CSV, make and document discrete improvements, and use it.
 3. Request NARA to host source file, or manually convert it into a CSV and use it as it is.
 4. Convert the NARA dataset into a CSV, make and document discrete improvements, and use it.
 5. Use the OPM file directly
