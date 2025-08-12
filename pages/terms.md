@@ -8,7 +8,7 @@ V
 * Site Scanning source file
 * Site Scanning snapshot
 * Site Scanning report
-* Site ScNning scan
+* Site Scanning scan
 * domain
 * base domain
 * website - see domain 
