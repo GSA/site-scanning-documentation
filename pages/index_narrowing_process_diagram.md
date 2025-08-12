@@ -98,3 +98,23 @@ flowchart TD
 - **Federal Website Index**: The result of Step 3 (~27k URLs) - this is what the Site Scanning engine scans
 - **Primary Snapshot**: The result of Step 4 (~14k URLs) - most commonly consulted by users
 - **Unique Final Website**: The result of Step 6 (~10k URLs) - deduplicated to unique base websites
+
+## Alternative Simple Text View
+
+```
+Everything We Can Find (~35,000 URLs)
+    ↓
+Step 1: Deduplicate (~31,000 URLs)
+    ↓
+Step 2: Apply Ignore List (~29,000 URLs)
+    ↓
+Step 3: Remove Non-Federal Domains (~27,000 URLs)
+    ↓
+[Site Scanning Engine Analysis]
+    ↓
+Step 4: Remove Inactive Sites (~14,000 URLs)
+    ↓
+Step 5: Deduplicate Final URLs (~12,000 URLs)
+    ↓
+Step 6: Deduplicate Final Websites (~10,000 URLs)
+```
