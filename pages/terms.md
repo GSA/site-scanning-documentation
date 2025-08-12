@@ -1,34 +1,18 @@
 
 V
 
-* Agency Website Inventory
+
 * Public Website Inventory 
-* Site Scanning Website Index
-* Site Scanning Source List
-
-
-
-
-
-
-To define: 
-- Federal Website Index - What's included, what's not.  
-- Federal Website Directory
-- Target List
-- Source List (note table)
-- Initial URL
-- Snapshots
-- Reports
-- Scan
-- URL
-- Website
-- Domain
-- Base Domain
-- Top Level Domain
-- Agency
-- Bureau
-
-
+* agency website inventory
+* Site Scanning website index
+* Site Scanning source file
+* Site Scanning snapshot
+* Site Scanning report
+* Site ScNning scan
+* domain
+* base domain
+* website - see domain 
+* public website
 
 
 
