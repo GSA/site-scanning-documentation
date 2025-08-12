@@ -1,4 +1,6 @@
 # Filter Stages
+
+> **📊 Visual Overview**: See the [Index Narrowing Process Diagram](index_narrowing_process_diagram.md) for a visual representation of this process.
   
 ## Everything We Can Find
 
