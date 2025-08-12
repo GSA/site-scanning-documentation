@@ -8,11 +8,6 @@ V2
 * Site Scanning snapshot
 * Site Scanning report
 * Site Scanning scan
-* domain
-* base domain
-* website - see domain 
-* public website
-
 
 
 
