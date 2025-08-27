@@ -2,7 +2,7 @@
 
 
 * (the) **Public Website Inventory** - https://github.com/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv
-* (an) **agency website inventory** - The inventory of an agency's current public websites, located at agency.gov/websites.csv
+* (an) **agency website inventory** - The current inventory of an agency's public websites, located at agency.gov/websites.csv
 * (the) **Site Scanning website index** - The list of websites which the Site Scanning engine scans every day to generate the Site Scanning results.  
 * (a) **Site Scanning source file** - A large list of websites, which is harvested and combined with others to make the Site Scanning website index.
 * (a) **Site Scanning scan** - A set of analyses that take place by loading an initial url and performing certain actions.
