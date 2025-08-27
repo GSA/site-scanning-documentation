@@ -1,8 +1,12 @@
 ### V2
 
+Public Website Inventory 
 
 * (the) **Public Website Inventory** - https://github.com/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv
 * (an) **agency website inventory** - The current inventory of an agency's public websites, located at agency.gov/websites.csv
+
+Site Scanning Engine
+
 * (a) **Site Scanning source file** - A large list of websites, which is harvested and combined with others to make the Site Scanning website index.  Source files may be static or dynamic. More details about each source file [can be found here](https://github.com/GSA/federal-website-index/tree/main/data/source-descriptions#source-data).  
 * (the) **Site Scanning website index** - The total list of websites which the Site Scanning engine scans every day to generate the Site Scanning results.  The index is created by combining all of the source files and is located at https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv.  The Public Website Inventory is a subset of this index. 
 * (a) **Site Scanning scan** - A set of analyses that take place by loading an initial url and performing certain actions.
@@ -10,6 +14,9 @@
 * (a) **Site Scanning snapshot** - An export of the Site Scanning results, either in full, or trimmed to a certain subset for convenience.  
 * (a) **Site Scanning report** - An analysis that takes Site Scanning results and runs certain counts or calculations against it for a specific stakeholder.  
 
+General 
+
+* (a) snapshot - A static copy of a dataset generated to provide a point in time view of the data.  
 
 
 
