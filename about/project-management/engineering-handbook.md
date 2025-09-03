@@ -1,6 +1,6 @@
 # Site Scanning Engineer's Handbook - May, 2024
 
-[[Note link to June, 2025 version](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/SiteScanning-DeveloperHandoff-6-25.pdf)]
+[[Note link to June, 2025 version](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/SiteScanning-DeveloperHandoff-6-25.pdf) - [Gdrive version](https://docs.google.com/document/d/1a1rf3zrbluVBdX4q_9KvW37E5VjxWh97IC3ZDQ_aSrE/edit?tab=t.0#heading=h.9xvonrsorl1a)]
 
 ## Intent
 
