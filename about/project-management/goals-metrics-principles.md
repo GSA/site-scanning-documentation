@@ -39,3 +39,8 @@ _Draft tracker spreadsheet [here](https://docs.google.com/spreadsheets/d/1rOU4jm
 - Number/Percent of scans completed
 - Fields populated
 - Total time of scanning
+
+## Internal Engineering Principles
+- Keep actions discrete and finite
+- Fail gracefully
+- If an action fails, the end result file should just not update
