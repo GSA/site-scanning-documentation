@@ -166,7 +166,7 @@ Department of Labor,Pension Benefit Guaranty Corporation
 Department of Labor,Veterans' Employment and Training Service    
 Department of Labor,Wage and Hour Division    
 Department of State,Administration of Foreign Affairs    
-Department of State,"Department of State    , "
+Department of State,"Department of State"
 Department of State,International Commissions    
 Department of State,International Organizations and Conferences    
 Department of State,Other    
@@ -254,7 +254,7 @@ Federal Election Commission    ,
 Federal Financial Institutions Examination Council    ,
 Federal Financial Institutions Examination Council Appraisal Subcommittee,
 Federal Home Loan Bank System    ,
-"Federal Home Loan Mortgage Corporation    , ",
+"Federal Home Loan Mortgage Corporation",
 Federal Housing Finance Agency    ,
 Federal Labor Relations Authority    ,
 Federal Maritime Commission    ,
@@ -352,10 +352,10 @@ Office of the Federal Coordinator for Alaska Natural Gas Transportation,
 Other Commissions and Boards ,
 Other Commissions and Boards ,
 Other Defense Civil Programs,American Battle Monuments Commission    
-Other Defense Civil Programs,"Armed Forces Retirement Home    , "
+Other Defense Civil Programs,"Armed Forces Retirement Home"
 Other Defense Civil Programs,Cemeterial Expenses    
 Other Defense Civil Programs,Educational Benefits    
-Other Defense Civil Programs,"Forest and Wildlife Conservation, Military Reservations   ,  , "
+Other Defense Civil Programs,"Forest and Wildlife Conservation, Military Reservations"
 Other Defense Civil Programs,Military Retirement    
 Other Defense Civil Programs,Other Defense Civil Programs    
 Other Defense Civil Programs,Retiree Health Care    
@@ -374,7 +374,7 @@ Securities and Exchange Commission    ,
 Securities Investor Protection Corporation    ,
 Small Business Administration    ,
 Smithsonian Institution    ,
-"Social Security Administration    , ",
+"Social Security Administration",
 Southeast Crescent Regional Commission    ,
 Southwest Border Regional Commission    ,
 Standard Setting Body    ,
@@ -388,4 +388,5 @@ United States Enrichment Corporation Fund    ,
 United States Holocaust Memorial Museum    ,
 United States Institute of Peace    ,
 United States Interagency Council on Homelessness    ,
+
 Vietnam Education Foundation    ,
