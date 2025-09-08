@@ -31,7 +31,40 @@ One of the two best solutions for applying a consistent agency/bureau listing wo
 
 
 - Remove non-bureau catch all bureau entries, e.g. `Other` and `Allowances`.
-- Add in entities that are commonly thought of as agencies, e.g. FERC.  
+  - USDA - Buildings and Facilities
+  - USDA - Executive Operations
+  - Commerce - Departmental Management
+  - Education - Departmental Management
+  - Energy - Departmental Administration
+  - Energy - Energy Programs
+  - Energy - Environmental and Other Defense Activities
+  - HHS - Allowances
+  - HHS - Departmental Management
+  - DHS - Analysis and Operations
+  - DHS - Management Directorate
+  - DHS - Science and Technology (or should this be renamed?)
+  - HUD - Housing Programs
+  - HUD - Housing Supply
+  - HUD - Management and Administration
+  - HUD - Policy Development and Research
+  - DOJ - General Administration
+  - DOJ - Interagency Law Enforcement
+  - DOJ - Departmental Management
+  - State - Other
+  - State - International Commissions
+  - State - International Organizations and Conferences
+  - Interior - Department-Wide Programs
+  - Interior - Departmental Offices
+  - Interior - Insular Affairs (or should be renamed?)
+  - Treasury - Departmental Offices
+  - Treasury - Fiscal Service (or should be renamed?)
+  - Treasury - Interest on the Public Debt
+  - DOT - Maritime Administration
+  - VA - Benefits Programs
+  - EOP - Unanticipated Needs
+- Remove agency repeated at bureau level?
+- Add in entities that are commonly thought of as agencies, e.g. FERC.
+  - DOD?
 
 
 
