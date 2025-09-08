@@ -63,6 +63,8 @@ One of the two best solutions for applying a consistent agency/bureau listing wo
   - VA - Benefits Programs
   - EOP - Unanticipated Needs
 - Remove agency repeated at bureau level?
+- Rename agencies by changing U.S. to United States
+- Consider renaming agencies by removing superflous `United States `
 - Add in entities that are commonly thought of as agencies, e.g. FERC.
   - DOD?
 
