@@ -39,7 +39,7 @@ Department of Agriculture,Food and Nutrition Service
 Department of Agriculture,Food Safety and Inspection Service    
 Department of Agriculture,Foreign Agricultural Service    
 Department of Agriculture,Forest Service    
-Department of Agriculture,"Grain Inspection, Packers and Stockyards Administration    "
+Department of Agriculture,"Grain Inspection, Packers and Stockyards Administration"
 Department of Agriculture,Hazardous Materials Management    
 Department of Agriculture,National Agricultural Statistics Service    
 Department of Agriculture,National Institute of Food and Agriculture    
@@ -76,7 +76,7 @@ Department of Education,Department of Education
 Department of Education,Departmental Management    
 Department of Education,Disaster Education Recovery    
 Department of Education,Institute of Education Sciences    
-Department of Education,"Office of Career, Technical, and Adult Education    "
+Department of Education,"Office of Career, Technical, and Adult Education"
 Department of Education,Office of Elementary and Secondary Education    
 Department of Education,Office of English Language Acquisition    
 Department of Education,Office of Federal Student Aid    
@@ -300,10 +300,10 @@ Office of Congressional Workplace Rights    ,
 Senate    ,
 United States Tax Court    ,
 American Battle Monuments Commission    ,
-"Armed Forces Retirement Home    , ",
+Armed Forces Retirement Home,
 Cemeterial Expenses    ,
 Educational Benefits    ,
-"Forest and Wildlife Conservation, Military Reservations   ,  , ",
+"Forest and Wildlife Conservation, Military Reservations",
 Military Retirement    ,
 Other Defense Civil Programs    ,
 Retiree Health Care    ,
@@ -322,7 +322,7 @@ Securities and Exchange Commission    ,
 Securities Investor Protection Corporation    ,
 Small Business Administration    ,
 Smithsonian Institution    ,
-"Social Security Administration    , ",
+"Social Security Administration",
 Southeast Crescent Regional Commission    ,
 Southwest Border Regional Commission    ,
 Standard Setting Body    ,
@@ -337,6 +337,7 @@ United States Holocaust Memorial Museum    ,
 United States Institute of Peace    ,
 United States Interagency Council on Homelessness    ,
 Vietnam Education Foundation    ,
+
 
 
 
