@@ -1,0 +1,427 @@
+Agency,OMB Codes - Agency,OMB Codes - Bureau,Treasury Agency Codes,CGAC Agency Codes
+Legislative Branch,,,,
+Senate,1,5,0,0
+House of Representatives,1,10,0,0
+Joint Items,1,11,0,0
+Capitol Police,1,13,2,2
+Office of Congressional Workplace Rights,1,12,9,9
+Congressional Budget Office,1,14,8,8
+Architect of the Capitol,1,15,1,1
+Botanic Garden,1,18,9,9
+Library of Congress,1,25,3,3
+Government Publishing Office,1,30,4,4
+Government Accountability Office,1,35,5,5
+United States Tax Court,1,40,23,23
+Legislative Branch Boards and Commissions,1,45,9,9
+Legislative Branch Boards and Commissions,1,45,48,Multiple
+Legislative Branch Boards and Commissions,1,45,95,Multiple
+Judicial Branch,,,,
+Judicial Branch,2,0,10,10
+Supreme Court of the United States,2,5,10,10
+United States Court of Appeals for the Federal Circuit,2,7,10,10
+United States Court of International Trade,2,15,10,10
+"Courts of Appeals, District Courts, and Other Judicial Services",2,25,10,10
+Administrative Office of the United States Courts,2,26,10,10
+Federal Judicial Center,2,30,10,10
+Judicial Retirement Funds,2,35,10,10
+United States Sentencing Commission,2,39,10,10
+Department of Agriculture,,,,
+Department of Agriculture,5,0,12,12
+Office of the Secretary,5,3,12,12
+Executive Operations,5,4,12,12
+Office of Chief Information Officer,5,12,12,12
+Office of Chief Financial Officer,5,14,12,12
+Office of Civil Rights,5,7,12,12
+Hazardous Materials Management,5,16,12,12
+Buildings and Facilities,5,19,12,12
+Office of Inspector General,5,8,12,12
+Office of the General Counsel,5,10,12,12
+Economic Research Service,5,13,12,12
+National Agricultural Statistics Service,5,15,12,12
+Agricultural Research Service,5,18,12,12
+National Institute of Food and Agriculture,5,20,12,12
+Animal and Plant Health Inspection Service,5,32,12,12
+Food Safety and Inspection Service,5,35,12,12
+Agricultural Marketing Service,5,45,12,12
+Farm Production and Conservation,5,25,12,12
+Risk Management Agency,5,47,12,12
+Farm Service Agency,5,49,12,12
+Natural Resources Conservation Service,5,53,12,12
+Rural Development,5,55,12,12
+Rural Housing Service,5,63,12,12
+Rural Business-Cooperative Service,5,65,12,12
+Rural Utilities Service,5,60,12,12
+Foreign Agricultural Service,5,68,12,12
+Food and Nutrition Service,5,84,12,12
+Forest Service,5,96,12,12
+Department of Commerce,,,,
+Department of Commerce,6,0,13,13
+Departmental Management,6,5,13,13
+Economic Development Administration,6,6,13,13
+Bureau of the Census,6,7,13,13
+Bureau of Economic Analysis,6,8,13,13
+International Trade Administration,6,25,13,13
+Bureau of Industry and Security,6,30,13,13
+Minority Business Development Agency,6,40,13,13
+National Oceanic and Atmospheric Administration,6,48,13,13
+U.S. Patent and Trademark Office,6,51,13,13
+National Technical Information Service,6,54,13,13
+National Institute of Standards and Technology,6,55,13,13
+National Telecommunications and Information Administration,6,60,13,13
+Department of Defense--Military Programs,,,,
+Department of Defense--Military Programs,7,0,*,*
+Military Personnel,7,5,*,*
+Operation and Maintenance,7,10,*,*
+International Reconstruction and Other Assistance,7,12,*,*
+Procurement,7,15,*,*
+"Research, Development, Test, and Evaluation",7,20,*,*
+Military Construction,7,25,*,*
+Family Housing,7,30,*,*
+Revolving and Management Funds,7,40,*,*
+Allowances,7,45,*,*
+Trust Funds,7,55,*,*
+Department of Education,,,,
+Department of Education,18,0,91,91
+Office of Elementary and Secondary Education,18,10,91,91
+Office of Innovation and Improvement,18,12,91,91
+Office of English Language Acquisition,18,15,91,91
+Office of Special Education and Rehabilitative Services,18,20,91,91
+"Office of Career, Technical, and Adult Education",18,30,91,91
+Office of Postsecondary Education,18,40,91,91
+Office of Federal Student Aid,18,45,91,91
+Institute of Education Sciences,18,50,91,91
+Departmental Management,18,80,91,91
+Disaster Education Recovery,18,85,91,91
+Department of Energy,,,,
+Department of Energy,19,0,89,89
+National Nuclear Security Administration,19,5,89,89
+Environmental and Other Defense Activities,19,10,89,89
+Energy Programs,19,20,89,89
+Power Marketing Administration,19,50,89,89
+Departmental Administration,19,60,89,89
+Department of Health and Human Services,,,,
+Department of Health and Human Services,9,0,75,75
+Food and Drug Administration,9,10,75,75
+Health Resources and Services Administration,9,15,75,75
+Indian Health Service,9,17,75,75
+Centers for Disease Control and Prevention,9,20,75,75
+National Institutes of Health,9,25,75,75
+Substance Abuse and Mental Health Services Administration,9,30,75,75
+Agency for Healthcare Research and Quality,9,33,75,75
+Centers for Medicare and Medicaid Services,9,38,75,75
+Administration for Children and Families,9,70,75,75
+Administration for Community Living,9,75,75,75
+Administration for Strategic Preparedness and Response,9,76,75,75
+Departmental Management,9,90,75,75
+Program Support Center,9,91,75,75
+Office of the Inspector General,9,92,75,75
+Allowances,9,95,75,75
+Department of Homeland Security,,,,
+Department of Homeland Security,24,0,70,70
+Office of the Secretary and Executive Management,24,10,70,70
+Management Directorate,24,15,70,70
+Analysis and Operations,24,18,70,70
+Office of the Inspector General,24,20,70,70
+U.S. Customs and Border Protection,24,58,70,70
+U.S. Immigration and Customs Enforcement,24,55,70,70
+Transportation Security Administration,24,45,70,70
+United States Coast Guard,24,60,70,70
+United States Secret Service,24,40,70,70
+Cybersecurity and Infrastructure Security Agency,24,65,70,70
+Office of Health Affairs,24,68,70,70
+Federal Emergency Management Agency,24,70,70,70
+Citizenship and Immigration Services,24,30,70,70
+Federal Law Enforcement Training Center,24,49,70,70
+Science and Technology,24,80,70,70
+Countering Weapons of Mass Destruction Office,24,85,70,70
+Department of Housing and Urban Development,,,,
+Department of Housing and Urban Development,25,0,86,86
+Public and Indian Housing Programs,25,3,86,86
+Community Planning and Development,25,6,86,86
+Housing Programs,25,9,86,86
+Housing Supply,25,10,86,86
+Government National Mortgage Association,25,12,86,86
+Policy Development and Research,25,28,86,86
+Fair Housing and Equal Opportunity,25,29,86,86
+Office of Lead Hazard Control and Healthy Homes,25,32,86,86
+Management and Administration,25,35,86,86
+Department of the Interior,,,,
+Department of the Interior,10,0,14,14
+Bureau of Land Management,10,4,14,14
+Bureau of Ocean Energy Management,10,6,14,14
+Bureau of Safety and Environmental Enforcement,10,22,14,14
+Office of Surface Mining Reclamation and Enforcement,10,8,14,14
+Bureau of Reclamation,10,10,14,14
+Central Utah Project,10,11,14,14
+United States Geological Survey,10,12,14,14
+United States Fish and Wildlife Service,10,18,14,14
+National Park Service,10,24,14,14
+Bureau of Indian Affairs,10,76,14,14
+Bureau of Indian Education,10,77,14,14
+Departmental Offices,10,84,14,14
+Insular Affairs,10,85,14,14
+Office of the Solicitor,10,86,14,14
+Office of Inspector General,10,88,14,14
+Office of the Special Trustee for American Indians,10,90,14,14
+Bureau of Trust Funds Administration,10,78,14,14
+National Indian Gaming Commission,10,92,14,14
+Department-Wide Programs,10,95,14,14
+Department of Justice,,,,
+Department of Justice,11,0,15,15
+General Administration,11,3,15,15
+United States Parole Commission,11,4,15,15
+Legal Activities and U.S. Marshals,11,5,15,15
+National Security Division,11,8,15,15
+Radiation Exposure Compensation,11,6,15,15
+Interagency Law Enforcement,11,7,15,15
+Federal Bureau of Investigation,11,10,15,15
+Drug Enforcement Administration,11,12,15,15
+"Bureau of Alcohol, Tobacco, Firearms, and Explosives",11,14,15,15
+Federal Prison System,11,20,15,15
+Office of Justice Programs,11,21,15,15
+Department of Labor,,,,
+Department of Labor,12,0,16,16
+Employment and Training Administration,12,5,16,16
+Veterans' Employment and Training Service,12,6,16,16
+Employee Benefits Security Administration,12,11,16,16
+Pension Benefit Guaranty Corporation,12,12,16,16
+Office of Workers' Compensation Programs,12,15,16,16
+Wage and Hour Division,12,16,16,16
+Office of Federal Contract Compliance Programs,12,22,16,16
+Office of Labor Management Standards,12,23,16,16
+Occupational Safety and Health Administration,12,18,16,16
+Mine Safety and Health Administration,12,19,16,16
+Bureau of Labor Statistics,12,20,16,16
+Departmental Management,12,25,16,16
+Office of Disability Employment policy,12,26,16,16
+Department of State,,,,
+Department of State,14,0,19,19
+Department of State,14,0,67,"019, 067"
+Administration of Foreign Affairs,14,5,19,19
+International Organizations and Conferences,14,10,19,19
+International Commissions,14,15,19,19
+Other,14,25,"11, 19, 72","011, 019, 072"
+Other,14,25,95,570
+International Assistance Programs,,,,
+International Assistance Programs,184,0,72,72
+Millennium Challenge Corporation,184,3,95,"164, 166, 524"
+International Security Assistance,184,5,"11, 19, 72","011, 019, 072"
+Multilateral Assistance,184,10,"11, 12, 19, 72","011, 012, 019, 072"
+Agency for International Development,184,15,72,72
+Overseas Private Investment Corporation,184,20,71,71
+Trade and Development Agency,184,25,11,11
+United States International Development Finance Corporation,184,22,77,77
+Peace Corps,184,35,11,11
+Inter-American Foundation,184,40,95,164
+African Development Foundation,184,50,95,166
+International Monetary Programs,184,60,11,11
+Military Sales Program,184,70,11,"011, 097"
+Foreign Assistance Program Allowances,184,95,95,524
+Department of Transportation,,,,
+Department of Transportation,21,0,69,69
+Office of the Secretary,21,4,69,69
+Federal Aviation Administration,21,12,69,69
+Federal Highway Administration,21,15,69,69
+Federal Motor Carrier Safety Administration,21,17,69,69
+National Highway Traffic Safety Administration,21,18,69,69
+Federal Railroad Administration,21,27,69,69
+Federal Transit Administration,21,36,69,69
+Saint Lawrence Seaway Development Corporation,21,40,69,69
+Pipeline and Hazardous Materials Safety Administration,21,50,69,69
+Office of Inspector General,21,56,69,69
+Surface Transportation Board,21,61,69,69
+Maritime Administration,21,70,69,69
+Department of the Treasury,,,,
+Department of the Treasury,15,0,20,20
+Departmental Offices,15,5,20,20
+Financial Crimes Enforcement Network,15,4,20,20
+Fiscal Service,15,12,20,20
+Federal Financing Bank,15,11,20,20
+Alcohol and Tobacco Tax and Trade Bureau,15,13,20,20
+Bureau of Engraving and Printing,15,20,20,20
+United States Mint,15,25,20,20
+Internal Revenue Service,15,45,20,20
+Comptroller of the Currency,15,57,20,20
+Interest on the Public Debt,15,60,20,20
+Department of Veterans Affairs,,,,
+Department of Veterans Affairs,29,0,36,36
+Veterans Health Administration,29,15,36,36
+Benefits Programs,29,25,36,36
+Departmental Administration,29,40,36,36
+Corps of Engineers--Civil Works,202,0,96,96
+Other Defense Civil Programs,,,,
+Military Retirement,200,5,97,97
+Retiree Health Care,200,7,97,97
+Educational Benefits,200,10,97,97
+American Battle Monuments Commission,200,15,74,74
+Armed Forces Retirement Home,200,20,84,"017, 084"
+Cemeterial Expenses,200,25,21,21
+"Forest and Wildlife Conservation, Military Reservations",200,30,"17, 97","017, 097"
+Selective Service System,200,45,90,90
+Other Defense Civil Programs,200,0,84,84
+Environmental Protection Agency,20,0,68,68
+Executive Office of the President,,,,
+The White House,100,5,11,11
+Executive Residence at the White House,100,10,11,11
+Special Assistance to the President and the Official Residence of the Vice President,100,15,11,11
+Council of Economic Advisers,100,20,11,11
+Council on Environmental Quality and Office of Environmental Quality,100,25,11,11
+National Security Council and Homeland Security Council,100,35,11,11
+Office of the National Cyber Director,100,37,11,11
+Office of Pandemic Preparedness and Response,100,38,11,11
+Office of Administration,100,50,11,11
+Office of Management and Budget,100,55,11,11
+Office of National Drug Control Policy,100,60,11,11
+Office of Science and Technology Policy,100,65,11,11
+National Space Council,100,40,11,11
+Office of the United States Trade Representative,100,70,11,11
+Unanticipated Needs,100,95,11,11
+General Services Administration,,,,
+General Services Administration,23,0,47,47
+Real Property Activities,23,5,47,47
+Supply and Technology Activities,23,10,47,47
+General Activities,23,30,47,47
+National Aeronautics and Space Administration,26,0,80,80
+National Science Foundation,422,0,49,49
+Office of Personnel Management,27,0,24,24
+Small Business Administration,28,0,73,73
+Social Security Administration,16,0,28,"028, 075"
+Other Agencies,,,,
+400 Years of African-American History Commission,247,0,48,247
+Access Board,310,0,95,310
+Administrative Conference of the United States,302,0,95,302
+Advisory Council on Historic Preservation,306,0,95,306
+Alyce Spotted Bear and Walter Soboleff Commission on Native Children,545,0,48,545
+Appalachian Regional Commission,309,0,46,309
+Barry Goldwater Scholarship and Excellence in Education Foundation,313,0,95,313
+Bureau of Consumer Financial Protection,581,0,95,581
+Central Intelligence Agency,316,0,56,56
+Chemical Safety and Hazard Investigation Board,510,0,95,510
+Civil Rights Cold Case Records Review Board,130,0,48,130
+Commission of Fine Arts,323,0,95,323
+Commission on Civil Rights,326,0,95,326
+Commission on Combating Synthetic Opioid Trafficking,256,0,48,256
+Committee for Purchase from People who are Blind or Severely Disabled,338,0,95,338
+Commodity Futures Trading Commission,339,0,95,339
+Consumer Product Safety Commission,343,0,61,61
+Corporation for National and Community Service,485,0,95,485
+Corporation for Public Broadcasting,344,0,20,20
+Council of the Inspectors General on Integrity and Efficiency,542,0,95,542
+Court Services and Offender Supervision Agency for the District of Columbia,511,0,95,511
+Defense Nuclear Facilities Safety Board,347,0,95,347
+Delta Regional Authority,517,0,95,517
+Denali Commission,513,0,95,513
+District of Columbia,,,,
+District of Columbia Courts,349,10,20,20
+District of Columbia Courts,349,10,95,349
+District of Columbia General and Special Payments,349,30,20,20
+Election Assistance Commission,525,0,95,525
+Equal Employment Opportunity Commission,350,0,45,45
+Export-Import Bank of the United States,351,0,83,83
+Farm Credit Administration,352,0,78,352
+Farm Credit System Insurance Corporation,355,0,78,355
+Federal Communications Commission,356,0,27,27
+Federal Deposit Insurance Corporation,,,,
+Deposit Insurance,357,20,51,51
+FSLIC Resolution,357,30,51,51
+Orderly Liquidation,357,35,51,51
+FDIC Office of Inspector General,357,40,51,51
+Federal Drug Control Programs,154,0,11,11
+Federal Election Commission,360,0,95,360
+Federal Financial Institutions Examination Council,362,10,95,362
+Federal Financial Institutions Examination Council Appraisal Subcommittee,362,20,95,362
+Federal Housing Finance Agency,537,0,95,537
+Federal Labor Relations Authority,365,0,54,54
+Federal Maritime Commission,366,0,65,65
+Federal Mediation and Conciliation Service,367,0,93,93
+Federal Mine Safety and Health Review Commission,368,0,95,368
+Federal Permitting Improvement Council,473,0,95,473
+Federal Trade Commission,370,0,29,29
+Great Lakes Authority,589,0,95,589
+Gulf Coast Ecosystem Restoration Council,586,0,95,471
+Harry S Truman Scholarship Foundation,372,0,95,372
+Independent Payment Advisory Board,578,0,95,578
+Indian Law and Order Commission,584,0,48,584
+Institute of American Indian and Alaska Native Culture and Arts Development,373,0,95,373
+Institute of Museum and Library Services,474,0,53,474
+Intelligence Community Management Account,467,0,95,467
+International Trade Commission,378,0,34,34
+James Madison Memorial Fellowship Foundation,381,0,95,381
+Japan-United States Friendship Commission,382,0,95,382
+Legal Services Corporation,385,0,20,20
+Marine Mammal Commission,387,0,95,387
+Merit Systems Protection Board,389,0,41,389
+Military Compensation and Retirement Modernization Commission,479,0,48,479
+Morris K. Udall and Stewart L. Udall Foundation,487,0,95,487
+National Archives and Records Administration,393,0,88,88
+National Capital Planning Commission,394,0,95,394
+"National Commission on Military, National, and Public Service",236,0,48,236
+National Commission on Military Aviation Safety,246,0,48,246
+National Council on Disability,413,0,95,413
+National Credit Union Administration,415,0,25,25
+National Endowment for the Arts,417,0,59,417
+National Endowment for the Humanities,418,0,43,418
+National Labor Relations Board,420,0,63,420
+National Mediation Board,421,0,95,421
+National Railroad Passenger Corporation Office of Inspector General,575,0,48,575
+National Security Commission on Artificial Intelligence,245,0,48,245
+National Transportation Safety Board,424,0,95,424
+Neighborhood Reinvestment Corporation,428,0,82,82
+Northern Border Regional Commission,573,0,95,573
+Nuclear Regulatory Commission,429,0,31,31
+Nuclear Waste Technical Review Board,431,0,48,431
+Occupational Safety and Health Review Commission,432,0,95,432
+Office of Government Ethics,434,0,95,434
+Office of Navajo and Hopi Indian Relocation,435,0,48,435
+Office of Special Counsel,436,0,62,62
+Office of the Federal Coordinator for Alaska Natural Gas Transportation,534,0,95,534
+Other Commissions and Boards,505,0,48,Multiple
+Other Commissions and Boards,505,0,95,Multiple
+Patient-Centered Outcomes Research Trust Fund,579,0,95,579
+Postal Service,440,0,18,18
+Presidio Trust,512,0,95,512
+Privacy and Civil Liberties Oversight Board,535,0,95,535
+Public Buildings Reform Board,290,0,48,290
+Public Defender Service for the District of Columbia,587,0,95,511
+Puerto Rico Oversight Board,328,0,48,328
+Railroad Retirement Board,446,0,60,60
+Recovery Act Accountability and Transparency Board,539,0,95,539
+Securities and Exchange Commission,449,0,50,50
+Smithsonian Institution,452,0,33,33
+Southeast Crescent Regional Commission,574,0,95,574
+Southwest Border Regional Commission,569,0,95,569
+State Justice Institute,453,0,48,453
+Surface Transportation Board,472,0,95,472
+Tennessee Valley Authority,455,0,64,455
+United States Agency for Global Media,514,0,95,514
+United States Court of Appeals for Veterans Claims,345,0,95,345
+United States Enrichment Corporation Fund,486,0,95,486
+United States Holocaust Memorial Museum,456,0,95,456
+United States Institute of Peace,458,0,95,458
+United States Interagency Council on Homelessness,376,0,48,376
+Vietnam Education Foundation,519,0,95,519
+Federally Created Non-Federal Entities,,,,
+Affordable Housing Program,530,0,95,530
+Corporation for Travel Promotion,580,0,95,580
+Electric Reliability Organization,531,0,95,531
+Federal Retirement Thrift Investment Board,369,0,26,26
+Medical Center Research Organizations,185,0,99,185
+National Association of Registered Agents and Brokers,543,0,95,543
+National Oilheat Research Alliance,544,0,48,544
+Public Company Accounting Oversight Board,526,0,95,526
+Securities Investor Protection Corporation,576,0,95,576
+Standard Setting Body,527,0,95,527
+United Mine Workers of America Benefit Funds,476,0,95,476
+Government Sponsored Enterprises,,,,
+Federal National Mortgage Association,915,0,39,915
+Federal Home Loan Mortgage Corporation,914,0,39,"913, 914"
+Federal Home Loan Bank System,913,0,39,913
+Farm Credit System,912,0,39,912
+Financing Vehicles and the Board of Governors of the Federal Reserve,,,,
+Financing Vehicles and the Board of Governors of the Federal Reserve,920,0,39,920
+"* Under Department of Defense-Military Programs, Treasury agency codes and CGAC agency codes are assigned as follows:",,,,
+Agency,,,Treasury Agency Code,CGAC Agency Code
+"Navy, Marine Corps",,,17,17
+Army,,,21,21
+Air Force,,,57,57
+Defense-wide,,,97,97
