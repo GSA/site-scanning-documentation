@@ -1,7 +1,11 @@
 
 ## Updating the digital.gov pages
 
-* Log in [here](https://cms.digital.gov/user/login), and then go [here](https://cms.digital.gov/guides/site-scanning/technical-details#content-start).  Edit in the top right corner under local tasks.  
+* Log in [here](https://cms.digital.gov/user/login), and then go [here](https://cms.digital.gov/guides/site-scanning/technical-details#content-start).  Edit in the top right corner under local tasks.
+
+## Respond to Zendesk tickets
+- `Take it`
+- Send a `public  note`
 
 ## Updating the api docs
 
