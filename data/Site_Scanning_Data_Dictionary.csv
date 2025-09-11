@@ -93,9 +93,10 @@ USWDS - Here's How Link,uswds_banner_heres_how,Presence of the USWDS 'official w
 USWDS - USA Classes,uswds_usa_classes,Presence of known USWDS classes in CSS,integer,no
 USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,integer,no
 USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,integer,no
-USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,string,no
+USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,string,no 
 USWDS - Version,uswds_version,"Presence of version of USWDS, if available",integer,no
 USWDS - Count,uswds_count,"Calculated likelihood a site is using USWDS. Derived by adding the detected USWDS components together, the higher the number the more USWDS-y it is.",integer,no
 WWW - URL,www_url,"Final URL that resolves when `www.` is added to the begining of the Initial URL",string,no
 WWW - Status Code,www_status_code,"HTTP status code when `www.` is added to the begining of the Initial URL",numeric,no
 WWW - Title,www_title,"Meta page title when `www.` is added to the begining of the Initial URL",string,no
+
