@@ -65,7 +65,7 @@ No change,Department of Commerce,National Technical Information Service,6,54,13,
 No change,Department of Commerce,National Institute of Standards and Technology,6,55,13,13
 No change,Department of Commerce,National Telecommunications and Information Administration,6,60,13,13
 Remove,Department of Defense,Department of Defense--Military Programs,,,,
-Remove,Department of Defense,Department of Defense--Military Programs,7,0,*,*
+Rename bureau,Department of Defense,Department of Defense--Military Programs,7,0,*,*
 Remove,Department of Defense,Military Personnel,7,5,*,*
 Remove,Department of Defense,Operation and Maintenance,7,10,*,*
 Remove,Department of Defense,International Reconstruction and Other Assistance,7,12,*,*
@@ -194,16 +194,16 @@ Remove,Department of State,Other,14,25,"11, 19, 72","011, 019, 072"
 Remove,Department of State,Other,14,25,95,570
 Remove,Department of State,International Assistance Programs,,,,
 Remove,Department of State,International Assistance Programs,184,0,72,72
-No change,Department of State,Millennium Challenge Corporation,184,3,95,"164, 166, 524"
+Bureau -> Agency,Department of State,Millennium Challenge Corporation,184,3,95,"164, 166, 524"
 Remove,Department of State,International Security Assistance,184,5,"11, 19, 72","011, 019, 072"
 Remove,Department of State,Multilateral Assistance,184,10,"11, 12, 19, 72","011, 012, 019, 072"
-No change,Department of State,Agency for International Development,184,15,72,72
-No change,Department of State,Overseas Private Investment Corporation,184,20,71,71
-No change,Department of State,Trade and Development Agency,184,25,11,11
-No change,Department of State,United States International Development Finance Corporation,184,22,77,77
-No change,Department of State,Peace Corps,184,35,11,11
-No change,Department of State,Inter-American Foundation,184,40,95,164
-No change,Department of State,African Development Foundation,184,50,95,166
+Bureau -> Agency,Department of State,Agency for International Development,184,15,72,72
+Bureau -> Agency,Department of State,Overseas Private Investment Corporation,184,20,71,71
+Bureau -> Agency,Department of State,Trade and Development Agency,184,25,11,11
+Bureau -> Agency,Department of State,United States International Development Finance Corporation,184,22,77,77
+Bureau -> Agency,Department of State,Peace Corps,184,35,11,11
+Bureau -> Agency,Department of State,Inter-American Foundation,184,40,95,164
+Bureau -> Agency,Department of State,African Development Foundation,184,50,95,166
 Remove,Department of State,International Monetary Programs,184,60,11,11
 Remove,Department of State,Military Sales Program,184,70,11,"011, 097"
 Remove,Department of State,Foreign Assistance Program Allowances,184,95,95,524
@@ -261,7 +261,7 @@ No change,Executive Office of the President,Office of Science and Technology Pol
 No change,Executive Office of the President,National Space Council,100,40,11,11
 No change,Executive Office of the President,Office of the United States Trade Representative,100,70,11,11
 Remove,Executive Office of the President,Unanticipated Needs,100,95,11,11
-No change,General Services Administration,General Services Administration,23,0,47,47
+Remove bureau,General Services Administration,General Services Administration,23,0,47,47
 Remove,General Services Administration,Real Property Activities,23,5,47,47
 Remove,General Services Administration,Supply and Technology Activities,23,10,47,47
 Remove,General Services Administration,General Activities,23,30,47,47
