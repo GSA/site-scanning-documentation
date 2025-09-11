@@ -3,6 +3,10 @@
 - [2025 A-11 Agency/Bureau Codes Table](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/omb_bureau_codes-2025.csv) (Derived from [here](https://www.whitehouse.gov/wp-content/uploads/2025/08/a11.pdf#page=715))
 - [2025 A-11 Agency/Bureau Codes Table - Flattened](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OMB-2025.csv)
 - [2025 A-11 Agency/Bureau Codes Table - With Proposed Changes](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_List-OMB-modified-2025.csv)
+- Summary of the proposed changes in ^^^^
+  - Promote Navy, Marine Corps; Army; Air Force to replace the bureau fields for DoD
+  - Remove bureau entries for GSA and FDIC
+  - Promote the bureau entries for the following entries up to agency level:  `International Assistance Programs`, `Judicial Branch`, and `Legislative Branch`.
 
 ========================
 
