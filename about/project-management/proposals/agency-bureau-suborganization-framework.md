@@ -4,9 +4,10 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 
 ### Current State
 
-* .gov Registry -
+* .gov Registry - Utilizes two levels, `organization` and `suborganization`.  "We define a suborganization as any entity (agency, bureau, office) that falls under the overarching organization."
 * OMB -
-* Site Scanning - 
+* Site Scanning -
+* OPM - Agency, Sub-Agency
 
 
 ### Proposal
