@@ -10,14 +10,23 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 * OPM - Agency, Sub-Agency
 
 
-### Proposal
+### Proposal #1
 
-* Agency should only be populated with a value from the Agency column in this table.
-* Only the 15 executive departments should populate the Bureau column, and they should do so only with a value from the Bureau values associated with their department in this table.  
+* Agency should only be populated with a value from the `agency` column in X table.
+* Only the 15 executive departments should populate the `bureau` column, and they should do so only with a value from the `bureau` values associated with their department in X table.  
 * `Suborganization` should be used for any entity below an agency or agency/bureau.
 * Deprecate the use of `office` in this effort as it is informal and less versitile/partially in conflict with `suborganization`.
 
+
 The above guidelines serve to align these inventories with currently used OMB agency and bureau codes and will enable much better interoperability across numerous programs.  
+
+
+### Proposal #2
+
+* Adopt the OPM dataset outright.
+* Depreate use of `Bureau`
+
+
 
 
 ### Edge Cases and Questions
