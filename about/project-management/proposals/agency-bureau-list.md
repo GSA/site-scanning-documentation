@@ -36,11 +36,21 @@ To begin with, I'm assembling currently available resources.  Below are descript
 -  [ACUS Sourcebook of US Executive Agencies Data](https://www.acus.gov/appendix/sourcebook-data)
 -  [US Government Manual Org Chart/List of Boards, Commissions, and Committees/Agency Acronyms](https://www.usgovernmentmanual.gov/).
 
+Other sources identified but Unused in the initial review:
+- [2025 GPO effort](https://github.com/usgpo/innovation/issues/92)
+- OPM's Raw data exports - Starting [here](https://www.opm.gov/data/datasets/), choosing the most recent 'FedScope Employment Cube', downloading and extracting the zip folder, and importing DTagy.txt.
+- [OPM's FEDSCOPE Interface](https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABnsT72MN42oVOsW6DQAz9mTNph0Y_wyVhYIDjUBiANLBXlFzSqsBFcB3y9xUwpFWGvidL9vN7lp2yWJdVcVRpHIzWDDqNn4DocyNI4jZU6PncQ0%7EtfIHRZiO5UKREtAWiZ2fKqvAo94ew2gdASWN6q3sLlJxNe9IDiAg87OtOgxuvDnXzVV%7E0_Ka6a2tune7tCkQMlFyXzV%7E73QWEL0Aov4dhmTLT248p68SlXMsiz5Ws0iLPw0wF%7E_Wc6DU4IzKOiJwjYwyZQEbIJjIWXnTf3IAQ6ASEYdsC_pkZ7eMpQJ8B7YBcBNIc6B3IXwR_F9gMIHey%7EwKfOXfLO3MtTyz4AbZLbJc%3D)
+
 
 #### Notes
 - ACUS report "[Mapping the Contours of the Federal Government](https://www.acus.gov/sites/default/files/documents/EXCERPT_ABA_Spring2013_final.pdf)"
 - [Link to lists, combined and compared (recommended, though still a work in progress)](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency_Bureau%20Lists-combined.csv) 
 - [Link to worksheet with notes and further analysis (work in progress)](https://github.com/GSA/site-scanning-documentation/raw/refs/heads/main/about/project-management/datasets/Agency_Bureau%20Lists%20-%20Working%20Notes.xlsx)
+
+
+
+
+
 
 ## Analysis of Options
 
