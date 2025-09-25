@@ -12,10 +12,11 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 
 ### Current State
 
-* .gov Registry - Utilizes two levels, `organization` and `suborganization`.  "We define a suborganization as any entity (agency, bureau, office) that falls under the overarching organization."
-* OMB -
-* Site Scanning -
-* OPM - Agency, Sub-Agency - 
+* .gov Registry - Utilizes two levels, `organization` and `suborganization`.  "We define a suborganization as any entity (agency, bureau, office) that falls under the overarching organization."  Example [data](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv).  
+* OMB - A-11 contains an appendix that tracks utilizes two levels, `agency` and `bureau`.  Example [data](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/omb_bureau_codes-2025.csv).  
+* Site Scanning - Pulls in the two level data from the .gov registry but then renames it `agency` and `bureau` respectively. [Example data](https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv
+). 
+* OPM - Agency, Sub-Agency - Utilizes two levels, `agency` and `sub-agency`.  [Example data](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/OPM-AGY-9-25.csv).  
 
 
 ### Proposal #1
@@ -26,13 +27,16 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 * Deprecate the use of `office` in this effort as it is informal and less versitile/partially in conflict with `suborganization`.
 
 
-The above guidelines serve to align these inventories with currently used OMB agency and bureau codes and will enable much better interoperability across numerous programs.  
-
-
 ### Proposal #2
 
 * Adopt the OPM dataset outright.
 * Depreate use of `Bureau`
+
+### Proposal #3 
+
+* Start with the OMB list, fail over to OPM when necessary, and then rarely fail over to what agencies have crowdsourced already by way of the .gov registry information.  
+
+
 
 
 
