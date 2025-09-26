@@ -46,3 +46,14 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 - Should we encourage non-department agencies to populate the bureau field with n/a?
 
 
+
+
+
+
+
+Steps to Combine datasets 
+- Lowercase Of, The, And, For
+
+
+
+
