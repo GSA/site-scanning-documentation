@@ -1,8 +1,27 @@
 
 ### Conclusion
 
+* [Final combined file](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv)
 * [Crossmatch of OMB A-11/OPM Fedscope/CISA .gov registry agency/bureau names](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv)
 * 
+
+
+Process for selecting agency and suborganization names:
+- Start with the OMB A-11 agency/bureau list.
+- Remove any entries which are not entities.
+- Pull in agencies and sub-agency entries that exist in the OPM Fedscope list but not the OMB list.
+- In the rare case of agencies with few/no bureaus or sub-agencies (e.g. Energy, State), use the govsourced list of suborganizations in the .gov registry.
+
+Instructions for utilizing the agency/suborganization list, when populating a website inventory:  
+- Only use values in Column B (Agency) for the `agency` field.
+- Only use values in Column C (Sub-organization) that correspond with your agency for the `sub-organization` field.
+- Any office or entity that exists below an established `sub-organization` entry should go in the `sub-organization2` field.
+- If there is a desired sub-organization that is not represented in the agency/sub-organization list and is parallel with the other entries in that field, contact the Site Scanning team to request it be added to the list of first tier sub-organizations.  
+
+
+
+
+
 
 -------------------
 
