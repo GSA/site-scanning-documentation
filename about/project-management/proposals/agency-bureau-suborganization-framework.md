@@ -46,6 +46,15 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 * Deprecate the use of `office` in this effort as it is informal and less versitile/partially in conflict with `suborganization`.
 
 
+
+| Agency	 | Bureau, if you're a department	 | Suborganizatons |
+| --- | --- | --- | 
+| Dept. of A |  Bureau B | Office A  | 
+| Dept. of A | | 	Office K |  
+| Agency K |  | 	Office D |  
+
+
+
 ### Proposal #2
 
 * Adopt the OPM dataset outright.
