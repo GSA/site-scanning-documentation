@@ -47,22 +47,42 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 
 
 
-| Agency	 | Bureau, if you're a department	 | Suborganizatons |
+| Agency	 | Bureau, if you're a department	 | Suborganization |
 | --- | --- | --- | 
 | Dept. of A |  Bureau B | Office A  | 
 | Dept. of A | | 	Office K |  
 | Agency K |  | 	Office D |  
 
 
-
 ### Proposal #2
+
+* Agency should only be populated with a value from the `agency` column in X table.
+* Suborganization should only be populated with a value from the `suborganization` column in X table.
+* Suborganization2 can be populated with anything below a suborganization listed in the `suborganization` column in X table.
+
+
+| Agency	 | Suborganization | Suborganization2 |
+| --- | --- | --- | 
+| Dept. of A |  Bureau B | Office A  | 
+| Dept. of A | Office K | 	 |  
+| Agency K | Office D | 	 |  
+
+
+
+
+
+### Proposal #3
+
+* Start with the OMB list, fail over to OPM when necessary, and then rarely fail over to what agencies have crowdsourced already by way of the .gov registry information.
+
+
+
+### Proposal #4
 
 * Adopt the OPM dataset outright.
 * Depreate use of `Bureau`
 
-### Proposal #3 
 
-* Start with the OMB list, fail over to OPM when necessary, and then rarely fail over to what agencies have crowdsourced already by way of the .gov registry information.  
 
 
 
