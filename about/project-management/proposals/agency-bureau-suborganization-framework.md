@@ -1,21 +1,23 @@
 
 ### Conclusion
 
+Proposal #3 below works best.  
+
 * [Final combined file](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv)
-* [Crossmatch of OMB A-11/OPM Fedscope/CISA .gov registry agency/bureau names](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv)
+* [Crossmatch of OMB A-11/OPM Fedscope/CISA .gov registry agency/bureau names for comparison](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv)
 
 
-Process for selecting agency and suborganization names:
+Process for hybridizing the OMB and OPM datasets, starting from the crossmatch file above:
 - Start with the OMB A-11 agency/bureau list.
 - Remove any entries which are not entities.
 - Pull in agencies and sub-agency entries that exist in the OPM Fedscope list but not the OMB list.
-- In the rare case of agencies with few/no bureaus or sub-agencies (e.g. Energy, State), use the govsourced list of suborganizations in the .gov registry.
+- In the rare case of agencies with few/no bureaus or sub-agencies (e.g. Energy, State), use the 'govsourced' list of suborganizations in the .gov registry.
 
-Instructions for utilizing the agency/suborganization list, when populating a website inventory:  
+Instructions for utilizing the [agency/suborganization list](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv), when populating a website inventory:  
 - Only use values in Column B (Agency) for the `agency` field.
-- Only use values in Column C (Sub-organization) that correspond with your agency for the `sub-organization` field.
-- Any office or entity that exists below an established `sub-organization` entry should go in the `sub-organization2` field.
-- If there is a desired sub-organization that is not represented in the agency/sub-organization list and is parallel with the other entries in that field, contact the Site Scanning team to request it be added to the list of first tier sub-organizations.  
+- Only use values in Column C (Suborganization) that correspond with your agency for the `suborganization` field.
+- Any office or entity that exists below an established `suborganization` entry should go in the `suborganization2` field.
+- If there is a desired suborganization that is not represented in the agency/suborganization list and is parallel with the other entries in that field, contact the Site Scanning team to request it be added to the list of first tier suborganizations.  
 
 
 
@@ -37,12 +39,15 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 * OPM - Agency, Sub-Agency - Utilizes two levels, `agency` and `sub-agency`.  [Example data](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/OPM-AGY-9-25.csv).  
 
 
+
+
 ### Proposal #1
 
-* Agency should only be populated with a value from the `agency` column in X table.
-* Only the 15 executive departments should populate the `bureau` column, and they should do so only with a value from the `bureau` values associated with their department in X table.  
+**Adopt OMB model outright**
+
+* Agency should only be populated with a value from the `agency` column in the [OMB A-11 dataset](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv).  
+* Only the 15 executive departments should populate the `bureau` column, and they should do so only with a value from the `bureau` values associated with their department in the [OMB A-11 dataset](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv).  
 * `Suborganization` should be used for any entity below an agency or agency/bureau.
-* Deprecate the use of `office` in this effort as it is informal and less versitile/partially in conflict with `suborganization`.
 
 
 
@@ -52,11 +57,36 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 | Dept. of A | | 	Office K |  
 | Agency K |  | 	Office D |  
 
+**Pros**: 
+- Adheres closely to one dataset (A-11 Appendix C).
+
+**Cons**:
+- Lots of empty `bureau` fields.
+- Aligns poorly with current or future .gov registry hierarchy.
+- Excludes numerous agencies and sub-agencies that OPM dataset has.  
+
+
 
 ### Proposal #2
 
-* Agency should only be populated with a value from the `agency` column in X table.
-* Suborganization should only be populated with a value from the `suborganization` column in X table.
+**Adopt OPM model outright**
+
+* Agency should only be populated with a value from the `agency` column in the [OPM Fedscope dataset](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv).
+* Suborganization should only be populated by a value from the `sub-agency` column in the [OPM Fedscope dataset](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv).
+
+**Pros**: 
+- Adheres closely to one dataset (OPM Fedscope). 
+
+**Cons**:
+- Excludes Legislative, Judicial Branches.
+- Excludes numerous agencies and sub-agencies that OMB dataset has.  
+
+### Proposal #3
+
+**Adopt hybrid OMB/OPM model**
+
+* Agency should only be populated with a value from the `agency` column in [this table](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv).
+* Suborganization should only be populated with a value from the `suborganization` column in [this table](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv).
 * Suborganization2 can be populated with anything below a suborganization listed in the `suborganization` column in X table.
 
 
@@ -67,22 +97,13 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 | Agency K | Office D | 	 |  
 
 
+**Pros**: 
+- Aligns better with .gov registry hierachy.
+- Lessens Bureau/Office confusion.
+- Looks better and cleaner.
 
-
-
-### Proposal #3
-
-* Start with the OMB list, fail over to OPM when necessary, and then rarely fail over to what agencies have crowdsourced already by way of the .gov registry information.
-
-
-
-### Proposal #4
-
-* Adopt the OPM dataset outright.
-* Depreate use of `Bureau`
-
-
-
+**Cons**:
+- Doesn't closely align with either OMB or OPM dataset.  
 
 
 
