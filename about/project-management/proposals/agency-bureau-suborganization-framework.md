@@ -6,6 +6,8 @@ Proposal #3 below works best.
 * [Final combined file](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv)
 * [Crossmatch of OMB A-11/OPM Fedscope/CISA .gov registry agency/bureau names for comparison](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv)
 
+TL;DR Explanation: OMB maintains a consistent agency/bureau dataset as seen in A-11.  OPM maintains a consistent agency/sub-agency dataset as seen in Fedscope.  For our purposes, an agency value can only be from the OMB or the OPM list of 'Agencies'.  A suborganization value can only be from the OMB list of 'Bureaus' or the OPM list of 'Sub-Agencies'. 
+
 
 Process for hybridizing the OMB and OPM datasets, starting from the crossmatch file above:
 - Start with the OMB A-11 agency/bureau list.
