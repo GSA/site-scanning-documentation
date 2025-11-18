@@ -1,7 +1,5 @@
 
-### Final Conclusion
-
-Proposal #3 below works best.  
+### Final Proposal
 
 * [Final combined file](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Suborganization-List-Combined.csv)
 * [Crossmatch of OMB A-11/OPM Fedscope/CISA .gov registry agency/bureau names for comparison](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/Agency-Bureau_Lists-OMB-OPM-dotgov_crossmatch-2025.csv)
@@ -30,9 +28,13 @@ Instructions for utilizing the [agency/suborganization list](https://github.com/
 
 -------------------
 
-Note - Deliberative Work Below 
+# Note - Deliberative Work Below 
 
 -------------------
+
+-------------------
+
+_Final decision - proposal #3 below works best.  Elaborating on above here..._
 
 
 ### Problem
