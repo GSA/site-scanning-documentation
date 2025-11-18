@@ -1,5 +1,5 @@
 
-### Conclusion
+### Final Conclusion
 
 Proposal #3 below works best.  
 
@@ -27,6 +27,13 @@ Instructions for utilizing the [agency/suborganization list](https://github.com/
 
 
 -------------------
+
+-------------------
+
+Note - Deliberative Work Below 
+
+-------------------
+
 
 ### Problem
 
@@ -111,17 +118,12 @@ How to line draw between `agency`, `bureau`, `office`, and `suborganization`.
 
 
 
-### Edge Cases and Questions
+#### Edge Cases and Questions
 - What should a department put in its bureau field for an entry that has a suborganization that is not in one of its listed bureaus.
 - Should we encourage non-department agencies to populate the bureau field with n/a?
 
 
-
-
-
-
-
-Steps to Combine datasets 
+#### Misc. Other Steps to Combine Datasets 
 - Lowercase Of, The, And, For
 
 
