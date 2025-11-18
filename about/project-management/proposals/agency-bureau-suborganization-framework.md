@@ -28,7 +28,7 @@ Instructions for utilizing the [agency/suborganization list](https://github.com/
 
 -------------------
 
-# Note - Deliberative Work Below 
+# Note - Deliberative Process Work Below.  Ignore unless you're interested.
 
 -------------------
 
