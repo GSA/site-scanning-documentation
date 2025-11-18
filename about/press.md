@@ -10,6 +10,7 @@
 - [Mike Gifford sheet](https://docs.google.com/spreadsheets/d/1CsXAzCzghYYwXzGCcrJqrsWpr5f7MbID2Qw6vQvi3sQ/edit?gid=497600811#gid=497600811)
 - [Touchpoints Integration](https://touchpoints.app.cloud.gov/admin/websites/252/statuscard)
 - [USWDS tracker](https://docs.google.com/spreadsheets/d/1bCEzabviTdroLJL2YmgBNtoQA_ZaMTYhc_QELkhjWCk/edit?gid=1730830077#gid=1730830077)
+- [Performance.gov CX Report](https://www.performance.gov/cx/websiteperformance/)
 - [DX Indicators Dashboard]([url](https://d2d.gsa.gov/report/digital-experience-dx-indicators))
 
 ## Other Comments 
