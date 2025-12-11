@@ -3,14 +3,14 @@
 block-beta
         columns 1
           block:ID
-            A
-            B["A wide one in the middle"]
-            C
+            Agency A website inventory
+            Agency B website inventory
+            Agency C website inventory
           end
           space
           D
+            Public Website Inventory
           ID --> D
-          C --> D
           style B fill:#d6dAdding,stroke:#333,stroke-width:4px
 
 ```
