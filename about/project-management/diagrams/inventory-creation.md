@@ -11,6 +11,9 @@ block-beta
           end
           space
             E["Public Website Inventory"]
-          ID --> D
+          A --> D
+          B --> D
+          C --> D
+          E --> D
           style B fill:#d6dAdding,stroke:#333,stroke-width:4px
 ```
