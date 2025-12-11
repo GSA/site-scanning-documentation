@@ -5,7 +5,6 @@ block-beta
             A["Agency A website inventory"]
             B["Agency B website inventory"]
             C["Agency C website inventory"]
-          end
           space
             D["Harvester combines inventories"]
           end
@@ -14,6 +13,6 @@ block-beta
           A --> D
           B --> D
           C --> D
-          E --> D
+          D --> E
           style B fill:#d6dAdding,stroke:#333,stroke-width:4px
 ```
