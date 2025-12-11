@@ -1,5 +1,4 @@
 ```mermaid
-
 block-beta
         columns 1
           block:ID
@@ -8,8 +7,10 @@ block-beta
             C["Agency C website inventory"]
           end
           space
-          D["Public Website Inventory"]
+            D["Harvester combines inventories"]
+          end
+          space
+            E["Public Website Inventory"]
           ID --> D
           style B fill:#d6dAdding,stroke:#333,stroke-width:4px
-
 ```
