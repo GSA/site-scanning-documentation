@@ -8,8 +8,6 @@ block-beta
           eof
           space
             D["Harvester combines inventories"]
-          end
-          space
             E["Public Website Inventory"]
           A --> D
           B --> D
