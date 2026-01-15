@@ -1,3 +1,18 @@
+# v2 
+
+### Creation of source files 
+
+- Confirm which source files are currently being utilitized
+- Confirm that they are present in the website index
+- Confirm how many entries each source file provides to the website index
+- 
+
+
+
+
+
+# v1 
+
 # Overview 
 
 | Step | Standard | How to Analyze | 
