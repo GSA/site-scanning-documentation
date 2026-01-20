@@ -5,7 +5,11 @@
 - Confirm which source files are currently being utilitized
 - Confirm that they are present in the website index
 - Confirm how many entries each source file provides to the website index
+
+
+### [Creation of the Site Scanning website index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
 - 
+
 
 
 
