@@ -2,13 +2,13 @@
 
 ### Creation of source files 
 
-- Confirm which source files are currently being utilitized
+- Confirm which source files are currently being utilitized ([list](https://github.com/GSA/federal-website-index/blob/main/builder/src/main.ts#L50-L77), [links](https://github.com/GSA/federal-website-index/blob/main/builder/src/config/source-list.config.ts))
 - Confirm that they are present in the website index
-- Confirm how many entries each source file provides to the website index
+- Confirm how many entries each source file provides to the website index ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
 
 
 ### [Creation of the Site Scanning website index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
-- 
+- Review the analysis report and ...  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv))
 
 
 
