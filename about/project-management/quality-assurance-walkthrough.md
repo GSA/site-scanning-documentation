@@ -10,7 +10,16 @@
 ### [Creation of the Site Scanning website index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
 - Review the analysis report and ...  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv))
 
+### Scanning 
 
+
+### S3 snapshot generation 
+
+
+### Subsequent snaphot generation 
+
+
+### Reports generation 
 
 
 
