@@ -2,7 +2,7 @@
 
 ### Creation of source files 
 
-* [ ] Confirm which source files are currently being utilitized ([list](https://github.com/GSA/federal-website-index/blob/main/builder/src/main.ts#L50-L77), [links](https://github.com/GSA/federal-website-index/blob/main/builder/src/config/source-list.config.ts))
+* [x] Confirm which source files are currently being utilitized ([list](https://github.com/GSA/federal-website-index/blob/main/builder/src/main.ts#L50-L77), [links](https://github.com/GSA/federal-website-index/blob/main/builder/src/config/source-list.config.ts))
 * [ ] Confirm that they are present in the website index
 * [ ] Confirm how many entries each source file provides to the website index ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
 
