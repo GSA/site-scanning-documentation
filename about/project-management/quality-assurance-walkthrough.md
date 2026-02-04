@@ -1,6 +1,6 @@
 # v2 
 
-### Creation of source files 
+### Creation of source files and [index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
 
 * [x] Confirm which source files are currently being utilitized ([list](https://github.com/GSA/federal-website-index/blob/main/builder/src/main.ts#L50-L77), [links](https://github.com/GSA/federal-website-index/blob/main/builder/src/config/source-list.config.ts))
 * [ ] Confirm how many entries are in each source file ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
@@ -8,10 +8,12 @@
   * [ ] Confirm dates of Public Website Inventory [action](https://github.com/GSA/public-website-inventory/actions), [snapshots](https://github.com/GSA/public-website-inventory/tree/main/snapshots), and [final product](https://github.com/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv).
   * [ ] Gutcheck dates of [source list snapshots](https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots), esp. cisa, dap, dap2, gov, omb_idea, and public_inventory.
 * [ ] Confirm that they are present in the website index, and how many entries each source file contributed ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
+* [ ] Compare the number of entries in each source file with the number they contribute to the index.
+* [ ] Review the website index analysis [report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
 
+### [Scanning]
 
-### [Creation of the Site Scanning website index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
-- Review the analysis report and ...  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv))
+- Review the snapshot-all analysis report ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
 
 ### Scanning 
 
