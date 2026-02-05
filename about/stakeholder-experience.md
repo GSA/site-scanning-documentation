@@ -51,3 +51,15 @@ After however many rounds of feedback and iteration are useful, the intention is
 
 Once the stakeholder has confirmed that the above work is generating useful data for them and that they don't have any immediate change requests, the last step is to ensure the sustainability and scalability of these new scans.  Our program's aim is to deliver up-to-date, consistently reliable data that the stakeholder and other users can rely on and build upon.  We may need to devote further sprints to shoring up the work that's been done to ensure that we meet that expectation.  
 
+
+## Persistent Support Offerings for Stakeholders.  
+
+Once they have begun using Site Scanning data in any way, stakeholders are invited to request any of the following support services from the Site Scanning team. 
+
+- Pair and walk through the Site Scanning data together, to better understand it and see how to use it.  
+- Generate new automated reports.
+- Make changes and improvements to existing reports.
+- Generate new snapshots that offer a curated subset of the Site Scanning data that is optimized for their workflows.  
+- Prototype new scans.  
+
+
