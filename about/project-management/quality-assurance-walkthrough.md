@@ -14,9 +14,7 @@
 ### [Scanning]
 
 - Review the snapshot-all analysis report ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
-
-### Scanning 
-
+  - Weigh further additions for data quality.  
 
 ### S3 snapshot generation 
 
