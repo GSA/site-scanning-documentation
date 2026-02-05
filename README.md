@@ -15,7 +15,6 @@ To ask a question or leave feedback for the program, please [file an issue here]
 * [Analysis Repository](https://github.com/GSA/site-scanning-analysis)
 * [Federal Website Index Repository](https://github.com/GSA/federal-website-index)
 * [Site Scanning Engine Repository](https://github.com/GSA/site-scanning-engine)
-* [Snapshots Repository](https://github.com/GSA/site-scanning-snapshots)
 * [Extensive List of Links to Technical Details, Snapshots, Analysis Reports, and More](https://digital.gov/guides/site-scanning/technical-details/) (if in doubt, look here)
 
 ## Documentation Index 
