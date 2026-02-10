@@ -1,4 +1,4 @@
-Timeframe,Description,File Format,### Standard snapshots
+Timeframe,Description,File Format,URL
 Current,Complete Site Scanning results,CSV,https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv
 Current,Complete Site Scanning results,JSON,https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.json
 Current,"Site Scanning results, filtered to just live sites",CSV,https://api.gsa.gov/technology/site-scanning/data/site-scanning-live-latest.csv
@@ -2685,4 +2685,5 @@ Historical,Detailed Site Scanning accessibility scan results from a specific dat
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-19.json
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-20.json
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-21.json
+
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-22.json
