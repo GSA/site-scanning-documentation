@@ -36,12 +36,27 @@ Every day, the Federal Website Index is then scanned. This is done by loading ea
 
 Every day, after the Federal Website Index is assembled, a series of discrete actions run that kick off the scans and generate a series of snapshots and analytical reports.   
 
-  - Description and Schedule of Daily Actions
-  - List and Descriptions of Reports
-
+  - [Description and Schedule of Daily Actions](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
+  - [List and Descriptions of Reports](https://github.com/GSA/site-scanning-analysis/tree/main/reports)
 
 ## Other Useful Links
+
 - [List of all datasets used or created](https://github.com/GSA/site-scanning-documentation/blob/main/data/Dataset_Index.csv)
+- [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv).
+- [List of proposed but not yet built scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).
+- [Program issue tracker](https://github.com/GSA/site-scanning/issues).
+- [Program website](https://digital.gov/site-scanning/).
+- [Other program management details and documentation](https://github.com/GSA/site-scanning-documentation/tree/main?tab=readme-ov-file#documentation-index)
+
+## Project Repositories
+
+- [Primary](https://github.com/GSA/site-scanning)
+- [Documentation](https://github.com/GSA/site-scanning-documentation)
+- [Analysis](https://github.com/GSA/site-scanning-analysis)
+- [Federal Website Index](https://github.com/GSA/federal-website-index)
+- [Site Scanning Engine](https://github.com/GSA/site-scanning-engine)
+
+
 
 
 
