@@ -13,7 +13,7 @@ Every day, a comprehensive list of public federal websites is assembled as the *
   - [Direct download of the current Federal Website Index](https://raw.githubusercontent.com/GSA/federal-website-index/main/data/site-scanning-target-url-list.csv).
   - [Process description](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md), including details about the sources used, how the list is combined, and which criteria are used to remove entries.
   - [List of the source lists that are combined to make the index](https://github.com/GSA/federal-website-index/blob/main/data/source_lists.csv).   
-  - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/snapshots#readme), including which URLs are removed at each step and which remain.
+  - [Snapshots from each step in the assembly process](https://github.com/GSA/federal-website-index/tree/main/data/process-snapshots), including which URLs are removed at each step and which remain.
   - [Data dictionary](https://github.com/GSA/site-scanning-documentation/blob/main/data/Target_URL_List_Data_Dictionary.csv) for the Federal Website Index.
   - [Summary report for the assembly process](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv).
   - [Summary report for the completed Federal Website Index](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv).
