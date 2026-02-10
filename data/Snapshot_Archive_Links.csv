@@ -16,7 +16,7 @@ Current,"Site Scanning results, filtered to just live production sites, from the
 Current,"Site Scanning results, filtered to just live production sites and deduplicated, from the previous day's scans",CSV,https://api.gsa.gov/technology/site-scanning/data/site-scanning-live-filtered-unique-previous.csv
 Current,"Site Scanning results, filtered to just live production sites and deduplicated, from the previous day's scans",JSON,https://api.gsa.gov/technology/site-scanning/data/site-scanning-live-filtered-unique-previous.json
 Current,Detailed Site Scanning accessibility scan results,JSON,https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-accessibility-details.json
-"### Beginning April 24, 2025 and since...","### Beginning April 24, 2025 and since...","### Beginning April 24, 2025 and since...","### Beginning April 24, 2025 and since..."
+"#Since 4-24-25#","#Since 4-24-25#","#Since 4-24-25#","#Since 4-24-25#"
 Historical,Complete Site Scanning results from a specific date,CSV,https://api.gsa.gov/technology/site-scanning/data/archive/csv/site-scanning-2025-04-24.csv
 Historical,Complete Site Scanning results from a specific date,CSV,https://api.gsa.gov/technology/site-scanning/data/archive/csv/site-scanning-2025-04-25.csv
 Historical,Complete Site Scanning results from a specific date,CSV,https://api.gsa.gov/technology/site-scanning/data/archive/csv/site-scanning-2025-04-26.csv
@@ -45,7 +45,7 @@ Historical,Detailed Site Scanning accessibility scan results from a specific dat
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-25.json
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-26.json
 etc.,etc.,etc.,etc.
-"### Before April 24, 2025...","### Before April 24, 2025...","### Before April 24, 2025...","### Before April 24, 2025..."
+"#Before 4-24-25#","#Before 4-24-25#","#Before 4-24-25#","#Before 4-24-25#"
 Historical,Complete Site Scanning results from a specific date,CSV,https://api.gsa.gov/technology/site-scanning/data/archive/csv/weekly-snapshot-all-2022-10-16.csv
 Historical,Complete Site Scanning results from a specific date,CSV,https://api.gsa.gov/technology/site-scanning/data/archive/csv/weekly-snapshot-all-2022-10-23.csv
 Historical,Complete Site Scanning results from a specific date,CSV,https://api.gsa.gov/technology/site-scanning/data/archive/csv/weekly-snapshot-all-2022-10-30.csv
@@ -2687,3 +2687,4 @@ Historical,Detailed Site Scanning accessibility scan results from a specific dat
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-21.json
 
 Historical,Detailed Site Scanning accessibility scan results from a specific date,JSON,https://api.gsa.gov/technology/site-scanning/data/archive/json/weekly-snapshot-accessibility-details-2025-04-22.json
+
