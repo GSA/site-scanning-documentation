@@ -41,6 +41,8 @@ Every day, after the Federal Website Index is assembled and the scans have run, 
 
 ## Other Useful Links
 
+Technical users may also find the following helpful.
+
 - [List of all datasets used or created](https://github.com/GSA/site-scanning-documentation/blob/main/data/Dataset_Index.csv)
 - [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv).
 - [List of proposed but not yet built scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).
@@ -49,6 +51,8 @@ Every day, after the Federal Website Index is assembled and the scans have run, 
 - [Other program management details and documentation](https://github.com/GSA/site-scanning-documentation/tree/main?tab=readme-ov-file#documentation-index).
 
 ## Project Repositories
+
+Project source code and documentation is available at the following locations. 
 
 - [Primary](https://github.com/GSA/site-scanning)
 - [Documentation](https://github.com/GSA/site-scanning-documentation)
