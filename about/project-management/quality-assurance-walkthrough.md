@@ -6,7 +6,7 @@
 * [ ] Confirm how many entries are in each source file ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
 * [ ] Gutcheck which need continual observation and care (Public Website Inventory)
   * [ ] Confirm dates of Public Website Inventory [action](https://github.com/GSA/public-website-inventory/actions), [snapshots](https://github.com/GSA/public-website-inventory/tree/main/snapshots), and [final product](https://github.com/GSA/public-website-inventory/blob/main/us-gov-public-website-inventory.csv).
-  * [ ] Gutcheck dates of [source list snapshots](https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots), esp. cisa, dap, dap2, gov, omb_idea, and public_inventory.
+  * [ ] Gutcheck dates of [source list snapshots](https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots), esp. cisa, dap, dap2, gov, omb_idea, final_url, and public_inventory.
 * [ ] Confirm that they are present in the website index, and how many entries each source file contributed ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
 * [ ] Compare the number of entries in each source file with the number they contribute to the index.
 * [ ] Review the website index analysis [report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
