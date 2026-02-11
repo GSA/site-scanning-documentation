@@ -34,7 +34,7 @@ Every day, the Federal Website Index is then scanned. This is done by loading ea
 
 ## Analyzing and Snapshotting the Data
 
-Every day, after the Federal Website Index is assembled, a series of discrete actions run that kick off the scans and generate a series of snapshots and analytical reports.   
+Every day, after the Federal Website Index is assembled and the scans have run, a further series of discrete actions run that generate a series of analytical reports.   
 
   - [Description and Schedule of Daily Actions](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
   - [List and Descriptions of Reports](https://github.com/GSA/site-scanning-analysis/tree/main/reports)
