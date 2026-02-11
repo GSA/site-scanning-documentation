@@ -36,8 +36,8 @@ Every day, the Federal Website Index is then scanned. This is done by loading ea
 
 Every day, after the Federal Website Index is assembled and the scans have run, a further series of discrete actions run that generate a series of analytical reports.   
 
-  - [Description and Schedule of Daily Actions](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md)
-  - [List and Descriptions of Reports](https://github.com/GSA/site-scanning-analysis/tree/main/reports)
+  - [Description and Schedule of Daily Actions](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md).
+  - [List and Descriptions of Reports](https://github.com/GSA/site-scanning-analysis/tree/main/reports).
 
 ## Other Useful Links
 
@@ -46,7 +46,7 @@ Every day, after the Federal Website Index is assembled and the scans have run, 
 - [List of proposed but not yet built scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).
 - [Program issue tracker](https://github.com/GSA/site-scanning/issues).
 - [Program website](https://digital.gov/site-scanning/).
-- [Other program management details and documentation](https://github.com/GSA/site-scanning-documentation/tree/main?tab=readme-ov-file#documentation-index)
+- [Other program management details and documentation](https://github.com/GSA/site-scanning-documentation/tree/main?tab=readme-ov-file#documentation-index).
 
 ## Project Repositories
 
