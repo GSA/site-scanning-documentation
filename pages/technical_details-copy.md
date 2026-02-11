@@ -25,7 +25,7 @@ Every day, a comprehensive list of public federal websites is assembled as the *
 Every day, the Federal Website Index is then scanned. This is done by loading each Initial URL in a virtual browser and noting the results. This information is the **Site Scanning data**.
 
   - [Scanning process description](https://github.com/GSA/site-scanning-documentation/blob/main/pages/scan_steps.md), including what criteria are used to create each field of data.
-  - [Direct download of the complete Site Scanning dataset](https://api.gsa.gov/technology/site-scanning/data/weekly-snapshot-all.csv).
+  - [Direct download of the complete Site Scanning dataset](https://api.gsa.gov/technology/site-scanning/data/site-scanning-latest.csv).
   - [Other download options](https://open.gsa.gov/api/site-scanning-api/#download-the-data-directly).  
   - [Archived snapshots](https://github.com/GSA/site-scanning-documentation/blob/main/data/Snapshot_Archive_Links.csv).  
   - [API documentation](https://open.gsa.gov/api/site-scanning-api/).  
