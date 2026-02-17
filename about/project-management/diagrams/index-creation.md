@@ -10,10 +10,10 @@ graph TD;
     F-- combined -->G{1,2,3 combined};
     G-- dedupped by domain -->H{1+2+3 dedupped};
     H-- base and top level domains extracted --> I{1+2+3 dedupped+};
-    I--> L{1+2+3 dedupped++};
-    J-- agency, bureau, branch added -->L{1+2+3 dedupped++};
-    K-- agency, bureau, branch added -->L{1+2+3 dedupped++};
-    L-- agency, bureau, branch added -->L{1+2+3 dedupped++};
+    I--> M{1+2+3 dedupped++};
+    J[.gov domains]-- agency, bureau, branch added -->M{1+2+3 dedupped++};
+    K[.mil domains]-- agency, bureau, branch added -->M{1+2+3 dedupped++};
+    L[.com/.org/etc domains]-- agency, bureau, branch added -->M{1+2+3 dedupped++};
 ```
 
 
