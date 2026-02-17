@@ -1,9 +1,14 @@
-# v2 
+
+# v2.1 
 
 ### Prioritized for end users
 * Is the rough size of the website index correct?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv))
 * Is the rough size of the full site scanning dataset correct?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
+* Are all fields populating appropriately?
+* Are the right number of scans completing?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
+* ...
 
+# v2 
 
 
 ### Creation of source files and [index](https://github.com/GSA/federal-website-index/blob/main/process/index-creation.md)
