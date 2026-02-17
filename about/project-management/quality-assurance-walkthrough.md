@@ -6,6 +6,7 @@
 * Is the rough size of the full site scanning dataset correct?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
 * Are all fields populating appropriately?
 * Are the right number of scans completing?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
+* Are all github actions running successfully. ([index](https://github.com/GSA/federal-website-index/actions), [scan engine](https://github.com/GSA/site-scanning-engine/actions), [analysis](https://github.com/GSA/site-scanning-analysis/actions), [inventory](https://github.com/GSA/public-website-inventory/actions))
 * ...
 
 # v2 
