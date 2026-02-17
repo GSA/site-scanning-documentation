@@ -1,7 +1,7 @@
 # v2 
 
 ### Prioritized for end users
-* Is the rough size of the website index correct?  ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
+* Is the rough size of the website index correct?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/target-url-list.csv))
 * Is the rough size of the full site scanning dataset correct?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
 
 
