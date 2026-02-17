@@ -2,26 +2,13 @@
 
 ```mermaid
 graph TD;
-    A[Source List 1]-- combined -->D{1,2,3 combined};
-    B[Source List 2]-- combined -->D{1,2,3 combined};
-    C[Source List 3]-- combined -->D{1,2,3 combined};
-    D-->E{1+2+3 dedupped};
+    A[Source List 1]-- normalized -->D{Source List 1, formatted};
+    B[Source List 2]-- normalized -->E{Source List 2, formatted};
+    C[Source List 3]-- normalized -->F{Source List 3, formatted};
+    D[Source List 1]-- combined -->G{1,2,3 combined};
+    E[Source List 2]-- combined -->G{1,2,3 combined};
+    F[Source List 3]-- combined -->G{1,2,3 combined};
+    G-->H{1+2+3 dedupped};
 ```
 
 
-
-
-
-
-```mermaid
-
-timeline
-    title Timeline of Industrial Revolution
-    section 17th-20th century
-        Industry 1.0 : Machinery, Water power, Steam <br>power
-        Industry 2.0 : Electricity, Internal combustion engine, Mass production
-        Industry 3.0 : Electronics, Computers, Automation
-    section 21st century
-        Industry 4.0 : Internet, Robotics, Internet of Things
-        Industry 5.0 : Artificial intelligence, Big data,3D printing
-```
