@@ -2,9 +2,9 @@
 
 ```mermaid
 graph TD;
-    A[Source List 1]-->D{1,2,3 combined};
-    B[Source List 2]-->D{1,2,3 combined};
-    C[Source List 3]-->D{1,2,3 combined};
+    A[Source List 1]-- combined -->D{1,2,3 combined};
+    B[Source List 2]-- combined -->D{1,2,3 combined};
+    C[Source List 3]-- combined -->D{1,2,3 combined};
     D-->E{1+2+3 dedupped};
 ```
 
