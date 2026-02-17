@@ -8,8 +8,8 @@ graph TD;
     D-- combined -->G{1,2,3 combined};
     E-- combined -->G{1,2,3 combined};
     F-- combined -->G{1,2,3 combined};
-    G-->H{1+2+3 dedupped};
-    H-- Parse out Base and Top Level Domains --> I{1+2+3 dedupped+};
+    G-- dedupped by domain -->H{1+2+3 dedupped};
+    H-- base and top level domains extracted --> I{1+2+3 dedupped+};
 ```
 
 
