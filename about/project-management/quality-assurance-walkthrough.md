@@ -1,7 +1,8 @@
 # v2 
 
-### High-Level Pass
-* ...
+### Prioritized for end users
+* Is the rough size of the website index correct?  ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
+* Is the rough size of the full site scanning dataset correct?  ([report](https://github.com/GSA/site-scanning-analysis/blob/main/reports/snapshot-all.csv))
 
 
 
@@ -14,7 +15,7 @@
   * [ ] Gutcheck dates of [source list snapshots](https://github.com/GSA/federal-website-index/tree/main/data/source-list-snapshots), esp. cisa, dap, dap2, gov, omb_idea, final_url, and public_inventory.
 * [ ] Confirm that they are present in the website index, and how many entries each source file contributed ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv))
 * [ ] Compare the number of entries in each source file with the number they contribute to the index.
-* [ ] Review the website index analysis [report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)
+* [ ] Review the website index analysis ([report](https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list-analysis.csv)_
 
 ### [Scanning]
 
