@@ -1,5 +1,8 @@
 
 
+Moving to https://github.com/GSA/federal-website-index/blob/main/process/index-creation-diagram.md; eventually delete this one.  
+
+
 ```mermaid
 graph TD;
     A[Source List 1]-- normalized -->D{Formatted Source List 1};
