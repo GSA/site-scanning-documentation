@@ -2,7 +2,7 @@ This is a list of individual scans that _could_ be run with the Site Scanning pr
 
 The list of scans that have already been built and are active [can be found here](https://digital.gov/guides/site-scanning/understand-the-data/).  Feel free to suggest further ideas though by [editing this page](https://github.com/GSA/site-scanning-documentation/edit/main/pages/candidate-scans.md), [filing an issue](https://github.com/GSA/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
 
-
+* frameworks (?) - e.g. next.js, react, angular, other code bases?  
 * Other IPv6? [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
 
 ## Scan status/diagnostics for Site Scanning engine
