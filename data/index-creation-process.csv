@@ -13,4 +13,4 @@ Step,Activity,Notes,Artifacts
 12,Adds analytics data,Populates `visits` and `sessions`,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-dap_top_100000_merge.csv
 13,Reorders columns,,https://github.com/GSA/federal-website-index/blob/main/data/process-snapshots/after-column-reorder.csv
 14,Sorts data,Alphabetically by `base_domain` then `initial_url`,https://github.com/GSA/federal-website-index/blob/main/data/site-scanning-target-url-list.csv
-Process completed,,,
+,Process completed,,
