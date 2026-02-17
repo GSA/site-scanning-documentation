@@ -18,7 +18,7 @@ graph TD;
     N[Ignore filters]-- filter label added -->O;
     O-- Remove sites with non-federal, non-live base domains -->P{1+2+3 dedupped, trimmed+++};
     P-->R{1+2+3 dedupped, trimmed++++};
-    Q-- analytics added --> R;
+    Q[DAP data]-- analytics added --> R;
     R-- suspected dead sites removed -->S{1+2+3 dedupped, trimmedx2++++}
 ```
 
