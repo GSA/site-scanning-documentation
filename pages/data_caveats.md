@@ -1,0 +1,1 @@
+* One website has a media type of `[{'True': True, 'False': False, 'None': None}, {}, {}]`.  We've [checked](https://github.com/GSA/site-scanning/issues/1774) and that is actually what the site is reporting.  
