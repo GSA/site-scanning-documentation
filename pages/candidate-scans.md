@@ -149,6 +149,7 @@ The list of scans that have already been built and are active [can be found here
   * 
 
 ## Other
+* Tools like these: [1](https://mgifford.github.io/top-task-finder), [2](https://mgifford.github.io/daily-dap/docs/reports/), [3](https://mgifford.github.io/open-scans/reports.html), [4](https://mgifford.github.io/pdf-crawler/reports.html), [5](https://mgifford.github.io/alt-text-scan/reports.html)
 * Look at popular alternatives like SiteImprove, [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/pricing/)
 * [Federal Website Standards](https://github.com/GSA-TTS/federal-website-standards)
 * More tests that Google tests for - https://support.google.com/webmasters/topic/9456557?hl=en&ref_topic=4558844&sjid=12716533698097656242-NA
