@@ -5,4 +5,6 @@ The Site Scanning team operates a notification-only listserve that developers ca
 - URLs of file downloads changing
 - API design changing
 
+Emails will come from site-scanning-developer-notifications@gsa.gov.  
+
 To sign up, email site-scanning@gsa.gov and ask to be added. 
