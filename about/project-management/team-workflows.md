@@ -41,12 +41,13 @@ Below is the order in which to [trigger actions](https://github.com/GSA/site-sca
 ## Template checklist for new fields
 * Look for most recent issues [here](https://github.com/search?q=repo%3AGSA%2Fsite-scanning+checklist+for+new+fields&type=issues).
 
-## Checklist for Notifying users about upcoming breaking changes
+## Checklist for [notifying users about upcoming breaking changes](https://github.com/GSA/site-scanning-documentation/blob/main/about/notifications.md)
 -  Note the contacts of identified stakeholders [here](https://docs.google.com/spreadsheets/d/14fTk_ri-aVvJms-mxDcfvLEDKaESP2EIRxAKkqO0fCw/edit?gid=197836991#gid=197836991)
 -  Look up email addresses from API users for the past 3 months
 -  Note other known snapshot consumers (currently, just search.gov)
 -  Message them with the time and nature of the upcoming changes
 -  Add a banner to the API documentation
+-  Utilize the [Developer Notifications Listserve](https://groups.google.com/a/gsa.gov/g/site-scanning-developer-notifications)
 
 ## Other miscellaneous system changes 
 * Change when the weekly export takes place: [edit this line](https://github.com/GSA/site-scanning-engine/blob/5ae7b3a16d047c65796f5b73b69399f971aeb920/vars-prod.yml#L12)
