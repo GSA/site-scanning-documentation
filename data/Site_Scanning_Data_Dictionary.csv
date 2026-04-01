@@ -75,7 +75,7 @@ Robots.txt - Final URL - Media Type,robots_txt_media_type,Media type of the `rob
 Robots.txt - Final URL - Filesize,robots_txt_filesize,Filesize of the `robots.txt` Final URL (bytes),numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",array,no
-Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_final_url` live (has a 2xx code) and is its entire path `/sitemap.xml`?,boolean,no
+Sitemap.xml - Detected,sitemap_xml_detected,"Is the `sitemap_xml_url` live (has a 2xx code); does its path end with `/sitemap.xml`, `/sitemap_index.xml`, `/wp-sitemap.xml`, `/sitemap.xml/`, or `/sitemaps.xml`; and does its media type contain the string `xml`?",boolean,no
 Sitemap.xml - Final URL,sitemap_xml_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",string,no
 Sitemap.xml - Final URL - Status Code,sitemap_xml_status_code,HTTP status code of the `sitemap.xml` Final URL,numeric,no
 Sitemap.xml - Final URL - Media Type,sitemap_xml_media_type,Media type of the `sitemap.xml` Final URL,string,no
