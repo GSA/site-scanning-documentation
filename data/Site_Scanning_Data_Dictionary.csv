@@ -68,14 +68,14 @@ Other Tags - Canonical Link,canonical_link,Canonical URL HTML element,,string,no
 Other Tags - Language,language,Meta language tag,,string,no
 Other Tags - Language Links,language_link,HTML link attributes for the langauge of linked pages,,string,no
 Other Tags - Main Element Detected,main_element_present,Presence of `<main>` element,,boolean,no
-Robots.txt - Detected,robots_txt_detected,Is the `robots_txt_final_url` live (has a 2xx code) and is its entire path `/robots.txt`? (Note that a robots.txt file that redirects to a subdirectory would then not count given that the protocol appears to require that the file live in the top directory),,boolean,no
+Robots.txt - Detected,robots_txt_detected,Is the `robots_txt_final_url` live (has a 2xx code) and is its entire path `/robots.txt`?,Note that a robots.txt file that redirects to a subdirectory would then not count given that the protocol appears to require that the file live in the top directory.,boolean,no
 Robots.txt - Final URL,robots_txt_url,"`Robots.txt` Final URL after redirects (301, 302, etc.)",,string,no
 Robots.txt - Final URL - Status Code,robots_txt_status_code,HTTP status code of the `robots.txt` Final URL,,numeric,no
 Robots.txt - Final URL - Media Type,robots_txt_media_type,Media type of the `robots.txt` Final URL,,string,no
 Robots.txt - Final URL - Filesize,robots_txt_filesize,Filesize of the `robots.txt` Final URL (bytes),,numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),,numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",,array,no
-Sitemap.xml - Detected,sitemap_xml_detected,"Is the `sitemap_xml_url` live (has a 2xx code); does its path end with `/sitemap.xml`, `/sitemap_index.xml`, `/wp-sitemap.xml`, `/sitemap.xml/`, or `/sitemaps.xml`; and does its media type contain the string `xml`?",,boolean,no
+Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_url` live?,"Does it have a 2xx code; does its path end with `/sitemap.xml`, `/sitemap_index.xml`, `/wp-sitemap.xml`, `/sitemap.xml/`, or `/sitemaps.xml`; and does its media type contain the string `xml`?",boolean,no
 Sitemap.xml - Final URL,sitemap_xml_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",,string,no
 Sitemap.xml - Final URL - Status Code,sitemap_xml_status_code,HTTP status code of the `sitemap.xml` Final URL,,numeric,no
 Sitemap.xml - Final URL - Media Type,sitemap_xml_media_type,Media type of the `sitemap.xml` Final URL,,string,no
