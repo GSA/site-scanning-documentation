@@ -16,8 +16,8 @@ Media Type,media_type,Media type,Previously known as MIME type.  ,string,no
 Agency,agency,Agency owner of the Initial Base Domain,"For .gov domains, the organization name that registered the domain.  For other TLD's, the best estimation of the registering agency.",string,"yes, exact"
 Bureau,bureau,Bureau owner of the Initial Base Domain,"For .gov domains, the suborganization name that registered the domain.  For other TLD's, the best estimation of the registering suborganization.",string,"yes, exact"
 Branch,branch,Brach of government of the agency owner of the Initial Base Domain,Derived from the associated field in each domain registry index. ,string,"yes, exact"
-404 Test,404_test,Whether the Initial Domain return 404s correctly (TRUE) or gives a misleading 2** code (FALSE),,boolean,no
-Data Source,source_list,Which source datasets included this Initial URL?,,list,no
+404 Test,404_test,Whether the Initial Domain return 404s correctly (TRUE) or gives a misleading 2** code (FALSE),"A site's 404/Page Not Found page should be accompanied by a 404 HTTP status code, yet they often do not.  This is tested by taking the 'Initial URL' and appending a random string for a path and then noting the result.  ",boolean,no
+Data Source,source_list,Which source datasets included this Initial URL?,"The Site Scanning website index, which serves as the target URL list, is assembled by combining and deduplicating several source files, each of which is assigned a name which carries into this field.. ",list,no
 Scan Status - Date,scan_date,Scan date/time,"Specifically, when the scan data is written to the database, which is usually within seconds of being generated",datetime,no
 Scan Status - Primary,primary_scan_status,Status of the Primary Scan,"Either Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error. ",string,"yes, exact (from a set of specified values)"
 Scan Status - Accessibility,accessibility_scan_status,Status of the Accessibility Scan ,"Either Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error. ",string,no
@@ -50,8 +50,8 @@ Infrastructure - Cookie Domains,cookie_domains,List of domains associated with e
 Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,,boolean,no
 Performance - Cumulative Layout Shift,cumulative_layout_shift,"Performance indicator that measures how much layouts shift for a user while the page loads for a user, expressed by a layout shift score",,string,no
 Performance - Largest Contentful Paint,largest_contentful_paint,Performance indicator that counts in milliseconds when what is likely the main content on the page loads,,string,no
-Required Links - URL,required_links_url,"Presence of certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",,list,no
-Required Links - Text,required_links_text,"Presence of certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",,list,no
+Required Links - URL,required_links_url,"Whether certain required links are detected, as seen by the hyperlinks present on the page. ","This scan searches for certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
+Required Links - Text,required_links_text,"Whether certain required links are detected, as seen by the hyperlinked text present on the page. ","This scan searches for certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
 Security - HTTPS Required,https_enforced,Whether the Final URL enforces HTTPS,,boolean,no
 Security - HSTS Preloaded,hsts,Whether the Final URL domain is preloaded for HSTS,,boolean,no
 SEO - title,title,Meta page title,,string,no
@@ -75,7 +75,7 @@ Robots.txt - Final URL - Media Type,robots_txt_media_type,Media type of the `rob
 Robots.txt - Final URL - Filesize,robots_txt_filesize,Filesize of the `robots.txt` Final URL (bytes),,numeric,no
 Robots.txt - Crawl Delay,robots_txt_crawl_delay,`Robots.txt` specified crawl delay (seconds),,numeric,no
 Robots.txt - Sitemap Locations,robots_txt_sitemap_locations,"List of additional sitemap locations (URLs) found in the robots.txt (limited to 2,000 characters)",,array,no
-Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_url` live?,"Does it have a 2xx code; does its path end with `/sitemap.xml`, `/sitemap_index.xml`, `/wp-sitemap.xml`, `/sitemap.xml/`, or `/sitemaps.xml`; and does its media type contain the string `xml`?",boolean,no
+Sitemap.xml - Detected,sitemap_xml_detected,Is the `sitemap_xml_url` live?,,boolean,no
 Sitemap.xml - Final URL,sitemap_xml_url,"`Sitemap.xml` Final URL after redirects (301, 302, etc.)",,string,no
 Sitemap.xml - Final URL - Status Code,sitemap_xml_status_code,HTTP status code of the `sitemap.xml` Final URL,,numeric,no
 Sitemap.xml - Final URL - Media Type,sitemap_xml_media_type,Media type of the `sitemap.xml` Final URL,,string,no
