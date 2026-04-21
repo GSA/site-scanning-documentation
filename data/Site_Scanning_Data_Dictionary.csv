@@ -29,12 +29,12 @@ Scan Status - Security,security_scan_status,Status of the Security Scan ,"Either
 Scan Status - Sitemap.xml,sitemap_xml_scan_status,Status of the Sitemap.xml Scan ,"Either Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error. ",string,no
 Scan Status - WWW,www_scan_status,Status of the WWW Scan ,"Either Completed, Timeout, DNS resolution error, Invalid SSL cert, Connection refused, Connection reset, or Unknown error. ",string,no
 Homepage Hash,page_hash,MD5 Hash of the URL,,string,no
-Accessibility - Violations,accessibility_violations,Count of violations detected for certain accessibility categories that are able to be detected through automated scanning.,These violations were identified and selected in close coordination with the U.S. Access Board and GSA’s Government-wide IT Accessibility Program. Site Scanning uses axe-core rules to detect these violations. Use of automated scanning for accessibility does not replace the need for manual testing or assessment.,string,no
-Analytics - Pageviews,pageviews,"Combined pageviews over the last 30 days for this domain, per the Top Hostnames User Traffic Report on analytics.usa.gov",,string,no
-Analytics - Visits,visits,"Combined visits over the last 30 days for this domain, per the Top Hostnames User Traffic Report on analytics.usa.gov",,string,no
+Accessibility - Violations,accessibility_violations,Count of violations detected for certain accessibility categories that are detectable through automated scanning.,These violations were identified and selected in close coordination with the U.S. Access Board and GSA’s Government-wide IT Accessibility Program. Site Scanning uses axe-core rules to detect these violations. Use of automated scanning for accessibility does not replace the need for manual testing or assessment.,string,no
+Analytics - Pageviews,pageviews,Combined pageviews over the last 30 days for this domain.,Per the Top Hostnames User Traffic Report on analytics.usa.gov,string,no
+Analytics - Visits,visits,Combined visits over the last 30 days for this domain.,Per the Top Hostnames User Traffic Report on analytics.usa.gov,string,no
 DNS - IPv6,ipv6,Presence of a DNS AAAA record,,boolean,no
 DNS - Hostname,hostname,"Domain of underlying system, which often suggests use of a cloud or CDN provider",,string,no
-Infrastructure - CMS Provider,cms,"Content management system (currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress, Cloud.gov)",,string,no
+Infrastructure - CMS Provider,cms,Content management system,"(currently Adobe, DNN, Drupal, Joomla, Sharepoint, Percussion, Silverstripe, Wordpress, Cloud.gov)",string,no
 Infrastructure - Login Provider,login_provider,Name of detected login service,,string,no
 Infrastructure - Login Detected,login,List of login indicators detected,,object,no
 Infrastructure - Site Search Detected,site_search,Is a site search functionality detected?,,boolean,no
@@ -47,8 +47,8 @@ Infrastructure - Third Party Service Domains,third_party_service_domains,List of
 Infrastructure - Third Party Service URLs,third_party_service_urls,List of distinct third party urls detected,,list,no
 Infrastructure - Third Party Service Count,third_party_service_count,Count of distinct third party domains detected,,numeric,no
 Infrastructure - Cookie Domains,cookie_domains,List of domains associated with each cookie sent by a server,,list,no
-Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?,,boolean,no
-Performance - Cumulative Layout Shift,cumulative_layout_shift,"Performance indicator that measures how much layouts shift for a user while the page loads for a user, expressed by a layout shift score",,string,no
+Mobile - Viewport Meta Tag Detected,viewport_meta_tag,Whether a certain meta tag needed for mobile friendliness is present and compliant,"Specifically, is there a viewport meta tag in the <head>; does it contain a content attribute; does the content attribute's value contain the text 'width='?",boolean,no
+Performance - Cumulative Layout Shift,cumulative_layout_shift,Performance indicator that measures how much layouts shift for a user while the page loads for a user.,Expressed by a layout shift score.,string,no
 Performance - Largest Contentful Paint,largest_contentful_paint,Performance indicator that counts in milliseconds when what is likely the main content on the page loads,,string,no
 Required Links - URL,required_links_url,"Whether certain required links are detected, as seen by the hyperlinks present on the page. ","This scan searches for certain character strings in the URL of a hyperlink, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
 Required Links - Text,required_links_text,"Whether certain required links are detected, as seen by the hyperlinked text present on the page. ","This scan searches for certain character strings in any hyperlinked text, suggesting a required link (per digital.gov/resources/required-web-content-and-links) or a link to a Spanish-language site or section",list,no
@@ -95,7 +95,7 @@ USWDS - String,uswds_string,Presence of string `uswds` anywhere in HTML,,integer
 USWDS - String in CSS,uswds_string_in_css,Presence of string `uswds` in CSS,,integer,no
 USWDS - Semantic Version,uswds_semantic_version,USWDS semantic version,,string,no
 USWDS - Version,uswds_version,"Presence of version of USWDS, if available",,integer,no
-USWDS - Count,uswds_count,"Calculated likelihood a site is using USWDS. Derived by adding the detected USWDS components together, the higher the number the more USWDS-y it is.",,integer,no
+USWDS - Count,uswds_count,Calculated likelihood a site is using USWDS. ,"Derived by adding the detected USWDS components together, the higher the number the more USWDS-y it is.",integer,no
 WWW - URL,www_url,Final URL that resolves when `www.` is added to the begining of the Initial URL,,string,no
 WWW - Status Code,www_status_code,HTTP status code when `www.` is added to the begining of the Initial URL,,numeric,no
 WWW - Title,www_title,Meta page title when `www.` is added to the begining of the Initial URL,,string,no
