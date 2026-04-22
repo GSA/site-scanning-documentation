@@ -8,8 +8,8 @@
 - [CISA .gov Registry export](https://github.com/cisagov/dotgov-data/blob/main/current-federal.csv)
 
 Methodology:  
-- Start with the OMB A-11 agency/bureau list.
-- Use the DOD agency outline at bottom instead of the military programs. 
+- Start with the OMB A-11 agency/bureau list ([link](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/agency-list/2026/A11-August-2025.csv)).
+- Make a variety of tidying edits ([link](https://github.com/GSA/site-scanning-documentation/blob/main/about/project-management/datasets/agency-list/2026/A11-August-2025-edited.csv)). 
 - Remove any entries which are not entities.
 - Pull in agencies and sub-agency entries that exist in the OPM Fedscope list but not the OMB list.
 - In the rare case of agencies with few/no bureaus or sub-agencies (e.g. Energy, State), use the 'govsourced' list of suborganizations in the .gov registry.
