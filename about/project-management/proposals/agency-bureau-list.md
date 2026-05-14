@@ -40,6 +40,7 @@ Other sources identified but Unused in the initial review:
 - [2025 GPO effort](https://github.com/usgpo/innovation/issues/92)
 - OPM's Raw data exports - Starting [here](https://www.opm.gov/data/datasets/), choosing the most recent 'FedScope Employment Cube', downloading and extracting the zip folder, and importing DTagy.txt.
 - [OPM's FEDSCOPE Interface](https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABnsT72MN42oVOsW6DQAz9mTNph0Y_wyVhYIDjUBiANLBXlFzSqsBFcB3y9xUwpFWGvidL9vN7lp2yWJdVcVRpHIzWDDqNn4DocyNI4jZU6PncQ0%7EtfIHRZiO5UKREtAWiZ2fKqvAo94ew2gdASWN6q3sLlJxNe9IDiAg87OtOgxuvDnXzVV%7E0_Ka6a2tune7tCkQMlFyXzV%7E73QWEL0Aov4dhmTLT248p68SlXMsiz5Ws0iLPw0wF%7E_Wc6DU4IzKOiJwjYwyZQEbIJjIWXnTf3IAQ6ASEYdsC_pkZ7eMpQJ8B7YBcBNIc6B3IXwR_F9gMIHey%7EwKfOXfLO3MtTyz4AbZLbJc%3D)
+- [NIST SP 800-87 Rev. 2](https://csrc.nist.gov/pubs/sp/800/87/r2/final)
 
 
 #### Notes
