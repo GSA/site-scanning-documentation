@@ -49,8 +49,7 @@ So - thinking about the web presence of the federal government is roughly like t
 
 Finally, I would analogize residences as text content and systems/applications as businesses.  Many blocks have only residences.  Some have numerous businesses. Some have a mix.  
 
-To be clear, the goal of this exercise isn't to arrive at exasperation or resignation.  Rather, it's to think about how we can quantify and qualify the web presence of the federal government as substantively as the District does itself.  
-
+To be clear, the goal of this exercise isn't to arrive at exasperation or resignation.  Rather, it's to think about how we can quantify and qualify the web presence of the federal government as substantively as the District does itself.  I take inspiration from DC's GIS capability, from it's [map-based presentation layers and functionality](https://opendata.dc.gov/pages/apps-and-maps). 
 
 
 
