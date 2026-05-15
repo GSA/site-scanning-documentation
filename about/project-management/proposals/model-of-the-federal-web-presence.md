@@ -49,7 +49,7 @@ So - thinking about the web presence of the federal government is roughly like t
 
 Finally, I would analogize residences as text content and systems/applications as businesses.  Many blocks have only residences.  Some have numerous businesses. Some have a mix.  
 
-To be clear, the goal of this exercise isn't to arrive at exasperation or resignation.  Rather, it's to think about how we can quantify and qualify the web presence of the federal government as substantively as the District does itself.  I take inspiration from DC's GIS capability, from it's [map-based presentation layers and functionality](https://opendata.dc.gov/pages/apps-and-maps). 
+To be clear, the goal of this exercise isn't to arrive at exasperation or resignation.  Rather, it's to think about how we can quantify and qualify the web presence of the federal government as substantively as the District does itself.  I take inspiration from DC's GIS capability, from it's [map-based presentation layers and functionality](https://opendata.dc.gov/pages/apps-and-maps). Could we manage the systems across all of the federal web presence somewhat how DC manages businesses within it?  Should we find and catalog them similarly to business listings?  Should we interact with the vast range of content somewhat how the district manages, understands, and interacts with the residential population?  What does that look like?  
 
 
 
