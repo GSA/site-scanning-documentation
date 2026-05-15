@@ -42,9 +42,14 @@ The complexity and detail of a single subdomain/website could be analogized to a
 
 But maybe that's not the right scale.  There's about 115 blocks in Trinidad.  This works better (indeed, there's about 7-13k blocks in DC, which tracks very well with the number of federal websites).  So, let's instead imagine each of those blocks as a website.  The number of people and amount of stuff is comparable to the number of people involved and the amount of stuff on a website.  
 
+<img width="250" height="210" alt="Screenshot 2026-05-15 at 3 29 00 PM" src="https://github.com/user-attachments/assets/040143dd-dd34-455b-b75a-d88876720686" />
+
+
 So - thinking about the web presence of the federal government is roughly like thinking about all of the blocks that make up Washington, DC.  
 
 Finally, I would analogize residences as text content and systems/applications as businesses.  Many blocks have only residences.  Some have numerous businesses. Some have a mix.  
+
+To be clear, the goal of this exercise isn't to arrive at exasperation or resignation.  Rather, it's to think about how we can quantify and qualify the web presence of the federal government as substantively as the District does itself.  
 
 
 
