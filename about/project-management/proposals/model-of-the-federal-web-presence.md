@@ -34,7 +34,7 @@ Take the Trinidad neighborhood of DC.  It has a population of about 4k people, s
 
 This is where it gets kind of tough.  One analogy of the domains that an agency operates would be the [Single Member Districts](https://en.wikipedia.org/wiki/Advisory_Neighborhood_Commission#Single_Member_Districts) (SMDs are the subparts of the Advistory Neighborhood Commissions that make up the smallest, most local government in the District).  There's about 345 of them city wide and Trinidad has 4 of them.  
 
-<img width="288" height="361" alt="2023_ANCs_and_SMDs_Map" src="https://github.com/user-attachments/assets/68e7440d-1077-43db-a65f-ff98e169f99f" />
+<img width="288" height="361" alt="2023_ANCs_and_SMDs_Map" src="https://github.com/user-attachments/assets/68e7440d-1077-43db-a65f-ff98e169f99f" /><img width="250" height="240" alt="Screenshot 2026-05-15 at 3 27 18 PM" src="https://github.com/user-attachments/assets/c0b73ccd-0869-48bd-b153-f5a92f13bee5" />
 
 Trinidad has about 1,900 homes and businesses in it.  Imagine each of those as subdomains.  
 
