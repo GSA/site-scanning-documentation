@@ -102,7 +102,7 @@ The Site Scanning program maintains a number of automated processes that, togeth
 
 - Other useful information
   - [Schedule for the above processes is the schedule](https://github.com/GSA/site-scanning-documentation/blob/main/pages/schedule.md) for the above, automated processes.
-  - [Description of how the list of websites is filtered down at each step](https://github.com/GSA/site-scanning-documentation/blob/main/pages/index_narrowing_steps.md)
+  - [Description of how the list of websites is filtered down at each step](https://github.com/GSA/site-scanning-documentation/blob/main/pages/index_narrowing_steps.md) and [visual diagram](https://github.com/GSA/site-scanning-documentation/blob/main/pages/index_narrowing_process_diagram.md)
   - [Sample dataset that represents different edge cases](https://github.com/GSA/site-scanning-documentation/blob/main/data/Representative_Sample_Dataset.csv).
   - [List of proposed but not yet built scans](https://github.com/GSA/site-scanning-documentation/blob/main/pages/candidate-scans.md).
   - [Archive of historical snapshots](https://github.com/GSA/site-scanning-snapshots/tree/main/snapshots).
