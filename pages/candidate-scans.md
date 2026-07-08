@@ -2,7 +2,7 @@ This is a list of individual scans that _could_ be run with the Site Scanning pr
 
 The list of scans that have already been built and are active [can be found here](https://digital.gov/guides/site-scanning/understand-the-data/).  Feel free to suggest further ideas though by [editing this page](https://github.com/GSA/site-scanning-documentation/edit/main/pages/candidate-scans.md), [filing an issue](https://github.com/GSA/site-scanning/issues) or emailing us at site-scanning@gsa.gov.      
 
-* relative google rank, as seen by the 'rank' [field](https://har.fyi/reference/tables/pages/) in the http archive dataset, which has maybe 1/4 of the federal websites in it and would indicate if, to google, the site is in the top 100 or 1000 or 10000 sites.  More detail [here](https://github.com/GSA/site-scanning/issues/1897#issuecomment-4694769752).  
+* relative google rank, as seen by the 'rank' [field](https://har.fyi/reference/tables/pages/) in the http archive dataset, which has maybe 1/4 of the federal websites in it and would indicate if, to google, the site is in the top 100 or 1000 or 10000 sites.  More detail [here](https://github.com/GSA/site-scanning/issues/1897#issuecomment-4694769752). And/or from [crux data](https://github.com/GSA/site-scanning/issues/1904).   
 * [integrated ai functionality or ai generated content](https://github.com/GSA/site-scanning/issues/1756)
 * frameworks (?) - e.g. next.js, react, angular, other code bases?   (note [survey](https://docs.google.com/presentation/d/11IOLnpqeHoJkiwHLyl5C2JaX48sw8vwDQIs2wWPym00/edit?slide=id.g3044767dfb7_0_735#slide=id.g3044767dfb7_0_735))
 * Other IPv6? [Note the NIST site](https://fedv6-deployment.antd.nist.gov/).  
@@ -88,6 +88,7 @@ The list of scans that have already been built and are active [can be found here
 * Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
+* other scan data from [google crux](https://github.com/GSA/site-scanning/issues/1904) and/or [http archive](https://github.com/GSA/site-scanning/issues/1897)
 * Plain language, vis-a-vis ISO Standard - https://dhs-gov.libguides.com/ld.php?content_id=72424017.
 * AMP compliant?  
 * offers structured data - https://search.google.com/test/rich-results/
