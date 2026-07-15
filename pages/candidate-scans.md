@@ -88,6 +88,7 @@ The list of scans that have already been built and are active [can be found here
 * Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
+- AEO/GEO - https://github.com/GSA/site-scanning/issues/1932 vs. lighthouse vs. ?
 * other scan data from [google crux](https://github.com/GSA/site-scanning/issues/1904) and/or [http archive](https://github.com/GSA/site-scanning/issues/1897)
 * Plain language, vis-a-vis ISO Standard - https://dhs-gov.libguides.com/ld.php?content_id=72424017.
 * AMP compliant?  
