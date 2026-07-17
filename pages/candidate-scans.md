@@ -93,7 +93,8 @@ The list of scans that have already been built and are active [can be found here
 - AEO/GEO - https://github.com/GSA/site-scanning/issues/1932 vs. lighthouse vs. ?
 * other scan data from [google crux](https://github.com/GSA/site-scanning/issues/1904) and/or [http archive](https://github.com/GSA/site-scanning/issues/1897)
 * Plain language, vis-a-vis ISO Standard - https://dhs-gov.libguides.com/ld.php?content_id=72424017.
-* AMP compliant?  
+* AMP compliant?
+* Other?  Lots here - https://developer.mozilla.org/en-US/docs/Web/API#interfaces
 * offers structured data - https://search.google.com/test/rich-results/
 *  stuff in a .well-known folder
   * just the presence of the /.well-known/ folder?  (I don't think that'll work but it's interesting to ponder). 
