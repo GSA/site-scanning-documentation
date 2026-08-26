@@ -88,6 +88,7 @@ The list of scans that have already been built and are active [can be found here
 * Maybe do the same scans on one page linked from the homepage 
  
 ## Best Practices
+* presence of agents.txt or llms.txt files
 * https://isitagentready.com/gsa.gov
 * lighthouse for ai ready fields
 - AEO/GEO - https://github.com/GSA/site-scanning/issues/1932 vs. lighthouse vs. ?
