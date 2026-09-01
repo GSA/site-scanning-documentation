@@ -9,8 +9,7 @@ First off, before any scans take place, the process of ingesting the Initial URL
 * `Bureau`
 * `Branch`
 * `Data Source`
-* `Public`
-* `Filtered`
+* `Filter`
 
 When scanning commences, [this core file](https://github.com/GSA/site-scanning-engine/blob/main/libs/core-scanner/src/core-scanner.service.ts#L166-L244) dictates which scans are run.  Due to the nature of the code base, the scans run asynchronously (i.e. they don't necessarily run in the order they are written in the code). Each scan operates separately and don't talk to each other.  
 
