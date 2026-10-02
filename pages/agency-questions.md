@@ -10,6 +10,11 @@
 * Is not an authentication page to an otherwise non-public site
 
 
+## It appears that my agency is blocking your scans.  How can I fix that?  
+
+Since we run the scans on cloud.gov infrastructure, adding the list of egress IP ranges to the allow list on your firewall settings should be all you need to do: https://docs.cloud.gov/platform/management/static-egress/#cloudgov-egress-ranges.
+
+
 ## A public federal .gov website is missing from the the Site Scanning Data.  How can I add it?  
 
 Please email [site-scanning@gsa.gov](mailto:site-scanning@gsa.gov) with any websites that are missing that you think should be added!  After confirming that they meet the criteria for inclusion, we will add them to [this file](https://github.com/GSA/federal-website-index/blob/main/data/dataset/other-websites.csv), which will ensure that they are ingested in the weekly index rebuilding.   
